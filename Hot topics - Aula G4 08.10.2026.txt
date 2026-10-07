@@ -1,0 +1,111 @@
+Carol,
+Seguem: (i) em anexo, mapeamento das principais empresas que estarão amanhã; e (ii) abaixo, bullets de hot topics para amanhã:
+
+1. Reforma tributária: o que precisa estar no radar em 2026
+
+1.1. 2026 é ano de teste, mas a implementação já começou. A alíquota de IBS/CBS é simbólica e compensável, mas as empresas já precisam adaptar sistemas, faturamento, contratos e processos internos. A flexibilização da fiscalização em 2026 não significa adiamento do cronograma: a CBS passa a ser cobrada em 2027 e PIS/Cofins deixam de existir.
+
+1.2. Split payment: mudança estrutural, cronograma em ajuste. O imposto será separado no momento do pagamento da operação, reduzindo o período em que esses recursos permanecem no caixa da empresa. O Comitê Gestor já sinalizou que o sistema não estará pronto em janeiro de 2027 e que a fase inicial deve ser opcional e restrita a operações entre empresas, mas a mudança vem.
+•  Oportunidade: simular desde já o impacto sobre capital de giro, especialmente em negócios de margem baixa, alto giro ou que antecipam recebíveis, e revisar contratos, prazos de pagamento e estruturas de recebimento.
+
+1.3. Incentivos estaduais de ICMS entram em transição. Com a migração para a tributação no destino e a redução gradual dos benefícios estaduais até 2032, operações estruturadas em determinado Estado por razões fiscais podem perder competitividade. Empresas titulares de determinados benefícios onerosos poderão ter direito à compensação federal durante a transição.
+•  Oportunidade: mapear benefícios e contrapartidas existentes, preparar a documentação necessária para habilitação à compensação e revisitar a localização de fábricas e centros de distribuição.
+
+1.4. Créditos acumulados de ICMS e PIS/Cofins. A transição preserva determinados créditos existentes no sistema atual, mas seu aproveitamento dependerá da correta apuração, documentação e, no caso do ICMS, homologação. O fim de PIS/Cofins em 2027 também não zera o prazo de cinco anos para recuperar valores pagos a maior.
+•  Oportunidade: levantar e validar os saldos existentes e avaliar antecipadamente as alternativas de utilização, compensação, transferência ou ressarcimento, evitando carregar créditos problemáticos para a transição.
+
+1.5. Reduções setoriais mudam a conta de cada produto. A alíquota de IBS/CBS varia conforme o enquadramento: pós-graduação tem redução de 60%, mas cursos livres não; crustáceos (exceto lagosta) têm redução de 60%; serviços de construção civil entram no regime de imóveis, com redução de 50%; e, para suplementos, a classificação fiscal (NCM) decide se há benefício.
+•  Oportunidade: revisar enquadramento e classificação fiscal de produtos e serviços, e separar atividades com tratamentos distintos antes do início da cobrança.
+
+1.6. Contratos e capital de giro precisam ser revisitados. A combinação entre split payment, nova lógica de créditos e mudança do momento de recolhimento pode alterar a economia de contratos existentes.
+•  Oportunidade: revisar cláusulas de preço, tributos, gross-up, reajuste, devoluções, inadimplência, prazo de pagamento e antecipação de recebíveis antes da entrada efetiva do novo sistema.
+
+1.7. Imposto Seletivo sobre veículos ainda sem alíquota. O IS começa em 2027 e alcança veículos, com carga maior para modelos menos eficientes. O governo não editou a medida provisória com as alíquotas a tempo de cumprir a noventena para cobrar em 1º de janeiro, e a sinalização é repetir em 2027 a carga atual do IPI. A Zona Franca de Manaus foi preservada, mas com regras novas de crédito e exclusões.
+•  Oportunidade: acompanhar a regulamentação, medir o impacto sobre estoque e mix de produtos e avaliar questionamentos sobre o instrumento usado para fixar as alíquotas.
+
+1.8. Distribuição de lucros mudou de patamar. Desde 2026, a nova tributação de dividendos e o imposto mínimo aplicável às pessoas físicas de maior renda alteram a conta de distribuição de resultados, especialmente em grupos familiares.
+•  Oportunidade: revisitar políticas de distribuição, holdings e estruturas societárias à luz da nova tributação.
+•  Na sala: split payment e capital de giro — Bagatoli e Kings (venda por marketplace, cartão e franquias) e Grupo Braga (estoque financiado); incentivos de ICMS — Bagatoli (SC e ES) e 100% Você (ES); reduções setoriais — NESA, Sabores da Costa, BDG e 100% Você; Imposto Seletivo e Zona Franca — Grupo Braga; dividendos — tema transversal aos sócios presentes.
+
+2. Empresas familiares: governança deixou de ser tema de sucessão
+Quatro das oito empresas do mapa são familiares de capital fechado, e em três delas quem vem à aula é a segunda geração: Maicon Bagatoli, Rubens Rios Sales (Sabores da Costa) e os irmãos Pipo e Rafa Marques (100% Você). Outras três (NESA, Kings e Ginger) giram em torno do fundador, com o mesmo tema de dependência do dono e sucessão. Vários desses grupos também operam por mais de um CNPJ (Bagatoli, Ginger e Sinter, Aquacrusta e Sabores da Costa).
+•  Oportunidade: usar governança e estrutura societária como porta de entrada para discussões mais amplas sobre sucessão, holding, reorganizações, liquidez de familiares e eventuais movimentos de M&A.
+•  Na sala: Grupo Braga, Bagatoli, Sabores da Costa e 100% Você; NESA, Kings e Ginger pelo ângulo do fundador.
+
+3. Juro alto e mercado de capitais: alternativas de funding para crescer
+
+3.1. O corte de juros começou, mas o crédito segue caro. O Copom reduziu a Selic de 14% para 13,75% em setembro, mas o juro médio para a pessoa física financiar veículo estava em 26,4% ao ano em agosto e a inadimplência bateu recorde em 2026. Isso pesa em estoque financiado, venda parcelada e decisão de investimento: a CBIC cortou para 1,2% a projeção de crescimento da construção em 2026.
+
+3.2. Mercado de capitais também é alternativa ao crédito bancário caro. Debêntures, CRIs, FIDCs e outras estruturas deixaram de ser tema exclusivo de grandes companhias abertas e podem financiar expansão e aquisições de empresas privadas: galpões e obras sob medida para locação (built to suit) via CRI e FII, recebíveis de marketplace, cartão e franquias via FIDC.
+•  Oportunidade: estruturar funding para expansão e aquisições fora do crédito bancário tradicional.
+
+3.3. Crescimento e margem abrem espaço para aquisições. Para players que já provaram capacidade de crescer organicamente, M&A passa a ser uma avenida para acelerar escala, adquirir novas capacidades, diversificar produtos e capturar sinergias.
+•  Oportunidade: discutir estruturas de aquisição, earn-outs e retenção dos principais executivos.
+•  Assessoramos: Oaktree na aquisição de FIIs detentores de galpões logísticos; Península em aquisições estratégicas.
+•  Na sala: BDG (galpões industriais e logísticos, inclusive para a CONE em Suape); Kings (rede de franquias e marca própria); Bagatoli (recebíveis de marketplace); Grupo Braga (consolidação de concessionárias).
+
+4. Beleza, alimentos e bem-estar: mercado aquecido e janela de M&A
+
+4.1. Beleza continua crescendo acima do varejo. O setor de higiene pessoal, perfumaria e cosméticos vendeu R$ 175 bilhões em 2025, alta de 6,8%, e o Brasil é o terceiro mercado do mundo. O setor combina crescimento, recorrência de consumo, expansão de canais digitais e fragmentação — características que continuam atraindo investidores estratégicos e financeiros.
+
+4.2. Consolidação já está acontecendo, inclusive nos insumos. A combinação de Bel Cosméticos e Mundo do Cabeleireiro pela L Catterton é um exemplo de tese de criação de escala em um mercado ainda pulverizado. Na ponta dos insumos, a Givaudan comprou o controle da Vollmens, casa de fragrâncias de Saltinho (SP), em 2025.
+
+4.3. Alimentos seguem comprando crescimento. Ferrero adquiriu WK Kellogg, Bold Snacks e Purely Elizabeth; Mars concluiu a aquisição da Kellanova; BRF e Marfrig se combinaram na MBRF; e a JBS continua utilizando M&A para ampliar e diversificar seu portfólio.
+
+4.4. Suplementos e bem-estar entraram no radar. O mercado de suplementos cresceu cerca de 15% em 2025 e chegou a R$ 7,6 bilhões, o Grupo Vitabe informou ter superado R$ 1 bilhão em receita e a queda da patente da semaglutida, em março de 2026, trouxe genéricos ao menos 35% mais baratos, ampliando a demanda por proteína, energia e hidratação.
+•  Oportunidade: nos três setores, existe espaço para empresas maiores comprarem marcas, canais, capacidade produtiva ou concorrentes menores — e para empresas familiares prepararem o negócio para receber um investidor ou estratégico.
+•  Assessoramos: Natura na compra da Singu; Hypera na compra da Simple Organic Beauty; Ferrero na compra da Bold Snacks; fundadores da Dori Alimentos na venda para Ferrara; CVC na venda da Delly’s para o Pátria; JBS na compra da Mantiqueira.
+•  Na sala: Ginger em beleza, como fornecedora de fragrâncias, e pelo grupo do controlador (Sinter); 100% Você em suplementos e bem-estar; Sabores da Costa em alimentos.
+
+5. Saúde estética, suplementos e cosméticos: ambiente regulado em movimento
+
+5.1. A disputa sobre quem pode fazer procedimento estético chegou aos tribunais. Em 2026, o TRF-1 confirmou a anulação da norma que autorizava biomédicos a aplicar toxina botulínica e outros injetáveis e anulou, por 3 votos a 2, a resolução que fazia da harmonização orofacial especialidade do dentista; a norma dos farmacêuticos segue suspensa. O CFO vai recorrer e a tese deve chegar aos tribunais superiores.
+
+5.2. O Congresso pode redesenhar o mercado. O PL 3.268/2026, que reconhece esteticistas como profissionais de saúde, teve urgência aprovada na Câmara, e o PL 3.698/2026, no Senado, reconhece a saúde estética como área de biomédicos, enfermeiros, farmacêuticos e fisioterapeutas, entre outros.
+•  Oportunidade: acompanhamento legislativo, contencioso entre conselhos profissionais e revisão de modelos de negócio de escolas e clínicas.
+
+5.3. Anvisa mais ativa em suplementos e cosméticos. A agência mandou recolher 11 lotes de suplementos em junho, revisa as regras de ingredientes e rotulagem (RDC 243/2018 e IN 28/2018) e apreendeu lote falsificado de toxina botulínica. Na Europa, os alergênicos de fragrância com rotulagem obrigatória passaram de 24 para mais de 80, com regra valendo desde 31 de julho de 2026 para produtos colocados no mercado.
+•  Oportunidade: compliance regulatório preventivo, revisão de rótulos e alegações, contratos com fabricantes terceirizados e defesa em processos administrativos e sanitários.
+•  Na sala: NESA diretamente; 100% Você em suplementos; Ginger em fragrâncias e alergênicos.
+
+6. Tarifas dos EUA e barreiras comerciais nos dois sentidos
+
+6.1. Exportação. Desde julho de 2026, os Estados Unidos aplicam sobretaxas de 25% e de 12,5%, em duas medidas, sobre parte dos produtos brasileiros, com tratamento distinto por produto: óleos essenciais e perfumaria ficaram fora dos 25%, mas pagam os 12,5%. Para empresas exportadoras, isso muda competitividade, mercado de destino e planejamento comercial.
+•  Oportunidade: revisar exposição por produto e mercado, avaliar alternativas de destino e acompanhar medidas comerciais que possam alterar rapidamente a economia das exportações.
+
+6.2. Importação. Do outro lado, compras online de até US$ 50 têm imposto de importação zero desde maio, e a Lei 15.502, de setembro, consolidou a medida e autoriza reduzir de 60% para até 30% a alíquota até US$ 3 mil. Isso afeta diretamente a competição entre varejistas brasileiros e plataformas estrangeiras.
+•  Oportunidade: acompanhar alterações tarifárias e medir seu impacto sobre preço, cadeia de fornecimento e competitividade de operações locais.
+
+6.3. Defesa comercial protege, mas tem prazo. O antidumping sobre calçados chineses (US$ 10,22 por par) vence em fevereiro de 2027 e a indústria pede renovação, e a importação de camarão do Equador está suspensa desde dezembro de 2024 por decisão sanitária.
+•  Oportunidade: atuação como parte interessada em processos de defesa comercial e acompanhamento de barreiras que sustentam a margem de quem produz no Brasil.
+•  Na sala: Kings (importação, antidumping de calçados e operação nos EUA); Bagatoli do lado da importação; Ginger do lado da exportação; Sabores da Costa protegida pela barreira ao camarão equatoriano.
+
+7. Mão de obra: fim da escala 6x1 e volta da folha
+
+7.1. A PEC do fim da escala 6x1 chegou ao plenário do Senado. Aprovada na Câmara em maio e na CCJ do Senado em setembro, a proposta reduz a jornada de 44 para 40 horas e foi pautada para discussão em plenário a partir de 6 de outubro. Para a construção, a CBIC estima mão de obra até 15% mais cara e obra de 7% a 10% mais cara.
+
+7.2. A desoneração da folha acaba em etapas. Em 2026, quem segue na contribuição sobre a receita bruta paga 60% dessa alíquota e mais 10% sobre a folha; em 2028, volta a pagar 20% cheios sobre a folha.
+
+7.3. Falta de mão de obra já é gargalo. Na sondagem CBIC/CNI do segundo trimestre de 2026, falta ou alto custo de mão de obra qualificada e não qualificada aparecem em 28,9% e 28,6% das respostas.
+•  Oportunidade: revisar contratos de longo prazo e de preço fechado (pleitos de reequilíbrio), escalas, terceirização e responsabilidade por terceirizadas — o caso dos 163 trabalhadores resgatados na obra da BYD em Camaçari mostra a exposição de construtora e dono da obra.
+•  Na sala: BDG diretamente; Kings, Grupo Braga e Bagatoli como empregadores de varejo e serviços com jornada estendida.
+
+8. Varejo automotivo: ano forte, chinesas e consolidação
+
+8.1. Mercado em ano forte. As vendas de automóveis e comerciais leves somaram 2,16 milhões de janeiro a setembro, alta de 19,3%, maior acumulado desde 2014; as motos cresceram 12,1% até agosto e a Fenabrave projeta alta de 8,6% no mercado total do ano.
+
+8.2. Chinesas mudam a relação com a rede. A BYD já produz em Camaçari, o imposto de importação de elétricos chegou a 35% em julho, empurrando produção local, e a Leapmotor quer estar em todos os estados até o fim de 2026. Operar marca nova exige contrato de concessão bem negociado à luz da Lei Ferrari.
+
+8.3. Consolidação de concessionárias continua. Em maio, o Grupo Vigorito negociava a compra da Granleste, concessionária Chevrolet em São Paulo, por cerca de R$ 130 milhões.
+•  Oportunidade: M&A de redes, negociação de contratos de concessão com novas marcas, organização societária de grupos com várias bandeiras e impactos do Imposto Seletivo e da Zona Franca.
+•  Na sala: Grupo Braga diretamente.
+
+9. Marketplaces, franquias e social commerce: canais de distribuição em mudança [apenas como ponto para agregar discussão de business se houver espaço]
+
+9.1. Marketplace mudou as regras e passa a fiscalizar o imposto do vendedor. Em março, o Mercado Livre trocou a tarifa fixa dos produtos abaixo de R$ 79 por custo variável e a Shopee mudou comissões e tornou o frete grátis obrigatório. Pela LC 214/2025, a plataforma responde por IBS/CBS se o vendedor não emitir nota fiscal eletrônica.
+
+9.2. Social commerce ganhou escala muito rápido. O crescimento do TikTok Shop mostra como conteúdo, influência e venda estão se fundindo em um único canal.
+
+9.3. Para marcas de consumo, o canal cria oportunidade e novos riscos. Beleza, alimentos, suplementos e outros produtos de consumo podem ganhar distribuição rapidamente, mas precisam lidar com publicidade, influenciadores, proteção ao consumidor, uso de dados e responsabilidade sobre conteúdo.
+•  Oportunidade: tema para explorar com empresas de consumo que estejam expandindo canais digitais, vendendo por plataforma ou utilizando influenciadores e franquias como parte relevante da estratégia comercial.
+•  Na sala: Bagatoli (venda por marketplace); 100% Você (marca construída sobre influência, farmácias e marketplaces); Kings (e-commerce, collabs e rede de franquias).
