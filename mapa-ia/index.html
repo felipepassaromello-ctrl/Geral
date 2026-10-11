@@ -1,0 +1,388 @@
+<title>Mapa da IA do Felipe</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: guia de campo — coluna de leitura central, mapa em camadas empilhadas, cartões de glossário em grade, trilha com checklist */
+:root{
+  --bg:#F3F5F8; --surface:#FFFFFF; --ink:#141B2D; --muted:#5A6378; --line:#D9DEE8;
+  --accent:#2448C7; --accent-soft:#E3E9FB; --mark:#F2B526; --mark-soft:#FDF2D3; --ok:#1F8A5B; --warn:#B4541A;
+  --display:"Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --body:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E1220; --surface:#161C2E; --ink:#E8ECF5; --muted:#9AA3B8; --line:#2A3350;
+  --accent:#7D9BFF; --accent-soft:#1F2A52; --mark:#F5C451; --mark-soft:#3A3016; --ok:#4CC38A; --warn:#F08A4B; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1220; --surface:#161C2E; --ink:#E8ECF5; --muted:#9AA3B8; --line:#2A3350;
+  --accent:#7D9BFF; --accent-soft:#1F2A52; --mark:#F5C451; --mark-soft:#3A3016; --ok:#4CC38A; --warn:#F08A4B; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 var(--body);padding-inline:16px}
+.wrap{max-width:1040px;margin:0 auto;padding-block:40px 80px;display:flex;flex-direction:column;gap:72px}
+h1,h2,h3{font-family:var(--display);line-height:1.1;text-wrap:balance;margin:0}
+h1{font-size:clamp(2.3rem,6vw,4.2rem);font-weight:800;letter-spacing:-.02em}
+h2{font-size:clamp(1.6rem,3.6vw,2.3rem);font-weight:700;letter-spacing:-.01em}
+h3{font-size:1.15rem;font-weight:700}
+p{margin:0;max-width:66ch}
+.eyebrow{font:500 .75rem/1 var(--mono);text-transform:uppercase;letter-spacing:.12em;color:var(--accent)}
+.lede{font-size:1.15rem;color:var(--muted)}
+mark{background:var(--mark-soft);color:inherit;padding:0 .2em;border-radius:3px}
+section{display:flex;flex-direction:column;gap:20px}
+.sec-head{display:flex;flex-direction:column;gap:10px}
+a{color:var(--accent)}
+button{font:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+code,.mono{font-family:var(--mono);font-size:.88em}
+
+/* hero */
+.hero{display:flex;flex-direction:column;gap:22px;padding-top:12px}
+.hero h1 span{color:var(--accent)}
+.noise{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:8px}
+.noise div{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:4px}
+.noise b{font:700 1.8rem/1 var(--display);font-variant-numeric:tabular-nums}
+.noise small{color:var(--muted);font-size:.9rem}
+
+/* mapa em camadas */
+.map{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:24px;align-items:start}
+@media (max-width:760px){.map{grid-template-columns:1fr}}
+.stack{display:flex;flex-direction:column;gap:6px}
+.layer{display:grid;grid-template-columns:2.2rem 1fr;align-items:center;gap:10px;text-align:left;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:8px;padding:12px 14px;transition:transform .15s,border-color .15s}
+.layer .n{font:500 .8rem var(--mono);color:var(--muted)}
+.layer strong{display:block;font-family:var(--display);font-size:1.05rem}
+.layer em{font-style:normal;color:var(--muted);font-size:.85rem}
+.layer[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);transform:translateX(6px)}
+@media (prefers-reduced-motion:reduce){.layer{transition:none}.layer[aria-pressed="true"]{transform:none}}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:16px;min-width:0}
+.panel dl{display:grid;grid-template-columns:1fr;gap:14px;margin:0}
+.panel dt{font:500 .72rem var(--mono);text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+.panel dd{margin:4px 0 0}
+.panel .try{background:var(--mark-soft);border-radius:8px;padding:12px 14px}
+.stack-note{font-size:.88rem;color:var(--muted)}
+
+/* glossário */
+.filter{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.filter input{flex:1 1 260px;min-width:0;font:inherit;padding:10px 14px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:5px 12px;font-size:.85rem}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.card header{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.tag{font:500 .68rem var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted);white-space:nowrap}
+.card .real{font-size:.95rem}
+.card .use{font-size:.88rem;color:var(--muted);border-top:1px dashed var(--line);padding-top:8px}
+.verdict{font:600 .72rem var(--mono);padding:2px 8px;border-radius:999px;align-self:flex-start}
+.v-agora{background:var(--accent-soft);color:var(--accent)}
+.v-depois{background:var(--mark-soft);color:var(--warn)}
+.v-ignore{background:var(--line);color:var(--muted)}
+.empty{color:var(--muted);font-style:italic}
+
+/* plano */
+.have{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.have div{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:6px}
+.have .on{font:600 .7rem var(--mono);color:var(--ok);text-transform:uppercase;letter-spacing:.08em}
+.have .off{font:600 .7rem var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.have p{font-size:.92rem;color:var(--muted)}
+
+/* filtro de hype */
+.hype{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:22px;display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:24px}
+@media (max-width:700px){.hype{grid-template-columns:1fr}}
+.hype label{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px solid var(--line);cursor:pointer}
+.hype label:last-child{border-bottom:0}
+.hype input{margin-top:5px;accent-color:var(--accent)}
+.score{display:flex;flex-direction:column;gap:8px;justify-content:center}
+.score b{font:800 3rem/1 var(--display);font-variant-numeric:tabular-nums}
+.score p{font-size:.95rem}
+
+/* trilha */
+.prog{display:flex;align-items:center;gap:12px}
+.bar{flex:1;height:8px;background:var(--line);border-radius:99px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent);width:0;transition:width .3s}
+.prog span{font:500 .85rem var(--mono);font-variant-numeric:tabular-nums;color:var(--muted)}
+.weeks{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.week{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px;display:flex;flex-direction:column;gap:10px}
+.week h3 small{display:block;font:500 .72rem var(--mono);color:var(--accent);text-transform:uppercase;letter-spacing:.1em;margin-bottom:4px}
+.week label{display:flex;gap:10px;align-items:flex-start;font-size:.93rem;cursor:pointer}
+.week input{margin-top:5px;accent-color:var(--accent)}
+.week label.done span{text-decoration:line-through;color:var(--muted)}
+
+/* prompts */
+.prompts{display:flex;flex-direction:column;gap:12px}
+.prompt{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 16px;align-items:start}
+.prompt h3{font-size:1rem;grid-column:1}
+.prompt pre{grid-column:1/-1;margin:0;white-space:pre-wrap;font:400 .86rem/1.55 var(--mono);background:var(--bg);border-radius:8px;padding:12px;overflow-x:auto}
+.copy{grid-column:2;grid-row:1;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:6px;padding:4px 12px;font-size:.82rem}
+
+.truth{border-left:4px solid var(--mark);padding:6px 0 6px 18px;display:flex;flex-direction:column;gap:12px}
+footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:20px}
+</style>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="eyebrow">Guia de campo · outubro 2026</div>
+  <h1>Você não está atrasado.<br><span>Está sem mapa.</span></h1>
+  <p class="lede">O que passa na sua timeline parece mil coisas diferentes. Quase tudo é a mesma coisa vista de ângulos diferentes: <mark>seis camadas</mark> que se empilham. Entendendo as seis, todo post novo vira "ah, isso é a camada 3 com um nome bonito".</p>
+  <div class="noise">
+    <div><b>~90%</b><small>do que viraliza é demo, embalagem ou variação de algo que já existe</small></div>
+    <div><b>6</b><small>conceitos explicam praticamente tudo o que você anda vendo</small></div>
+    <div><b>1</b><small>problema real seu, resolvido de ponta a ponta, vale mais que 100 repositórios salvos</small></div>
+  </div>
+</header>
+
+<section id="mapa">
+  <div class="sec-head">
+    <div class="eyebrow">Parte 1 · O mapa</div>
+    <h2>As seis camadas</h2>
+    <p>Clique numa camada. Cada uma diz o que você viu por aí, o que de fato é, onde está no seu plano e um teste de 5 minutos.</p>
+  </div>
+  <div class="map">
+    <div class="stack" role="group" aria-label="Camadas">
+      <!-- preenchido via JS -->
+    </div>
+    <article class="panel" id="panel" aria-live="polite"></article>
+  </div>
+  <p class="stack-note">Leia de baixo para cima: o modelo é a base; cada camada acima dá a ele mais memória, mais mãos e mais autonomia.</p>
+</section>
+
+<section id="glossario">
+  <div class="sec-head">
+    <div class="eyebrow">Parte 2 · Tradutor de buzzword</div>
+    <h2>O que eles estão falando, em português</h2>
+    <p>Cada termo vem com um veredito pra você: <span class="verdict v-agora">use agora</span> <span class="verdict v-depois">mais tarde</span> <span class="verdict v-ignore">pode ignorar</span>. "Pode ignorar" não quer dizer que é inútil, quer dizer que não é pra quem está começando.</p>
+  </div>
+  <div class="filter">
+    <input id="q" type="search" placeholder="Procure um termo: MCP, skill, token, agente…" aria-label="Buscar termo">
+    <div class="chips" id="chips"></div>
+  </div>
+  <div class="cards" id="cards"></div>
+</section>
+
+<section id="plano">
+  <div class="sec-head">
+    <div class="eyebrow">Parte 3 · Os seus R$ 1.000 por mês</div>
+    <h2>O que você já tem e provavelmente não usa</h2>
+    <p>Olhei o ambiente desta sessão. Isso aqui já está ligado na sua conta. A maioria das pessoas que você vê postando usa as mesmas peças.</p>
+  </div>
+  <div class="have" id="have"></div>
+</section>
+
+<section id="filtro">
+  <div class="sec-head">
+    <div class="eyebrow">Parte 4 · Antídoto contra FOMO</div>
+    <h2>Isso vale o meu tempo?</h2>
+    <p>Da próxima vez que um post te deixar ansioso, passe por estas cinco perguntas. Leva 30 segundos.</p>
+  </div>
+  <div class="hype">
+    <div id="hypeq"></div>
+    <div class="score" aria-live="polite"><b id="hs">0/5</b><p id="hv">Marque o que for verdade sobre a novidade que você viu.</p></div>
+  </div>
+</section>
+
+<section id="trilha">
+  <div class="sec-head">
+    <div class="eyebrow">Parte 5 · Trilha de 4 semanas</div>
+    <h2>Do "não entendo nada" ao "tenho agentes trabalhando pra mim"</h2>
+    <p>Umas 3 horas por semana. Cada missão usa um problema do seu trabalho real. O progresso fica salvo neste navegador.</p>
+  </div>
+  <div class="prog"><div class="bar"><i id="pbar"></i></div><span id="ptxt">0 de 0</span></div>
+  <div class="weeks" id="weeks"></div>
+</section>
+
+<section id="prompts">
+  <div class="sec-head">
+    <div class="eyebrow">Parte 6 · Prompts prontos</div>
+    <h2>Copie, cole numa sessão do Claude, veja acontecer</h2>
+    <p>Feitos pro tipo de trabalho que vi no seu repositório: briefings de hot topics, mapeamento de empresas, credenciais de deals.</p>
+  </div>
+  <div class="prompts" id="plist"></div>
+</section>
+
+<section id="verdade">
+  <div class="sec-head">
+    <div class="eyebrow">Para fechar</div>
+    <h2>O que ninguém posta</h2>
+  </div>
+  <div class="truth">
+    <p><strong>Quem mostra 12 agentes conversando numa tela geralmente está mostrando a ferramenta, não o resultado.</strong> Muitos desses setups são feitos por programadores para programadores, e boa parte é abandonada em semanas.</p>
+    <p><strong>A vantagem real está em juntar IA com o que você já sabe.</strong> Um dev de São Francisco não sabe o que é split payment nem como abordar a segunda geração de uma empresa familiar capixaba. Você sabe. O hot topics que você fez para a aula da G4 já foi trabalho agêntico: pesquisa, cruzamento com o mapeamento de empresas, revisão em rodadas, saída em Word. Você já está mais dentro do que imagina.</p>
+    <p><strong>O próximo degrau é parar de pedir tarefas e começar a montar processos:</strong> uma skill que sabe o padrão do seu briefing, uma rotina que roda toda segunda, um conector que puxa os dados sozinho. É isso que as pessoas querem dizer com "agentes que trabalham sem eu fazer nada".</p>
+  </div>
+</section>
+
+<footer>Os nomes de produto mudam toda semana; os conceitos das seis camadas, não. Quando algo novo aparecer, pergunte "em qual camada isso mora?" e você vai saber onde encaixar.</footer>
+</div>
+
+<script>
+const LAYERS=[
+ {n:"6",t:"Orquestração",s:"vários agentes ao mesmo tempo",
+  seen:"Telas com vários agentes trabalhando em paralelo e conversando entre si; \"swarms\"; um agente chefe distribuindo tarefas.",
+  is:"Um agente principal que divide o trabalho e dispara outros agentes (subagentes), cada um com uma parte. Eles não \"conversam\" como pessoas: trocam resultados por arquivos ou mensagens. Serve para trabalho grande e paralelizável, como pesquisar 30 empresas de uma vez.",
+  plan:"Disponível aqui: subagentes, sessões paralelas na nuvem e workflows multiagente. Você pede em português: \"divide isso entre agentes\".",
+  test:"Peça: \"Pesquise em paralelo as 8 empresas do mapeamento da G4, um agente por empresa, e junte as novidades dos últimos 30 dias numa tabela.\""},
+ {n:"5",t:"Automação",s:"trabalha sem você pedir",
+  seen:"\"Meu agente roda 24h\", \"acordo e o trabalho está feito\", loops infinitos.",
+  is:"Um agendador (tipo despertador) que dispara um prompt num horário ou quando algo acontece: um e-mail chegou, um PR foi aberto, uma página mudou. Nada mágico: é cron + agente.",
+  plan:"Rotinas (Routines) do Claude Code: agendamento diário/semanal que abre uma sessão e executa sozinha. Também dá pra ser notificado no celular.",
+  test:"Peça: \"Crie uma rotina toda segunda às 7h que levante notícias de reforma tributária e M&A da semana e me mande um resumo.\""},
+ {n:"4",t:"Agente",s:"o modelo que age em loop",
+  seen:"Claude Code, Codex, Cursor, \"agentic\", vibe coding, \"ele fez o app inteiro sozinho\".",
+  is:"O modelo num loop: pensa, usa uma ferramenta, olha o resultado, decide o próximo passo, repete até terminar. A diferença pro chat é que ele executa coisas (lê arquivos, roda código, pesquisa) em vez de só responder.",
+  plan:"Você está usando agora: isto é o Claude Code na nuvem. Funciona no navegador, no app do celular e no desktop. Não precisa saber programar.",
+  test:"Peça: \"Leia o .docx do mapeamento da G4 e gere uma planilha com empresa, setor, sócio presente e tema de abordagem.\""},
+ {n:"3",t:"Skills",s:"receitas reutilizáveis",
+  seen:"\"Instalei 40 skills\", repositórios de skills, \"skill que faz X\".",
+  is:"Uma pasta com instruções (um arquivo de texto) e às vezes scripts, que ensina o agente a fazer uma tarefa do seu jeito. O agente só carrega quando precisa, então não pesa. É o seu manual de procedimento, em formato que a IA lê.",
+  plan:"Já vem com skills de Word, Excel, PowerPoint, PDF e pesquisa profunda. E há uma skill que cria skills: você descreve e ela monta.",
+  test:"Peça: \"Use a skill-creator para criar uma skill 'hot-topics' a partir do meu arquivo da aula G4: estrutura, tom, formato de oportunidade/assessoramos/na sala.\""},
+ {n:"2",t:"Ferramentas e conectores",s:"as mãos (MCP)",
+  seen:"MCP, conectores, \"liguei o Claude no meu Notion/Gmail/CRM\".",
+  is:"MCP é uma tomada padrão: qualquer serviço que fala MCP pode ser ligado no Claude. Cada conector dá ao agente botões novos: ler o Drive, buscar contatos, criar arquivo no Figma.",
+  plan:"Ligados na sua conta agora: Google Drive, GitHub, Figma, Lusha (prospecção B2B) e HyperFrames da HeyGen (vídeo). Dá pra adicionar Gmail, Calendar, Slack e outros.",
+  test:"Peça: \"Use o Lusha para encontrar os decisores financeiros (CFO, diretor jurídico) das empresas do mapeamento da G4.\""},
+ {n:"1",t:"Contexto e memória",s:"o que ele sabe sobre você",
+  seen:"Context engineering, token saving, CLAUDE.md, \"memory\", janela de contexto de 1 milhão.",
+  is:"Tudo o que está na \"mesa\" do modelo naquele momento: suas instruções, arquivos, histórico. A mesa tem tamanho limitado (janela de contexto, medida em tokens). Economizar tokens é organizar a mesa: só deixar ali o que importa.",
+  plan:"Projetos no claude.ai, memória, e um arquivo CLAUDE.md no repositório com quem você é, como escreve e o que nunca fazer. Ele é lido em toda sessão.",
+  test:"Peça: \"Crie um CLAUDE.md neste repositório com meu contexto profissional, padrões de escrita e regras de revisão, tirados dos arquivos que já estão aqui.\""},
+ {n:"0",t:"Modelo",s:"o cérebro",
+  seen:"Lançamento novo toda semana, benchmarks, \"o modelo X bateu o Y\".",
+  is:"A IA em si (Opus, Sonnet, Haiku; GPT; Gemini). Para o seu uso, a diferença entre os de ponta é pequena. O que muda o resultado são as camadas de cima.",
+  plan:"Seu plano dá acesso aos modelos mais fortes da Anthropic, com limites altos. Opus para trabalho difícil; Sonnet/Haiku para volume.",
+  test:"Nenhum. Pare de acompanhar benchmark. Sério."}
+];
+const TERMS=[
+ ["MCP","Conectar","Protocolo padrão para ligar a IA a outros sistemas (Drive, CRM, e-mail). Pense em USB-C para IA.","Cada conector que você liga é um superpoder novo sem programar nada.","agora"],
+ ["Conector","Conectar","Um MCP já empacotado e pronto pra ligar com um clique na sua conta Claude.","Ligue Gmail e Calendar: briefing de reunião sai sozinho.","agora"],
+ ["Skill","Ensinar","Pasta com instruções e scripts que ensina uma tarefa ao agente, carregada só quando necessária.","Transforme seus formatos recorrentes (hot topics, mapeamento) em skills.","agora"],
+ ["Plugin","Ensinar","Pacote que junta skills, comandos, conectores e hooks para instalar de uma vez.","Útil quando seu escritório quiser padronizar o mesmo kit para todos.","depois"],
+ ["CLAUDE.md","Ensinar","Arquivo de texto no projeto que o agente lê sempre que começa. Suas regras da casa.","10 minutos que melhoram todas as sessões futuras.","agora"],
+ ["Prompt","Ensinar","A instrução que você escreve. Bons prompts dizem o objetivo, o contexto e como deve ser a entrega.","Diga sempre para quem é a entrega e em que formato.","agora"],
+ ["Janela de contexto","Memória","Quanto texto o modelo consegue considerar de uma vez, medido em tokens.","Conversa longa demais começa a perder detalhes; abra uma nova por tarefa.","agora"],
+ ["Token","Memória","Pedaço de palavra; unidade de medida (e de custo) da IA. 1.000 tokens ≈ 750 palavras em inglês, um pouco menos em português.","Só importa pra entender limites de uso.","depois"],
+ ["Token saving / context engineering","Memória","Técnicas para colocar só o essencial na mesa do modelo: resumir, dividir em subagentes, usar arquivos em vez de colar tudo.","Para você: uma conversa por tarefa e um bom CLAUDE.md já resolvem 80%.","depois"],
+ ["Compactação","Memória","Quando a conversa enche, o sistema resume o começo automaticamente para continuar.","Acontece sozinho; não precisa fazer nada.","ignore"],
+ ["Prompt caching","Memória","Reaproveitar a parte repetida do prompt para ficar mais rápido e barato. Assunto de quem usa a API.","Não se aplica a quem usa o plano.","ignore"],
+ ["RAG","Memória","Buscar trechos relevantes em uma base de documentos e entregá-los ao modelo antes de responder.","É o que acontece quando você pede \"procure no meu Drive\".","depois"],
+ ["Agente","Agir","Modelo em loop que usa ferramentas até concluir a tarefa.","Você já está usando um.","agora"],
+ ["Subagente","Agir","Agente auxiliar disparado pelo principal para uma parte do trabalho, com contexto próprio.","Peça \"use subagentes\" em pesquisas com muitas frentes.","agora"],
+ ["Multiagente / swarm","Agir","Vários agentes trabalhando em paralelo, coordenados por um orquestrador.","Bom para volume: 30 empresas, 50 contratos.","depois"],
+ ["Dashboard de agentes","Agir","Aquelas telas que mostram todos os agentes trabalhando ao vivo. É a visualização, não a inteligência.","Bonito de ver. Não é o que gera valor.","ignore"],
+ ["Background agent","Agir","Agente que roda numa máquina na nuvem enquanto você faz outra coisa ou fecha o notebook.","Esta sessão é um. Dispare do celular e volte depois.","agora"],
+ ["Routine / cron","Automatizar","Agendamento que dispara um agente sozinho em horário fixo ou em resposta a um evento.","Clipping semanal, monitoramento de deals, follow-ups.","agora"],
+ ["Hook","Automatizar","Regra automática \"antes/depois de X, faça Y\" dentro do Claude Code.","Coisa de usuário avançado. Volte aqui no mês 2.","depois"],
+ ["Ralph loop / agente infinito","Automatizar","Script que reinicia o agente em loop até a tarefa passar num critério. Popular entre devs.","Para software. Para o seu trabalho, rotinas resolvem.","ignore"],
+ ["Artifact","Entregar","Página web interativa publicada pelo Claude, privada por padrão e compartilhável. Este guia é um.","Painéis de clientes, checklists de deal, apresentações vivas.","agora"],
+ ["Vibe coding","Entregar","Construir software descrevendo o que quer em linguagem natural, sem ler o código.","Você pode fazer ferramentas internas simples assim.","depois"],
+ ["Computer use","Agir","A IA controla tela, mouse e teclado do seu computador.","Útil para sistemas sem conector (portais antigos). Mais lento.","depois"],
+ ["Claude in Chrome","Agir","Extensão em que o Claude navega e age no seu Chrome com seus logins.","Preencher portais, extrair dados de sites logados.","depois"],
+ ["GitHub / repositório","Entregar","Pasta de arquivos com histórico de versões. Os \"repos badalados\" são projetos abertos que outros publicam.","Você já tem um: é onde ficou seu hot topics. Pense nele como um Drive com histórico.","agora"],
+ ["Estrelas no GitHub","Entregar","Curtidas de repositório. Medem hype, não utilidade para você.","Não instale nada só porque tem 40 mil estrelas.","ignore"],
+ ["Worktree","Agir","Cópia paralela do repositório para vários agentes mexerem sem conflito.","Coisa de programador.","ignore"],
+ ["Engenharia reversa","Outros","Gente desmontando como uma ferramenta funciona por dentro (prompts internos, protocolo) para copiar ou explorar.","Curiosidade técnica. Não muda seu dia.","ignore"],
+ ["Evals","Outros","Testes que medem se o agente acerta uma tarefa de forma consistente.","Quando uma skill sua virar processo do escritório, vale testar.","depois"],
+ ["Alucinação","Outros","Quando o modelo inventa um fato com confiança.","No seu ramo é crítico: peça sempre fonte e faça rodada de verificação, como você fez no mapeamento.","agora"]
+];
+const HAVE=[
+ ["on","Claude Code na nuvem","Agente que lê, escreve, pesquisa e executa. Do navegador ou do celular, roda mesmo com o notebook fechado."],
+ ["on","Google Drive","Ler e criar arquivos no seu Drive. Seus .docx e planilhas podem ir direto pra lá."],
+ ["on","GitHub","Repositório Geral, com histórico de cada versão dos seus documentos."],
+ ["on","Lusha","Prospecção B2B: decisores, contatos, sinais de empresa e score de ICP. Ouro para desenvolvimento de negócios."],
+ ["on","Figma","Criar e editar designs, diagramas e materiais visuais."],
+ ["on","HyperFrames (HeyGen)","Gerar vídeos programáticos a partir de roteiro ou design."],
+ ["on","Artifacts e Docs","Páginas e documentos vivos, compartilháveis com link. Este guia é um."],
+ ["on","Rotinas agendadas","Agentes que rodam sozinhos em horário fixo e te avisam no celular."],
+ ["on","Skills de escritório","Word, Excel, PowerPoint, PDF e pesquisa profunda com várias fontes."],
+ ["off","Gmail e Calendar","Não vi conectados. São os que mais rendem para quem vive de reunião e relacionamento."],
+ ["off","Claude no Chrome / desktop","Extensão e app desktop: deixa o Claude agir em sites e programas com o seu login."]
+];
+const HYPE=[
+ "Resolve um problema que eu tive nesta semana.",
+ "Alguém sem perfil de programador conseguiu usar.",
+ "Funciona com o que eu já tenho (Claude, conectores, Office).",
+ "Existe há mais de um mês e as pessoas continuam usando.",
+ "Consigo testar em menos de 30 minutos."
+];
+const WEEKS=[
+ {w:"Semana 1",t:"Fundação",items:[
+  "Criar um CLAUDE.md com seu contexto profissional e padrões de escrita",
+  "Ligar Gmail e Google Calendar como conectores",
+  "Pedir uma tarefa real do trabalho ao Claude Code pelo celular",
+  "Ler os cartões \"use agora\" do tradutor de buzzword"]},
+ {w:"Semana 2",t:"Ensinar",items:[
+  "Transformar o formato do hot topics numa skill",
+  "Transformar o mapeamento de empresas numa segunda skill",
+  "Rodar as duas skills num caso novo e ajustar o que saiu errado",
+  "Pedir uma rodada de verificação de fatos com fontes"]},
+ {w:"Semana 3",t:"Automatizar",items:[
+  "Criar uma rotina semanal de clipping (tributário, M&A, setores dos clientes)",
+  "Criar uma rotina de briefing antes de reuniões, a partir do Calendar",
+  "Usar o Lusha para mapear decisores de uma lista de alvos",
+  "Receber um resultado de rotina no celular sem ter pedido nada no dia"]},
+ {w:"Semana 4",t:"Escalar",items:[
+  "Rodar uma pesquisa com subagentes em paralelo (10+ empresas)",
+  "Publicar um artifact interativo para um cliente ou para o time",
+  "Escrever num documento os 3 processos que mais te pouparam tempo",
+  "Escolher 1 novidade do mês usando o filtro anti-FOMO e testar"]}
+];
+const PROMPTS=[
+ ["Criar seu CLAUDE.md","Leia os arquivos deste repositório e crie um CLAUDE.md que descreva: quem eu sou e com o que trabalho, o público dos meus documentos, meu padrão de escrita (tom, estrutura, como apresento oportunidades e credenciais), e regras de revisão (sempre checar fatos e datas, citar fonte, nunca inventar credencial). Me mostre antes de commitar."],
+ ["Skill de hot topics","Use a skill-creator para criar uma skill chamada hot-topics com base no arquivo 'Hot topics - Aula G4 08.10.2026'. A skill deve receber uma lista de empresas presentes e um evento, pesquisar temas atuais relevantes, e entregar no mesmo formato: tema, subitens numerados, Oportunidade, Assessoramos, Na sala. Inclua uma etapa obrigatória de verificação de fatos."],
+ ["Rotina de clipping semanal","Crie uma rotina que rode toda segunda às 7h (horário de Brasília): pesquise as principais notícias da última semana sobre reforma tributária, M&A no Brasil, mercado de capitais e os setores das empresas do meu mapeamento; escreva um resumo de 1 página com 'por que importa' e 'quem abordar', salve no Drive e me notifique."],
+ ["Pesquisa em paralelo","Para cada empresa do arquivo de mapeamento da G4, dispare um subagente que pesquise notícias dos últimos 60 dias, mudanças societárias, sucessão e movimentos de M&A. Depois junte tudo numa planilha Excel com uma coluna 'gancho de abordagem'."],
+ ["Prospecção com Lusha","Usando o Lusha, encontre CFOs, diretores jurídicos e sócios das empresas do mapeamento da G4. Monte uma tabela com nome, cargo, empresa e o tema de hot topics mais relevante para cada um. Não exporte nada para CRM sem me perguntar."]
+];
+
+const $=s=>document.querySelector(s);
+const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+// mapa
+const stack=document.querySelector(".stack");
+function showLayer(i){
+  const L=LAYERS[i];
+  stack.querySelectorAll(".layer").forEach((b,j)=>b.setAttribute("aria-pressed",j===i));
+  $("#panel").innerHTML=`<div class="eyebrow">Camada ${L.n}</div><h3 style="font-size:1.5rem">${L.t}</h3>
+  <dl><div><dt>O que você viu por aí</dt><dd>${esc(L.seen)}</dd></div>
+  <div><dt>O que é de verdade</dt><dd>${esc(L.is)}</dd></div>
+  <div><dt>No seu plano</dt><dd>${esc(L.plan)}</dd></div>
+  <div class="try"><dt>Teste de 5 minutos</dt><dd>${esc(L.test)}</dd></div></dl>`;
+  store.set("layer",i);
+}
+LAYERS.forEach((L,i)=>{const b=document.createElement("button");b.className="layer";b.innerHTML=`<span class="n">${L.n}</span><span><strong>${L.t}</strong><em>${L.s}</em></span>`;b.onclick=()=>showLayer(i);stack.appendChild(b)});
+showLayer(store.get("layer",2));
+
+// glossário
+const cats=["Todos",...new Set(TERMS.map(t=>t[1]))];let cat="Todos";
+const VL={agora:["v-agora","use agora"],depois:["v-depois","mais tarde"],ignore:["v-ignore","pode ignorar"]};
+cats.forEach(c=>{const b=document.createElement("button");b.className="chip";b.textContent=c;b.setAttribute("aria-pressed",c===cat);b.onclick=()=>{cat=c;document.querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed",x.textContent===c));renderCards()};$("#chips").appendChild(b)});
+function renderCards(){
+  const q=$("#q").value.toLowerCase().trim();
+  const list=TERMS.filter(t=>(cat==="Todos"||t[1]===cat)&&(!q||(t[0]+t[2]+t[3]).toLowerCase().includes(q)));
+  $("#cards").innerHTML=list.length?list.map(t=>`<article class="card"><header><h3>${esc(t[0])}</h3><span class="tag">${t[1]}</span></header><p class="real">${esc(t[2])}</p><p class="use">${esc(t[3])}</p><span class="verdict ${VL[t[4]][0]}">${VL[t[4]][1]}</span></article>`).join(""):`<p class="empty">Nenhum termo encontrado. Pergunte ao Claude: "o que é ${esc(q)}?"</p>`;
+}
+$("#q").addEventListener("input",renderCards);renderCards();
+
+// plano
+$("#have").innerHTML=HAVE.map(h=>`<div><span class="${h[0]}">${h[0]==="on"?"● Ligado":"○ Ainda não"}</span><h3>${h[1]}</h3><p>${esc(h[2])}</p></div>`).join("");
+
+// filtro de hype
+const hs=store.get("hype",[]);
+$("#hypeq").innerHTML=HYPE.map((h,i)=>`<label><input type="checkbox" id="h${i}" ${hs.includes(i)?"checked":""}><span>${h}</span></label>`).join("");
+function hype(){const on=HYPE.map((_,i)=>$("#h"+i).checked?i:-1).filter(i=>i>=0);store.set("hype",on);const n=on.length;$("#hs").textContent=n+"/5";
+  $("#hv").textContent=n>=4?"Teste esta semana.":n>=2?"Salve e reveja daqui a um mês. Se ainda estiverem falando, teste.":"Pode deixar passar sem culpa.";}
+$("#hypeq").addEventListener("change",hype);hype();
+
+// trilha
+const done=store.get("done",{});
+$("#weeks").innerHTML=WEEKS.map((W,wi)=>`<div class="week"><h3><small>${W.w}</small>${W.t}</h3>${W.items.map((it,ii)=>{const k=wi+"-"+ii;return `<label class="${done[k]?"done":""}"><input type="checkbox" id="t${k}" data-k="${k}" ${done[k]?"checked":""}><span>${esc(it)}</span></label>`}).join("")}</div>`).join("");
+function prog(){const all=document.querySelectorAll("#weeks input"),n=[...all].filter(x=>x.checked).length;$("#pbar").style.width=(n/all.length*100)+"%";$("#ptxt").textContent=n+" de "+all.length;}
+$("#weeks").addEventListener("change",e=>{const k=e.target.dataset.k;if(!k)return;done[k]=e.target.checked;e.target.parentElement.classList.toggle("done",e.target.checked);store.set("done",done);prog()});prog();
+
+// prompts
+$("#plist").innerHTML=PROMPTS.map((p,i)=>`<div class="prompt"><h3>${p[0]}</h3><button class="copy" data-i="${i}">Copiar</button><pre id="p${i}">${esc(p[1])}</pre></div>`).join("");
+$("#plist").addEventListener("click",e=>{const b=e.target.closest(".copy");if(!b)return;const pre=$("#p"+b.dataset.i);
+  navigator.clipboard.writeText(pre.textContent).then(()=>{b.textContent="Copiado";setTimeout(()=>b.textContent="Copiar",1500)}).catch(()=>{const r=document.createRange();r.selectNodeContents(pre);const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent="Selecionado, use Ctrl+C"})});
+</script>
