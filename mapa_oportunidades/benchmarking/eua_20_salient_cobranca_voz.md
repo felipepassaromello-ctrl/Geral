@@ -16,7 +16,7 @@ Financeiras de crédito automotivo e bancos mantêm grandes call centers para at
 
 ## Já existe no Brasil?
 **DADO:**
-- Monest: plataforma de cobrança com agente de IA "Mia", que conduziu mais de 6 milhões de conversas e negociou R$ 500 milhões em dívidas desde o início de 2024 (Anuário Cobrança com IA 2025, via Canaltech/Finsiders [5][6]); lançou a "Mia Voz" (versão por telefone); aporte de R$ 3,2 milhões liderado pela Nestal (Startups.com.br [7]; data não confirmada).
+- Monest: plataforma de cobrança com agente de IA "Mia", que conduziu mais de 6 milhões de conversas e negociou R$ 500 milhões em dívidas desde o início de 2024 (Anuário Cobrança com IA 2025, via Canaltech/Finsiders [5][6]); lançou a "Mia Voz" (versão por telefone); aporte liderado pela Nestal, fundo dos criadores da Easynvest (Startups.com.br [7]; o resumo da busca indica R$ 3,2 milhões, mas a URL sugere R$ 32 milhões; valor e data a confirmar).
 - Neofin: automação de cobrança com IA, captou R$ 35 milhões (Finsiders [8]).
 - Quero Quitar: captou R$ 15 milhões para renegociação de dívidas (Startups.com.br, data não confirmada [9]).
 - Fidexa: cobra pequenas dívidas (muitas de até R$ 50) por WhatsApp com IA (Baguete [10]).
