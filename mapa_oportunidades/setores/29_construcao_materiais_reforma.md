@@ -12,7 +12,7 @@
 
 ## Tamanho de mercado (DADO, com fonte e data)
 - **Varejo de materiais:** Anamaco projetou cerca de R$ 240,0 bilhões em 2025, alta de 2,6% sobre R$ 233,8 bilhões em 2024 (2025; projeção, não realizado) [fonte 1]. Atribuição do link ao número é do conteúdo do resultado de busca; conferir no site da Anamaco.
-- **Peso da reforma:** segundo a Acomac, 70% da receita das lojas de material de construção vem de reformas e autoconstrução (data não confirmada; afirmação de entidade do setor) [fonte 2].
+- **Peso da reforma:** segundo a Acomac, 70% da receita das lojas de material de construção vem de reformas e autoconstrução (data não confirmada; afirmação de entidade do setor; atribuição ao link é provável, não confirmada) [fonte 2].
 - **Número de lojas:** não encontrei fonte confiável.
 - **Indústria (Abramat):** não encontrei o faturamento em reais nesta rodada; apenas variações (abaixo).
 
