@@ -47,7 +47,7 @@ IPO de cerca de Rs 5.421 crore (Rs 4.250 crore primário + Rs 1.171,2 crore secu
 
 ## Fontes
 1. 5paisa, "Meesho Limited Makes Exceptional Debut with 45.23% Premium, Lists at ₹161.20", dez/2025. https://www.5paisa.com/news/meesho-ipo-listing
-2. Storyboard18, "Meesho sets IPO price band at Rs 105–Rs 111, IPO to open on Dec 3", nov/2025. https://www.storyboard18.com/amp/how-it-works/meesho-sets-ipo-price-band-at-rs-105-rs-111-ipo-to-open-on-dec-3-84955.htm
+2. Storyboard18, "Meesho sets IPO price band at Rs 105 a Rs 111, IPO to open on Dec 3", nov/2025. https://www.storyboard18.com/amp/how-it-works/meesho-sets-ipo-price-band-at-rs-105-rs-111-ipo-to-open-on-dec-3-84955.htm
 3. HDFC Sky, "Meesho Rs 5,421.20 crore IPO opens 3 December 2025". https://hdfcsky.com/news/meesho-rs-5421-20-crore-ipo-opens-3-december-2025
 4. YourStory, "Meesho cuts down losses by half as revenue rises 48%", jul/2026. https://yourstory.com/2026/07/meesho-cuts-down-losses-by-half-as-revenue-rises
 5. Inc42, "Meesho Trims Q1 Loss 54% YoY To ₹133 Cr, Revenue Up 48%", jul/2026. https://inc42.com/buzz/meesho-trims-q1-loss-54-yoy-to-₹133-cr-revenue-up-48/

@@ -6,3 +6,4 @@
 - Infra: 28 a 34 sem dados (notas preliminares). 26 e 27 completos.
 - NeoSpace/Itaú CONFIRMADO pelo coordenador via busca (31/10): fato relevante de 26/10/2026, R$ 2,925 bi por 100% da NeoSpace A.I. Technologies, pagamento parcelado em 5 anos, pendente de CADE e BCB; Itaú já tinha 15% desde jan/2025 (US$ 15 mi). Fontes: https://static.poder360.com.br/uploads/2026/10/fato-relevante-itau-neospace-26out2026-1.pdf ; https://startups.com.br/negocios/ma/itau-adquire-neospace-por-r-29b-para-ampliar-solucoes-de-ia/ ; https://capitalaberto.com.br/empresas/2026/10/itau-paga-r-2-9-bi-pela-neo-space-e-agrega-ia-fundacional ; https://forbes.com.br/forbes-money/2025/01/itau-compra-participacao-em-startup-focada-em-modelos-de-ia-para-o-mercado-financeiro/
 - Educação/gov/outros: 44,45,46 completos; 49 parcial; 47,48,50,51,52 sem dados.
+- Fin/prof: 18-21 completos; 22,23,24,25 dados parciais (CFC/Fenacon, OAB/CNJ, CAGED, Sebrae MPEs, BPO, split payment).
