@@ -9,3 +9,6 @@
 - Fin/prof: 18-21 completos; 22,23,24,25 dados parciais (CFC/Fenacon, OAB/CNJ, CAGED, Sebrae MPEs, BPO, split payment).
 - Emergentes: em_01-15 ok; fracasso_05 a 09 escritos de memória SEM fonte (verificar ou remover).
 - Agro: 01,05 completos; 03 parcial; 02,04,06,07,08 provisórios.
+
+## Rodada 2 lançada (31/10): 22,25 | 23,24 | capital vc/compradores | 10,13,16 | 15,17 | 31,32,29 | 40,42,43 | 47,50,52
+## Para a rodada 3: 11,14 | 28,30 | 33,34 | 48,49,51 | 41 | agro 02,03,04,06,07,08 | EUA extras | fracassos 05-09

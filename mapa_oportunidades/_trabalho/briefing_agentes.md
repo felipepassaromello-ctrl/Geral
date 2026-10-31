@@ -53,3 +53,9 @@ Nota final = média simples das 8 notas (duas casas). Justifique cada nota em um
 - As 3 dores mais promissoras que você encontrou no seu bloco, em 1 linha cada, já pensando em negócio leve, defensável e vendável por um fundador sem capital pesado.
 - Qualquer dado importante que você NÃO conseguiu confirmar.
 Não repita o conteúdo dos arquivos na resposta.
+
+## Regras da RODADA 2 (complementação)
+- A rede da sessão BLOQUEIA WebFetch para quase todos os sites. NÃO tente WebFetch nem curl. Use apenas WebSearch e extraia os números do conteúdo dos resultados, citando o link do resultado que traz o número.
+- ORÇAMENTO RÍGIDO: no máximo 22 chamadas de WebSearch no total para todo o seu bloco. Planeje buscas compostas e específicas (ex.: "CFC número de escritórios contábeis 2025 Fenacon"). Ao chegar a 22, pare de buscar e escreva com o que tem.
+- Você está COMPLETANDO arquivos já existentes. Leia o arquivo atual, preserve a análise boa, preencha os dados que faltam com fonte, corrija notas se os dados mudarem a avaliação, remova avisos de "incompleto/provisório" se resolvidos (ou mantenha, indicando o que ainda falta). Mantenha o aviso de método: "números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede".
+- Selic atual confirmada: 13,75% a.a. (decisão de 16/09/2026; Poder360). Focus 26/10/2026: Selic 13,25% fim de 2026, 11,75% em 2027. Lula reeleito em 26/10/2026. Use isso sem gastar busca.
