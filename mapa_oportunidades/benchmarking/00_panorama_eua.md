@@ -3,8 +3,8 @@
 
 ## Aviso de cobertura (leia antes)
 - Nesta sessão o WebFetch e o curl estavam bloqueados pela política de rede (DNS negado para techcrunch.com, cnbc.com, businesswire.com, beckershospitalreview.com e outros). Os números marcados como verificados foram confirmados no conteúdo dos resultados de busca das páginas citadas.
-- O limite de buscas da sessão (compartilhado entre agentes) foi atingido após cerca de 20 buscas minhas. Por isso foram produzidos 12 arquivos detalhados (eua_01 a eua_12), e não os 22 a 25 pedidos. As demais empresas aparecem abaixo SEM números, marcadas como "não verificado nesta rodada"; os nomes e descrições vêm de conhecimento prévio e precisam de checagem antes de uso. Nenhuma rodada ou ARR foi preenchida sem fonte.
-- Próximo passo recomendado: liberar os domínios de notícias na configuração de rede e rodar nova sessão para completar os arquivos 13 a 25 (lista sugerida no fim).
+- O limite de buscas da sessão (compartilhado entre agentes) foi atingido após cerca de 20 buscas minhas. Por isso foram produzidos 12 arquivos detalhados (eua_01 a eua_12) na rodada 1. Na rodada 2 (31/10/2026, 22 buscas, sem WebFetch) foram adicionados eua_13 a eua_20, e as empresas correspondentes saíram da Tabela B. As demais empresas aparecem abaixo SEM números, marcadas como "não verificado nesta rodada"; os nomes e descrições vêm de conhecimento prévio e precisam de checagem antes de uso. Nenhuma rodada ou ARR foi preenchida sem fonte.
+- Próximo passo recomendado: liberar os domínios de notícias na configuração de rede e rodar nova sessão para completar as empresas pendentes (lista sugerida no fim).
 
 ## Tabela A: empresas com dados verificados nesta rodada
 | # | Empresa | Setor | Problema | Investimento recente (DADO) | Fonte |
@@ -55,30 +55,17 @@ Contexto de mercado verificado: TechCrunch listou 55 startups americanas de IA q
 ## Tabela B: lista ampliada (NÃO verificado nesta rodada; sem números de propósito)
 | # | Empresa | Setor | Problema que resolve |
 |---|---|---|---|
-| 16 | Sierra | Agentes de atendimento | Agentes de IA para SAC de grandes marcas |
-| 17 | Decagon | Agentes de atendimento | Automação de suporte ao cliente |
-| 18 | Avoca | Voz para home services | Atende ligações e agenda serviços para prestadores |
-| 19 | Salient | Cobrança | Agentes de voz para cobrança em crédito automotivo |
-| 20 | Toast | Vertical SaaS restaurantes | PDV, pagamentos e gestão (listada) |
-| 21 | Flexport | Logística | Agenciamento de carga digital |
-| 22 | Vanta | Compliance | Automação de SOC 2, ISO 27001 |
-| 23 | Delve | Compliance | Compliance com agentes de IA (YC) |
-| 24 | Pilot | Contabilidade PME | Bookkeeping e impostos para startups |
-| 25 | Gusto | Folha PME | Folha e benefícios para pequenas empresas |
-| 26 | Brex | Fintech | Cartão e despesas corporativas |
-| 27 | Clio | Legal tech | Gestão de escritórios de advocacia pequenos |
-| 28 | Eudia | Legal tech | IA para jurídico corporativo |
-| 29 | Crosby | Legal (services as software) | Escritório de advocacia AI-native para contratos |
-| 30 | Ambience Healthcare | Healthtech | Scribe e codificação clínica |
-| 31 | Commure | Healthtech RCM | Ciclo de receita e scribe para hospitais |
-| 32 | Tennr | Healthtech operacional | Processamento de encaminhamentos e fax médico |
-| 33 | Hippocratic AI | Healthtech | Agentes de voz para tarefas não diagnósticas de saúde |
-| 34 | Infinitus | Healthtech | Ligações automatizadas a seguradoras |
-| 35 | Jobber | Home services | Software para prestadores pequenos |
-| 36 | Housecall Pro | Home services | Software para prestadores pequenos |
-| 37 | Shopmonkey | Oficinas mecânicas | Gestão de oficinas |
-| 38 | Trunk Tools | Construção | IA para documentação de obras |
-| 39 | Long Lake | Roll-up com IA | Compra de administradoras de condomínios (HOA) |
+| 29 | Flexport | Logística | Agenciamento de carga digital |
+| 30 | Brex | Fintech | Cartão e despesas corporativas |
+| 31 | Clio | Legal tech | Gestão de escritórios de advocacia pequenos |
+| 32 | Eudia | Legal tech | IA para jurídico corporativo |
+| 33 | Ambience Healthcare | Healthtech | Scribe e codificação clínica |
+| 34 | Hippocratic AI | Healthtech | Agentes de voz para tarefas não diagnósticas de saúde |
+| 35 | Infinitus | Healthtech | Ligações automatizadas a seguradoras |
+| 36 | Jobber | Home services | Software para prestadores pequenos |
+| 37 | Housecall Pro | Home services | Software para prestadores pequenos |
+| 38 | Shopmonkey | Oficinas mecânicas | Gestão de oficinas |
+| 39 | Trunk Tools | Construção | IA para documentação de obras |
 | 40 | Metropolis | Estacionamentos | Estacionamento com visão computacional e roll-up |
 | 41 | Rillet | ERP/contabilidade | ERP contábil AI-native |
 | 42 | Campfire | ERP/contabilidade | ERP com IA para mid-market |
@@ -110,5 +97,5 @@ Contexto de mercado verificado: TechCrunch listou 55 startups americanas de IA q
 - DADO: Owner.com captou a US$ 2,3 bilhões e expandiu de restaurantes para negócios locais ([Owner](https://www.owner.com/d)); ServiceTitan cresce 21% a 25% ao ano já com quase US$ 1 bilhão de receita ([SEC](https://www.sec.gov/Archives/edgar/data/0001638826/000163882626000093/ttan-ex99_1.htm)).
 - ANÁLISE: o padrão é "IA faz o trabalho de marketing/atendimento que o dono de PME não sabe fazer", com cobrança por assinatura e fintech embutida.
 
-## Lista sugerida para completar (arquivos 13 a 25, próxima sessão)
-Avoca ou Slang.ai (voz para PMEs), Salient (cobrança), Sierra/Decagon (atendimento), Vanta/Delve (compliance), Flexport (logística), Toast (restaurantes), Tennr e Commure (saúde operacional), Crosby (escritório de advocacia AI-native), Long Lake (roll-up de administradoras de condomínio), Corgi/Federato (seguros), Trunk Tools (construção), Pilot e Gusto (PME).
+## Lista sugerida para completar (próxima sessão)
+Já feitos na rodada 2: eua_13 (Avoca), eua_14 (Sierra/Decagon), eua_15 (Vanta/Delve), eua_16 (Toast), eua_17 (Tennr/Commure), eua_18 (Crosby/Long Lake), eua_19 (Gusto/Pilot), eua_20 (Salient). Pendentes: Slang.ai (voz para restaurantes), Flexport (logística), Corgi/Federato (seguros), Trunk Tools (construção), Hippocratic AI e Infinitus (voz em saúde). Correção: o foco da Long Lake em administradoras de condomínio (HOA) não foi confirmado; o exemplo confirmado de administradora de HOA AI-native é a Assembly HOA (YC).
