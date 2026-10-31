@@ -8,3 +8,4 @@
 - Educação/gov/outros: 44,45,46 completos; 49 parcial; 47,48,50,51,52 sem dados.
 - Fin/prof: 18-21 completos; 22,23,24,25 dados parciais (CFC/Fenacon, OAB/CNJ, CAGED, Sebrae MPEs, BPO, split payment).
 - Emergentes: em_01-15 ok; fracasso_05 a 09 escritos de memória SEM fonte (verificar ou remover).
+- Agro: 01,05 completos; 03 parcial; 02,04,06,07,08 provisórios.
