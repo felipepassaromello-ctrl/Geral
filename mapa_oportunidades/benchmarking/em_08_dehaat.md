@@ -24,7 +24,7 @@ Rodadas e avaliação recentes: não encontrei fonte confiável nesta sessão.
 **ANÁLISE:** depois de anos queimando caixa, a DeHaat está perto do equilíbrio graças a marca própria e foco em margem. Mostra que agro para pequeno produtor só fecha a conta quando a plataforma controla produto com margem (insumo próprio), não só intermediação.
 
 ## Existe no Brasil? Quem faz, força, por que não replicou
-**ANÁLISE (sem dado verificado nesta sessão):** o agro brasileiro é muito diferente: dominado por médios e grandes produtores, atendidos por revendas (cerealistas, distribuidoras como Lavoro e AgroGalaxy, esta em recuperação judicial) e cooperativas. O "barter" (troca de insumo por safra) já é a forma tradicional de crédito. O espaço para algo tipo DeHaat é a agricultura familiar (Pronaf), hortifrúti e pequenos produtores do Nordeste/Sul, onde cooperativas e assistência técnica (Emater) já atuam de forma fragmentada.
+**ANÁLISE (sem dado verificado nesta sessão):** o agro brasileiro é muito diferente: dominado por médios e grandes produtores, atendidos por revendas (cerealistas, distribuidoras como Lavoro e AgroGalaxy, esta em recuperação judicial desde 2024, fato não verificado nesta sessão) e cooperativas. O "barter" (troca de insumo por safra) já é a forma tradicional de crédito. O espaço para algo tipo DeHaat é a agricultura familiar (Pronaf), hortifrúti e pequenos produtores do Nordeste/Sul, onde cooperativas e assistência técnica (Emater) já atuam de forma fragmentada.
 
 ## Viabilidade de tropicalizar (1 a 5)
 | Dimensão | Nota | Justificativa |

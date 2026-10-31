@@ -20,7 +20,7 @@
 - Não encontrei fonte confiável nesta rodada. **ANÁLISE**: autoconstrução tem maior peso em periferias metropolitanas e Nordeste; varejo de bairro é forte em todo o interior.
 
 ## Principais empresas e grau de concentração
-- Não verificado. **ANÁLISE**: Leroy Merlin, Telhanorte (vendida/reestruturada, a confirmar), C&C, Obramax, Quero-Quero, Casa Show e redes regionais; indústria concentrada em cimento, aço, tintas e louças. Varejo de bairro muito fragmentado.
+- Não verificado. **ANÁLISE**: Leroy Merlin, Telhanorte, C&C, Obramax, Quero-Quero, Casa Show e redes regionais; indústria concentrada em cimento, aço, tintas e louças. Varejo de bairro muito fragmentado.
 
 ## Margens típicas
 - Não encontrei fonte confiável nesta rodada.
