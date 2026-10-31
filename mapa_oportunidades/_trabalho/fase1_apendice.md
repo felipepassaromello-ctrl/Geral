@@ -115,7 +115,7 @@ Arquivo: [setores/10_saude_clinicas_consultorios.md](setores/10_saude_clinicas_c
 
 | Critério | Nota | Justificativa |
 |---|---|---|
-| Crescimento 5 anos | 4 | Médicos crescem ~10% ao ano (575 mil para 636 mil em 1 ano; 1,15 mi em 2035) e clínicas populares expandem. |
+| Crescimento 5 anos | 4 | Médicos crescem ~10% ao ano no curto prazo (575 mil para 636 mil em 1 ano) e ~6% ao ano até 2035 (1,15 mi, cálculo do revisor) e clínicas populares expandem. |
 | Margem típica | 3 | Sem dado confiável; consultórios têm margem boa, clínicas de convênio apertada. |
 | Concorrência e concentração | 3 | Software concentrado em Docplanner e Afya; clínicas e serviços terceirizados muito fragmentados. |
 | Capital para entrar | 5 | Automação de WhatsApp ou BPO de faturamento começa com menos de R$ 50 mil. |
@@ -157,7 +157,7 @@ Arquivo: [setores/14_saude_farmacias.md](setores/14_saude_farmacias.md)
 
 | Critério | Nota | Justificativa |
 |---|---|---|
-| Crescimento 5 anos | 4 | Varejo +10,88% e redes +14,9% em 2025; GLP-1 e envelhecimento sustentam crescimento real acima de 5%. |
+| Crescimento 5 anos | 4 | Varejo +10,88% (MAT out/2025) e redes +14,9% em 2025; GLP-1 e envelhecimento sustentam crescimento real acima de 5%. |
 | Margem típica | 2 | EBITDA de 6,5% (Pague Menos) a 8% (RD Saúde); independentes com lucro em queda. |
 | Concorrência e concentração | 3 | Redes concentram ~48%, mas há ~49 mil independentes e milhares de lojas associativas como clientes fragmentados. |
 | Capital para entrar | 4 | Serviço fiscal, kit de conformidade ou software leve começa com menos de R$ 100 mil. |

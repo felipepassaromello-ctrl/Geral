@@ -24,7 +24,7 @@
 1. As melhores dores **vendem resultado**: economia auditada, caixa previsto, dinheiro cobrado, obrigação cumprida. Ferramenta pura ficou no fim do ranking, como orçamento digital de oficina, diário de cuidado e gestão de tarefas do escritório.
 2. O **canal concentrador** é decisivo. Um síndico profissional traz de 10 a 20 prédios, um contador traz dezenas de PMEs e um RH traz centenas de funcionários. Isso reduz o CAC, que é o maior problema de vender a pequenos.
 3. A **defesa vem de operação com responsabilidade e de dados acumulados**: histórico técnico do prédio, base de faturas por distribuidora, benchmark de custos, preços de manutenção por modelo, histórico de pagamento de devedores. O software em si é copiável em semanas em todas as 10.
-4. Quatro das 10 dores (D3, D4, D9 e D10) usam **o contador como canal**. Isso permite testar mais de uma hipótese com a mesma rede de parceiros.
+4. Quatro das 10 dores giram em torno do contador: em D3, D4 e D10 ele é o **canal de venda**, e em D9 é o próprio cliente. Isso permite testar mais de uma hipótese com a mesma rede de parceiros.
 
 ## 4. Fichas completas por subsetor
 As seções abaixo reproduzem os arquivos de trabalho de cada subsetor, com as fichas de todas as 93 dores, lacunas e fontes.

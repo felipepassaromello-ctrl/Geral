@@ -95,7 +95,7 @@ Data: 31/10/2026 | 52 subsetores avaliados | Detalhes, dados e fontes de cada um
 | Varejo e consumo | 3,31 | 9 |
 | Educação | 3,29 | 3 |
 | Agro | 3,29 | 8 |
-| Logística | 3,12 | 2 |
+| Logística | 3,13 | 2 |
 | Serviços financeiros | 2,94 | 4 |
 
 ## 4. Leitura do ranking (ANÁLISE)
@@ -129,14 +129,15 @@ Filtro aplicado (ANÁLISE): nota de capital igual ou maior que 4, nota de juros 
 | Clínicas e consultórios | 3,75 | Faltas e reativação de pacientes, faturamento de convênio |
 | Fitness e bem-estar | 3,75 | NR-1 psicossocial e retenção de alunos |
 | Serviços domésticos e autônomos | 3,75 | Manutenção residencial vertical e B2B2C |
+| Agro: rastreabilidade, EUDR e carbono | 3,63 | Dossiê EUDR para cooperativas e identificação de bovinos com data marcada (2027) |
 | Farmácias | 3,63 | Cadastro fiscal da reforma e serviços farmacêuticos via associações |
 | Seguros (corretores) | 3,63 | IA para renovação e cotação de 152 mil corretores |
 | Cobrança e recuperação | 3,63 | Contra-cíclico, cobrança B2B por nicho e por êxito |
-| Reciclagem e resíduos | 3,63 | Conformidade com metas de conteúdo reciclado |
 | Beleza e estética | 3,50 | Conformidade de clínicas e reativação |
 | Saúde digital | 3,50 | Adequação à Resolução CFM 2.454/2026 sobre IA |
 | Telecom (provedores regionais) | 3,50 | Cobrança e preparação para venda de ISPs |
-| Govtech | 3,50 | Assessoria para PMEs que vendem ao governo (não vender para prefeitura) |
+
+Ficaram de fora por exigir mais capital para entrar (nota 3), apesar da média alta: reciclagem e resíduos (3,63) e govtech (3,50).
 
 ## 6. Os 8 subsetores escolhidos para a Fase 2
 
@@ -262,7 +263,7 @@ Arquivo: [setores/10_saude_clinicas_consultorios.md](setores/10_saude_clinicas_c
 
 | Critério | Nota | Justificativa |
 |---|---|---|
-| Crescimento 5 anos | 4 | Médicos crescem ~10% ao ano (575 mil para 636 mil em 1 ano; 1,15 mi em 2035) e clínicas populares expandem. |
+| Crescimento 5 anos | 4 | Médicos crescem ~10% ao ano no curto prazo (575 mil para 636 mil em 1 ano) e ~6% ao ano até 2035 (1,15 mi, cálculo do revisor) e clínicas populares expandem. |
 | Margem típica | 3 | Sem dado confiável; consultórios têm margem boa, clínicas de convênio apertada. |
 | Concorrência e concentração | 3 | Software concentrado em Docplanner e Afya; clínicas e serviços terceirizados muito fragmentados. |
 | Capital para entrar | 5 | Automação de WhatsApp ou BPO de faturamento começa com menos de R$ 50 mil. |
@@ -304,7 +305,7 @@ Arquivo: [setores/14_saude_farmacias.md](setores/14_saude_farmacias.md)
 
 | Critério | Nota | Justificativa |
 |---|---|---|
-| Crescimento 5 anos | 4 | Varejo +10,88% e redes +14,9% em 2025; GLP-1 e envelhecimento sustentam crescimento real acima de 5%. |
+| Crescimento 5 anos | 4 | Varejo +10,88% (MAT out/2025) e redes +14,9% em 2025; GLP-1 e envelhecimento sustentam crescimento real acima de 5%. |
 | Margem típica | 2 | EBITDA de 6,5% (Pague Menos) a 8% (RD Saúde); independentes com lucro em queda. |
 | Concorrência e concentração | 3 | Redes concentram ~48%, mas há ~49 mil independentes e milhares de lojas associativas como clientes fragmentados. |
 | Capital para entrar | 4 | Serviço fiscal, kit de conformidade ou software leve começa com menos de R$ 100 mil. |

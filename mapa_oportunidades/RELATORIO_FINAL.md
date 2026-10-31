@@ -1,6 +1,6 @@
 # Relatório final: mapa de oportunidades para empreender no Brasil
 
-Para: Felipe | Data: 31/10/2026 | Base: 52 arquivos de subsetor, 44 arquivos de benchmarking, 3 arquivos de capital e macro, Fases 1 a 3
+Para: Felipe | Data: 31/10/2026 | Base: 52 arquivos de subsetor, 44 casos de benchmarking e 3 sínteses, 3 arquivos de capital e macro, Fases 1 a 3
 
 **Como ler.** Os blocos marcados com **DADO** trazem fonte com link e data. Os marcados com **ANÁLISE** são minha opinião ou estimativa, com a conta explícita quando houver número. Os detalhes estão nos arquivos indicados em cada seção. A lista completa de links está em [fontes.md](fontes.md).
 
@@ -12,13 +12,13 @@ Para: Felipe | Data: 31/10/2026 | Base: 52 arquivos de subsetor, 44 arquivos de 
 
 1. **O momento pune capital, estoque e consumo financiado, e premia quem vende eficiência, conformidade e recuperação de dinheiro para empresas.** Selic de 13,75%, crédito PJ a 24% ao ano, famílias endividadas no recorde, choque de mercado depois da eleição e reforma tributária em transição até 2033.
 2. **Os subsetores mais promissores para capital limitado** são serviços para PMEs (BPO financeiro e contabilidade), cuidado de idosos, educação corporativa (puxada pela NR-1), condomínios, automotivo pós-venda e energia (abertura do mercado livre). Em todos, o caminho é vender serviço ou software ao setor, não operar o negócio pesado.
-3. **As melhores dores vendem resultado** (economia auditada, caixa previsto, dinheiro cobrado, obrigação cumprida) e chegam ao cliente por um **canal concentrador**: o síndico profissional traz de 10 a 20 prédios, o contador traz dezenas de PMEs e o RH traz centenas de funcionários.
+3. **As melhores dores vendem resultado** (economia auditada, caixa previsto, dinheiro cobrado, obrigação cumprida) e chegam ao cliente por um **canal concentrador**: o síndico profissional traz de 5 a 30 prédios (em geral 10 a 20), o contador traz dezenas de PMEs e o RH traz centenas de funcionários.
 4. **Recomendações:**
    - Gestão técnica e de custos de prédios para síndicos profissionais em São Paulo.
    - Financeiro terceirizado com IA para PMEs, com caixa e cobrança por êxito, vendido por contadores.
    - Pacote de NR-1 psicossocial em white label para contadores e empresas de segurança do trabalho.
 
-   As três podem ser testadas em 4 semanas com menos de R$ 15 mil cada, em paralelo ao emprego, e as duas últimas usam a mesma rede de contadores.
+   As três podem ser testadas em 4 semanas com R$ 5 mil a R$ 20 mil cada (os testes da Fase 3 custam de R$ 1 mil a R$ 8 mil por frente), em paralelo ao emprego, e as duas últimas usam a mesma rede de contadores.
 5. **O que NÃO fazer:** crédito com balanço próprio, marketplace de estoque, delivery, quick commerce, cópia de fintech americana e "mais um app" sem serviço por trás. O padrão de fracasso no Brasil (Frubana, Kavak, Loft no iBuying, Daki, Facily, Grow) é exatamente esse.
 
 ---
@@ -40,7 +40,7 @@ Para: Felipe | Data: 31/10/2026 | Base: 52 arquivos de subsetor, 44 arquivos de 
 | Reforma tributária | 2026 é ano de teste (CBS 0,9%, IBS 0,1%); cobrança real a partir de 2027; split payment gradual; transição até 2033 | LC 214/2025; regulamentação abr/2026 | [Planalto](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm); [Agência Brasil](https://agenciabrasil.ebc.com.br/economia/noticia/2026-04/reforma-tributaria-governo-regulamenta-cobranca-da-cbs-e-do-ibs) |
 | Envelhecimento | 60+ de 15,6% (2023) para 37,8% (2070) da população | projeção IBGE [DADO ANTIGO, ago/2024, ainda vigente] | [IBGE](https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/41056-populacao-do-pais-vai-parar-de-crescer-em-2041) |
 | Empresas | Cerca de 24,2 milhões de empresas ativas (2º quadrimestre de 2025); MEIs foram 78% das aberturas de jan a abr/2026 | 2025 e 2026 | [setores/25](setores/25_prof_bpo_backoffice_pme.md); [Agência Sebrae](https://agenciasebrae.com.br/dados/meis-lideram-abertura-de-empresas-no-pais-e-ja-representam-78-dos-novos-negocios-em-2026/) |
-| Regional | Centro-Oeste teve a maior alta do PIB em 2023 (7,6%) e chegou a cerca de 10,6% do PIB; Sudeste perdeu participação | Contas Regionais 2023, divulgadas em nov/2025 | [IBGE](https://agenciadenoticias.ibge.gov.br/pt/agencia-noticias/45142-pib-cresce-em-todos-os-27-estados-do-pais-em-2023.html?lang=pt-BR) |
+| Regional | Centro-Oeste teve a maior alta do PIB em 2023 (7,6%) e chegou a cerca de 10,6% do PIB; Sudeste perdeu participação | Contas Regionais 2023, divulgadas em nov/2025 [DADO ANTIGO quanto ao ano-base] | [IBGE](https://agenciadenoticias.ibge.gov.br/pt/agencia-noticias/45142-pib-cresce-em-todos-os-27-estados-do-pais-em-2023.html?lang=pt-BR) |
 
 **Capital de risco e saídas (DADO, detalhes em [capital/vc_pe_brasil.md](capital/vc_pe_brasil.md) e [capital/compradores_e_saidas.md](capital/compradores_e_saidas.md))**
 - **VC no Brasil:**
@@ -48,7 +48,7 @@ Para: Felipe | Data: 31/10/2026 | Base: 52 arquivos de subsetor, 44 arquivos de 
   - 2025: US$ 4,5 bi, queda de 13% ([Bloomberg Línea](https://www.bloomberglinea.com.br/startups/rodadas-da-semana-captacao-de-startups-no-brasil-cai-13-para-us-45-bi-em-2025/)), ou R$ 13 bi, queda de 16%, pela Liga Ventures ([Diário do Comércio](https://diariodocomercio.com.br/negocios/startups-brasil-minas-investimentos-2025/)).
   - 1º trimestre de 2026: US$ 428,6 mi, queda de 36% ([KPMG via Monitor do Mercado](https://monitordomercado.com.br/noticias/397382-mercado-de-venture-capital-encolhe-36-no-brasil-com-investidores-mais-seletivos/)).
 - **Setores em 2025 (Liga Ventures):** fintech com 40% do capital, retailtech com 11,7% e healthtech com 9,7%.
-- **Private equity:** R$ 50,1 bi em 89 negócios em 2025, contra R$ 13,3 bi em 2024 ([ABVCAP/TTR](https://abvcap.com.br/wp-content/uploads/2026/02/report-abvcap-ttr-data-4q2025.pdf)).
+- **Private equity:** R$ 50,1 bi em 89 negócios em 2025, contra R$ 13,3 bi em 2024 ([ABVCAP/TTR](https://abvcap.com.br/wp-content/uploads/2026/02/report-abvcap-ttr-data-4q2025.pdf)). Ressalva: o número é atribuído à ABVCAP, mas a matéria de origem não foi identificada com certeza, e o salto de quase 4 vezes precisa ser reconferido.
 - **Aquisições relevantes:**
   - Itaú comprou 100% da NeoSpace por R$ 2,925 bi, pagos em parcelas por 5 anos e pendentes de CADE e BCB ([fato relevante de 26/10/2026](https://static.poder360.com.br/uploads/2026/10/fato-relevante-itau-neospace-26out2026-1.pdf)). O Itaú já tinha 15% desde jan/2025.
   - Totvs comprou a Linx por R$ 3,05 bi, concluída em fev/2026 ([Investidor10](https://investidor10.com.br/noticias/totvs-tots3-compra-linx-por-r-3-05-bilhoes-114292/)).
@@ -59,7 +59,7 @@ Para: Felipe | Data: 31/10/2026 | Base: 52 arquivos de subsetor, 44 arquivos de 
 1. **O cliente financia o negócio, não o banco nem o VC.** Com crédito PJ a 24% e o VC early stage em queda, o modelo precisa de pré-pagamento, assinatura, setup pago ou êxito sobre dinheiro recuperado.
 2. **B2B antes de B2C.** A pessoa física está no limite do endividamento, enquanto empresas pagam por eficiência e conformidade.
 3. **Prazos legais são o melhor vendedor.** Opção do Simples (cancelamento até 30/11/2026, nova janela até mar/2027), CBS em 2027, split payment em 2027 e 2028, NR-1 psicossocial desde 26/05/2026, mercado livre de energia para baixa tensão comercial em nov/2027 e residencial em nov/2028.
-4. **A saída mais provável é a venda para um consolidador de software ou serviço.** Totvs, Senior, Visma/Conta Azul, Omie, Constellation e grupos de energia pagam por receita recorrente e lucro em nicho. Casos como o da NeoSpace dependem de tecnologia profunda e não servem de referência para o seu perfil.
+4. **A saída mais provável é a venda para um consolidador de software ou serviço.** Totvs, Senior, Visma/Conta Azul, Omie, Constellation e grupos de energia pagam por receita recorrente e lucro em nicho. Em geral, a venda sai por poucos milhões de reais, com múltiplos modestos e exigência de lucro. Casos como o da NeoSpace dependem de tecnologia profunda e não servem de referência para o seu perfil.
 
 ---
 
@@ -89,7 +89,7 @@ Ranking completo dos 52 subsetores, com as 8 notas e as justificativas: [fase1_t
 | 51 | [Crédito para PMEs](setores/18_fin_credito_pme.md) | 2,38 | Exige capital regulatório e funding caro |
 | 52 | [Pagamentos](setores/19_fin_pagamentos.md) | 2,13 | Pix e grandes adquirentes; guerra de preço |
 
-**Média por grande setor:** serviços profissionais 3,60; energia, saneamento e telecom 3,50; saúde 3,49; construção e imobiliário 3,47; setor público, indústria e outros 3,40; varejo e consumo 3,31; educação 3,29; agro 3,29; logística 3,12; serviços financeiros 2,94.
+**Média por grande setor:** serviços profissionais 3,60; energia, saneamento e telecom 3,50; saúde 3,49; construção e imobiliário 3,47; setor público, indústria e outros 3,40; varejo e consumo 3,31; educação 3,29; agro 3,29; logística 3,13; serviços financeiros 2,94.
 
 ---
 
@@ -100,8 +100,8 @@ Origem: as 10 dores com maior nota na Fase 2 ([fase2_aprofundamento.md](fase2_ap
 ### 3.1 Gestão técnica da carteira do síndico profissional (nota 4,22)
 - **Dor:** o síndico profissional cuida de 5 a 30 prédios e controla por planilha e memória os prazos de AVCB, elevadores, para-raios, laudos e seguros. Se houver negligência, ele responde pessoalmente. Perder um prazo pode custar o contrato, que vale de R$ 3 mil a R$ 7 mil por mês ([fase 2, condomínios](fase2_aprofundamento.md)).
 - **Solução:** assinatura por prédio com calendário legal, histórico técnico do prédio, engenheiro parceiro com ART por demanda e fornecedores avaliados.
-- **Mercado (ANÁLISE):** cerca de 65 mil condomínios com síndico profissional a R$ 250 por mês dá cerca de R$ 195 mi por ano. Só na capital paulista, R$ 18,6 mi por ano. O universo vem do Censo uCondo, com 327 mil condomínios, e da Lello, com 31,1 mil na capital paulista ([setores/31](setores/31_imob_condominios_facilities.md)).
-- **Concorrência:** In Motion CONDOS, Éleme, CondomínioApp e módulos de Superlógica, uCondo e TownSq. Vendem ferramenta. Quase ninguém vende serviço com responsável técnico.
+- **Mercado (ANÁLISE, teto teórico):** 327 mil condomínios (Censo uCondo) × 20% com síndico profissional (proporção da ABRASSP aplicada a outra base) dá cerca de 65 mil. Se todos pagassem R$ 250 por mês, seriam R$ 195 mi por ano. Na capital paulista (31,1 mil condomínios segundo a Lello), 6,2 mil × R$ 250 × 12 dá R$ 18,6 mi por ano ([setores/31](setores/31_imob_condominios_facilities.md)).
+- **Concorrência:** In Motion CONDOS, Éleme, CondomínioApp e módulos de Superlógica, uCondo e TownSq. Vendem ferramenta. Não encontramos quem venda o serviço com responsável técnico (ANÁLISE).
 - **Defensabilidade:** média a alta. O histórico de manutenção de cada prédio é dado proprietário e serve de defesa do síndico num acidente, e há custo de troca.
 - **Capital:** R$ 10 mil a R$ 20 mil para testar; R$ 100 mil a R$ 200 mil para chegar a R$ 50 mil por mês.
 - **Canal:** venda direta a síndicos profissionais, via associações (ABRASSP, AABIC), grupos e conteúdo. CAC de R$ 1 mil a R$ 3 mil por síndico, ciclo de 2 a 6 semanas. Decide o síndico.
@@ -109,7 +109,7 @@ Origem: as 10 dores com maior nota na Fase 2 ([fase2_aprofundamento.md](fase2_ap
 - **Riscos:** o PL 4.739/2024 pode restringir quem atua como síndico profissional. As plataformas de condomínio podem lançar módulos parecidos. Exige gestão de fornecedores com responsabilidade.
 
 ### 3.2 Auditoria de custos do condomínio por êxito (nota 4,22)
-- **Dor:** a taxa condominial média subiu 24,9% em três anos, segundo o Censo uCondo ([setores/31](setores/31_imob_condominios_facilities.md)). Ninguém audita contratos de portaria, energia, limpeza e elevador.
+- **Dor:** a taxa condominial média subiu 24,9% em três anos, segundo o Censo uCondo ([setores/31](setores/31_imob_condominios_facilities.md)). Raramente há auditoria sistemática de contratos de portaria, energia, limpeza e elevador.
 - **Solução:** diagnóstico com IA sobre balancetes e contratos, renegociação e defesa da proposta em assembleia, cobrando 30% da economia de 12 meses mais um diagnóstico pago.
 - **Mercado (ANÁLISE):** se 2% dos 31,1 mil condomínios da capital paulista contratarem por ano, a cerca de R$ 10,8 mil por contrato, são cerca de R$ 6,7 mi por ano só na capital.
 - **Concorrência:** auditorias contábeis pontuais e consultores informais. Fornecedores de portaria remota e de energia fazem "estudo grátis" com viés. Não encontrei player nacional por êxito.
@@ -121,7 +121,7 @@ Origem: as 10 dores com maior nota na Fase 2 ([fase2_aprofundamento.md](fase2_ap
 
 ### 3.3 Caixa de 13 semanas para PMEs (nota 4,00)
 - **Dor:** 44% dos pequenos negócios cobrem o caixa da empresa com dinheiro pessoal, e os donos gastam 9 horas por semana com tarefas financeiras e burocráticas. O dado é da pesquisa Bridge Research para o Nu Empresas, de out/2026, encomendada por empresa interessada ([setores/25](setores/25_prof_bpo_backoffice_pme.md), [fase 2](fase2_aprofundamento.md)).
-- **Solução:** previsão de caixa de 13 semanas e relatório semanal pelo WhatsApp, operados por um analista com IA, por R$ 800 a R$ 1.500 por mês.
+- **Solução:** previsão de caixa de 13 semanas e relatório semanal pelo WhatsApp, operados por um analista com IA, por R$ 800 a R$ 1.500 por mês. No piloto da Fase 3 o preço é reduzido, de R$ 400 a R$ 600.
 - **Mercado (ANÁLISE):** 1 milhão de empresas-alvo, com 5% de adoção a R$ 900 por mês, dá cerca de R$ 540 mi por ano. A premissa de 1 milhão não foi confirmada por fonte.
 - **Concorrência:** BHub (8,5 mil clientes e ARR de R$ 168 mi em nov/2025), Kamino, Accordia, BPOs locais, e Omie e Conta Azul como ferramentas.
 - **Defensabilidade:** média. Vem da rotina instalada, do histórico de dados e da relação semanal. É frágil contra bancos que ofereçam o mesmo de graça.
@@ -133,7 +133,7 @@ Origem: as 10 dores com maior nota na Fase 2 ([fase2_aprofundamento.md](fase2_ap
 ### 3.4 NR-1 psicossocial para PMEs (nota 4,00)
 - **Dor:** desde 26/05/2026, o gerenciamento de riscos ocupacionais tem de incluir os riscos psicossociais, e já cabe autuação depois da fase de dupla visita ([setores/42](setores/42_fitness_bem_estar.md), [fase 2](fase2_aprofundamento.md)). Uma fonte única fala em suspensão de multas pelo STF entre jun e set/2026, sem confirmação; isso precisa ser checado.
 - **Solução:** questionário validado, diagnóstico gerado com IA e revisado por psicóloga, plano de ação e treinamento de líderes, revendido em white label por contadores e empresas de segurança do trabalho (SST). O preço sugerido vai de R$ 1.500 a R$ 3.000 por PME no ano, ou R$ 250 por mês.
-- **Mercado (ANÁLISE):** 300 mil PMEs de 10 a 99 empregados a R$ 3 mil por ano dariam cerca de R$ 900 mi por ano. A premissa precisa ser confirmada na RAIS.
+- **Mercado (ANÁLISE):** 300 mil PMEs de 10 a 99 empregados a R$ 3 mil por ano dariam cerca de R$ 900 mi por ano se todas contratassem (teto teórico). Com 5% de adoção, seriam cerca de R$ 45 mi por ano. A premissa de 300 mil precisa ser confirmada na RAIS.
 - **Concorrência:** Pluxee com Zenklub (R$ 7,99 por vida ao mês, a partir de 50 vidas), PASI, Lucis, Sólides, Totvs e milhares de empresas de SST.
 - **Defensabilidade:** média. Vem do canal em white label, da recorrência anual obrigatória e do benchmark de diagnósticos.
 - **Capital:** R$ 5 mil a R$ 15 mil.
@@ -143,7 +143,7 @@ Origem: as 10 dores com maior nota na Fase 2 ([fase2_aprofundamento.md](fase2_ap
 
 ### 3.5 Auditoria de fatura de energia por êxito (nota 3,90)
 - **Dor:** empresas multiunidade e do Grupo A pagam ultrapassagem de demanda, reativo e enquadramento errado sem ninguém olhar. Um hospital recuperou R$ 600 mil depois de contratar uma auditoria (TYR Energia, 2025). Detalhes em [setores/32](setores/32_energia_gd_mercado_livre.md) e na [fase 2](fase2_aprofundamento.md).
-- **Solução:** auditoria das faturas com IA e engenheiro parceiro, cobrando de 20% a 40% do recuperado, mais monitoramento mensal. A base de faturas vira lista pré-qualificada para a migração ao mercado livre quando a baixa tensão comercial abrir em nov/2027 (Lei 15.269/2025 e Decreto 13.097/2026).
+- **Solução:** auditoria das faturas com IA e engenheiro parceiro, cobrando de 20% a 30% do recuperado (a Fase 2 cita de 20% a 40% como faixa usada em recuperação de créditos), mais monitoramento mensal. A base de faturas vira lista pré-qualificada para a migração ao mercado livre quando a baixa tensão comercial abrir em nov/2027 (Lei 15.269/2025 e Decreto 13.097/2026; as fontes divergem sobre o número da lei, que deve ser checado no Planalto).
 - **Mercado (ANÁLISE):** cerca de R$ 6 mi por ano em monitoramento, mais R$ 3,75 mi em recuperações só em SP, com premissas declaradas. O grande prêmio é a comissão de migração a partir de 2027.
 - **Concorrência:** TYR Energia, gestoras do mercado livre (Clarke, comprada pela Energisa; Esfera; Comerc) e consultorias regionais.
 - **Defensabilidade:** média. Vem da base histórica de faturas por distribuidora e da carteira recorrente.
@@ -153,10 +153,10 @@ Origem: as 10 dores com maior nota na Fase 2 ([fase2_aprofundamento.md](fase2_ap
 - **Riscos:** o ressarcimento pela distribuidora demora; grandes grupos de energia fazem o mesmo com a base deles; uma regulação de corretores de energia pode limitar comissões.
 
 ### 3.6 Coordenação de cuidado de idosos como benefício corporativo (nota 3,89)
-- **Dor:** funcionários de 40 a 60 anos que cuidam dos pais perdem produtividade e pedem demissão. Em 2022, 34,9% das mulheres e 23,3% dos homens cuidavam de pessoas no domicílio, incluindo crianças ([fase 2, idosos](fase2_aprofundamento.md)).
+- **Dor:** funcionários de 40 a 60 anos que cuidam dos pais perdem produtividade e pedem demissão. Em 2022, 34,9% das mulheres e 23,3% dos homens cuidavam de pessoas no domicílio, incluindo crianças [DADO ANTIGO] ([fase 2, idosos](fase2_aprofundamento.md)).
 - **Solução:** benefício de R$ 8 a R$ 20 por funcionário ao mês, ou cobrança por caso de R$ 1.500 a R$ 3.000. Gestoras de caso montam o plano de cuidado e indicam uma rede curada de cuidadores, ILPIs e serviços.
-- **Mercado (ANÁLISE):** cerca de R$ 360 mi por ano com premissas não verificadas.
-- **Concorrência:** nenhuma identificada no Brasil. Nos EUA há Wellthy (US$ 3 a 6 por funcionário ao mês), Homethrive, Cariloop e Grayce.
+- **Mercado (ANÁLISE, teto teórico):** R$ 360 mi por ano se 2 mil empresas com mais de 500 funcionários (premissa não verificada) contratassem para 1.500 funcionários cada, a R$ 10 por mês.
+- **Concorrência:** nenhuma encontrada no Brasil nas buscas desta pesquisa (pode haver iniciativas não divulgadas). Nos EUA há Wellthy (US$ 3 a 6 por funcionário ao mês), Homethrive, Cariloop e Grayce.
 - **Defensabilidade:** alta. Vem da rede local de prestadores, dos contratos com empresas e dos dados de casos.
 - **Capital:** R$ 15 mil a R$ 30 mil para testar e R$ 80 mil a R$ 150 mil até R$ 50 mil por mês.
 - **Canal:** corretoras e plataformas de benefícios (Pluxee, Flash, Caju, Wellhub como possíveis parceiros). Ciclo de 3 a 9 meses e CAC de R$ 10 mil a R$ 30 mil por empresa. Decide o diretor de RH.
@@ -166,7 +166,7 @@ Origem: as 10 dores com maior nota na Fase 2 ([fase2_aprofundamento.md](fase2_ap
 ### 3.7 Escritório contábil "AI-native" em nicho para PMEs de R$ 3 a 50 milhões (nota 3,89)
 - **Dor:** empresas médias pagam caro e recebem pouco, com fechamento atrasado e sem gestão. A reforma tributária aumenta a complexidade de 2027 a 2033 ([setores/22](setores/22_prof_contabilidade.md), [fase 2](fase2_aprofundamento.md)).
 - **Solução:** escritório num nicho (clínicas, agências, software ou distribuidores), com contador sócio e IA para baixar custo, cobrando cerca de R$ 2.500 por mês. Depois, compra de carteiras pequenas com earn-out.
-- **Mercado (ANÁLISE):** de 300 mil a 500 mil empresas na faixa (estimativa sem fonte), o que dá centenas de milhões por mês em honorários potenciais.
+- **Mercado (ANÁLISE, teto teórico):** de 300 mil a 500 mil empresas na faixa (estimativa sem fonte) × R$ 2.500 por mês dá de R$ 750 mi a R$ 1,25 bi por mês se todas contratassem. É um teto, não o mercado endereçável.
 - **Concorrência:** BOND (R$ 10 mi de pre-seed em abr/2026, mesmo posicionamento), BHub, Contabilizei, ROIT e milhares de escritórios locais.
 - **Defensabilidade:** média a alta. Vem da carteira recorrente com alto custo de troca e da responsabilidade técnica.
 - **Capital:** R$ 30 mil a R$ 60 mil para testar e R$ 80 mil a R$ 150 mil até o equilíbrio.
@@ -199,7 +199,7 @@ Origem: as 10 dores com maior nota na Fase 2 ([fase2_aprofundamento.md](fase2_ap
 ### 3.10 Cobrança B2B preventiva por êxito (nota 3,78)
 - **Dor:** 9,3 milhões de CNPJs estavam negativados em ago/2026, com R$ 244,4 bi em dívidas, segundo a Serasa ([setores/21](setores/21_fin_cobranca_recuperacao.md)). A PME que vende a prazo financia o cliente que atrasa.
 - **Solução:** régua de cobrança no WhatsApp com IA e negociação humana, cobrando de 10% a 20% do recuperado, num nicho como distribuidores, escolas, clínicas ou provedores de internet.
-- **Mercado (ANÁLISE):** cerca de R$ 50 mi por mês, com premissa de 1 milhão de PMEs.
+- **Mercado (ANÁLISE):** 1 milhão de PMEs (premissa sem fonte) × 5% de adoção × R$ 1.000 por mês dá cerca de R$ 50 mi por mês, ou R$ 600 mi por ano.
 - **Concorrência:** Asaas, bancos, Kamino e assessorias tradicionais. Para cobrança com IA: Monest, Neofin, Quero Quitar e Fidexa ([benchmarking/eua_20](benchmarking/eua_20_salient_cobranca_voz.md)).
 - **Defensabilidade:** média. Vem dos dados de pagamento por nicho e devedor, que depois viram ativo para crédito.
 - **Capital:** R$ 5 mil a R$ 15 mil.
@@ -240,7 +240,7 @@ Ranking completo de 15 em [benchmarking/RANKING_TROPICALIZACAO.md](benchmarking/
 | 2 | Recuperação de glosas com IA por êxito | Tennr, Commure/Athelas ([eua_17](benchmarking/eua_17_tennr_commure_saude.md)) | Dinheiro já perdido; regras de operadora que a IA genérica não conhece | Ciclo de venda hospitalar; exige especialista | 4,0 |
 | 3 | Cobrança com IA por êxito em nichos | Salient ([eua_20](benchmarking/eua_20_salient_cobranca_voz.md)) | Inadimplência recorde; WhatsApp é o canal natural | Vários players com capital; demanda cai com juros | 4,0 |
 | 4 | Escritório jurídico "AI-native" de preço fixo para PMEs | Crosby, Long Lake ([eua_18](benchmarking/eua_18_crosby_long_lake_servicos.md)) | 40,9 milhões de casos novos em 2025 (CNJ); advocacia pulverizada | Regras da OAB; só advogado pode ser sócio; Enter já é unicórnio no contencioso de massa | 3,9 |
-| 5 | Agente de IA no WhatsApp para imobiliárias e administradoras | EliseAI ([eua_12](benchmarking/eua_12_eliseai.md)) | Comportamento já no WhatsApp; encaixe muito alto | Defesa fraca; a Meta lançou IA no WhatsApp Business em 2026 | 3,8 |
+| 5 (empatado em 3,8 com peças jurídicas para contencioso de massa, item 5 do ranking completo) | Agente de IA no WhatsApp para imobiliárias e administradoras | EliseAI ([eua_12](benchmarking/eua_12_eliseai.md)) | Comportamento já no WhatsApp; encaixe muito alto | Defesa fraca; a Meta lançou IA no WhatsApp Business em 2026 | 3,8 |
 
 **Fracassos que ensinam** ([benchmarking/00_licoes_emergentes_e_fracassos.md](benchmarking/00_licoes_emergentes_e_fracassos.md)):
 - **Uber Eats:** saiu do delivery de restaurantes em mar/2022, com cerca de 10% do mercado contra cerca de 80% do iFood.
@@ -263,7 +263,7 @@ Critérios de escolha (ANÁLISE): nota da dor, resistência aos dois cenários d
 - **Expansão:** a partir de 2027, a mesma base de faturas de energia permite intermediar a migração das áreas comuns e dos condomínios comerciais para o mercado livre.
 - **Por quê:**
   - Tem a maior nota da Fase 2 (4,22 e 4,22) e resiste aos dois cenários de juros.
-  - O cliente é concentrador: um síndico traz de 10 a 20 prédios.
+  - O cliente é concentrador: um síndico traz de 5 a 30 prédios (em geral 10 a 20).
   - A defesa vem do histórico técnico de cada prédio e do benchmark de custos.
   - Encaixa no seu perfil financeiro e em São Paulo, que tem 31,1 mil condomínios só na capital.
 - **Principais riscos:**
@@ -281,7 +281,7 @@ Critérios de escolha (ANÁLISE): nota da dor, resistência aos dois cenários d
   - Teste em 2 a 4 semanas com R$ 10 mil a R$ 20 mil.
   - O contador como canal reduz o CAC.
   - Tem a saída mais clara do mapa, com consolidadores ativos: Visma/Conta Azul, Totvs, Omie, Senior e BHub.
-  - A cobrança protege no cenário de juros altos e o caixa, no de juros baixos.
+  - A cobrança protege no cenário de juros altos. Numa queda forte da Selic, o caixa perde força e a cobrança perde demanda, por isso esta é a recomendação mais exposta a esse cenário. A compensação é que juros baixos abrem espaço para oferecer crédito por parceiro à mesma base de clientes.
 - **Principais riscos:**
   - Guerra de preço e churn por mortalidade de PMEs.
   - Bancos e ERPs embutindo previsão de caixa de graça.
@@ -340,9 +340,9 @@ Princípio: cada semana termina com um número. Detalhes dos roteiros de entrevi
   - Objeções mais frequentes.
   - Pedidos espontâneos de continuidade.
 - **Critério de decisão (ANÁLISE):**
-  - **Seguir com força** se houver pelo menos 3 clientes pagantes e pelo menos 1 canal (síndico, contador ou SST) pedindo mais.
-  - **Ajustar o nicho** se houver interesse forte mas ninguém pagar.
-  - **Descartar** se menos de 3 de 10 entrevistados relatarem um episódio recente e custoso.
+  - **Seguir com força** se pelo menos 6 de 10 entrevistados relatarem um episódio recente e custoso, houver pelo menos 3 clientes pagantes e pelo menos 1 canal (síndico, contador ou SST) pedir mais.
+  - **Ajustar o nicho** se 3 a 5 de 10 relatarem a dor, ou se houver interesse forte mas ninguém pagar.
+  - **Descartar** se menos de 3 de 10 relatarem um episódio recente e custoso.
 - **Escolha final:** ficar com uma hipótese principal e, no máximo, uma secundária que use o mesmo canal (R2 e R3 combinam).
 - **Antes de escalar, montar o básico:**
   - CNPJ no regime tributário que gere crédito para clientes PJ.

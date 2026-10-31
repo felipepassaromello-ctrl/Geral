@@ -11,34 +11,34 @@
 5. Galpões estão com vacância baixa (cerca de 7,5% a 7,8% em SP no alto padrão), mas armazenagem é ativo pesado: interessa como cliente, não como negócio para o Felipe.
 
 ## Tamanho de mercado (DADO, com fonte e data)
-- **DADO**: e-commerce faturou R$ 204,3 bilhões em 2024 (+10,5%), com 414,9 milhões de pedidos e tíquete médio de R$ 492,40 (ABComm, jan/2025) [1](*).
-- **DADO**: projeção ABComm para 2025: R$ 234,9 bilhões e 435,6 milhões de pedidos (projeção, não realizado); 1º sem/2025 somou R$ 100,5 bilhões [2][3](*).
-- **DADO**: Confi Neotrust: R$ 282,6 bilhões e 934,5 milhões de pedidos nos três primeiros trimestres de 2025, +18% sobre 2024 (metodologia diferente da ABComm, números não comparáveis) [3](*).
-- **DADO**: Black Friday 2025 (dia): 8,69 milhões de pedidos (+28%) e R$ 4,76 bilhões (+11,2%) (Confi Neotrust) [4](*).
-- **DADO**: Correios: receita bruta de R$ 17,3 bilhões em 2025 (queda de 11,35% sobre 2024) [5][6](*).
+- **DADO**: e-commerce faturou R$ 204,3 bilhões em 2024 (+10,5%), com 414,9 milhões de pedidos e tíquete médio de R$ 492,40 (ABComm, jan/2025) [1] (*).
+- **DADO**: projeção ABComm para 2025: R$ 234,9 bilhões e 435,6 milhões de pedidos (projeção, não realizado); 1º sem/2025 somou R$ 100,5 bilhões [2][3] (*).
+- **DADO**: Confi Neotrust: R$ 282,6 bilhões e 934,5 milhões de pedidos nos três primeiros trimestres de 2025, +18% sobre 2024 (metodologia diferente da ABComm, números não comparáveis) [3] (*).
+- **DADO**: Black Friday 2025 (dia): 8,69 milhões de pedidos (+28%) e R$ 4,76 bilhões (+11,2%) (Confi Neotrust) [4] (*).
+- **DADO**: Correios: receita bruta de R$ 17,3 bilhões em 2025 (queda de 11,35% sobre 2024) [5][6] (*).
 - Não encontrei fonte confiável para o tamanho total do mercado de last mile em reais.
 
 ## Crescimento histórico e projetado (DADO, com fonte e data)
-- **DADO**: Mercado Livre anunciou R$ 57 bilhões de investimento no Brasil em 2026, alta de 50% sobre os R$ 38 bilhões do ano anterior, com 14 novos CDs de fulfillment (total de 42) [7][8](*).
-- **DADO**: Mercado Livre estendeu entrega no mesmo dia aos domingos em todas as regiões (jun/2026); 76% das entregas em até 48 horas no 1º tri/2026 [8][9](*).
-- **DADO**: segundo a Loggi (Mapa da Logística), PMEs registraram 77% de crescimento no e-commerce em 2025; PMEs passaram a representar metade do faturamento da Loggi (Exame) [10][11](*).
-- **DADO**: trabalhadores por plataformas digitais: cerca de 1,7 milhão em 2024, ante 1,3 milhão em 2022 (+25,4%) (IBGE, PNAD Contínua, módulo experimental, divulgado out/2025); entregadores com jornada média de 46,4 horas semanais e renda média de R$ 2.340 [12][13](*). Em set/2026 o IBGE apontou cerca de 2 milhões em 2025, com aviso de que não é comparável ao total de anos anteriores [14](*).
+- **DADO**: Mercado Livre anunciou R$ 57 bilhões de investimento no Brasil em 2026, alta de 50% sobre os R$ 38 bilhões do ano anterior, com 14 novos CDs de fulfillment (total de 42) [7][8] (*).
+- **DADO**: Mercado Livre estendeu entrega no mesmo dia aos domingos em todas as regiões (jun/2026); 76% das entregas em até 48 horas no 1º tri/2026 [8][9] (*).
+- **DADO**: segundo a Loggi (Mapa da Logística), PMEs registraram 77% de crescimento no e-commerce em 2025; PMEs passaram a representar metade do faturamento da Loggi (Exame) [10][11] (*).
+- **DADO**: trabalhadores por plataformas digitais: cerca de 1,7 milhão em 2024, ante 1,3 milhão em 2022 (+25,4%) (IBGE, PNAD Contínua, módulo experimental, divulgado out/2025); entregadores com jornada média de 46,4 horas semanais e renda média de R$ 2.340 [12][13] (*). Em set/2026 o IBGE apontou cerca de 2 milhões em 2025, com aviso de que não é comparável ao total de anos anteriores [14] (*).
 
 ## Distribuição regional (onde a oportunidade está concentrada, com dado)
-- **DADO**: São Paulo concentra cerca de 17 milhões de m² de galpões logísticos (Newmark, 2025); absorção bruta de cerca de 1,43 milhão de m² em 2025, recorde [15](*).
-- **DADO** [DADO ANTIGO em parte: o endereço da fonte [16] indica relatório do 4T2024, então o ano pode ser 2024 e não 2025; não confirmado]: JLL registrou quase 3 milhões de m² de novo estoque no ano no país, cerca de metade em São Paulo, com vacância nacional de 7,7% [16](*).
-- **DADO**: vacância de galpões alto padrão em SP de 7,5% (SiiLA) a 7,8% (BTG) no fim de 2025; Rio de Janeiro com vacância elevada [15][17](*).
+- **DADO**: São Paulo concentra cerca de 17 milhões de m² de galpões logísticos (Newmark, 2025); absorção bruta de cerca de 1,43 milhão de m² em 2025, recorde [15] (*).
+- **DADO** [DADO ANTIGO em parte: o endereço da fonte [16] indica relatório do 4T2024, então o ano pode ser 2024 e não 2025; não confirmado]: JLL registrou quase 3 milhões de m² de novo estoque no ano no país, cerca de metade em São Paulo, com vacância nacional de 7,7% [16] (*).
+- **DADO**: vacância de galpões alto padrão em SP de 7,5% (SiiLA) a 7,8% (BTG) no fim de 2025; Rio de Janeiro com vacância elevada [15][17] (*).
 - **ANÁLISE**: a densidade de pedidos (e portanto de dores de última milha) está no eixo SP capital, Grande SP, Campinas, RJ, BH, Curitiba e Porto Alegre. Interior do Nordeste e Norte tem dor oposta: falta de cobertura e dependência dos Correios.
 
 ## Principais empresas e grau de concentração (DADO)
-- **DADO**: Correios: prejuízo líquido de R$ 8,5 bilhões em 2025 (+226,9% sobre 2024), patrimônio líquido de R$ 13,1 bilhões negativos; R$ 6,4 bilhões em precatórios; empréstimo de R$ 12 bilhões com garantia da União contratado em dez/2025; Plano de Reestruturação 2025-2027 e PDV [5][6][18](*).
-- **DADO**: Loggi: reportagem da Exame indica primeiro lucro em 13 anos (sem valor divulgado); capacidade de processamento de 1 milhão de pacotes por dia (Bloomberg Línea) [10][19](*).
-- **DADO**: Mercado Livre com 42 CDs planejados em 2026 e logística própria em expansão [7](*).
+- **DADO**: Correios: prejuízo líquido de R$ 8,5 bilhões em 2025 (+226,9% sobre 2024), patrimônio líquido de R$ 13,1 bilhões negativos; R$ 6,4 bilhões em precatórios; empréstimo de R$ 12 bilhões com garantia da União contratado em dez/2025; Plano de Reestruturação 2025-2027 e PDV [5][6][18] (*).
+- **DADO**: Loggi: reportagem da Exame indica primeiro lucro em 13 anos (sem valor divulgado); capacidade de processamento de 1 milhão de pacotes por dia (Bloomberg Línea) [10][19] (*).
+- **DADO**: Mercado Livre com 42 CDs planejados em 2026 e logística própria em expansão [7] (*).
 - **ANÁLISE**: grande volume concentrado em Mercado Envios, Amazon, Shopee (logística própria + parceiros), Correios, Loggi, Jadlog, Total Express. Cauda longa de transportadoras regionais e "flex" (motoboys e vans) muito fragmentada. Agregadores de frete para PMEs (Melhor Envio, Frenet, Kangu, Intelipost) ocupam a camada de software.
 
 ## Margens típicas
-- **DADO**: Correios com prejuízo e receita em queda (2025) [5](*).
-- **DADO**: Loggi reduziu perdas para menos de 0,3% da receita, economizando quase R$ 10 milhões por mês (Exame) [10](*).
+- **DADO**: Correios com prejuízo e receita em queda (2025) [5] (*).
+- **DADO**: Loggi reduziu perdas para menos de 0,3% da receita, economizando quase R$ 10 milhões por mês (Exame) [10] (*).
 - Margem média de operadores de last mile: não encontrei fonte confiável.
 - **ANÁLISE**: operação de entrega é margem baixa e intensiva em gente; software de gestão/roteirização e intermediação de frete têm margens melhores, mas competem com ferramentas embutidas nos marketplaces.
 
@@ -47,7 +47,7 @@
 - **ANÁLISE**: reforma tributária: frete intermunicipal/interestadual sai do ICMS para IBS/CBS; o crédito amplo tende a favorecer a terceirização logística formal (transportadora com nota) contra informal. Ver também arquivo 26 (CT-e com grupo IBS/CBS desde 2026).
 
 ## Tendências (IA, digitalização, demografia, ESG etc.)
-- **DADO**: Mercado Livre direciona parte do investimento para automação, IA e otimização de rotas [7](*).
+- **DADO**: Mercado Livre direciona parte do investimento para automação, IA e otimização de rotas [7] (*).
 - **ANÁLISE**: entrega no mesmo dia vira padrão nos grandes centros, pressionando PMEs a ter estoque perto do cliente (dark stores, micro-fulfillment). Logística reversa cresce com moda e marketplaces. IA aplicável em atendimento de rastreio (WhatsApp), roteirização, previsão de demanda e auditoria de frete.
 
 ## Riscos e motivos para NÃO entrar (ANÁLISE)

@@ -4,23 +4,425 @@ Lista gerada automaticamente a partir de todos os arquivos do projeto em 31/10/2
 
 **Aviso de método:** a rede desta sessão bloqueou a abertura de páginas (WebFetch) para quase todos os domínios. Os links abaixo foram coletados de resultados de busca cujo conteúdo trazia o número citado; as páginas não foram abertas na íntegra. Reconfira na fonte primária antes de usar em decisão de investimento.
 
-Total de links únicos: 1578. Domínios distintos: 492.
+Total de links únicos: 1864. Domínios distintos: 563.
 
-## fase1_triagem.md
+## RELATORIO_FINAL.md
 
 - https://www.poder360.com.br/poder-economia/copom-reduz-selic-para-1375-ao-ano/
 - https://www.moneytimes.com.br/economistas-cortam-inflacao-e-selic-em-novas-projecoes-veja-o-focus-desta-segunda-feira-26/
 - https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/45968-pib-cresce-2-3-em-2025-e-fecha-o-ano-em-r-12-7-trilhoes
 - https://borainvestir.b3.com.br/noticias/pib-do-brasil-cresce-05-no-segundo-trimestre-mostra-ibge/
+- https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48246-ipca-fica-em-0-82-em-setembro
 - https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/juros-para-familias-sobem-em-agosto-e-inadimplencia-chega-6
-- https://www.poder360.com.br/poder-economia/endividamento-das-familias-atinge-maxima-historica-diz-bc/
 - https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48411-30-10-noticia-2
 - https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/presidente-do-tse-anuncia-reeleicao-de-lula-e-faz-balanco-do-2o-turno-das-eleicoes-2026
 - https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-821-e-bolsa-cai-1388-apos-reeleicao-de-lula
+- https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/divida-publica-fica-em-829-do-pib-e-deficit-soma-r-55-bilhoes
 - https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm
 - https://agenciabrasil.ebc.com.br/economia/noticia/2026-04/reforma-tributaria-governo-regulamenta-cobranca-da-cbs-e-do-ibs
 - https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/41056-populacao-do-pais-vai-parar-de-crescer-em-2041
+- https://agenciasebrae.com.br/dados/meis-lideram-abertura-de-empresas-no-pais-e-ja-representam-78-dos-novos-negocios-em-2026/
 - https://agenciadenoticias.ibge.gov.br/pt/agencia-noticias/45142-pib-cresce-em-todos-os-27-estados-do-pais-em-2023.html?lang=pt-BR
+- https://gpg-pdf.chambers.com/view/998044102/44/
+- https://www.bloomberglinea.com.br/startups/rodadas-da-semana-captacao-de-startups-no-brasil-cai-13-para-us-45-bi-em-2025/
+- https://diariodocomercio.com.br/negocios/startups-brasil-minas-investimentos-2025/
+- https://monitordomercado.com.br/noticias/397382-mercado-de-venture-capital-encolhe-36-no-brasil-com-investidores-mais-seletivos/
+- https://abvcap.com.br/wp-content/uploads/2026/02/report-abvcap-ttr-data-4q2025.pdf
+- https://static.poder360.com.br/uploads/2026/10/fato-relevante-itau-neospace-26out2026-1.pdf
+- https://investidor10.com.br/noticias/totvs-tots3-compra-linx-por-r-3-05-bilhoes-114292/
+- https://finder.techleap.nl/news/feed/visma-acquires-contaazul-for-r-2-billion
+- https://www.lavca.org/?p=32363
+
+## fase1_triagem.md
+
+- https://www.poder360.com.br/poder-economia/endividamento-das-familias-atinge-maxima-historica-diz-bc/
+
+## fase2_aprofundamento.md
+
+- https://meutudo.com.br/blog/?p=190386
+- https://viva.com.br/saude-e-bem-estar/quanto-custa-o-servico-de-um-cuidador-de-idosos.html
+- https://cidesp.com.br/conteudo/tabela-de-preco-de-cuidador-de-idoso-2026-guia-completo
+- https://guiadoscursos.com/salario-cuidador-de-idosos-2026-quanto-ganha-domicilio-ilpi/
+- https://fenacon.org.br/noticias/em-cinco-anos-abertura-de-pequenos-negocios-de-servico-de-cuidadores-cresceu-74-no-brasil/
+- https://diariodocomercio.com.br/negocios/abertura-pequenos-negocios-servico-cuidadores-cresceu/
+- https://www.correiodamanha.com.br/nacional/2026/10/327019-mercado-de-cuidadores-cresce-74-no-brasil.html
+- https://www.nsctotal.com.br/?p=2618201
+- https://diariodocomercio.com.br/negocios/helpmy-conecta-familias-a-cuidadores/
+- https://www.abcdacomunicacao.com.br/sanii-premia-cuidadores-de-idosos/
+- https://doaj.org/article/4ffeb5ca28fb4779a56c4d96bf1541c5
+- https://www.abfexpo.com.br/media/abfexpo.com.br/PR-Acuidar-e-Dona-Help-b17d20433108a1db24ff36d9a15424c6.pdf
+- https://idec.org.br/print/24736
+- https://www.cronoshare.com.br/quanto-custa/casa-repouso
+- https://edisciplinas.usp.br/mod/resource/view.php?id=4193724
+- https://institutodelongevidade.org/longevidade-e-saude/escolher-uma-ilpi
+- https://timesbrasil.com.br/colunas/economia-prateada/casas-de-repouso-idosos-impasse-lapa/
+- https://scielosp.org/pdf/rpsp/2023.v47/e143/pt
+- https://bd.tjmg.jus.br/bitstreams/07c674c3-2780-441a-b62b-649583158c26/download
+- https://futurodasaude.com.br/operadoras-pessoas-idosas/
+- https://legismap.com.br/conteudos/artigos-e-noticias/idoso-bem-cuidado
+- https://medicinasa.com.br/?p=117637
+- https://saudepetrobras.com.br/data/files/0D/50/D8/A3/B56F4910228D1F49A9B8F9C2/ACI_TermoAdesao.pdf
+- https://wellhub.com/pt-br/blog/beneficios-e-programas-de-bem-estar/exemplos-de-beneficios-para-funcionarios
+- https://diariodepernambuco.com.br/dpmais/idosos-brasileiros-ganham-novo-beneficio-a-partir-de-abril/
+- https://impactalpha.com/wellthy-secures-25-5-million-to-provide-caregiving-support-as-an-employee-benefit/
+- https://thehustle.co/the-newest-addition-to-workplace-benefits-caregiving-support
+- https://www.mobihealthnews.com/news/homethrive-raises-20m-tech-enabled-caregiver-platform
+- https://cariloop.com/blog/offer-elder-care-benefits-to-your-employees
+- https://franquias.portaldofranchising.com.br/franquia-home-angels-saude/
+- https://exame.com/pme/8-franquias-que-tem-investimento-de-ate-r-50-mil/
+- https://www.opovo.com.br/noticias/economia/2023/07/21/conheca-7-franquias-para-investir-no-ceara-a-partir-de-rs-40-mil.html
+- https://www.mobiletime.com.br/noticias/20/12/2013/empresa-cria-servico-de-assistencia-emergencial-para-idosos-pela-rede-celular/
+- https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cssf/apresentacoes-em-eventos/eventos-2015/Marilia.pdf
+- https://medicinasa.com.br/?p=27446
+- https://www.capterra.com.br/software/96648/alis
+- https://jornalcontabil.com.br/noticia/esocial-domestico-tudo-o-que-o-empregador-precisa-saber/
+- https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais/perguntas-e-respostas-domestico.pdf
+- https://www.asaas.com/c/7hkdq8pl0f9wjopc
+- https://diamantina.cedeplar.ufmg.br/portal/download/diamantina-2024/D20_222.pdf
+- https://cadernosdeto.ufscar.br/index.php/cadernos/article/download/3154/3655/19082
+- https://mercadoeconsumo.com.br/26/02/2026/artigos/retencao-nao-e-sorte-e-sistema/amp/
+- https://www.pluxee.com.br/pluxee-saude-mental-nr-1/
+- https://static.poder360.com.br/2025/10/mapa-de-empresas-boletim-2o-quadrimestre-2025.pdf
+- https://fecomerciomg.org.br/wp-content/uploads/2026/07/Estudo-sobre-o-MEI-2026.pdf
+- https://datasebrae.com.br/wp-content/uploads/2026/01/13012026_resumo_executivo_aberturas_pn_anual.pdf
+- https://www.serasaexperian.com.br/sala-de-imprensa/indicadores/novo-recorde-inadimplencia-das-empresas-chegou-a-93-milhoes-em-agosto-revela-serasa-experian/
+- https://www.omie.com.br/blog/inadimplencia-empresarial-recorde
+- https://mercadoeconsumo.com.br/15/10/2026/economia/tarefas-financeiras-tomam-9h-semanais-de-empreendedores-uso-de-ia-na-gestao-e-baixo/
+- https://movimentoeconomico.com.br/economia/negocios/2026/10/14/burocracia-custa-nove-horas-semanais-aos-pequenos-negocios-brasileiros/
+- https://www.seudinheiro.com/2026/seu-negocio/pesquisa-do-nubank-mostra-que-ha-um-fator-que-engole-tres-meses-de-trabalho-por-ano-de-quem-e-empreendedor-entenda-giov/
+- https://contadores.cnt.br/projetos/35/noticias/empresariais/2025/01/31/pmes-perdem-dois-dias-por-semana-com-gestao-de-despesas-revela-pesquisa.html
+- https://startups.com.br/coluna/o-que-voce-faria-se-ganhasse-1-dia-a-mais-na-semana/
+- https://www.santander.com.br/blog/entenda-bpo-financeiro
+- https://mercadoeconsumo.com.br/13/11/2022/economia/clientes-inadimplentes-sao-realidade-para-34-dos-pequenos-negocios/
+- https://agenciasebrae.com.br/economia-e-politica/inadimplencia-impacta-um-em-cada-quatro-pequenos-negocios-no-brasil/
+- https://opovo.com.br/trends/empresa-fakes-aplicam-golpes-do-falso-boleto-no-brasil-como-fugir/
+- https://guiadoinvestidor.com.br/?p=258472
+- https://contaazul.com/blog/golpes-com-boletos-falsos/
+- https://finsidersbrasil.com.br/tecnologia-para-fintechs/kamino-lanca-plano-gratuito-para-crescer-com-pmes
+- https://www.letsmoney.com.br/podcasts/kamino-quer-ser-o-cerebro-financeiro-das-medias-empresas/
+- https://www.b2bstack.com.br/compare/conciliadora-vs-kamino
+- https://startups.com.br/conteudo-patrocinado/conteudo-conta-simples/como-a-conta-simples-elimina-a-dor-da-conciliacao-bancaria-em-empresas-e-startups/
+- https://centraldovarejo.com.br/accordia-capta-r-1-milhao-e-leva-cfo-as-a-service-as-pmes/
+- https://braziljournal.com/u4oh
+- https://startups.com.br/negocios/rodada-de-investimento/bhub-capta-us-10m-para-levar-ia-ao-mercado-de-contabilidade/
+- https://startups.com.br/negocios/bhub-capta-r-74m-com-ifc-e-passa-dos-r-250m-em-aportes/
+- https://startups.com.br/negocios/fintech/playbpo-recebe-aporte-da-bossa-invest-com-solucao-de-gestao-financeira/
+- https://www.baguete.com.br/noticias/playbpo-recebe-aporte-da-anjos-do-brasil-e-conta-azul
+- https://www.bloomberglinea.com.br/startups/na-luta-contra-o-excel-omie-dobra-a-aposta-em-contadores-e-mira-us-1-bi-em-2030/
+- https://www.omie.com.br/parceria-contador/
+- https://braziljournal.com/visma-compra-a-contaazul-por-quase-r-2-bilhoes/
+- https://documentacao.senior.com.br/exigenciaslegais/noticias/federal/2026/2026-09-03-reforma-tributaria-split-payment-obrigatoriedade-fica-para-2028-confirma-receita-federal
+- https://www.grupofiscoplan.com.br/?p=5651
+- https://barbieriadvogados.com/split-payment/
+- https://www.dgabc.com.br/Noticia/4352001/debate-do-split-payment-traz-a-tona-receio-do-comercio-com-reducao-do-capital-de-giro
+- https://planning.com.br/split-payment-fluxo-caixa/
+- https://brasil61.com/n/split-payment-pode-pressionar-fluxo-de-caixa-de-empresas-a-partir-de-2027-bras2616530
+- https://online.crcsp.org.br/portal/noticias/noticia.asp?c=11262
+- https://agenciasebrae.com.br/economia-e-politica/o-que-os-pequenos-negocios-precisam-saber-sobre-os-novos-impostos-na-nota-fiscal/
+- https://netcpa.com.br/colunas/as-penalidades-que-vao-pesar-no-bolso-de-quem-nao-destacar-ibs-e-cbs-em-2026/27282
+- https://www.reformatributaria.com/negocios/609-dos-empresarios-de-bares-e-restaurantes-nao-se-sentem-preparados-para-a-reforma-tributaria-aponta-pesquisa/
+- https://jornalcontabil.com.br/noticia/reforma-tributaria-75-dos-pequenos-empresarios-estao-preocupados-com-as-mudancas-e-adaptacao-ainda-e-lenta/amp/
+- https://www.dgabc.com.br/noticia/4332379/cronograma-do-bc-para-duplicatas-escriturais-preve-implementacao-escalonada-ate-junho-de-2028
+- https://fenacon.org.br/noticias/aprovacao-de-credito-para-pequenos-negocios-atinge-maior-nivel-desde-2022/
+- https://www.opovo.com.br/noticias/economia/2026/05/13/nubank-amplia-oferta-de-credito-a-pmes-com-antecipacao-de-recebiveis-e-linha-de-capital-de-giro.html
+- https://finsidersbrasil.com.br/?p=374774
+- https://www.letsmoney.com.br/noticias/serasa-cerc-antecipacao-recebiveis-descomplica-pme/
+- https://www.letsmoney.com.br/dados/of-consentimentos-ativos/
+- https://siliconangle.com/2024/12/30/employer-com-acquires-troubled-bookkeeping-startup-bench-ending-chaos-customers/
+- https://en.wikipedia.org/wiki/Bench_Accounting
+- https://buildmodehq.substack.com/p/bench-accounting-why-tech-enabled
+- https://getlatka.com/companies/pilot
+- https://agenciasebrae.com.br/economia-e-politica/tres-em-cada-10-mei-fecham-as-portas-em-ate-cinco-anos-de-atividade-no-brasil
+- https://www.ibge.gov.br/estatisticas/economicas/outras-estatisticas-economicas/22649-demografia-das-empresas-e-estatisticas-de-empreendedorismo.html
+- https://www.ticket.com.br/blog/pessoas-e-gestao/treinamento-corporativo/
+- https://bpmoney.com.br/?p=427838
+- https://diariodocomercio.com.br/opiniao/coluna/economia-do-proposito/tendencias-mercado-treinamento-desenvolvimento/
+- https://genyo.com.br/treinamentos-ineficientes-pesquisa/
+- https://www.diariodepernambuco.com.br/vida-urbana/2026/01/11706389-senai-abre-mais-de-duas-mil-vagas-em-cursos-gratuitos-a-distancia-no-grande-recife.html
+- https://www.correio24horas.com.br/minha-bahia/mais-de-mil-vagas-gratuitas-inscricoes-para-cursos-tecnicos-do-senai-terminam-nesta-quarta-7-0126
+- https://diariodocomercio.com.br/mix/senai-abre-2-mil-vagas-em-cursos-gratuitos-pela-internet-para-quem-tem-a-partir-de-16-anos-e-ensino-fundamental-completo/
+- https://mais.opovo.com.br/jornal/farol/2025/11/17/google-quer-treinar-1-milhao-de-brasileiros-em-ia-ate-o-fim-de-2026.html
+- https://www.meioemensagem.com.br/marketing/google-quer-treinar-pmes-para-o-uso-de-ia
+- https://canaltech.com.br/mercado/google-promove-treinamento-em-ia-para-pmes-em-todas-as-capitais-do-brasil/
+- https://www.itau.com.br/media/dam/m/2180df5a5d733f68/original/09-06-2026-itau-empresas-e-google-unem-capacitacao-e-tecnologia-para-acelerar-uso-de-ia-entre-as-pmes.pdf
+- https://timesbrasil.com.br/empresas-e-negocios/microsoft-acelera-ofensiva-em-ia-no-brasil-treina-milhoes-e-aposta-em-agentes-para-transformar-empresas/
+- https://forbes.com.br/carreira/2025/01/microsoft-oferece-75-mil-bolsas-gratuitas-para-aprender-inteligencia-artificial/
+- https://abes.org.br/?p=109776
+- https://www.tre-sp.jus.br/transparencia-e-prestacao-de-contas/licitacoes/estudos-tecnicos-preliminares-gerais-e-stic/estudos-tecnicos-preliminares-cursos-2026/etp-ilf-005-2026
+- https://findskill.ai/pt/courses/ia-pequenas-empresas/
+- https://www.acinh.com.br/curso/presencial-inteligencia-artificial-ia-para-negocios-2
+- https://bpmoney.com.br/ocasional/audens-edu-lanca-curso-de-ia-para-empresarios/
+- https://www.itau.com.br/relacoes-com-investidores/noticias/itau-empresas-e-google-unem-capacitacao-e-tecnologia-para-acelerar-uso-de-ia-entre-as-pmes/?lang=en
+- https://agenciasus.org.br/shared-files/41083/
+- https://engehall.com.br/curso-nr-10-e-nr-35/
+- https://engehall.com.br/curso-nr-35-valor/
+- https://engehall.com.br/curso-nr-35-guia-de-contratacao/
+- https://www.assessoritec.com.br/nr-35-trabalho-em-altura-formacao-ou-atualizacao
+- https://cqcs.com.br/noticia/pasi-lanca-nova-solucao-e-reforca-atuacao-em-saude-corporativa/
+- https://www.portaltela.com/economia/2026/05/22/pasi-lanca-nr-1-com-apoio-a-casos-de-burnout/
+- https://nossomeio.com.br/cearenses-criam-plataforma-para-mapear-riscos-a-saude-mental-no-trabalho/
+- https://www.sescpe.org.br/wp-content/uploads/2026/04/PGE_050_2026_ANEXOI.pdf
+- https://clickcompliance.com/en/demonstracao-treinamentos-nr1
+- https://bit4learn.com/pt/?p=1416
+- https://resources.rework.com/pt/tools/lms-training/best-lms-software-2026
+- https://forbes.com.br/forbes-tech/2026/02/controladora-do-ifood-investe-r-85-milhoes-em-startup-que-usa-agentes-de-ia-na-educacao/
+- https://www.baguete.com.br/noticias/premia-capta-r-5-mi-em-primeiro-aporte
+- https://startups.com.br/noticias/startse-mira-aquisicoes-e-expansao-internacional-com-aporte-de-r-75-mi
+- https://itforum.com.br/?p=9627749
+- https://www.poder360.com.br/poder-empreendedor/brasil-lidera-mercado-de-edtechs-na-america-latina-com-expansao-da-ia-no-setor/
+- https://datasebrae.com.br/wp-content/uploads/2025/07/SP-RESUMO.pdf
+- https://datasebrae.com.br/wp-content/uploads/2025/07/PE-RESUMO.pdf
+- https://www.barbieriadvogados.com/?p=12849
+- https://www.migalhas.com.br/depeso/448193/contagem-regressiva-para-a-fiscalizacao-das-novas-exigencias-da-nr-1
+- https://www.migalhas.com.br/depeso/451671/nr-1-e-sua-vigencia-objetivos-fiscalizacoes-e-multas
+- https://www.cora.com.br/blog/nr1-saude-mental/
+- https://mercadoeconsumo.com.br/22/07/2026/artigos/por-que-falar-de-nr-1-para-o-varejo/?noamp=mobile
+- https://meutudo.com.br/blog/noticias/2026/09/23/nr-1-atualizada-volta-a-multar-empresas-que-violarem-regras-de-saude-mental-nesta-quarta/
+- https://findes.com.br/wp-content/uploads/2026/03/Informe-Estrategico-%E2%80%93-MTE-lanca-Manual-de-Interpretacao-e-Aplicacao-do-Capitulo-1.5-da-NR-1.pdf
+- https://amdjus.com.br/nr-1-inicio-da-vigencia-adia-aplicacao-de-multas-por-90-dias/
+- https://tribunadejundiai.com.br/economia/rotatividade-mao-de-obra-varejo-jundiai-2025/
+- https://mercadoeconsumo.com.br/03/04/2025/destaque-do-dia/como-reduzir-a-alta-rotatividade-no-setor-supermercadista-e-qualificar-a-mao-de-obra/
+- https://consumidormoderno.com.br/rotatividade-de-funcionarios-no-varejo-atinge-quase-40/
+- https://www.em.com.br/gerais/2026/07/7467827-com-o-pais-envelhecendo-quem-cuidara-dos-nossos-idosos-e-de-nos-mesmos.html
+- https://reformatributaria360.com.br/noticias/reforma-tributaria-o-que-muda-para-o-produtor-rural-com-a-cbs-e-o-ibs/
+- https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/hortigranjeiros-prohort/centrais-de-abastecimento-comercializacao-de-frutas-e-hortalicas-2025.pdf
+- https://www.cnnbrasil.com.br/agro/comercializacao-de-hortigranjeiros-recua-082-em-2025-diz-conab/
+- https://www.canalrural.com.br/economia/ceasas-movimentam-166-milhoes-de-toneladas-de-frutas-e-hortalicas-em-2025/
+- https://latamlist.com/cayena-raises-a-55m-series-b-round-led-by-bicycle-capital/
+- https://startupi.com.br/cayena-capta-300-milhoes/
+- https://clickpetroleoegas.com.br/frubana-startup-que-captou-us-271-milhoes-encerra-operacoes-no-brasil-e-busca-rentabilidade-em-outros-mercados-sima00/
+- https://gironews.com/varejo-digital/startup-colombiana-frubana-encerra-atividades-no-brasil/
+- https://www.baguete.com.br/noticias/praso-quer-levar-atacado-para-o-digital
+- https://startupi.com.br/tags/clicampo/
+- https://www.contabeis.com.br/noticias/76412/reforma-zera-ibs-e-cbs-da-cesta-basica/
+- https://www.freshplaza.com/europe/article/9844029/post-harvest-losses-reach-30-for-fruit-in-brazil/
+- https://www.noticiasagricolas.com.br/noticia/280809
+- https://diariodocomercio.com.br/economia/eficiencia-supermercados-minas-cresce/
+- https://static.abras.com.br/pdf/perdas_2018.pdf
+- https://gironews.com/tag/perdas/
+- https://www.tupi.fm/?p=515195
+- https://hfbrasil.org.br/br/revista/acessar/capa/food-service-quem-como-fora-come-mais-hortifrutis.aspx
+- https://ceagesp.gov.br/ceagespemnumeros/edicao2025/
+- https://ceagesp.gov.br/wp-content/uploads/2025/08/CEAGESP_EM_NUMEROS_2024.pdf
+- https://mercadoeconsumo.com.br/30/08/2025/economia/ceagesp-devolve-a-comerciantes-r-90-milhoes-de-iptu-indevido/
+- https://forbes.com.br/forbes-collab/2024/10/endeavor-revolucionando-o-setor-de-alimentos-b2b/
+- https://www.gunder.com/en/news-insights/client-news/bicycle-capital-leads-usdollar55m-series-b-of-brazil-based-cayena
+- https://www.bloomberglinea.com.br/negocios/contra-conta-de-padaria-foodtech-fatura-r-24-mi-com-corte-em-custo-de-restaurantes/
+- https://www.portaltela.com/noticias/economia/2026/06/24/foodtech-fatura-r-24-milhoes-com-cortes-de-custos-em-restaurantes/
+- https://apps.apple.com/us/app/id1614251960
+- https://www.folhavitoria.com.br/folha-business/ceasa-es-vai-lancar-e-commerce-para-venda-de-hortifruti-carnes-e-embalagens/
+- https://diariodocomercio.com.br/agronegocio/faemg-apresenta-plataforma-ceasa-digital-a-produtores/
+- https://mercadoeconsumo.com.br/23/03/2020/noticias-varejo/delivery-no-ceasa-sp-garante-abastecimento-de-frutas-legumes-e-verduras-a-supermercados-e-hortifrutis/
+- https://distributionstrategy.com/2026/02/pepper-lands-50-million-to-push-ai-and-automation-deeper-into-independent-food-distribution/
+- https://www.digitalcommerce360.com/2026/02/24/pepper-raises-50-million-funding-ecommerce-tools/
+- https://www.clay.com/dossier/choco-funding
+- https://forbes.co/2025/08/14/negocios/frubana-pone-fin-a-sus-operaciones
+- https://forbes.co/2024/02/16/negocios/frubana-se-enfocara-en-brasil-suspendera-sus-operaciones-en-colombia-y-mexico
+- https://agfeed.com.br/agtech/frubana-fatura-r-2-bilhoes-levando-a-horta-a-mesa-e-tem-fome-para-triplicar-em-dois-anos
+- https://ecosistemastartup.com/?p=42682
+- https://mercadoeconsumo.com.br/07/12/2022/ecommerce/frubana-celebra-dois-anos-de-atuacao-no-brasil-com-crescimento-de-240/amp/
+- https://www.poder360.com.br/poder-economia/inadimplencia-de-produtores-rurais-sobe-a-82-no-4o-tri-de-2025/
+- https://mundocoop.com.br/?p=227648
+- https://canalrural.com.br/economia/juros-do-credito-rural-quase-dobram-em-4-anos-e-impulsionam-inadimplencia-aponta-cepea
+- https://mercadoeconsumo.com.br/07/11/2023/foodservice/food-to-save-atinge-2-milhoes-de-pedidos-no-aplicativo-e-triplica-receita-em-12-meses/
+- https://viva.com.br/estilo-de-vida/saiba-como-calendario-sazonal-de-alimentos-pode-salvar-bares-e-restaurantes.html
+- https://conteudo.stone.com.br/cmv-custos-fixos-impostos-e-margem-de-lucro-tudo-que-voce-precisa-saber-sobre-precificacao/
+- https://www.canalrural.com.br/noticias/rural-noticias/permissionarios-reclamam-contraste-entre-altas-taxas-servicos-precarios-53840
+- https://cepea.org.br/br/opiniao-cepea/como-modernizar-as-centrais-de-abastecimento-do-pais.aspx
+- https://www.saopaulo.sp.leg.br/blog/novo-entreposto-de-sao-paulo-e-detalhado-na-camara/
+- https://moneytimes.com.br/privatizacao-potencial-da-ceagesp-poder-ser-esvaziado-pela-concorrencia-de-seus-proprios-atacadistas/
+- https://jornalcontabil.com.br/noticia/quantos-contadores-existem-no-brasil-em-2025/
+- https://coad.com.br/home/noticias-detalhe/131485/contabilidade-mais-do-que-numeros-um-pilar-para-a-economia-e-a-sociedade
+- https://ambitojuridico.com.br/?p=9024386
+- https://fenacon.org.br/wp-content/uploads/2023/11/Douglas-Gomes.pdf
+- https://www.contabeis.com.br/noticias/36178/fiscalizacao-encontra-escritorios-contabeis-irregulares/
+- https://www.omie.com.br/assets/docs/report_sondagem_omie_contabil_1S2026.pdf
+- https://www.omie.com.br/blog/sondagem-reforma-tributaria-custos-contabilidade
+- https://www.jornalcontabil.com.br/noticia/reforma-tributaria-pode-custar-quase-r-70-mil-para-escritorios-contabeis-com-ate-100-clientes/
+- https://www.reformatributaria.com/56-dos-contadores-nao-tem-plano-de-acao-para-a-reforma-tributaria-diz-pesquisa/
+- https://sitecontabil.com.br/noticias_empresariais/ler/asscon-publica-tabela-de-honorarios-contabeis-2026
+- https://makrosystem.com.br/blog/honorarios-contabeis
+- https://www.contabeis.com.br/artigos/4223/resultados-da-pesquisa-nacional-de-empresas-contabeis-pnec-parte-iii/
+- https://www.contabeis.com.br/forum/contabilidade/26879/compra-escriotrio/
+- https://www.agendor.com.br/blog/carteira-cliente-escritorio-contabilidade/
+- https://jornalcontabil.com.br/noticia/o-aumento-de-inadimplencia-nos-escritorios-contabeis-e-uma-realidade-veja-aqui-dicas-uteis/
+- https://www.contabeis.com.br/artigos/3515/a-inadimplencia-nos-honorarios-contabeis-aumentou/
+- https://www.contabeis.com.br/artigos/1713/como-baixar-a-alta-inadimplencia-nos-honorarios-contabeis/
+- https://sitecontabil.com.br/noticias_empresariais/ler/escassez-de-mao-de-obra-ja-afeta-80--dos-empregadores-no-brasil-e-muda-estrategias-de-gestao
+- https://sitecontabil.com.br/noticias_empresariais/ler/escassez-de-talentos-e-mercado-aquecido--recrutar-bem-sera-um-desafio-em-2026
+- https://fenacon.org.br/reforma-tributaria/reforma-tributaria-impulsiona-contratacao-de-contadores-e-tributaristas/
+- https://www.briter.co/companies/bhub
+- https://braziljournal.com/o-nome-da-startup-e-bond-ai-bond-para-pmes/
+- https://latamlist.com/bond-raises-2m-to-automate-sme-accounting-in-brazil-with-ai/
+- https://raising.fi/news/bond-undisclosed-april-2026
+- https://www.portaltela.com/economia/2026/04/15/startup-bond-apresenta-ia-para-pmes/
+- https://www.gazetadopovo.com.br/vozes/parana-sa/robo-faz-trabalho-de-30-contadores-e-ja-soma-um-milhao-de-lancamentos-contabeis/
+- https://www.gazetadopovo.com.br/vozes/parana-sa/roit-fatura-r-28-6-milhoes-com-tecnologia-de-ia-para-reforma-tributaria/
+- https://www.thomsonreuters.com.br/pt/sala-de-imprensa/tr-lancamento-inteligencia-agentica.html
+- https://www.baguete.com.br/noticias/thomson-reuters-compra-gestta
+- https://www.b2bstack.com.br/compare/dual-fiscal-contabil-vs-qive
+- https://qive.com.br/planos-e-precos
+- https://finder.techleap.nl/news/feed/contabilizei-raises-undisclosed-series-c-funding
+- https://mercadoeconsumo.com.br/11/03/2022/economia/contabilizei-tem-aporte-de-us-60-milhoes-e-vai-ampliar-servicos/
+- https://www.contabeis.com.br/artigos/70319/consolidacao-no-setor-contabil-brasileiro-oportunidades-e-desafios-para-investidores/
+- https://www.robertodiasduarte.com.br/?p=114519
+- https://www.robertodiasduarte.com.br/?p=116919
+- https://jornalcontabil.com.br/noticia/sp-assessoria-contabil-expande-operacoes-e-busca-novas-aquisicoes-na-grande-sao-paulo/amp/
+- https://jornalcontabil.com.br/noticia/contabilidade-fusao-faz-mercado-do-setor-se-consolidar/
+- https://www.bloomberg.com/news/articles/2026-02-24/ai-for-accounting-startup-basis-hits-1-15-billion-valuation
+- https://www.forbes.com/sites/annatong/2026/06/02/thrive-holdings-to-bet-1-billion-on-ai-powered-accounting-roll-up/
+- https://techcrunch.com/2025/06/18/multiplier-founded-by-ex-stripe-exec-nabs-27-5m-to-fuel-ai-powered-accounting-roll-ups/
+- https://www.generalcatalyst.com/stories/our-investment-in-accrual
+- https://contabilidade.com/blog/contabilidade-online-em-2026-tendencias-comparativos-e-como-escolher-a-melhor-para-sua-empresa/
+- https://www.vrum.com.br/mercado/2026/07/7453060-frota-brasileira-envelhece-e-achar-pecas-de-reposicao-vira-um-desafio.html
+- https://autoentusiastas.com.br/2025/09/oficinas-independentes-querem-mais-espaco/
+- https://www.em.com.br/networking-e-negocios/2026/07/7470212-65-das-oficinas-mecanicas-do-pais-ainda-operam-sem-sistema-de-gestao.html
+- https://mecanicaonline.com.br/2026/07/gestao-de-oficinas-a-digitalizacao-que-separa-o-amadorismo-do-lucro-real/
+- https://www.omie.com.br/blog/o-que-um-software-para-oficina-de-mecanica-faz/
+- https://sacra.com/c/shopmonkey
+- https://www.shopmonkey.io/newsroom/series-c
+- https://www.businesswire.com/news/home/20220316005244/en/Tekmetric-Announces-Growth-Investment-to-Further-Disrupt-the-Auto-Repair-Industry
+- https://sbtnews.sbt.com.br/noticia/brasil/reclamacoes-contra-oficinas-mecanicas-mais-que-dobram-em-sao-paulo-aponta-procon
+- https://tribunademinas.com.br/noticias/cidade/07-08-2025/cobrancas-indevidas-e-servicos-nao-autorizados-procon-suspende-empresa-de-pecas-e-pneus-em-juiz-de-fora-apos-denuncias.html?amp=1
+- https://www.opovo.com.br/noticias/veiculos/2026/01/07/veiculos-usados-batem-recorde-de-vendas-em-2025.html
+- https://www.bemparana.com.br/carros/mercado-de-usados-fecha-2025-com-recorde-historico-e-supera-185-milhoes-de-vendas-no-brasil/
+- https://autopapo.com.br/curta/manutencao-de-carro-eletrico-falta-de-mao-de-obra-especializada-vira-gargalo-no-brasil/
+- https://www.gazetadopovo.com.br/automoveis/oficinas-mecanicas-enfrentam-desafios-para-reparar-frota-de-carros-eletricos/
+- https://www.correio24horas.com.br/economia/empregos/uma-em-cada-tres-oficinas-mecanicas-enfrenta-dificuldades-para-contratar-mao-de-obra-qualificada-0825
+- https://agorarn.com.br/ultimas/senai-abre-vagas-para-cursos-sobre-veiculos-eletricos-e-hibridos/
+- https://mecanicaonline.com.br/2026/03/bosch-anuncia-calendario-de-treinamentos-automotivos-para-2026-com-foco-em-veiculos-eletricos-e-hibridos/
+- https://www.vrum.com.br/mercado/2026/09/7498853-vendas-de-carros-eletrificados-mantem-crescimento-no-brasil-em-2026.html
+- https://canalve.com.br/brasil-aproxima-1-milhao-eletrificados-circulacao/
+- https://cqcs.com.br/noticia/crescimento-dos-carros-eletricos-muda-calculo-do-seguro-e-amplia-desafio-com-baterias/
+- https://revistaapolice.com.br/2026/03/seguro-para-carro-eletrico-exige-cobertura-especifica/
+- https://ecarts.com.br/veiculos/seguro-de-veiculos/seguro-para-carro-eletrico-e-hibrido-o-que-cobre-a-bateria-quanto-custa-e-como-contratar/
+- https://legismap.com.br/conteudos/artigos-e-noticias/fraudes-em-seguros-somam-r-3-3-bilhoes-e-aceleram-adocao-de-ia-nas-decisoes-de-risco
+- https://cqcs.com.br/noticia/tentativas-de-fraude-contra-seguradoras-aumentam-e-27-das-queixas-sao-falsas/
+- https://sindsegsc.org.br/arquivo/publicacao/223/documento/19.11___palestra_sindsegsc_fenseg_vf.pdf
+- https://www.itatiaia.com.br/auto/sete-em-cada-dez-carros-no-brasil-circulam-sem-seguro/
+- https://radardigitalbrasilia.com.br/noticias-corporativas-dino/323188-seguro-auto-em-2025-cresce-e-varia-por-modelo-e-regiao/
+- https://www.baguete.com.br/noticias/infleet-capta-r-40-milhoes
+- https://startups.com.br/negocios/com-serie-a-de-r-40m-infleet-quer-expandir-ia-na-gestao-de-frotas/
+- https://www.b2bstack.com.br/compare/logistaas-vs-cobli
+- https://jornaldobras.com.br/noticia/112917/mecanizou-chega-a-belo-horizonte-com-a-integracao-de-mais-de-1-milhao-de-autopecas
+- https://mercadoeconsumo.com.br/tag/mecanizou/
+- https://startups.com.br/danca-das-cadeiras/pitz-contrata-novo-head-de-vendas-e-anuncia-escritorio-no-brasil/
+- https://startups.com.br/negocios/ex-rappi-cria-startup-de-ia-para-digitalizar-oficinas-mecanicas/
+- https://www.autodata.com.br/noticias/2026/02/26/faturamento-da-industria-de-autopecas-cresceu-56/100089/
+- https://novovarejoautomotivo.com.br/wp-content/uploads/2026/02/DIGITAL-489_compressed-1.pdf
+- https://mecanicaonline.com.br/2006/09/em-sintonia-com-os-avancos-do-mercado/
+- https://startups.com.br/negocios/rodada-de-investimento/mecanizou-levanta-us-145-mi-para-levar-tecnologia-ao-setor-de-autopecas/
+- https://www.em.com.br/mundo-corporativo/2026/08/7474336-censo-2026-revela-dados-do-mercado-condominial-brasileiro.html
+- https://www.sindiconet.com.br/informese/mapa-dos-condominios-2025-noticias-radar-lello
+- https://economicnewsbrasil.com.br/2025/12/21/taxa-condominial-alta-inadimplencia-brasil/
+- https://forbes.com.br/geral/2026/05/condominio-preco-medio-sp/
+- https://www.band.com.br/bandnews-fm/rio-de-janeiro/noticias/taxa-media-de-condominio-no-rio-sobe-13-em-um-ano-202602241401
+- https://nradvocacia.com.br/?p=10376
+- https://www.sindiconet.com.br/informese/remuneracao-do-sindico-profissional-administracao-sindico-profissional
+- https://jornalcontabil.com.br/noticia/carreira-sindico-profissional-cobra-ate-r-7-000-para-administrar-condominios/
+- https://www.sindiconet.com.br/informese/sindico-profissional-em-condominios-noticias-espaco-noknox/amp
+- https://www.sindiconet.com.br/informese/sindicos-ganham-relevancia-com-expansao-de-condominios-noticias-area-aabic
+- https://condominiosc.com.br/jornal-dos-condominios/comportamento/6013-de-morador-engajado-a-gestor-profissional-os-caminhos-da-sindicatura-brasileira
+- https://www.sindiconet.com.br/informese/pl-sindico-profissional-avanca-na-camara-noticias-administracao
+- https://www.sindiconet.com.br/informese/pl-sindico-profissional-votacao-adiada-noticias-administracao
+- https://www.sindiconet.com.br/informese/critica-pl-sindico-profissional-noticias-espaco-secovirio
+- https://condominiosc.com.br/radar/5962-votacao-que-regulamenta-sindico-profissional-e-adiada-na-camara
+- https://agenciainfra.com/blog/decreto-fixa-abertura-do-mercado-livre-de-energia-para-novembro-de-2027/
+- https://canalsolar.com.br/decreto-abertura-mercado-livre-baixa-tensao/
+- https://www.infomoney.com.br/consumo/mercado-livre-de-energia-consumidores-poderao-escolher-fornecedor-de-luz/
+- https://www.dgabc.com.br/Noticia/4340921/lula-publica-decreto-que-regulamenta-mercado-livre-de-energia-na-baixa-tensao
+- https://www12.senado.leg.br/radio/1/noticia/2026/04/07/vistorias-regulares-em-edificios-avancam-como-medida-de-prevencao-de-riscos
+- https://www.sindiconet.com.br/informese/projeto-lei-oab-inspecao-tecnica-edificios-sao-paulo-noticias-juridico
+- https://www.al.sp.gov.br/spl/2025/08/Propositura/1000619304_1000768388_Propositura.pdf
+- https://www.sindiconet.com.br/informese/inspecao-predial-obrigatoria-sao-vicente-noticias-manutencao
+- https://imprensa.superlogica.com/downloads/2025/Índice
+- https://viva.com.br/dinheiro/condominio-ja-consome-mais-da-metade-do-salario-minimo-no-brasil.html
+- https://movimentoeconomico.com.br/financas/2026/10/07/nordeste-tem-segunda-maior-taxa-de-inadimplencia-em-condominios-do-pais/
+- https://www.oliberal.com/economia/alta-de-taxas-eleva-inadimplencia-e-norte-lidera-atrasos-em-condominios-no-pais-1.1068432
+- https://finsidersbrasil.com.br/negocios-em-fintechs/condoconta-fintech-para-condominios-levanta-us-132-milhoes-em-serie-a
+- https://finsidersbrasil.com.br/negocios-em-fintechs/condoconta-levanta-r-30-milhoes-para-acelerar-credito
+- https://startups.com.br/negocios/exclusivo-condolivre-quer-captar-ate-r-50-mi-para-ampliar-portfolio-e-atuacao/
+- https://startupi.com.br/econdos-startup-de-solucoes-para-condominios-recebe-aporte-da-iporanga-ventures/
+- https://startupi.com.br/?p=190037
+- https://startups.com.br/tag/noknox
+- https://braziljournal.com/warburg-pincus-dobra-aposta-na-superlogica-empresa-aguarda-janela-de-ipo
+- https://finder.techleap.nl/news/feed/superl-gica-raises-r-75m-for-fidc
+- https://www.sindiconet.com.br/Informese/23309/Portaria-Virtual/Portaria-remota-saiba-quanto-gera-de-economia-para-seu-condominio
+- https://www.ohub.com.br/ideias/?p=4141
+- https://ohoje.com/2026/05/04/ia-transforma-seguranca-privada-reduz-riscos-e-despesas-no-brasil/
+- https://www.crea-rj.org.br/wp-content/uploads/2026/03/Cartilha.pdf
+- https://www.sindiconet.com.br/informese/responsabilidade-do-sindico-sobre-elevadores-manutencao-elevadores
+- https://www.sindiconet.com.br/informese/elevador-em-dia-noticias-manutencao
+- https://www.legjur.com/jurisprudencia/eme/301.1645.1914.7529
+- https://www.vrum.com.br/avaliacoes/2026/08/7472733-lei-estadual-em-sp-garante-instalacao-de-carregador-em-condominio-veja-as-regras.html
+- https://www.osetoreletrico.com.br/?p=168643
+- https://atarde.com.br/autos/carregadores-eletricos-em-condominios-saiba-as-regras-limitacoes-e-quem-paga-a-conta-1399824
+- https://tribunadejundiai.com.br/casa-jardim/placas-solares-condominio-telhado-coletivo/
+- https://www.sindiconet.com.br/informese/um-novo-jeito-de-fazer-manutencao-preventiva-no-condominio-mercado-coluna-de-olho-no-mercado
+- https://www.sindiconet.com.br/informese/gestao-da-manutencao-do-condominio-coloque-a-casa-em-ordem-mercado-coluna-de-olho-no-mercado
+- https://apps.apple.com/us/app/id1159357930
+- https://www.groupsoftware.com.br/blog/como-automatizar-a-gestao-com-sistemas-para-sindicos/
+- https://www.em.com.br/economia/economia-digital/2026/04/7405308-gestao-digital-de-condominios-avanca-e-movimenta-rs-800-milhoes.html
+- https://www.sindiconet.com.br/informese/sao-paulo-tera-708-novos-condominios-2025-noticias-radar-lello
+- https://www.oabsp.org.br/jornaldaadvocacia/26-04-28-1706-comissoes-especiais-de-direito-imobiliario-e-advocacia-condominial-apresentam-nota-tecnica-sobre-honorarios-em-cobrancas-condominiais
+- https://www.contabilidadezen.com.br/blog/contabilidade-sindico-profissional-pj-2026/
+- https://canalsolar.com.br/previsao-da-energia-solar-em-2026/
+- https://canalsolar.com.br/setor-solar-supera-projecoes-apesar-desafios/
+- https://www.pv-magazine-brasil.com/author/alessandra-neris/page/2
+- https://canalsolar.com.br/gd-brasil-2026-abgd/
+- https://www.osetoreletrico.com.br/?p=166691
+- https://www.novacana.com/noticias/quase-22-mil-consumidores-migraram-mercado-livre-energia-2025-ccee-020326
+- https://canalsolar.com.br/distribuidoras-ja-cancelaram-e-suspenderam-mais-de-3-mil-pedidos-de-conexao-diz-absolar/
+- https://tagdlaw.com.br/entrada-de-consumidores-no-mercado-livre-recua-365-no-inicio-de-2026/
+- https://www.bmalaw.com.br/conteudo/energia/informativos-e-newsletters/novo-marco-do-setor-eletrico-sancionada-lei-n-152692025-promove-alteracoes-em-leis-centrais-do-setor-de-energia-eletrica-e-de-petroleo-e-gas/pdf
+- https://cenarioenergia.com.br/2026/07/08/abertura-da-baixa-tensao-inaugura-nova-era-do-mercado-livre-e-pode-reduzir-conta-de-luz-em-ate-18/
+- https://www.mayerbrown.com/-/media/files/perspectives-events/publications/2026/08/0821-decreto-n-130972026.pdf%3Frev=-1
+- https://agenciainfra.com/blog/reajuste-medio-das-contas-de-luz-ficara-em-94-em-2026-diz-aneel/
+- https://braziljournal.com/energisa-compra-a-clarke-um-corretor-e-contador-do-mercado-livre-de-energia/
+- https://eixos.com.br/energia-eletrica/electra-compra-enliv-mirando-a-abertura-do-mercado-livre/
+- https://startups.com.br/negocios/lemon-mira-consumidor-residencial-e-aposta-em-aquisicoes-para-crescer/
+- https://neofeed.com.br/startups/em-seu-1o-investimento-no-brasil-lowercarbon-aposta-r-60-milhoes-na-lemon
+- https://canalsolar.com.br/abraceel-autorregulacao-comercializacao-energia/
+- https://canalsolar.com.br/consumidores-60-do-fio-b-2026/
+- https://canalsolar.com.br/es/etiqueta/recuperaci%C3%B3n-de-la-inversi%C3%B3n/
+- https://canalsolar.com.br/usinas-capacidade-afetada-curtailment-absolar/
+- https://cenarioenergia.com.br/2026/08/18/decreto-regulamenta-mercado-livre-baixa-tensao-ccee/
+- https://exame.com/economia/reforma-deve-ajudar-comercializadoras-de-energia-diz-ccee
+- https://www.mckinsey.com.br/our-insights/mercado-livre-de-energia
+- https://cenarioenergia.com.br/2026/09/02/armor-energia-prepara-expansao-no-varejo-com-abertura-do-mercado-livre/
+- https://agenciainfra.com/blog/comercializadoras-comecam-a-vender-energia-para-consumidores-em-baixa-tensao-no-mercado-livre/
+- https://canalsolar.com.br/mme-abertura-mercado-livre-consumidores-baixa-tensao-2027/
+- https://canalsolar.com.br/clarke-energia-registra-crescimento-de-70-no-faturamento-em-2024/
+- https://cenarioenergia.com.br/2025/06/26/clarke-energia-acelera-expansao-no-mercado-livre-com-meta-de-150-novos-parceiros-em-2025/
+- https://movimentoeconomico.com.br/economia/energia/2026/05/02/solar-supera-r-300-bilhoes-mas-desaceleracao-acende-alerta-no-setor/
+- https://cenarioenergia.com.br/2025/12/11/brasil-projeta-r-318-bilhoes-em-investimentos-solares-em-2026-mas-setor-enfrenta-novo-ano-de-desaceleracao/
+- https://movimentoeconomico.com.br/economia/energia/2026/10/23/energia-solar-no-nordeste-resiste-a-retracao-do-credito-no-brasil/
+- https://cenarioenergia.com.br/2025/12/17/abesco-anuncia-nova-diretoria-para-o-bienio-2026-2027-com-foco-em-eficiencia-e-transicao-energetica/
+- https://www.osetoreletrico.com.br/?p=946
+- https://c2e2.unepccc.org/kms_object/the-global-esco-market-2025/
+- https://www.international-climate-initiative.com/fileadmin/iki/Dokumente/Publikationen/Projekte/23_I_494/20260303_Policy_Brief-Enabling-ESCO-Market-in-ASEAN-for-Low-Carbon-Buildings.pdf
+- https://cenarioenergia.com.br/2025/03/27/erros-de-faturamento-em-contas-de-energia-resultam-em-reembolso-para-consumidores/
+- https://mais.opovo.com.br/colunistas/neila-fontenele/2020/12/16/startup-faz-revisao-das-contas-de-energia.html
+- https://planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d13097.htm
+- https://tagdlaw.com.br/wp-content/uploads/2026/08/Comunicado-TAGD-Decreto-13097_2026.pdf
+- https://www.osetoreletrico.com.br/mercado-livre-de-energia-entenda-como-funciona-a-migracao-e-as-regras-para-contratacao-de-energia/
+- https://www.confea.org.br/eletricidade-decreto-libera-mercado-para-consumidor-de-baixa-tensao
+- https://www.mayerbrown.com/pt/insights/publications/2026/08/decree-no-13097-2026-opening-of-the-free-electricity-market
+- https://www.folhape.com.br/economia/residencias-entrarao-no-mercado-livre-de-energia-eletrica-em-2027/412973/
+- https://paraibabusiness.com.br/residencias-entrarao-no-mercado-energia/
+- https://diariodocomercio.com.br/economia/mercado-livre-energia-pmes/
+- https://capitalise.com/gb/news/ofgem-energy-broker-regulation-small-business
+- https://www.ofgem.gov.uk/publications/ofgem-confirms-greater-protection-businesses
+- https://canalsolar.com.br/condominio-economizara-r-800-mil-no-mercado-livre-de-energia/
+- https://condominiosc.com.br/jornal-dos-condominios/financas/5413-mercado-livre-de-energia-opcao-de-reducao-de-custos-em-condominios
+- https://cenarioenergia.com.br/2025/07/08/condominios-impulsionam-adesao-ao-mercado-livre-de-energia-em-busca-de-economia-e-sustentabilidade/
+- https://cenarioenergia.com.br/2026/04/06/gestao-inteligente-de-creditos-de-gd-de-passivo-regulatorio-a-ativo-estrategico/
+- https://startupi.com.br/tags/digital-grid/
+- https://canalsolar.com.br/entidades-tcu-legalidade-geracao-compartilhada/
+- https://eixos.com.br/energia-eletrica/elis-energia-do-patria-quer-triplicar-usinas-solares-mirando-energia-por-assinatura/
+- https://portaldeprefeitura.com.br/bastidores-da-politica/stf-define-praz-devolucao-cobrancas-indevidas-conta-de-luz/634802/
+- https://sovos.com/pt-br/blog/tributos/sancionada-lei-que-devolve-pis-cofins-cobrado-na-conta-de-luz/
+- https://agenciainfra.com/blog/reajuste-tarifario-medio-da-light-para-2026-sera-de-859-decide-aneel/
 
 ## setores/01_agro_graos.md
 
@@ -52,7 +454,6 @@ Total de links únicos: 1578. Domínios distintos: 492.
 - https://cnabrasil.org.br/noticias/custo-da-soja-sobe-e-rentabilidade-deve-cair-35-na-safra-26-27-aponta-estudo-do-imea-senar-mt
 - https://brasil61.com/n/soja-sobe-no-parana-trigo-tambem-registra-alta-no-estado-pagr266609
 - https://brasil61.com/n/soja-e-trigo-confira-os-precos-dos-graos-para-esta-quarta-feira-28-pagr266613.amp
-- https://reformatributaria360.com.br/noticias/reforma-tributaria-o-que-muda-para-o-produtor-rural-com-a-cbs-e-o-ibs/
 - https://www.conjur.com.br/2025-abr-04/reforma-tributaria-produtor-rural-e-os-tributos-cbs-ibs//?print=1
 - https://agfeed.com.br/economia/reforma-tributaria-movimenta-produtores-rurais-e-deve-acelerar-onda-de-pjs-do-agro-dizem-especialistas
 - https://www.b3.com.br/pt_br/noticias/cpr.htm
@@ -165,24 +566,12 @@ Total de links únicos: 1578. Domínios distintos: 492.
 
 ## setores/06_agro_hortifruti_frescos.md
 
-- https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/hortigranjeiros-prohort/centrais-de-abastecimento-comercializacao-de-frutas-e-hortalicas-2025.pdf
-- https://www.cnnbrasil.com.br/agro/comercializacao-de-hortigranjeiros-recua-082-em-2025-diz-conab/
-- https://www.canalrural.com.br/economia/ceasas-movimentam-166-milhoes-de-toneladas-de-frutas-e-hortalicas-em-2025/
 - https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/hortigranjeiros-prohort/publicacoes-do-setor-hortigranjeiro/centrais-de-abastecimento-2024.pdf
 - https://www.opovo.com.br/noticias/economia/2026/07/29/hortigranjeiros-movimentam-rs-687-bi-na-economia-em-2025.html
 - https://mercadoeconsumo.com.br/16/01/2026/abastecimento/exportacao-brasileira-de-frutas-bate-recorde-pelo-terceiro-ano-consecutivo-em-2025/
 - https://revistacultivar.com.br/noticias/exportacoes-de-frutas-brasileiras-batem-recorde-em-2025
 - https://www.opovo.com.br/noticias/economia/2026/07/30/com-rs-28-bi-ceasa-ce-e-a-2-do-ne-em-movimentacao-financeira.html
-- https://latamlist.com/cayena-raises-a-55m-series-b-round-led-by-bicycle-capital/
-- https://startupi.com.br/cayena-capta-300-milhoes/
-- https://clickpetroleoegas.com.br/frubana-startup-que-captou-us-271-milhoes-encerra-operacoes-no-brasil-e-busca-rentabilidade-em-outros-mercados-sima00/
-- https://gironews.com/varejo-digital/startup-colombiana-frubana-encerra-atividades-no-brasil/
-- https://www.baguete.com.br/noticias/praso-quer-levar-atacado-para-o-digital
-- https://startupi.com.br/tags/clicampo/
-- https://www.contabeis.com.br/noticias/76412/reforma-zera-ibs-e-cbs-da-cesta-basica/
 - https://cnabrasil.org.br/publicacoes/acordo-de-parceria-entre-mercosul-e-uniao-europeia
-- https://www.freshplaza.com/europe/article/9844029/post-harvest-losses-reach-30-for-fruit-in-brazil/
-- https://www.noticiasagricolas.com.br/noticia/280809
 
 ## setores/07_agro_agroindustria_alimentos.md
 
@@ -347,6 +736,8 @@ Total de links únicos: 1578. Domínios distintos: 492.
 - https://mercadoeconsumo.com.br/31/03/2026/noticias-varejo/rd-saude-pague-menos-e-drogaria-sao-paulo-lideram-ranking-das-maiores-farmacias-do-brasil/
 - https://ohoje.com/2025/10/06/mercado-farmaceutico-brasileiro-atinge-r-222-bilhoes-e-lidera-na-america-latina/
 - https://www.infomoney.com.br/business/brasil-tem-90-mil-farmacias-e-muitas-ficam-uma-ao-lado-da-outra-por-que-sao-tantas/
+- https://gironews.com/farma-cosmeticos/varejo-farmaceutico-alcanca-crescimento-de-1088-em-2025/
+- https://centraldovarejo.com.br/varejo-farmaceutico-alcanca-r-240-bilhoes-em-2025-e-amplia-aposta-na-digitalizacao-para-2026/
 - https://economicnewsbrasil.com.br/2026/07/31/mercado-farmaceutico-brasileiro-grandes-redes/
 - https://timesbrasil.com.br/empresas-e-negocios/ciencias-e-saude/farmacias-independentes-perdem-espaco-no-brasil-e-mais-da-metade-ja-sente-queda-no-lucro/
 - https://futurodasaude.com.br/farmacias-futuro-talks/
@@ -389,7 +780,6 @@ Total de links únicos: 1578. Domínios distintos: 492.
 - https://viva.com.br/cidadania-e-direitos/numero-de-aposentadorias-pagas-pelo-inss-bate-recorde-e-chega-a-24-milhoes.html
 - https://news.fiquemsabendo.com.br/p/os-dados-do-inss-sobre-pensoes-e?open=false
 - https://movimentoeconomico.com.br/previdencia/2025/01/10/teto-do-inss-sobe-para-r-8-15740-em-2025/
-- https://www.em.com.br/gerais/2026/07/7467827-com-o-pais-envelhecendo-quem-cuidara-dos-nossos-idosos-e-de-nos-mesmos.html
 - https://institutodelongevidade.org/longevidade-e-cidades/direitos-e-cidadania/demanda-por-cuidadores-de-pessoas-idosas
 - https://www.gov.br/anvisa/pt-br/assuntos/centraisdeconteudo/publicacoes/servicosdesaude/publicacoes/relatorio-autoavaliacao-da-estrutura-e-condicoes-sanitarias-para-a-prevencao-e-controle-da-covid-19-em-ilpi-2-002.pdf
 - https://scielosp.org/pdf/csc/2023.v28n7/2035-2050/pt
@@ -468,20 +858,14 @@ Total de links únicos: 1578. Domínios distintos: 492.
 - https://sbtnews.sbt.com.br/noticia/economia/inadimplencia-segue-em-nivel-recorde-e-chega-a-4-7-diz-bc
 - https://www.asa.com.br/central-de-conteudos/investimentos/fidcs-patrimonio-liquido
 - https://capitalaberto.com.br/economia-e-financas/2026/09/industria-de-fid-cs-supera-r-1-tri-e-antecipa-projecao
-- https://www.letsmoney.com.br/dados/of-consentimentos-ativos/
 - https://www.letsmoney.com.br/noticias/open-finance-cresce-no-brasil-mas-adesao-de-empresas-ainda-e-entrave/
-- https://www.dgabc.com.br/noticia/4332379/cronograma-do-bc-para-duplicatas-escriturais-preve-implementacao-escalonada-ate-junho-de-2028
 - https://www.tupi.fm/?p=2428124
 - https://www.letsmoney.com.br/noticias/bc-duplicata-escritural-11-trilhoes/
 - https://www.bl2020.com/misc_bl/index.cfm/fuseaction/shownewsroompage/newsid/3a8a1294-3aa7-4c9f-b475-b45a5ea4d89d/slang/en
 - https://renovainvest.com.br/?p=106745
 - https://movimentoeconomico.com.br/credito/2026/01/27/nordeste-beira-r-1-trilhao-em-credito-e-lidera-crescimento-no-pais/
-- https://fenacon.org.br/noticias/aprovacao-de-credito-para-pequenos-negocios-atinge-maior-nivel-desde-2022/
 - https://datasebrae.com.br/wp-content/uploads/2026/07/PM-Trimestral-Julho-26.pdf
 - https://www.gazetasp.com.br/economia/sao-paulo-lidera-lista-com-31-milhoes-de-empresas-devedoras-em-meio-a-recorde-nacional-de-inadimplencia/
-- https://www.opovo.com.br/noticias/economia/2026/05/13/nubank-amplia-oferta-de-credito-a-pmes-com-antecipacao-de-recebiveis-e-linha-de-capital-de-giro.html
-- https://www.letsmoney.com.br/noticias/serasa-cerc-antecipacao-recebiveis-descomplica-pme/
-- https://finsidersbrasil.com.br/?p=374774
 - https://startupi.com.br/grupo-gcb-recebe-aporte-de-us-13-milhoes-para-investir-em-fintech-de-credito-para-pmes-2/
 - https://fusoesaquisicoes.com/acontece-no-setor/fintechs-de-credito-acumulam-r-4559/
 
@@ -539,7 +923,6 @@ Total de links únicos: 1578. Domínios distintos: 492.
 - https://www.dgabc.com.br/Noticia/4317813/inadimplencia-atinge-82-8-milhoes-de-brasileiros-em-marco
 - https://www.serasa.com.br/imprensa/10-anos-do-mapa-de-inadimplencia/
 - https://istoe.com.br/brasil-conta-em-2026-com-332-milhoes-de-dividas-volume-43-maior-que-em-2016-diz-serasa/
-- https://www.serasaexperian.com.br/sala-de-imprensa/indicadores/novo-recorde-inadimplencia-das-empresas-chegou-a-93-milhoes-em-agosto-revela-serasa-experian/
 - https://www.serasaexperian.com.br/sala-de-imprensa/indicadores/inadimplencia-chegou-a-9-milhoes-de-empresas-em-julho-e-dividas-somaram-238-bilhoes-revela-serasa-experian/
 - https://soubrasilia.com/endividamento-familias-82-por-cento-julho-2026-peic-cnc-recorde/
 - https://www.bloomberglinea.com.br/negocios/venda-de-carteiras-inadimplentes-deve-chegar-a-r-40-bi-em-2026-diz-recovery-do-itau/
@@ -561,45 +944,26 @@ Total de links únicos: 1578. Domínios distintos: 492.
 
 ## setores/22_prof_contabilidade.md
 
-- https://jornalcontabil.com.br/noticia/quantos-contadores-existem-no-brasil-em-2025/
 - https://www.contabeis.com.br/noticias/16964/contabilidade-no-brasil-possui-490-mil-profissionais/
-- https://coad.com.br/home/noticias-detalhe/131485/contabilidade-mais-do-que-numeros-um-pilar-para-a-economia-e-a-sociedade
-- https://ambitojuridico.com.br/?p=9024386
 - https://ambitojuridico.com.br/desemprego-no-setor-contabil-pode-chegar-a-75-por-causa-da-inteligencia-artificial/
-- https://jornalcontabil.com.br/noticia/contabilidade-fusao-faz-mercado-do-setor-se-consolidar/
-- https://www.gazetadopovo.com.br/vozes/parana-sa/roit-fatura-r-28-6-milhoes-com-tecnologia-de-ia-para-reforma-tributaria/
 - https://cfc.org.br/?p=31926
-- https://fenacon.org.br/wp-content/uploads/2023/11/Douglas-Gomes.pdf
-- https://www.bloomberglinea.com.br/startups/na-luta-contra-o-excel-omie-dobra-a-aposta-em-contadores-e-mira-us-1-bi-em-2030/
 - https://www.omie.com.br/quem-somos/index.md
-- https://www.omie.com.br/parceria-contador/
 - https://jornalcontabil.com.br/noticia/omie-anuncia-compra-da-g-click/
-- https://braziljournal.com/visma-compra-a-contaazul-por-quase-r-2-bilhoes/
 - https://startups.com.br/negocios/ma/conta-azul-e-comprada-por-gigante-norueguesa-por-us-300m/
 - https://www.saasrise.com/deals/conta-azul-acquires-mister-contador-fd3bde5c-39a6-463d-8e35-2aaccfadd1a2
-- https://www.robertodiasduarte.com.br/?p=116919
 - https://www.robertodiasduarte.com.br/?p=117148
 - https://www.robertodiasduarte.com.br/?p=111447
-- https://online.crcsp.org.br/portal/noticias/noticia.asp?c=11262
 - https://blog.econeteditora.com.br/simples-nacional-2027-prazo-de-opcao-muda-para-setembro-de-2026-e-exige-decisao-sobre-ibs-e-cbs.md
 - https://www.hondatar.com.br/?p=10177
-- https://static.poder360.com.br/2025/10/mapa-de-empresas-boletim-2o-quadrimestre-2025.pdf
 - https://static.poder360.com.br/2024/08/Mapa-de-empresas-boletim-1o-quadrimestre-2024.pdf
-- https://datasebrae.com.br/wp-content/uploads/2026/01/13012026_resumo_executivo_aberturas_pn_anual.pdf
-- https://fecomerciomg.org.br/wp-content/uploads/2026/07/Estudo-sobre-o-MEI-2026.pdf
-- https://www.contabeis.com.br/noticias/36178/fiscalizacao-encontra-escritorios-contabeis-irregulares/
 - https://cfc.org.br/?p=36216
 - https://online.crcsp.org.br/portal/noticias/noticia.asp?c=10402
-- https://www.ibge.gov.br/estatisticas/economicas/outras-estatisticas-economicas/22649-demografia-das-empresas-e-estatisticas-de-empreendedorismo.html
 - https://fenacon.org.br/noticias/brasil-tinha-79-milhoes-de-empresas-ativas-em-2022-diz-ibge/
-- https://mercadoeconsumo.com.br/11/03/2022/economia/contabilizei-tem-aporte-de-us-60-milhoes-e-vai-ampliar-servicos/
 - https://startups.com.br/noticias/exclusivo-contaja-se-prepara-para-acelerar-com-captacao-de-r-12-mi
 - https://baguete.com.br/public/noticias/contaagil-capta-r-18-milhao
 - https://agilize.com.br/blog/autor/agilize-contabilidade-online/
-- https://documentacao.senior.com.br/exigenciaslegais/noticias/federal/2026/2026-09-03-reforma-tributaria-split-payment-obrigatoriedade-fica-para-2028-confirma-receita-federal
 - https://convergenciadigital.com.br/mercado/reforma-tributaria-split-payment-nao-vai-gerar-cobranca-em-2026/
 - https://tributodevido.com.br/portal/lc-227-2026-ibs-split-payment-saldo-credor/
-- https://netcpa.com.br/colunas/as-penalidades-que-vao-pesar-no-bolso-de-quem-nao-destacar-ibs-e-cbs-em-2026/27282
 - https://guiatributario.net/?p=35103
 - https://planning.com.br/dispensa-recolhimento-ibs-cbs-2026/
 
@@ -688,12 +1052,9 @@ Total de links únicos: 1578. Domínios distintos: 492.
 - https://www.jornalcontabil.com.br/noticia/mei-quantos-microempreendedores-individuais-existem-no-brasil/
 - https://cnsaude.org.br/wp-content/uploads/2026/08/MAPA-DA-SAUDE-CNSAUDE-Julho-2026.pdf
 - https://www.imarcgroup.com/report/pt-br/brazil-business-process-outsourcing-market
-- https://agenciasebrae.com.br/economia-e-politica/tres-em-cada-10-mei-fecham-as-portas-em-ate-cinco-anos-de-atividade-no-brasil
 - https://revista.fumec.br/index.php/pretexto/article/view/10411/5222
 - https://www.suno.com.br/noticias/?p=41440
 - https://contaazul.com/encontre-contador/bpo-financeiro/rj/macae/
-- https://startups.com.br/negocios/fintech/playbpo-recebe-aporte-da-bossa-invest-com-solucao-de-gestao-financeira/
-- https://www.baguete.com.br/noticias/playbpo-recebe-aporte-da-anjos-do-brasil-e-conta-azul
 - https://www.baguete.com.br/noticias/nibo-aporte-da-redpoint-e-ventures
 
 ## setores/26_log_transporte_cargas.md
@@ -825,52 +1186,17 @@ Total de links únicos: 1578. Domínios distintos: 492.
 
 ## setores/31_imob_condominios_facilities.md
 
-- https://www.em.com.br/mundo-corporativo/2026/08/7474336-censo-2026-revela-dados-do-mercado-condominial-brasileiro.html
 - https://www.groupsoftware.com.br/blog/mercado-condominial/
 - https://crecies.gov.br/estudo-do-secovi-rio-traca-retrato-dos-domicilios-brasileiros
-- https://www.sindiconet.com.br/informese/mapa-dos-condominios-2025-noticias-radar-lello
-- https://economicnewsbrasil.com.br/2025/12/21/taxa-condominial-alta-inadimplencia-brasil/
-- https://viva.com.br/dinheiro/condominio-ja-consome-mais-da-metade-do-salario-minimo-no-brasil.html
-- https://www.em.com.br/economia/economia-digital/2026/04/7405308-gestao-digital-de-condominios-avanca-e-movimenta-rs-800-milhoes.html
-- https://www.sindiconet.com.br/informese/sao-paulo-tera-708-novos-condominios-2025-noticias-radar-lello
-- https://www.sindiconet.com.br/informese/sindicos-ganham-relevancia-com-expansao-de-condominios-noticias-area-aabic
-- https://condominiosc.com.br/jornal-dos-condominios/comportamento/6013-de-morador-engajado-a-gestor-profissional-os-caminhos-da-sindicatura-brasileira
-- https://ohoje.com/2026/05/04/ia-transforma-seguranca-privada-reduz-riscos-e-despesas-no-brasil/
 - https://www.sindiconet.com.br/Informese/26778/Portaria-Virtual/Portaria-Remota-x-Presencial-tecnologia-custo-e-seguranca-em-jogo
 - https://www.sindiconet.com.br/informese/inadimplencia-taxa-condominio-marco-2025-noticias-inadimplencia
-- https://imprensa.superlogica.com/downloads/2025/Índice
 - https://abcdjornal.com.br/?p=107357
-- https://braziljournal.com/warburg-pincus-dobra-aposta-na-superlogica-empresa-aguarda-janela-de-ipo
-- https://finder.techleap.nl/news/feed/superl-gica-raises-r-75m-for-fidc
-- https://www.sindiconet.com.br/informese/pl-sindico-profissional-votacao-adiada-noticias-administracao
-- https://www.al.sp.gov.br/spl/2025/08/Propositura/1000619304_1000768388_Propositura.pdf
-- https://www.sindiconet.com.br/informese/inspecao-predial-obrigatoria-sao-vicente-noticias-manutencao
 - https://www.bemparana.com.br/publicacao/blogs/simonebello/com-investimento-de-r16-milhoes-a-folk-portaria-remota-cresce-157-em-2024/
 - https://portas.com.br/noticias/inadimplencia-condominial-bate-recorde-e-estimula-solucoes/
 
 ## setores/32_energia_gd_mercado_livre.md
 
-- https://canalsolar.com.br/previsao-da-energia-solar-em-2026/
-- https://canalsolar.com.br/setor-solar-supera-projecoes-apesar-desafios/
-- https://www.pv-magazine-brasil.com/author/alessandra-neris/page/2
-- https://canalsolar.com.br/gd-brasil-2026-abgd/
-- https://www.osetoreletrico.com.br/?p=166691
-- https://www.novacana.com/noticias/quase-22-mil-consumidores-migraram-mercado-livre-energia-2025-ccee-020326
-- https://canalsolar.com.br/distribuidoras-ja-cancelaram-e-suspenderam-mais-de-3-mil-pedidos-de-conexao-diz-absolar/
-- https://tagdlaw.com.br/entrada-de-consumidores-no-mercado-livre-recua-365-no-inicio-de-2026/
-- https://www.bmalaw.com.br/conteudo/energia/informativos-e-newsletters/novo-marco-do-setor-eletrico-sancionada-lei-n-152692025-promove-alteracoes-em-leis-centrais-do-setor-de-energia-eletrica-e-de-petroleo-e-gas/pdf
-- https://cenarioenergia.com.br/2026/07/08/abertura-da-baixa-tensao-inaugura-nova-era-do-mercado-livre-e-pode-reduzir-conta-de-luz-em-ate-18/
-- https://www.mayerbrown.com/-/media/files/perspectives-events/publications/2026/08/0821-decreto-n-130972026.pdf%3Frev=-1
-- https://www.dgabc.com.br/Noticia/4340921/lula-publica-decreto-que-regulamenta-mercado-livre-de-energia-na-baixa-tensao
-- https://agenciainfra.com/blog/reajuste-medio-das-contas-de-luz-ficara-em-94-em-2026-diz-aneel/
 - https://www.correiodamanha.com.br/economia/2026/03/amp/272315-conta-de-luz-segue-na-bandeira-verde-em-abril.html
-- https://braziljournal.com/energisa-compra-a-clarke-um-corretor-e-contador-do-mercado-livre-de-energia/
-- https://eixos.com.br/energia-eletrica/electra-compra-enliv-mirando-a-abertura-do-mercado-livre/
-- https://startups.com.br/negocios/lemon-mira-consumidor-residencial-e-aposta-em-aquisicoes-para-crescer/
-- https://neofeed.com.br/startups/em-seu-1o-investimento-no-brasil-lowercarbon-aposta-r-60-milhoes-na-lemon
-- https://canalsolar.com.br/abraceel-autorregulacao-comercializacao-energia/
-- https://canalsolar.com.br/consumidores-60-do-fio-b-2026/
-- https://canalsolar.com.br/es/etiqueta/recuperaci%C3%B3n-de-la-inversi%C3%B3n/
 
 ## setores/33_saneamento.md
 
@@ -1032,7 +1358,6 @@ Total de links únicos: 1578. Domínios distintos: 492.
 - https://blogs.correiobraziliense.com.br/capital-sa/2026/05/17/empresa-do-df-e-a-3a-do-pais-com-maior-faturamento-no-setor-de-atacado/amp/
 - https://gironews.com/atacado-cash-carry/ranking-abad-2026-atacadao-e-grupo-martins-consolidam-lideranca-no-setor/
 - https://startups.com.br/negocios/rodada-de-investimento/com-serie-b-de-r-300m-cayena-faz-uma-das-maiores-rodadas-do-ano/
-- https://forbes.com.br/forbes-collab/2024/10/endeavor-revolucionando-o-setor-de-alimentos-b2b/
 - https://cnabrasil.org.br/storage/arquivos/files/Ed.13-CT-CNA-IPCA-17ago2026.pdf
 - https://finder.techleap.nl/news/feed/cayena-raises-r-300m-in-series-b
 - https://braziljournal.com/cayena-levanta-r-100-mi-para-ajudar-os-restaurantes-a-comprar-melhor/
@@ -1111,30 +1436,17 @@ Total de links únicos: 1578. Domínios distintos: 492.
 - https://www.baguete.com.br/noticias/tecnofit-recebe-aporte-de-r-13-milhoes
 - https://startupi.com.br/vittude-recebe-aporte-de-r-35-milhoes-para-acelerar-expansao-nacional/
 - https://medicinasa.com.br/zenklub-edi31/
-- https://www.migalhas.com.br/depeso/451671/nr-1-e-sua-vigencia-objetivos-fiscalizacoes-e-multas
 
 ## setores/43_automotivo_posvenda.md
 
-- https://www.vrum.com.br/mercado/2026/07/7453060-frota-brasileira-envelhece-e-achar-pecas-de-reposicao-vira-um-desafio.html
 - https://www.vrum.com.br/colunistas/fernando-calmon/2025/05/7148762-frota-brasileira-de-veiculos-continua-a-envelhecer-e-sem-melhora-a-vista.html
 - https://www.conexaoto.com.br/2026/01/31/explosao-dos-carros-eletricos-no-brasil-transforma-o-pos-vendas-e-impulsiona-o-setor-de-autopecas
-- https://autoentusiastas.com.br/2025/09/oficinas-independentes-querem-mais-espaco/
 - https://omecanico.com.br/260-especial-dia-do-mecanico/
-- https://www.opovo.com.br/noticias/veiculos/2026/01/07/veiculos-usados-batem-recorde-de-vendas-em-2025.html
-- https://www.bemparana.com.br/carros/mercado-de-usados-fecha-2025-com-recorde-historico-e-supera-185-milhoes-de-vendas-no-brasil/
-- https://www.vrum.com.br/mercado/2026/09/7498853-vendas-de-carros-eletrificados-mantem-crescimento-no-brasil-em-2026.html
 - https://paraibabusiness.com.br/eletrificados-conquistam-21-do-mercado-e-podem-chegar-a-450-mil/
 - https://diariodotransporte.com.br/2026/05/08/anfavea-preve-vendas-450-mil-veiculos-eletrificados-em-2026-em-onibus-eletra-caio-lidera-abril-com-76-de-mercado-segundo-fenabrave/amp/
-- https://canalve.com.br/brasil-aproxima-1-milhao-eletrificados-circulacao/
 - https://mercadoeconsumo.com.br/15/10/2026/noticias-varejo/vendas-no-comercio-varejista-tem-variacao-de-01-em-agosto/
-- https://startups.com.br/negocios/ex-rappi-cria-startup-de-ia-para-digitalizar-oficinas-mecanicas/
-- https://autopapo.com.br/curta/manutencao-de-carro-eletrico-falta-de-mao-de-obra-especializada-vira-gargalo-no-brasil/
-- https://www.gazetadopovo.com.br/automoveis/oficinas-mecanicas-enfrentam-desafios-para-reparar-frota-de-carros-eletricos/
-- https://www.correio24horas.com.br/economia/empregos/uma-em-cada-tres-oficinas-mecanicas-enfrenta-dificuldades-para-contratar-mao-de-obra-qualificada-0825
-- https://startups.com.br/negocios/rodada-de-investimento/mecanizou-levanta-us-145-mi-para-levar-tecnologia-ao-setor-de-autopecas/
 - https://www.portaldotransito.com.br/noticias/mobilidade-e-tecnologia/veiculos/mecanizou-orienta-como-identificar-pecas-falsificadas-e-garantir-a-seguranca-na-hora-da-compra/
 - https://startups.com.br/negocios/rodada-de-investimento/pitz-amplia-rodada-e-acelera-expansao-para-o-mercado-norte-americano/
-- https://www.em.com.br/networking-e-negocios/2026/07/7470212-65-das-oficinas-mecanicas-do-pais-ainda-operam-sem-sistema-de-gestao.html
 - https://monitordomercado.com.br/noticias/369915-com-o-avanco-dos-carros-eletricos-oficinas-nao-encontram-mecanicos-no-brasil-e-ja-oferecem-salarios-de-ate-r-12-mil-para-tecnicos-especializados-em-alta-tensao/
 
 ## setores/44_educacao_basica_privada.md
@@ -1344,7 +1656,6 @@ Total de links únicos: 1578. Domínios distintos: 492.
 - https://e27.co/kopi-kenangan-posts-first-profitable-year-as-it-expands-to-1324-stores-across-six-countries-20260129/
 - https://www.seafoodsource.com/news/aquaculture/efishery-founder-sentenced-to-nine-years-in-jail
 - https://mexicobusiness.news/automotive/news/kavak-raises-us127-million-valuation-drops-75
-- https://forbes.co/2025/08/14/negocios/frubana-pone-fin-a-sus-operaciones
 - https://www.bloomberglinea.com.br/2023/02/10/jokr-encerra-operacoes-no-mexico-para-focar-no-brasil/
 - https://techcabal.com/2026/07/22/m-kopa-reaches-10-million-customers/
 - https://www.dealstreetasia.com/stories/indias-zetwerk-rises-over-5-in-market-debut-after-518m-ipo-499047/
@@ -1366,10 +1677,6 @@ Total de links únicos: 1578. Domínios distintos: 492.
 - https://www.sec.gov/Archives/edgar/data/1638826/000163882626000009/ttan-ex99_1.htm
 - https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/
 - https://www.cnbc.com/2026/05/20/fintech-mercury-valuation-fundraise-bank-charter.html
-- https://www.bloomberg.com/news/articles/2026-02-24/ai-for-accounting-startup-basis-hits-1-15-billion-valuation
-- https://www.forbes.com/sites/annatong/2026/06/02/thrive-holdings-to-bet-1-billion-on-ai-powered-accounting-roll-up/
-- https://www.generalcatalyst.com/stories/our-investment-in-accrual
-- https://techcrunch.com/2025/06/18/multiplier-founded-by-ex-stripe-exec-nabs-27-5m-to-fuel-ai-powered-accounting-roll-ups/
 - https://www.generalcatalyst.com/stories/the-future-of-services
 - https://www.owner.com/d
 - https://am.gs.com/en-au/advisors/news/press-release/2026/owner-raises-240m-gs-alts
@@ -1385,7 +1692,6 @@ Total de links únicos: 1578. Domínios distintos: 492.
 - https://www.globallegalpost.com/news/cooley-backed-contract-review-start-up-crosby-raises-60m-in-fresh-funding-1011864931
 - https://dealroom.co/companies/long-lake-management/
 - https://fortune.com/2025/06/09/gusto-200-million-plus-tender-offer
-- https://getlatka.com/companies/pilot
 - https://a16z.com/announcement/investing-in-salient/
 - https://techcrunch.com/2026/01/19/here-are-the-49-us-ai-startups-that-have-raised-100m-or-more-in-2025/
 - https://www.evenuplaw.com/blog/introducing-pre-litigation-as-a-service-plaas/
@@ -1669,7 +1975,6 @@ Total de links únicos: 1578. Domínios distintos: 492.
 - https://siliconvalleyinvestclub.com/companies/gusto/tear-sheet.pdf
 - https://pymnts.com/?p=1042664
 - https://www.trueup.io/co/pilot
-- https://contabilidade.com/blog/contabilidade-online-em-2026-tendencias-comparativos-e-como-escolher-a-melhor-para-sua-empresa/
 
 ## benchmarking/eua_20_salient_cobranca_voz.md
 
@@ -1686,7 +1991,6 @@ Total de links únicos: 1578. Domínios distintos: 492.
 
 ## benchmarking/fracasso_01_frubana.md
 
-- https://forbes.co/2024/02/16/negocios/frubana-se-enfocara-en-brasil-suspendera-sus-operaciones-en-colombia-y-mexico
 - https://startups.com.br/negocios/foodtech/frubana-fecha-na-colombia-e-mexico-para-focar-no-brasil/
 - https://olhardigital.com.br/2021/06/02/pro/e-commerce-de-alimentos-frubana-recebe-aporte-de-r-351-milhoes-e-quer-dobrar-operacao-no-brasil/
 - https://www.descubre.vc/noticia/el-fin-de-frubana-cierra-su-ltimo-mercado-activo-en-brasil-2025-08-14
@@ -1771,15 +2075,11 @@ Total de links únicos: 1578. Domínios distintos: 492.
 
 ## capital/compradores_e_saidas.md
 
-- https://static.poder360.com.br/uploads/2026/10/fato-relevante-itau-neospace-26out2026-1.pdf
 - https://startups.com.br/negocios/ma/itau-adquire-neospace-por-r-29b-para-ampliar-solucoes-de-ia/
 - https://capitalaberto.com.br/empresas/2026/10/itau-paga-r-2-9-bi-pela-neo-space-e-agrega-ia-fundacional
 - https://forbes.com.br/forbes-money/2025/01/itau-compra-participacao-em-startup-focada-em-modelos-de-ia-para-o-mercado-financeiro/
-- https://investidor10.com.br/noticias/totvs-tots3-compra-linx-por-r-3-05-bilhoes-114292/
 - https://www.moneytimes.com.br/totvs-tots3-santander-eleva-preco-alvo-das-acoes-para-r-61-apsa/
-- https://finder.techleap.nl/news/feed/visma-acquires-contaazul-for-r-2-billion
 - https://latinlawyer.com/industry/medical-devices-technology?page=1
-- https://www.lavca.org/?p=32363
 - https://latinlawyer.com/industry/medical-devices-technology
 - https://www.baguete.com.br/noticias/constellation-compra-pixeon
 - https://www.nordinvestimentos.com.br/blog/dasa-amil-fusao/
@@ -1810,14 +2110,13 @@ Total de links únicos: 1578. Domínios distintos: 492.
 - https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/economia-brasileira-cresce-11-no-1o-trimestre
 - https://diariodocomercio.com.br/economia/pib-brasil-cresce/
 - https://www.infomoney.com.br/economia/fazenda-mantem-visao-de-alta-do-pib-de-23-em-2026-apos-aceleracao-no-1o-tri/
-- https://www.infomoney.com.br/mercados/boletim-focus-projecoes-26102024/
+- https://soubrasilia.com/focus-26-outubro-2026-ipca-5-19-pib-1-80-selic-13-25-dolar-5-05/
 - https://www.infomoney.com.br/economia/boletim-focus-projecoes-19102026/
 - https://www.poder360.com.br/poder-economia/copom-corta-selic-em-025-ponto-e-juros-caem-para-14-ao-ano/
 - https://www.cnnbrasil.com.br/economia/money/macroeconomia/bc-copom-agosto-2026/
 - https://www.infomoney.com.br/economia/banco-central-copom-decisao-selic-05082026/
 - https://www.infomoney.com.br/economia/taxa-selic-copom-corta-juros-13-75-set-2026/
 - https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/ata-do-copom-atribui-corte-da-selic-desaceleracao-da-economia
-- https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48246-ipca-fica-em-0-82-em-setembro
 - https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/inflacao-oficial-de-setembro-fica-em-082-mostra-ibge
 - https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48349-o-ipca-15-e-de-0-32-em-outubro
 - https://www.infomoney.com.br/mercados/estoque-de-credito-sobe-04-em-setembro-ante-agosto-para-r-7444-trilhoes-diz-bc/
@@ -1831,7 +2130,6 @@ Total de links únicos: 1578. Domínios distintos: 492.
 - https://www.infomoney.com.br/politica/ao-vivo-eleicoes-segundo-turno-2026/
 - https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/
 - https://www.poder360.com.br/poder-economia/bolsa-volta-a-cair-apos-tombo-com-reeleicao-de-lula-dolar-recua/
-- https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/divida-publica-fica-em-829-do-pib-e-deficit-soma-r-55-bilhoes
 - https://www.cnnbrasil.com.br/economia/money/macroeconomia/divida-bruta-sobe-43-pontos-do-pib-em-2026-e-chega-a-829-diz-bc/
 - https://www.poder360.com.br/poder-economia/mercado-eleva-projecao-de-deficit-primario-de-2026-a-r-5305-bi/
 - https://www.infomoney.com.br/brasil/tesouro-piora-projecoes-para-divida-publica-e-preve-trajetoria-de-alta-ate-2032/
@@ -1846,23 +2144,18 @@ Total de links únicos: 1578. Domínios distintos: 492.
 - https://www.poder360.com.br/brasil/populacao-do-pais-vai-parar-de-crescer-em-2041-diz-ibge/
 - https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas
 - https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/mapa-de-empresas-boletim-1o-quadrimestre-2025-pdf.pdf/@@download/file
-- https://agenciasebrae.com.br/dados/meis-lideram-abertura-de-empresas-no-pais-e-ja-representam-78-dos-novos-negocios-em-2026/
 - https://agenciasebrae.com.br/economia-e-politica/tres-em-cada-10-mei-fecham-as-portas-em-ate-cinco-anos-de-atividade-no-brasil/
 - https://agenciasebrae.com.br/cultura-empreendedora/consultoria-do-sebrae-reduz-em-quase-70-o-risco-de-fechamento-de-pequenos-negocios-no-brasil/
 - https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/47774-pnad-continua-trimestral-desocupacao-cai-em-13-das-27-ufs-no-2-trimestre-de-2026
 
 ## capital/vc_pe_brasil.md
 
-- https://gpg-pdf.chambers.com/view/998044102/44/
 - https://datasebrae.com.br/wp-content/uploads/2026/07/2.-Estrategia-de-Investimento-em-Inovacao-do-Sistema-Sebrae.pdf
 - https://www.mobiletime.com.br/tag/distrito/
 - https://www.bloomberglinea.com.br/startups/rodadas-da-semana-investimentos-em-startups-no-brasil-caem-75-no-primeiro-trimestre/
 - https://www.ttrdata.com/en/ttr-in-the-press/LatAm-Tech-Venture-Capital-Rebounds-as-Investors-Prioritize-Quality/10724
-- https://www.bloomberglinea.com.br/startups/rodadas-da-semana-captacao-de-startups-no-brasil-cai-13-para-us-45-bi-em-2025/
-- https://diariodocomercio.com.br/negocios/startups-brasil-minas-investimentos-2025/
 - https://datasebrae.com.br/wp-content/uploads/2026/04/SEBRAEES_CT_Panorama_Inovacao_PROD.pdf
 - https://blog.mean.ceo/startups-brazil-news-october-2026/
-- https://monitordomercado.com.br/noticias/397382-mercado-de-venture-capital-encolhe-36-no-brasil-com-investidores-mais-seletivos/
 - https://www.portalin.com.br/negocios/brasil-lidera-ciclo-de-us-3-bilhoes-e-impulsiona-retomada-dos-investimentos-em-startups-na-america-latina/
 - https://www.contxto.com/en/venture-capital-es/brazil-takes-the-lead-again-venture-investment-in-latin-america-revives-with-ai-and-fintech-as-drivers/
 - https://startups.com.br/negocios/equity-encolhe-e-credito-passa-a-dominar-investimentos-em-startups/
@@ -1883,7 +2176,6 @@ Total de links únicos: 1578. Domínios distintos: 492.
 - https://forbes.com.br/noticias-sobre/kaszek/
 - https://wise.com/br/blog/rodada-investimento-startup-como-funciona
 - https://itforum.com.br/noticias/brasil-healthtech/
-- https://abvcap.com.br/wp-content/uploads/2026/02/report-abvcap-ttr-data-4q2025.pdf
 - https://www.fundssociety.com/br/?p=6781
 - https://abvcap.com.br/wp-content/uploads/2025/10/abvcap-ttrdata-report-3q-2025.pdf
 - https://startups.com.br/negocios/venture-capital-recua-e-private-equity-acelera-no-brasil-no-1o-tri/
@@ -1894,63 +2186,63 @@ Total de links únicos: 1578. Domínios distintos: 492.
 
 | Domínio | Links únicos |
 |---|---|
-| startups.com.br | 66 |
-| mercadoeconsumo.com.br | 53 |
-| baguete.com.br | 26 |
-| bloomberglinea.com.br | 26 |
-| poder360.com.br | 24 |
-| startupi.com.br | 23 |
+| startups.com.br | 75 |
+| mercadoeconsumo.com.br | 63 |
+| baguete.com.br | 29 |
+| bloomberglinea.com.br | 27 |
+| poder360.com.br | 26 |
+| startupi.com.br | 26 |
+| forbes.com.br | 23 |
 | infomoney.com.br | 23 |
-| forbes.com.br | 20 |
-| moneytimes.com.br | 18 |
+| diariodocomercio.com.br | 21 |
+| moneytimes.com.br | 19 |
+| movimentoeconomico.com.br | 18 |
+| sindiconet.com.br | 18 |
+| gov.br | 17 |
+| contabeis.com.br | 17 |
+| agfeed.com.br | 17 |
 | agenciadenoticias.ibge.gov.br | 16 |
-| agfeed.com.br | 16 |
-| gov.br | 16 |
+| finsidersbrasil.com.br | 16 |
+| braziljournal.com | 16 |
 | techcrunch.com | 16 |
 | inc42.com | 15 |
-| revistacultivar.com.br | 14 |
-| movimentoeconomico.com.br | 14 |
+| timesbrasil.com.br | 14 |
+| futurodasaude.com.br | 14 |
+| legismap.com.br | 14 |
 | economicnewsbrasil.com.br | 14 |
-| braziljournal.com | 14 |
 | neofeed.com.br | 14 |
-| diariodocomercio.com.br | 14 |
-| finsidersbrasil.com.br | 13 |
-| futurodasaude.com.br | 13 |
+| revistacultivar.com.br | 14 |
+| medicinasa.com.br | 13 |
+| gironews.com | 13 |
+| canalsolar.com.br | 13 |
 | agenciabrasil.ebc.com.br | 12 |
-| contabeis.com.br | 12 |
-| legismap.com.br | 12 |
-| timesbrasil.com.br | 12 |
-| gironews.com | 11 |
-| medicinasa.com.br | 11 |
+| opovo.com.br | 12 |
+| exame.com | 11 |
+| letsmoney.com.br | 11 |
+| canalrural.com.br | 11 |
+| cenarioenergia.com.br | 11 |
 | monitormercantil.com.br | 11 |
 | teletime.com.br | 11 |
+| jornalcontabil.com.br | 10 |
+| dgabc.com.br | 10 |
+| cqcs.com.br | 10 |
 | cnnbrasil.com.br | 10 |
-| opovo.com.br | 10 |
 | istoedinheiro.com.br | 10 |
-| letsmoney.com.br | 10 |
 | portas.com.br | 10 |
-| dgabc.com.br | 9 |
-| cnabrasil.org.br | 9 |
-| canalrural.com.br | 9 |
-| investidor10.com.br | 9 |
 | static.poder360.com.br | 9 |
-| exame.com | 9 |
+| investidor10.com.br | 9 |
+| viva.com.br | 9 |
+| fenacon.org.br | 9 |
+| diariodepernambuco.com.br | 9 |
+| centraldovarejo.com.br | 9 |
+| bpmoney.com.br | 9 |
+| portaltela.com | 9 |
+| cnabrasil.org.br | 9 |
 | fortune.com | 9 |
+| correiodamanha.com.br | 8 |
+| folhape.com.br | 8 |
 | comprerural.com | 8 |
-| sindiconet.com.br | 8 |
-| theagribiz.com | 7 |
-| bpmoney.com.br | 7 |
-| folhape.com.br | 7 |
-| viva.com.br | 7 |
-| cqcs.com.br | 7 |
-| correiodamanha.com.br | 7 |
-| bemparana.com.br | 7 |
-| diariodepernambuco.com.br | 7 |
-| fenacon.org.br | 7 |
-| mundologistica.com.br | 7 |
-| canalsolar.com.br | 7 |
-| tecnoblog.net | 7 |
-| centraldovarejo.com.br | 7 |
-| cnbc.com | 7 |
-| bloomberg.com | 7 |
-| mundocoop.com.br | 6 |
+| agenciasebrae.com.br | 7 |
+| brasil61.com | 7 |
+| meioemensagem.com.br | 7 |
+| mundocoop.com.br | 7 |

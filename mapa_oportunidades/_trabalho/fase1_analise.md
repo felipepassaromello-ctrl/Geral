@@ -12,7 +12,7 @@
 | Varejo e consumo | 3,31 | 9 |
 | Educação | 3,29 | 3 |
 | Agro | 3,29 | 8 |
-| Logística | 3,12 | 2 |
+| Logística | 3,13 | 2 |
 | Serviços financeiros | 2,94 | 4 |
 
 ## 4. Leitura do ranking (ANÁLISE)
@@ -46,14 +46,15 @@ Filtro aplicado (ANÁLISE): nota de capital igual ou maior que 4, nota de juros 
 | Clínicas e consultórios | 3,75 | Faltas e reativação de pacientes, faturamento de convênio |
 | Fitness e bem-estar | 3,75 | NR-1 psicossocial e retenção de alunos |
 | Serviços domésticos e autônomos | 3,75 | Manutenção residencial vertical e B2B2C |
+| Agro: rastreabilidade, EUDR e carbono | 3,63 | Dossiê EUDR para cooperativas e identificação de bovinos com data marcada (2027) |
 | Farmácias | 3,63 | Cadastro fiscal da reforma e serviços farmacêuticos via associações |
 | Seguros (corretores) | 3,63 | IA para renovação e cotação de 152 mil corretores |
 | Cobrança e recuperação | 3,63 | Contra-cíclico, cobrança B2B por nicho e por êxito |
-| Reciclagem e resíduos | 3,63 | Conformidade com metas de conteúdo reciclado |
 | Beleza e estética | 3,50 | Conformidade de clínicas e reativação |
 | Saúde digital | 3,50 | Adequação à Resolução CFM 2.454/2026 sobre IA |
 | Telecom (provedores regionais) | 3,50 | Cobrança e preparação para venda de ISPs |
-| Govtech | 3,50 | Assessoria para PMEs que vendem ao governo (não vender para prefeitura) |
+
+Ficaram de fora por exigir mais capital para entrar (nota 3), apesar da média alta: reciclagem e resíduos (3,63) e govtech (3,50).
 
 ## 6. Os 8 subsetores escolhidos para a Fase 2
 
