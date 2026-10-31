@@ -1,7 +1,7 @@
 # Fase 2: Cuidado de idosos (família, ILPIs, home care, empregadores e operadoras)
 Última atualização: 31/10/2026 | Pesquisador: agente Fase 2 (subsetores 15 e 46)
 
-> Nota de método: números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede (WebFetch bloqueado). Orçamento de 22 buscas compartilhado com o arquivo 46 (10 buscas usadas aqui). Fontes [1] a [28] do arquivo da Fase 1 (/home/user/Geral/mapa_oportunidades/setores/15_saude_cuidado_idosos.md) são reaproveitadas com a mesma numeração; fontes novas começam em [29]. Preços de cuidador vêm majoritariamente de blogs e páginas comerciais: são faixas indicativas, não dado auditado.
+> Nota de método: números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede (WebFetch bloqueado). Orçamento de 22 buscas compartilhado com o arquivo 46 (10 buscas usadas aqui). Fontes [1] a [28] do arquivo da Fase 1 (../../setores/15_saude_cuidado_idosos.md) são reaproveitadas com a mesma numeração; fontes novas começam em [29]. Preços de cuidador vêm majoritariamente de blogs e páginas comerciais: são faixas indicativas, não dado auditado.
 
 ## 1. Cadeia de valor e tipos de empresa
 
@@ -223,7 +223,7 @@ Escala das notas: 1 a 5, 5 = mais favorável a Felipe. Critérios: Tam (tamanho)
 **ANÁLISE de síntese:** a combinação mais forte é um **"serviço de coordenação de cuidado" vendido a empregadores (Dor 9) e entregue com uma rede curada de cuidadores e formalização (Dores 1, 3 e 11)**. O B2B dá ticket recorrente e baixa o CAC; a entrega local cria a defensabilidade. Riscos: ciclo de venda de RH, necessidade de provar uso (benefícios de baixa utilização são cortados na renovação, o que gera churn anual) e responsabilidade sobre prestadores indicados.
 
 ## 5. Fontes
-Fontes [1] a [28]: ver /home/user/Geral/mapa_oportunidades/setores/15_saude_cuidado_idosos.md (mesma numeração).
+Fontes [1] a [28]: ver ../../setores/15_saude_cuidado_idosos.md (mesma numeração).
 
 29. Preços de cuidador de idosos 2026 (diária 12 h, plantão 24 h, agência vs. autônomo), blogs e guias: Meu Tudo, Viva, CIDESP, Saber Tecnologias, Guia dos Cursos, Cronoshare, 2026 [baixa confiabilidade]. https://meutudo.com.br/blog/?p=190386 ; https://viva.com.br/saude-e-bem-estar/quanto-custa-o-servico-de-um-cuidador-de-idosos.html ; https://cidesp.com.br/conteudo/tabela-de-preco-de-cuidador-de-idoso-2026-guia-completo ; https://guiadoscursos.com/salario-cuidador-de-idosos-2026-quanto-ganha-domicilio-ilpi/
 30. "Em cinco anos, abertura de pequenos negócios de serviço de cuidadores cresceu 74% no Brasil", Fenacon / Diário do Comércio / Agência Sebrae, mar/2026; Correio da Manhã, out/2026; Nonno (NSC Total); Helpmy (Diário do Comércio); Sanii (ABC da Comunicação, 2026); Zelo Saúde (DOAJ); Acuidar (ABF Expo 2026). https://fenacon.org.br/noticias/em-cinco-anos-abertura-de-pequenos-negocios-de-servico-de-cuidadores-cresceu-74-no-brasil/ ; https://diariodocomercio.com.br/negocios/abertura-pequenos-negocios-servico-cuidadores-cresceu/ ; https://www.correiodamanha.com.br/nacional/2026/10/327019-mercado-de-cuidadores-cresce-74-no-brasil.html ; https://www.nsctotal.com.br/?p=2618201 ; https://diariodocomercio.com.br/negocios/helpmy-conecta-familias-a-cuidadores/ ; https://www.abcdacomunicacao.com.br/sanii-premia-cuidadores-de-idosos/ ; https://doaj.org/article/4ffeb5ca28fb4779a56c4d96bf1541c5 ; https://www.abfexpo.com.br/media/abfexpo.com.br/PR-Acuidar-e-Dona-Help-b17d20433108a1db24ff36d9a15424c6.pdf

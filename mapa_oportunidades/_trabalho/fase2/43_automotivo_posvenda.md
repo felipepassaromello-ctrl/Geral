@@ -282,5 +282,5 @@ Escala das notas: 1 a 5, 5 = mais favorável para o Felipe. Ordem: tamanho | dis
 25. "Ex-Rappi cria startup de IA para digitalizar oficinas mecânicas", Startups.com.br, 2026. https://startups.com.br/negocios/ex-rappi-cria-startup-de-ia-para-digitalizar-oficinas-mecanicas/
 26. "Faturamento da indústria de autopeças cresceu 5,6%", Autodata, 26/02/2026, https://www.autodata.com.br/noticias/2026/02/26/faturamento-da-industria-de-autopecas-cresceu-56/100089/ ; Novo Varejo Automotivo ed. 489 (reposição +13,6% em 2024), fev/2026, https://novovarejoautomotivo.com.br/wp-content/uploads/2026/02/DIGITAL-489_compressed-1.pdf
 27. "Em sintonia com os avanços do mercado" (35 mil lojas), Mecânica Online, set/2006 [DADO ANTIGO]. https://mecanicaonline.com.br/2006/09/em-sintonia-com-os-avancos-do-mercado/
-28. Benchmark interno: /home/user/Geral/mapa_oportunidades/benchmarking/eua_06_servicetitan.md (ServiceTitan, receita FY2026 de US$ 961 mi, SEC).
+28. Benchmark interno: ../../benchmarking/eua_06_servicetitan.md (ServiceTitan, receita FY2026 de US$ 961 mi, SEC).
 29. "Mecanizou levanta US$ 14,5 mi para levar tecnologia ao setor de autopeças", Startups.com.br, 2023 [DADO ANTIGO]. https://startups.com.br/negocios/rodada-de-investimento/mecanizou-levanta-us-145-mi-para-levar-tecnologia-ao-setor-de-autopecas/

@@ -1,7 +1,7 @@
 # Fase 2: Educação corporativa e qualificação (IA para PMEs, NR-1, qualificação técnica, onboarding)
 Última atualização: 31/10/2026 | Pesquisador: agente Fase 2 (subsetores 15 e 46)
 
-> Nota de método: números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede (WebFetch bloqueado). Orçamento de 22 buscas compartilhado com o arquivo 15 (12 buscas usadas aqui). Fontes [1] a [10] do arquivo da Fase 1 (/home/user/Geral/mapa_oportunidades/setores/46_educacao_corporativa_qualificacao.md) são reaproveitadas com a mesma numeração; fontes novas começam em [11]. Muitos preços vêm de blogs de fornecedores: indicativos.
+> Nota de método: números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede (WebFetch bloqueado). Orçamento de 22 buscas compartilhado com o arquivo 15 (12 buscas usadas aqui). Fontes [1] a [10] do arquivo da Fase 1 (../../setores/46_educacao_corporativa_qualificacao.md) são reaproveitadas com a mesma numeração; fontes novas começam em [11]. Muitos preços vêm de blogs de fornecedores: indicativos.
 
 ## 1. Cadeia de valor e tipos de empresa
 
@@ -196,7 +196,7 @@ Notas de 1 a 5 (5 = mais favorável a Felipe): Tam, DAP, Esp (espaço competitiv
 | 8. Mensuração de T&D | 2,78 | RH não paga para ser avaliado. |
 
 ## 6. Fontes
-Fontes [1] a [10]: ver /home/user/Geral/mapa_oportunidades/setores/46_educacao_corporativa_qualificacao.md (mesma numeração).
+Fontes [1] a [10]: ver ../../setores/46_educacao_corporativa_qualificacao.md (mesma numeração).
 
 11. ABTD Panorama do Treinamento 2025/2026 citado por Ticket, BP Money, Diário do Comércio, Genyo, 2025/2026 (fontes secundárias). https://www.ticket.com.br/blog/pessoas-e-gestao/treinamento-corporativo/ ; https://bpmoney.com.br/?p=427838 ; https://diariodocomercio.com.br/opiniao/coluna/economia-do-proposito/tendencias-mercado-treinamento-desenvolvimento/ ; https://genyo.com.br/treinamentos-ineficientes-pesquisa/
 12. Vagas gratuitas Senai 2026: Diario de Pernambuco (jan/2026), Correio 24 Horas (Senai-BA), Diário do Comércio (Senai-RN). https://www.diariodepernambuco.com.br/vida-urbana/2026/01/11706389-senai-abre-mais-de-duas-mil-vagas-em-cursos-gratuitos-a-distancia-no-grande-recife.html ; https://www.correio24horas.com.br/minha-bahia/mais-de-mil-vagas-gratuitas-inscricoes-para-cursos-tecnicos-do-senai-terminam-nesta-quarta-7-0126 ; https://diariodocomercio.com.br/mix/senai-abre-2-mil-vagas-em-cursos-gratuitos-pela-internet-para-quem-tem-a-partir-de-16-anos-e-ensino-fundamental-completo/

@@ -141,7 +141,7 @@ As seções abaixo reproduzem os arquivos de trabalho de cada subsetor, com as f
 ## Fase 2: Cuidado de idosos (família, ILPIs, home care, empregadores e operadoras)
 Última atualização: 31/10/2026 | Pesquisador: agente Fase 2 (subsetores 15 e 46)
 
-> Nota de método: números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede (WebFetch bloqueado). Orçamento de 22 buscas compartilhado com o arquivo 46 (10 buscas usadas aqui). Fontes [1] a [28] do arquivo da Fase 1 (/home/user/Geral/mapa_oportunidades/setores/15_saude_cuidado_idosos.md) são reaproveitadas com a mesma numeração; fontes novas começam em [29]. Preços de cuidador vêm majoritariamente de blogs e páginas comerciais: são faixas indicativas, não dado auditado.
+> Nota de método: números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede (WebFetch bloqueado). Orçamento de 22 buscas compartilhado com o arquivo 46 (10 buscas usadas aqui). Fontes [1] a [28] do arquivo da Fase 1 (setores/15_saude_cuidado_idosos.md) são reaproveitadas com a mesma numeração; fontes novas começam em [29]. Preços de cuidador vêm majoritariamente de blogs e páginas comerciais: são faixas indicativas, não dado auditado.
 
 ### 1. Cadeia de valor e tipos de empresa
 
@@ -363,7 +363,7 @@ Escala das notas: 1 a 5, 5 = mais favorável a Felipe. Critérios: Tam (tamanho)
 **ANÁLISE de síntese:** a combinação mais forte é um **"serviço de coordenação de cuidado" vendido a empregadores (Dor 9) e entregue com uma rede curada de cuidadores e formalização (Dores 1, 3 e 11)**. O B2B dá ticket recorrente e baixa o CAC; a entrega local cria a defensabilidade. Riscos: ciclo de venda de RH, necessidade de provar uso (benefícios de baixa utilização são cortados na renovação, o que gera churn anual) e responsabilidade sobre prestadores indicados.
 
 ### 5. Fontes
-Fontes [1] a [28]: ver /home/user/Geral/mapa_oportunidades/setores/15_saude_cuidado_idosos.md (mesma numeração).
+Fontes [1] a [28]: ver setores/15_saude_cuidado_idosos.md (mesma numeração).
 
 29. Preços de cuidador de idosos 2026 (diária 12 h, plantão 24 h, agência vs. autônomo), blogs e guias: Meu Tudo, Viva, CIDESP, Saber Tecnologias, Guia dos Cursos, Cronoshare, 2026 [baixa confiabilidade]. https://meutudo.com.br/blog/?p=190386 ; https://viva.com.br/saude-e-bem-estar/quanto-custa-o-servico-de-um-cuidador-de-idosos.html ; https://cidesp.com.br/conteudo/tabela-de-preco-de-cuidador-de-idoso-2026-guia-completo ; https://guiadoscursos.com/salario-cuidador-de-idosos-2026-quanto-ganha-domicilio-ilpi/
 30. "Em cinco anos, abertura de pequenos negócios de serviço de cuidadores cresceu 74% no Brasil", Fenacon / Diário do Comércio / Agência Sebrae, mar/2026; Correio da Manhã, out/2026; Nonno (NSC Total); Helpmy (Diário do Comércio); Sanii (ABC da Comunicação, 2026); Zelo Saúde (DOAJ); Acuidar (ABF Expo 2026). https://fenacon.org.br/noticias/em-cinco-anos-abertura-de-pequenos-negocios-de-servico-de-cuidadores-cresceu-74-no-brasil/ ; https://diariodocomercio.com.br/negocios/abertura-pequenos-negocios-servico-cuidadores-cresceu/ ; https://www.correiodamanha.com.br/nacional/2026/10/327019-mercado-de-cuidadores-cresce-74-no-brasil.html ; https://www.nsctotal.com.br/?p=2618201 ; https://diariodocomercio.com.br/negocios/helpmy-conecta-familias-a-cuidadores/ ; https://www.abcdacomunicacao.com.br/sanii-premia-cuidadores-de-idosos/ ; https://doaj.org/article/4ffeb5ca28fb4779a56c4d96bf1541c5 ; https://www.abfexpo.com.br/media/abfexpo.com.br/PR-Acuidar-e-Dona-Help-b17d20433108a1db24ff36d9a15424c6.pdf
@@ -647,7 +647,7 @@ Base comum de tamanho (ANÁLISE, sem fonte direta): não encontrei fonte confiá
 ## Fase 2: Educação corporativa e qualificação (IA para PMEs, NR-1, qualificação técnica, onboarding)
 Última atualização: 31/10/2026 | Pesquisador: agente Fase 2 (subsetores 15 e 46)
 
-> Nota de método: números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede (WebFetch bloqueado). Orçamento de 22 buscas compartilhado com o arquivo 15 (12 buscas usadas aqui). Fontes [1] a [10] do arquivo da Fase 1 (/home/user/Geral/mapa_oportunidades/setores/46_educacao_corporativa_qualificacao.md) são reaproveitadas com a mesma numeração; fontes novas começam em [11]. Muitos preços vêm de blogs de fornecedores: indicativos.
+> Nota de método: números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede (WebFetch bloqueado). Orçamento de 22 buscas compartilhado com o arquivo 15 (12 buscas usadas aqui). Fontes [1] a [10] do arquivo da Fase 1 (setores/46_educacao_corporativa_qualificacao.md) são reaproveitadas com a mesma numeração; fontes novas começam em [11]. Muitos preços vêm de blogs de fornecedores: indicativos.
 
 ### 1. Cadeia de valor e tipos de empresa
 
@@ -842,7 +842,7 @@ Notas de 1 a 5 (5 = mais favorável a Felipe): Tam, DAP, Esp (espaço competitiv
 | 8. Mensuração de T&D | 2,78 | RH não paga para ser avaliado. |
 
 ### 6. Fontes
-Fontes [1] a [10]: ver /home/user/Geral/mapa_oportunidades/setores/46_educacao_corporativa_qualificacao.md (mesma numeração).
+Fontes [1] a [10]: ver setores/46_educacao_corporativa_qualificacao.md (mesma numeração).
 
 11. ABTD Panorama do Treinamento 2025/2026 citado por Ticket, BP Money, Diário do Comércio, Genyo, 2025/2026 (fontes secundárias). https://www.ticket.com.br/blog/pessoas-e-gestao/treinamento-corporativo/ ; https://bpmoney.com.br/?p=427838 ; https://diariodocomercio.com.br/opiniao/coluna/economia-do-proposito/tendencias-mercado-treinamento-desenvolvimento/ ; https://genyo.com.br/treinamentos-ineficientes-pesquisa/
 12. Vagas gratuitas Senai 2026: Diario de Pernambuco (jan/2026), Correio 24 Horas (Senai-BA), Diário do Comércio (Senai-RN). https://www.diariodepernambuco.com.br/vida-urbana/2026/01/11706389-senai-abre-mais-de-duas-mil-vagas-em-cursos-gratuitos-a-distancia-no-grande-recife.html ; https://www.correio24horas.com.br/minha-bahia/mais-de-mil-vagas-gratuitas-inscricoes-para-cursos-tecnicos-do-senai-terminam-nesta-quarta-7-0126 ; https://diariodocomercio.com.br/mix/senai-abre-2-mil-vagas-em-cursos-gratuitos-pela-internet-para-quem-tem-a-partir-de-16-anos-e-ensino-fundamental-completo/
@@ -1644,7 +1644,7 @@ Escala das notas: 1 a 5, 5 = mais favorável para o Felipe. Ordem: tamanho | dis
 25. "Ex-Rappi cria startup de IA para digitalizar oficinas mecânicas", Startups.com.br, 2026. https://startups.com.br/negocios/ex-rappi-cria-startup-de-ia-para-digitalizar-oficinas-mecanicas/
 26. "Faturamento da indústria de autopeças cresceu 5,6%", Autodata, 26/02/2026, https://www.autodata.com.br/noticias/2026/02/26/faturamento-da-industria-de-autopecas-cresceu-56/100089/ ; Novo Varejo Automotivo ed. 489 (reposição +13,6% em 2024), fev/2026, https://novovarejoautomotivo.com.br/wp-content/uploads/2026/02/DIGITAL-489_compressed-1.pdf
 27. "Em sintonia com os avanços do mercado" (35 mil lojas), Mecânica Online, set/2006 [DADO ANTIGO]. https://mecanicaonline.com.br/2006/09/em-sintonia-com-os-avancos-do-mercado/
-28. Benchmark interno: /home/user/Geral/mapa_oportunidades/benchmarking/eua_06_servicetitan.md (ServiceTitan, receita FY2026 de US$ 961 mi, SEC).
+28. Benchmark interno: benchmarking/eua_06_servicetitan.md (ServiceTitan, receita FY2026 de US$ 961 mi, SEC).
 29. "Mecanizou levanta US$ 14,5 mi para levar tecnologia ao setor de autopeças", Startups.com.br, 2023 [DADO ANTIGO]. https://startups.com.br/negocios/rodada-de-investimento/mecanizou-levanta-us-145-mi-para-levar-tecnologia-ao-setor-de-autopecas/
 
 ---
@@ -1925,7 +1925,7 @@ Escala das notas: 1 a 5, 5 = mais favorável para o Felipe. Ordem: tamanho | dis
 16. "Um novo jeito de fazer manutenção preventiva no condomínio", SíndicoNet, https://www.sindiconet.com.br/informese/um-novo-jeito-de-fazer-manutencao-preventiva-no-condominio-mercado-coluna-de-olho-no-mercado ; "Gestão da manutenção do condomínio: coloque a casa em ordem", SíndicoNet, https://www.sindiconet.com.br/informese/gestao-da-manutencao-do-condominio-coloque-a-casa-em-ordem-mercado-coluna-de-olho-no-mercado ; CondomínioApp (App Store), https://apps.apple.com/us/app/id1159357930 ; Group Software, https://www.groupsoftware.com.br/blog/como-automatizar-a-gestao-com-sistemas-para-sindicos/
 17. "Gestão digital de condomínios avança e movimenta R$ 800 milhões" (uCondo), Estado de Minas, abr/2026. https://www.em.com.br/economia/economia-digital/2026/04/7405308-gestao-digital-de-condominios-avanca-e-movimenta-rs-800-milhoes.html
 18. "São Paulo terá 708 novos condomínios em 2025", Radar Lello/SíndicoNet. https://www.sindiconet.com.br/informese/sao-paulo-tera-708-novos-condominios-2025-noticias-radar-lello
-19. Benchmarks internos: /home/user/Geral/mapa_oportunidades/benchmarking/eua_12_eliseai.md (EliseAI: ARR acima de US$ 200 mi, valuation de US$ 4 bi, set/2026) e eua_06_servicetitan.md.
+19. Benchmarks internos: benchmarking/eua_12_eliseai.md (EliseAI: ARR acima de US$ 200 mi, valuation de US$ 4 bi, set/2026) e eua_06_servicetitan.md.
 20. "Comissões apresentam nota técnica sobre honorários em cobranças condominiais", OAB-SP, 28/04/2026. https://www.oabsp.org.br/jornaldaadvocacia/26-04-28-1706-comissoes-especiais-de-direito-imobiliario-e-advocacia-condominial-apresentam-nota-tecnica-sobre-honorarios-em-cobrancas-condominiais
 21. "Contabilidade para síndico profissional PJ em 2026", Contabilidade Zen, jul/2026. https://www.contabilidadezen.com.br/blog/contabilidade-sindico-profissional-pj-2026/
 
