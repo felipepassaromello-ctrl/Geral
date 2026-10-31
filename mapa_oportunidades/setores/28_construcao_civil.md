@@ -50,7 +50,7 @@
 
 ## Riscos e motivos para NÃO entrar (ANÁLISE)
 - Altíssima sensibilidade a juros e a funding (poupança/FGTS); fora do MCMV a demanda cai com Selic alta (MAP só +6,7% em 2025 e retração de demanda segundo Deloitte/Abrainc 4T25) [8].
-- Dependência do MCMV: mudança de governo ou de orçamento do FGTS afetaria o segmento. A reeleição de Lula (26/10/2026) reduz esse risco no curto prazo.
+- Dependência do MCMV: mudança de governo ou de orçamento do FGTS afetaria o segmento. A reeleição de Lula (2º turno em 25/10/2026) reduz esse risco no curto prazo.
 - Cliente pequeno (empreiteiro) com caixa curto, baixa disposição a pagar SaaS.
 - Capital de risco escasso: construtechs captaram só R$ 16 milhões em 3 operações em 2025 segundo a Liga Ventures, contra R$ 877 milhões em 24 operações em 2024 (pode ser recorte parcial) [16].
 - Marketplaces de mão de obra têm histórico difícil (liquidez, desintermediação).

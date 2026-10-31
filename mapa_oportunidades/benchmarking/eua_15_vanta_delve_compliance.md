@@ -16,7 +16,7 @@ Para vender a empresas maiores, startups e empresas de software precisam provar 
 - ARR acima de US$ 300 milhões em abr/2026, triplicando em dois anos (Fortune, 29/04/2026 [1]). Número de clientes conflitante entre fontes (8 mil a 16 mil).
 
 **Delve (Y Combinator)**
-- Seed de US$ 3 milhões (jan/2025) e Série A de US$ 32 milhões a valuation de US$ 300 milhões, liderada pela Insight Partners, jul/2025 (Delve [4]; Fintech Global [5]); cerca de 10x de alta de valuation em seis meses.
+- Seed de US$ 3 milhões (jan/2025) e Série A de US$ 32 milhões a valuation de US$ 300 milhões, liderada pela Insight Partners, jul/2025 (Delve [4]; Fintech Global [5]). O valuation do seed não aparece nas fontes, então a alta entre as rodadas não foi calculada.
 
 ## Já existe no Brasil?
 **DADO:**

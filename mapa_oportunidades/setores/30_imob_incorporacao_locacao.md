@@ -6,7 +6,7 @@
 ## Resumo em 5 linhas (ANÁLISE)
 1. Mesmo com Selic alta, o crédito imobiliário cresceu 23% no 1º sem. 2026 (R$ 180,9 bi), puxado por FGTS/MCMV e pelo SBPE (+29%); a poupança, porém, não acompanha a demanda e o novo modelo de crédito (CMN, out/2025) reorganiza o funding a partir de 2027.
 2. Locação residencial cresce estruturalmente: 23,8% dos domicílios eram alugados em 2025 (18,4% em 2016) e os aluguéis subiram 9,44% em 2025 (FipeZAP), acima da inflação.
-3. QuintoAndar (valuation acima de US$ 5 bi) e Loft (1,2 milhão de transações em 2025, receita majoritariamente de fintech para imobiliárias) digitalizaram a ponta grande; cerca de 70 mil imobiliárias e 650 mil corretores seguem fragmentados.
+3. QuintoAndar (valuation acima de US$ 5 bi na última rodada encontrada, 2021 [DADO ANTIGO]) e Loft (1,2 milhão de transações em 2025, receita majoritariamente de fintech para imobiliárias) digitalizaram a ponta grande; cerca de 70 mil imobiliárias e 650 mil corretores seguem fragmentados.
 4. A reforma tributária (LC 214/2025) torna contribuinte de IBS/CBS a pessoa física com mais de 3 imóveis alugados e receita acima de R$ 240 mil/ano, com redutor de 70%: dor nova de compliance e de planejamento (holding).
 5. Short stay está em insegurança jurídica: STJ suspendeu em set/2026 os processos sobre proibição em condomínios até fixar tese repetitiva (Tema 1.443).
 

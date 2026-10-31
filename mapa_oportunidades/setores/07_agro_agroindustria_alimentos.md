@@ -15,7 +15,7 @@
 - **DADO (2025, ABIA):** exportações de US$ 66,73 bilhões (+0,7%), com a Ásia como principal destino (US$ 27,4 bilhões). Fontes [9], [10].
 - **DADO (2025, ABIA):** investimentos de R$ 41,3 bilhões (+6,8%) e 51 mil novas vagas formais. Fontes [11], [12].
 - **DADO (ABIA, citado nos resultados de 2026):** cerca de 42 mil empresas formais de alimentos, 93% micro, pequenas e médias. Fontes [9], [10] (número aparece no conjunto de reportagens sobre o balanço ABIA; confirmar no relatório).
-- **DADO:** 100 maiores empresas e cooperativas do agro (Forbes Agro100, lista de 2024) faturaram R$ 1,886 trilhão. Fonte [1].
+- **DADO:** 100 maiores empresas e cooperativas do agro (Forbes Agro100, lista de 2024) [DADO ANTIGO] faturaram R$ 1,886 trilhão. Fonte [1].
 - **DADO (2025):** cooperativas do ramo agropecuário faturaram R$ 487,3 bilhões (+11,2%); dez maiores agroindustriais, R$ 154,2 bilhões (+8,9%). Fontes [2], [3].
 
 ## Crescimento histórico e projetado
@@ -56,7 +56,7 @@
 ## Riscos e motivos para NÃO entrar (ANÁLISE)
 1. Grandes já usam SAP/TOTVS e Big Four; competir no topo é inviável.
 2. Pequena indústria em crise: índice de desempenho CNI de 43,7 pontos no 1º tri/2026, o mais baixo desde o 2º tri/2020; 76% das indústrias com dificuldade de crédito apontam juros como principal obstáculo. Fontes [24], [25].
-3. Margens líquidas de 1% a 2% nas listadas limitam o orçamento para software.
+3. Margem líquida baixa nas listadas (Camil com 1,3% em 2025 [14][16]; margem líquida da M. Dias Branco não levantada) limita o orçamento para software.
 4. Ciclo de venda corporativo longo (3 a 9 meses).
 5. Muitos concorrentes no serviço tributário da transição (contadores, consultorias, ERPs).
 

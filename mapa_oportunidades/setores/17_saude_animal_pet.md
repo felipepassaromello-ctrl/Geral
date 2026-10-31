@@ -5,7 +5,7 @@
 
 ## Resumo em 5 linhas (ANÁLISE)
 1. Mercado grande (cerca de R$ 78 bi em 2025) mas que desacelerou: cresceu 9,6% em 2024 e só 3,45% nominais em 2025, ou seja, perto de zero em termos reais.
-2. O varejo consolidou (Petz e Cobasi fundidas em jan/2026, cerca de R$ 7 bi de receita), e a Petlove virou a plataforma dominante em software veterinário (Vetus, SimplesVet, VetSmart) e em planos de saúde pet.
+2. O varejo consolidou (Petz e Cobasi fundidas em jan/2026, cerca de R$ 7 bi de receita), e a Petlove virou a principal consolidadora de software veterinário (comprou Vetus, SimplesVet, VetSmart [16]) e um dos maiores players de planos de saúde pet (sem dado de participação de mercado).
 3. A ponta clínica segue fragmentada: cerca de 27,7 mil clínicas, 10,2 mil consultórios e 950 hospitais; redes (WeVets, +Pet/VFP, Apaixonados por Quatro Patas) começam a consolidar.
 4. As dores leves e vendáveis estão na clínica pequena: recorrência (lembrete de vacina, retorno, assinatura de cuidados preventivos), cobrança e crédito, agenda e marketing local. O risco é competir com software subsidiado pela Petlove.
 5. Planos de saúde pet ainda têm penetração muito baixa (menos de 2% dos pets, segundo a Petlove), o que é espaço e, ao mesmo tempo, sinal de baixa disposição a pagar.
@@ -15,7 +15,7 @@
 - **DADO (2024):** R$ 75,4 bilhões, alta de 9,6% sobre 2023 (Abinpet) [2][3].
 - **DADO (composição):** pet food é o maior segmento, com mais de R$ 42 bilhões (54% do total); serviços veterinários estimados em 14,3% do setor [2][3]. **ANÁLISE:** 14,3% de R$ 78 bi equivale a cerca de R$ 11 bi em serviços veterinários.
 - **DADO (indústria de saúde animal, 2025):** R$ 12,8 bilhões de faturamento, alta de 7,9%; animais de companhia responderam por 25% (ante 27% em 2024); ruminantes 47% (Sindan, 85 empresas, cerca de 90% do mercado) [4]. **ANÁLISE:** cerca de R$ 3,2 bi em medicamentos e vacinas para pets.
-- **DADO (população, 2025):** cerca de 170 milhões de animais de estimação: 66,3 milhões de cães, 32,3 milhões de gatos, 45,9 milhões de aves e 23,8 milhões de peixes (IPB/Abinpet, via material da Abras) [3]. Levantamento anterior: 160,9 milhões em 2024 (62,2 mi de cães, 30,8 mi de gatos) e 155,7 milhões em 2022 [3][5].
+- **DADO (população, 2025):** cerca de 170 milhões de animais de estimação: 66,3 milhões de cães, 32,3 milhões de gatos, 45,9 milhões de aves e 23,8 milhões de peixes (IPB/Abinpet, via material da Abras) [3]. Levantamento anterior: 160,9 milhões em 2024 (62,2 mi de cães, 30,8 mi de gatos) e 155,7 milhões em 2022 [DADO ANTIGO] [3][5].
 - **DADO (estabelecimentos veterinários):** 27.730 clínicas, 10.169 consultórios e 950 hospitais (dados citados pela Startupi, data não confirmada) [6]. Não encontrei número oficial do CFMV de 2025 para estabelecimentos.
 - **DADO (profissionais):** mais de 180 mil médicos veterinários registrados no Sistema CFMV/CRMV (fonte secundária de 2026) e cerca de 200 mil profissionais atuantes segundo nota do sistema CFMV/CRMVs [7]. Fonte primária não aberta.
 

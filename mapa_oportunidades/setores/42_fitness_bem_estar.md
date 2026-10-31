@@ -12,7 +12,7 @@
 
 ## Tamanho de mercado (DADO)
 - **Academias:** 41.332 no Brasil, 3º maior número absoluto do mundo (atrás de EUA e Índia), segundo o HFA Global Report 2025, citado pelo Diário de Pernambuco (jul/2026) [1]. Não encontrei número próprio da ACAD Brasil para 2025.
-- **Mercado de academias:** cerca de R$ 17 bi por ano (Panorama Setorial Fitness Brasil 2024, EY, Armatore e Fitness Brasil, citado em [1]); academias, suplementos, moda e eventos somam mais de R$ 25 bi [1].
+- **Mercado de academias [DADO ANTIGO em parte, ano-base provavelmente 2023/2024]:** cerca de R$ 17 bi por ano (Panorama Setorial Fitness Brasil 2024, EY, Armatore e Fitness Brasil, citado em [1]); academias, suplementos, moda e eventos somam mais de R$ 25 bi [1].
 - **Penetração:** cerca de 8% dos brasileiros frequentam academias em 2025, ante cerca de 4% antes da pandemia (estimativa do fundador da Selfit, não é dado oficial) [1].
 - **Smart Fit (2T26):** receita líquida de R$ 2,177 bi (+22% a/a), EBITDA de R$ 712 mi (+24%, margem de 32,7%), lucro líquido recorrente de R$ 204 mi (+8%), 5,6 milhões de alunos (+8%), 2.170 unidades em 16 países; receita de 12 meses de cerca de R$ 8,05 bi [2][3][4]. Ultrapassou 2 mil academias no 4T25 [5].
 - **Agregadores (2026):** Wellhub com cerca de 7,5 milhões de usuários ativos mensais (+18% a/a) e TotalPass com 4 milhões (+75% no 2T26), dados de BTG Pactual e Sensor Tower [6]. Wellhub: quase 45 mil parceiros em mais de 2.100 cidades (comunicado de 02/06/2026) [7]. TotalPass: entre 33 mil e 40 mil parceiros, conforme a fonte (não confirmado). Não encontrei receita de nenhum dos dois.

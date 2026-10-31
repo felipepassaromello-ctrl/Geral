@@ -3,6 +3,8 @@
 
 > Método: números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede. Ficha VERIFICADA quanto à estrutura societária, Chapter 11 e número de unidades. Não foram encontrados dados financeiros da operação brasileira (receita, prejuízo, ocupação). Classificação correta: **recuo e crise**, não saída; a WeWork continua operando no Brasil.
 
+> [DADO ANTIGO] A maior parte dos fatos deste arquivo é anterior a nov/2024; são mantidos de propósito por serem o histórico do caso.
+
 ## O que era
 Rede americana de escritórios compartilhados que assina contratos longos de aluguel e subloca estações com contratos curtos. Abriu prédios em São Paulo, Rio, Minas Gerais e Rio Grande do Sul.
 

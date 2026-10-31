@@ -4,14 +4,14 @@
 > MÉTODO: números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede. Na rodada 2 foram preenchidos: Novo CAGED 2026 (até agosto), desocupação, rotatividade e pedidos de demissão 2025, mercado e regras do PAT (Decreto 12.712/2025), trabalho temporário, NR-1 psicossocial, consignado CLT, Gupy, rodadas de HR techs. AINDA FALTA: CAGED de setembro/2026, taxa de desocupação do trimestre até setembro/2026, número de empregadores no eSocial, tamanho do mercado de software de RH e de BPO de folha, margens.
 
 ## Resumo em 5 linhas (ANÁLISE)
-1. Emprego formal desacelerou forte em 2026 (saldo jan-ago de 1,13 milhão, -25,2%, menor desde 2020), mas desocupação está em mínima histórica (5,4%) e a rotatividade bateu recorde (9,2 milhões de pedidos de demissão em 2025): recrutar e reter segue caro mesmo sem crescimento líquido.
+1. Emprego formal desacelerou forte em 2026 (saldo jan-ago de 1,13 milhão, -25,2%, o pior desde 2020 ou 2021 conforme a fonte), mas desocupação está em mínima histórica (5,4%) e a rotatividade bateu recorde (9,2 milhões de pedidos de demissão em 2025): recrutar e reter segue caro mesmo sem crescimento líquido.
 2. Três mudanças regulatórias criam dores pagáveis: NR-1 com riscos psicossociais (vigente desde 26/05/2026, autuação após 90 dias de dupla visita), Decreto 12.712/2025 do PAT (teto de 3,6% e interoperabilidade dos cartões até nov/2026) e Crédito do Trabalhador (consignado CLT, R$ 117 bi no 1º ano).
 3. O núcleo (folha, ponto, ATS, benefícios) já é muito digitalizado e disputado por players capitalizados (Gupy, Sólides, Flash, Caju, Factorial, Humand, HR Path, as 4 grandes de benefícios com mais de 80%).
 4. Oportunidade está em serviços verticais e compliance de PME: avaliação psicossocial da NR-1, DP terceirizado por setor, recrutamento operacional de alto volume com IA.
 5. Para o Felipe, NR-1 psicossocial como serviço para PMEs e recrutamento de alto volume são as entradas mais rápidas; plataforma horizontal de RH não.
 
 ## Tamanho de mercado (DADO, com fonte e data)
-- **Novo CAGED 2026:** saldo de 165.827 vagas em ago/2026 (2.294.563 admissões), acima da mediana esperada (97 mil), mas segundo pior agosto da série [1][2]. Acumulado jan-ago/2026: 1.134.033 postos, -25,2%, menor volume para o período desde 2020 (FGV Ibre) [2]. Setembro/2026: **não encontrei fonte confiável** nos resultados.
+- **Novo CAGED 2026:** saldo de 165.827 vagas em ago/2026 (2.294.563 admissões), acima da mediana esperada (97 mil), mas segundo pior agosto da série [1][2]. Acumulado jan-ago/2026: 1.134.033 postos, -25,2%, menor volume para o período desde 2020 segundo o resultado de busca; o título do FGV Ibre diz "pior desde 2021" (divergência não resolvida) [2]. Setembro/2026: **não encontrei fonte confiável** nos resultados.
 - **Desocupação (PNAD Contínua):** 5,4% no trimestre abr-jun/2026, menor da série (contra 5,8% um ano antes) [3]. Trimestre até set/2026: **não encontrei fonte confiável**.
 - **Rotatividade:** 9,2 milhões de pedidos de demissão em 2025, recorde; cerca de 36% dos desligamentos por iniciativa do trabalhador (FIEMG, com base no Novo CAGED) [4]. Taxa de rotatividade em 12 meses de 33,64% em 2025 (32,79% em 2024) [5]. 638,7 mil demissões por justa causa em 2025, maior número da série iniciada em 2004 [6].
 - **Benefícios (PAT, VR/VA):** mercado de cerca de R$ 150 bi por ano (Bloomberg Línea; a ABBT fala em R$ 150 a 200 bi) [7][8]. PAT com quase 330 mil empresas e 22,1 milhões de trabalhadores [8]. Associadas da ABBT (Alelo, VR, Ticket, Pluxee, UP Brasil) declaram mais de 90% do mercado; outra fonte atribui às 4 maiores mais de 80%; Alelo com cerca de 30% [7][8].
@@ -22,7 +22,7 @@
 
 ## Crescimento histórico e projetado
 - **DADO:** criação de vagas formais desacelerando ao longo de 2026 (FGV Ibre) [2]; comércio varejista com -41.218 no acumulado jan-ago/2026 (CNA) [1].
-- **DADO:** projeção do governo de até R$ 120 bi de volume no Crédito do Trabalhador até 2029 [10].
+- **DADO (inconsistente):** projeção do governo de até R$ 120 bi de volume no Crédito do Trabalhador até 2029 [10]; a cifra é incompatível com os R$ 117,1 bi já liberados no 1º ano (provavelmente se refere a estoque ou a outra métrica; conferir na fonte).
 - **ANÁLISE:** com Selic em 13,75% e Focus indicando 13,25% no fim de 2026, emprego líquido deve crescer pouco em 2027; mas turnover recorde e desemprego baixo mantêm recrutamento e retenção como dor recorrente. Compliance (NR-1, eSocial, PAT) cresce independentemente do ciclo.
 
 ## Distribuição regional

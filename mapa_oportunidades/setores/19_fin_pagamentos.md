@@ -42,7 +42,7 @@
 ## Regulação
 - **DADO:** o BC desistiu de criar regras específicas para o Pix Parcelado (dez/2025); soluções privadas de crédito vinculadas ao Pix seguem permitidas se não contrariarem a regulação [9].
 - **DADO:** MED 2.0 obrigatório desde fevereiro de 2026, rastreando contas em cadeia; o BC estima reduzir em até 40% os golpes bem-sucedidos [10].
-- **DADO:** total roubado por fraudes no Pix de cerca de R$ 24,52 bi com R$ 2,2 bi devolvidos (R$ 8,90 a cada R$ 100), dados BC citados pelo O Povo em jul/2026 [10]. Outra apuração (Folha) fala em R$ 459 mi devolvidos de R$ 6,98 bi [10].
+- **DADO:** total roubado por fraudes no Pix de cerca de R$ 24,52 bi (período acumulado não identificado no trecho) com R$ 2,2 bi devolvidos (R$ 8,90 a cada R$ 100), dados BC citados pelo O Povo em jul/2026 [10]. Outra apuração (Folha) fala em R$ 459 mi devolvidos de R$ 6,98 bi [10].
 - **ANÁLISE:** ser PSP/instituição de pagamento exige autorização BCB. Software sobre APIs de PSPs (Pix Automático, cobrança) não exige licença. Reforma tributária: o split payment (a partir de 2027, gradual) será executado pelos arranjos de pagamento e PSPs; cria custo de compliance para adquirentes e uma dor de conciliação (valor bruto x líquido x tributo retido) para lojistas e contadores.
 
 ## Tendências
@@ -64,7 +64,7 @@
 5. **Taxas de maquininha opacas.** Quem sofre: microempreendedores. Hoje: comparadores. Ângulo: auditoria de taxas com remuneração por economia (success fee).
 
 ## Startups e capital no subsetor
-- **DADO:** Asaas captou R$ 300 mi em FIDC para antecipação de recebíveis (out/2026), mostrando que a plataforma de cobrança monetiza via crédito [ver arquivo 18].
+- **DADO:** Asaas captou R$ 300 mi em FIDC para antecipação de recebíveis (out/2026), mostrando que a plataforma de cobrança monetiza via crédito (ver arquivo 18).
 - **ANÁLISE:** não encontrei nesta sessão rodadas de 2026 específicas de startups de pagamentos B2B com fonte confiável.
 
 ## Notas Fase 1

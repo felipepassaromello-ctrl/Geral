@@ -7,7 +7,7 @@
 1. Operar uma operadora exige capital regulatório, reservas técnicas e registro na ANS: fora do perfil. O interesse é vender serviço ou software para operadoras (auditoria, regulação, prevenção de fraude, relacionamento com beneficiário, gestão de rede).
 2. O setor saiu da crise de 2021 a 2022 e lucrou forte em 2025 (R$ 17,9 bi de lucro líquido de jan a set, ANS), com sinistralidade caindo para ~81%, o que significa que há orçamento para tecnologia.
 3. Porém o lucro é concentrado nas grandes e parte vem de aplicações financeiras (Selic alta); centenas de operadoras pequenas e médias seguem frágeis, e esse é o cliente mais acessível e mais arriscado.
-4. O espaço de "IA para auditoria de contas" já tem um líder bem capitalizado (Arvo, R$ 106 mi em 2025), então um novato deve mirar nichos: operadoras pequenas, cooperativas Unimed singulares, autogestões, odontológicas, ou dores laterais (cancelamento, atenção primária, gestão de crônicos).
+4. O espaço de "IA para auditoria de contas" já tem pelo menos um player bem capitalizado (Arvo, R$ 106 mi em 2025 [12]; não há dado de participação de mercado), então um novato deve mirar nichos: operadoras pequenas, cooperativas Unimed singulares, autogestões, odontológicas, ou dores laterais (cancelamento, atenção primária, gestão de crônicos).
 5. Ciclo de venda longo, compradores técnicos e risco regulatório (ANS muda regras de reajuste, cobertura e prazos com frequência).
 
 ## Tamanho de mercado (DADO, com fonte e data)
@@ -23,7 +23,7 @@
 - **DADO (1º sem 2025):** reportagem de O Globo (via CQCS) registra "lucro de planos de saúde sobe 157% no primeiro semestre, R$ 6,3 bilhões, o maior em quatro anos" [5]. **ANÁLISE:** a diferença em relação aos R$ 12,9 bi provavelmente decorre de recorte (resultado operacional ou apenas médico-hospitalares); não consegui verificar.
 - **DADO (1º tri 2026):** a 10ª edição do Observatório Anahp aponta "avanço na recuperação das operadoras de saúde", enquanto hospitais seguem pressionados [8].
 - **Projeção:** não encontrei projeção confiável de beneficiários ou receita para 5 anos.
-- **ANÁLISE:** crescimento de beneficiários depende de emprego formal (planos coletivos empresariais são a maior parte). Com Selic em 14% (ago/2026 [10]) e desaceleração esperada, o crescimento de vidas deve ser modesto; receita cresce mais por reajuste que por volume.
+- **ANÁLISE:** crescimento de beneficiários depende de emprego formal (planos coletivos empresariais são a maior parte). Com Selic em 13,75% (corte de 16/09/2026, após 14% em ago/2026 [10]) e desaceleração esperada, o crescimento de vidas deve ser modesto; receita cresce mais por reajuste que por volume.
 
 ## Distribuição regional (onde a oportunidade está concentrada, com dado)
 - **DADO (2023) [DADO ANTIGO]:** 61% da população com plano de saúde está no Sudeste (CNSaúde/FBH, citado pela Rede D'Or) [9].
@@ -33,7 +33,7 @@
 - **DADO (2025):** as operadoras de grande porte concentraram R$ 19,9 bi do lucro líquido [6]; cerca de 26,5% dos entes regulados tiveram resultado negativo [6].
 - **ANÁLISE (sem número confirmado nesta sessão):** os maiores grupos são Hapvida NotreDame Intermédica (verticalizado: rede própria de hospitais e clínicas), Bradesco Saúde, SulAmérica (Rede D'Or), Amil, sistema Unimed e Porto Saúde. Não consegui confirmar participações de mercado por número de beneficiários; "não encontrei fonte confiável" nesta sessão.
 - **Verticalização:** modelo Hapvida NDI (operadora com rede própria) pressiona prestadores independentes. Não consegui confirmar números de rede própria nesta sessão.
-- **Planos odontológicos:** não encontrei fonte confiável nesta sessão (pesquisa interrompida por limite de buscas). Ver arquivo 16, também pendente.
+- **Planos odontológicos:** não pesquisado neste arquivo; o arquivo 16_saude_odontologia.md, completado na rodada 2, traz dados de planos odontológicos e da Odontoprev.
 
 ## Margens típicas (DADO quando houver)
 - **DADO (1º sem 2025):** sinistralidade de 81,1% [2]; ou seja, ~19% da receita sobra para despesas administrativas, comerciais, impostos e lucro.

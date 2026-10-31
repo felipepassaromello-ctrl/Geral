@@ -4,8 +4,8 @@
 > Nota de método: nesta sessão o WebFetch estava bloqueado pela rede (bcb.gov.br, capitalaberto.com.br, dgabc.com.br e outros não resolveram). Todos os números abaixo foram confirmados pelo conteúdo exibido nos resultados de busca (permitido pelo briefing), não pela abertura da página. Recomenda-se reconfirmar os números principais no site do BCB e da Anbima antes de uso externo.
 
 ## Resumo em 5 linhas (ANÁLISE)
-1. O crédito para empresas segue crescendo em termos nominais (R$ 7,3 tri no crédito ampliado, +8,7% em 12 meses até ago/2026), mas com inadimplência PJ subindo e Selic em 14%.
-2. O dinheiro para PME já não é o gargalo principal de oferta: FIDCs passaram de R$ 900 bi a R$ 1 tri de PL e bancos digitais (Nubank, Inter) entraram forte em antecipação.
+1. O crédito para empresas segue crescendo em termos nominais (R$ 7,3 tri no crédito ampliado, +8,7% em 12 meses até ago/2026), mas com inadimplência PJ subindo e Selic em 13,75% (desde 16/09/2026).
+2. O dinheiro para PME já não é o gargalo principal de oferta: FIDCs têm PL entre cerca de R$ 770 bi e R$ 1 tri conforme a série (as fontes divergem, ver Tamanho de mercado) e bancos digitais (Nubank, Inter) entraram forte em antecipação.
 3. A dor que sobra é de informação e de garantia: PME não sabe o que tem de recebível, não organiza dados para crédito e paga caro por falta de colateral registrável.
 4. Duplicata escritural (obrigatória de 2027 a 2028 por porte) e Open Finance criam uma janela de 2 a 3 anos para ferramentas de "preparação para crédito" e intermediação.
 5. Emprestar com balanço próprio é inviável para o perfil do Felipe; originar, organizar dados e distribuir para FIDCs/bancos é viável e leve.
@@ -21,7 +21,7 @@
 - **DADO:** crédito PJ ampliado +8,7% nominal em 12 meses (ago/2026) [1]. Com IPCA na faixa de 4% a 5% (não confirmado nesta sessão), o crescimento real fica perto de 4%.
 - **DADO:** FIDCs: R$ 771,4 bi no fim do 1º sem. 2026 segundo uma série e R$ 987 bi em maio segundo outra (alta de 18% em 12 meses) [4]. As séries divergem; a tendência de forte crescimento (dois dígitos ao ano) é consistente.
 - **Projeção (Capital Aberto, dez/2025):** FIDCs poderiam ultrapassar R$ 1 trilhão em 2026, o que já teria ocorrido segundo matéria de set/2026 [5].
-- **DADO (Selic):** Copom cortou a Selic para 14,00% em 05/08/2026 (quarto corte seguido); próxima reunião em 3 e 4/11/2026 [8].
+- **DADO (Selic):** Copom cortou a Selic para 14,00% em 05/08/2026 (quarto corte seguido) [8] e para 13,75% em 16/09/2026 (Poder360, confirmado pela coordenação do projeto); próxima reunião em 3 e 4/11/2026 [8]. Focus de 26/10/2026: 13,25% no fim de 2026.
 
 ## Distribuição regional
 - **DADO:** o Nordeste "beira R$ 1 trilhão em crédito e lidera crescimento no país" (Movimento Econômico, jan/2026) [9].
@@ -69,7 +69,7 @@
 ## Startups e capital no subsetor
 - **DADO:** Asaas, FIDC de R$ 300 mi (out/2026) [13].
 - **DADO:** fintech de antecipação de contratos públicos: aporte de R$ 25 mi da Credit Saison e FIDC de R$ 35 mi (data 2026, nome não confirmado no trecho) [13].
-- **DADO (data incerta):** BizCapital, Série B de R$ 65 mi liderada pelo DEG; Grupo GCB, aporte de US$ 13 mi com cerca de R$ 63 mi para a fintech Adiante [13]. Não confirmei o ano.
+- **DADO (data incerta):** BizCapital, Série B de R$ 65 mi liderada pelo DEG; Grupo GCB, aporte de US$ 13 mi com cerca de R$ 63 mi para a fintech Adiante [13]. Não confirmei o ano; provavelmente [DADO ANTIGO].
 - **DADO (período não confirmado):** fintechs de crédito acumularam R$ 455,9 milhões em aportes em 12 meses (Fusões & Aquisições) [14].
 
 ## Notas Fase 1

@@ -23,8 +23,8 @@
 - **ANÁLISE:** o volume de ingressantes EAD deve encolher em 2026/2027 e migrar para semipresencial (ticket maior, custo maior). Receita do setor cresce pouco em termos reais.
 
 ## Distribuição regional (DADO)
-- **DADO (Mapa do Ensino Superior 2025, Semesp, dados de 2023):** Sudeste 4.380.449 matrículas (49,1% EAD); Nordeste 2.119.165 (42,7% EAD); Norte 847.230 (51,0% EAD). Fonte [4]. Não encontrei o recorte regional da edição 2026.
-- **DADO (FIES, Goiás):** 34.046 contratos inadimplentes somando R$ 1,82 bilhão. Fonte [9].
+- **DADO [DADO ANTIGO] (Mapa do Ensino Superior 2025, Semesp, dados de 2023):** Sudeste 4.380.449 matrículas (49,1% EAD); Nordeste 2.119.165 (42,7% EAD); Norte 847.230 (51,0% EAD). Fonte [4]. Não encontrei o recorte regional da edição 2026.
+- **DADO (FIES, Goiás; data não confirmada):** 34.046 contratos inadimplentes somando R$ 1,82 bilhão. Fonte [9].
 - **ANÁLISE:** o choque regulatório pesa mais no interior e no Norte/Nordeste, onde o EAD era a única oferta em muitas cidades e onde polos dependem de parceiros locais. Ali surgem dores de readequação de polos (estrutura presencial mínima, tutoria, provas).
 
 ## Principais empresas e grau de concentração (DADO)

@@ -4,7 +4,7 @@
 ## Aviso de cobertura (leia antes)
 - Nesta sessão o WebFetch e o curl estavam bloqueados pela política de rede (DNS negado para techcrunch.com, cnbc.com, businesswire.com, beckershospitalreview.com e outros). Os números marcados como verificados foram confirmados no conteúdo dos resultados de busca das páginas citadas.
 - O limite de buscas da sessão (compartilhado entre agentes) foi atingido após cerca de 20 buscas minhas. Por isso foram produzidos 12 arquivos detalhados (eua_01 a eua_12) na rodada 1. Na rodada 2 (31/10/2026, 22 buscas, sem WebFetch) foram adicionados eua_13 a eua_20, e as empresas correspondentes saíram da Tabela B. As demais empresas aparecem abaixo SEM números, marcadas como "não verificado nesta rodada"; os nomes e descrições vêm de conhecimento prévio e precisam de checagem antes de uso. Nenhuma rodada ou ARR foi preenchida sem fonte.
-- Próximo passo recomendado: liberar os domínios de notícias na configuração de rede e rodar nova sessão para completar as empresas pendentes (lista sugerida no fim).
+- Pendências: empresas da Tabela B seguem sem números (lista sugerida no fim).
 
 ## Tabela A: empresas com dados verificados nesta rodada
 | # | Empresa | Setor | Problema | Investimento recente (DADO) | Fonte |
@@ -27,7 +27,7 @@
 | 16 | Avoca (eua_13) | Voz para home services | Atende ligações, agenda serviços e faz follow-up de orçamentos | Mais de US$ 125 mi acumulados a US$ 1 bi (abr/2026) | [Fortune](https://www.fortune.com/2026/04/27/avoca-ai-agents-missed-calls-hvac-plumbing-roofing-kleiner-perkins-chen-shrivastava-braswell/) |
 | 17 | Sierra (eua_14) | Agentes de atendimento | SAC de grandes marcas, cobrança por resolução | US$ 950 mi a US$ 15,8 bi (mai/2026); ARR acima de US$ 150 mi (fev/2026) | [Sacra](https://sacra.com/c/sierra/) (agregador, não confirmado em fonte primária) |
 | 18 | Decagon (eua_14) | Agentes de atendimento | Automação de suporte ao cliente | US$ 250 mi a US$ 4,5 bi (jan/2026) | [Bloomberg](https://www.bloomberg.com/news/articles/2026-01-28/ai-customer-support-startup-decagon-valued-at-4-5-billion) |
-| 19 | Vanta (eua_15) | Compliance | Automação de SOC 2, ISO 27001 | ARR acima de US$ 300 mi (abr/2026); valuation cerca de US$ 4,15 bi (2025) | [Fortune](https://www.fortune.com/2026/04/29/exclusive-vanta-arr-300-million-sequoia-shadow-ai-claude-cursor/) |
+| 19 | Vanta (eua_15) | Compliance | Automação de SOC 2, ISO 27001 | ARR acima de US$ 300 mi (abr/2026); valuation cerca de US$ 4,15 bi (2025, agregador, não confirmado) | [Fortune](https://www.fortune.com/2026/04/29/exclusive-vanta-arr-300-million-sequoia-shadow-ai-claude-cursor/) |
 | 20 | Delve (eua_15) | Compliance com agentes | Coleta de evidências e relatórios por IA | US$ 32 mi a US$ 300 mi (jul/2025) | [Delve](https://www.delve.co/blog/series-a) |
 | 21 | Toast (eua_16) | Vertical SaaS restaurantes | PDV, pagamentos e crédito (listada) | ARR US$ 2,4 bi (+25%), 180 mil locais (2º tri 2026) | [Business Wire](https://www.businesswire.com/news/home/20260804267340/en/) |
 | 22 | Tennr (eua_17) | Healthtech operacional | Encaminhamentos e documentos médicos | US$ 101 mi a US$ 605 mi (jun/2025) | [Fierce Healthcare](https://fiercehealthcare.com/health-tech/tennr-clinches-101m-build-out-ai-automates-patient-referral-workflows) |
@@ -42,7 +42,7 @@
 | Arquivo | Modelo | Existe no Brasil? (DADO) | Nota geral (ANÁLISE) |
 |---|---|---|---|
 | eua_13 Avoca | Agente de voz que atende e agenda para prestadores | Parcial: integradores de voz para grandes call centers (Nextcomm, StaryaAI); Meta lançou IA no WhatsApp Business para PMEs; sem startup de voz para PME com rodada | 3 |
-| eua_14 Sierra/Decagon | Agente de SAC cobrado por resolução | Sim: Blip (Série C US$ 60 mi, SoftBank), Zenvia, Cloud Humans | 3 |
+| eua_14 Sierra/Decagon | Agente de SAC cobrado por resolução | Sim: Blip (Série C US$ 60 mi, SoftBank; data não confirmada), Zenvia, Cloud Humans | 3 |
 | eua_15 Vanta/Delve | Compliance contínuo automatizado | Incipiente: DPOnet, Imara Trust, Privacy Tools | 3,5 |
 | eua_16 Toast | PDV + pagamentos + crédito para restaurantes | Fragmentado: Saipos (iFood), Goomer, adquirentes; sem Toast brasileiro | 2,5 |
 | eua_17 Tennr/Commure | RCM e operações de saúde com IA | Incipiente: Marisa.Care, A3Data/Mater Dei; nenhuma startup de glosas com rodada encontrada | 4 |
@@ -50,7 +50,7 @@
 | eua_19 Gusto/Pilot | Folha e contabilidade para PMEs | Sim: contabilidade online (Contabilizei etc.) e escritórios; folha via contador | 4 |
 | eua_20 Salient | Cobrança com agentes de IA | Sim: Monest (Mia Voz), Neofin, Quero Quitar, Fidexa | 4 |
 
-Contexto de mercado verificado: TechCrunch listou 55 startups americanas de IA que captaram US$ 100 milhões ou mais em 2025 ([TechCrunch, 19/01/2026](https://techcrunch.com/2026/01/19/here-are-the-49-us-ai-startups-that-have-raised-100m-or-more-in-2025/)). Legora (sueca, concorrente da Harvey) teria valuation de US$ 5,6 bilhões e ARR de US$ 100 milhões segundo agregador (fonte de baixa confiabilidade, não confirmado).
+Contexto de mercado verificado: TechCrunch listou dezenas de startups americanas de IA que captaram US$ 100 milhões ou mais em 2025 (o texto anterior citava 55, mas o endereço do artigo traz "49"; número exato não confirmado) ([TechCrunch, 19/01/2026](https://techcrunch.com/2026/01/19/here-are-the-49-us-ai-startups-that-have-raised-100m-or-more-in-2025/)). Legora (sueca, concorrente da Harvey) teria valuation de US$ 5,6 bilhões e ARR de US$ 100 milhões segundo agregador (fonte de baixa confiabilidade, não confirmado).
 
 ## Tabela B: lista ampliada (NÃO verificado nesta rodada; sem números de propósito)
 | # | Empresa | Setor | Problema que resolve |
@@ -88,10 +88,10 @@ Contexto de mercado verificado: TechCrunch listou 55 startups americanas de IA q
 
 ### 3. Agentes verticais e expansão para além dos modelos fundacionais
 - DADO: a CNBC descreveu a rodada da Harvey como sinal de que "VCs espalham apostas além das empresas de modelos" ([CNBC, 03/2026](https://www.cnbc.com/2026/03/25/legal-ai-startup-harvey-raises-200-million-at-11-billion-valuation.html)); clientes da Harvey rodam mais de 25.000 agentes customizados ([Harvey](https://www.harvey.ai/blog/harvey-raises-growth-round-at-dollar11-billion-valuation-co-led-by-gic-and-sequoia)); EliseAI cresceu 100% ao ano por cinco anos seguidos com agentes para um único setor ([EliseAI](https://eliseai.com/blog/eliseai-hits-200m-arr-after-five-consecutive-years-of-100-growth-across-housing-and-healthcare)).
-- ANÁLISE: valuations de 10x a 40x a receita mostram que o mercado paga por crescimento vertical rápido. O risco é que muitos desses "agentes" sejam camadas finas sobre modelos de terceiros.
+- ANÁLISE: pelos números da Tabela A, os múltiplos vão de cerca de 17x a receita anualizada (Deel: US$ 17,3 bi sobre cerca de US$ 1 bi) e 20x (EliseAI: US$ 4 bi sobre US$ 200 mi) a mais de 50x (Harvey: US$ 11 bi sobre US$ 190 mi em mar/2026). O mercado paga por crescimento vertical rápido. O risco é que muitos desses "agentes" sejam camadas finas sobre modelos de terceiros.
 
 ### 4. Fintech com "história de IA"
-- DADO: Ramp captou a US$ 60 bilhões e a TechCrunch destacou o apetite de investidores por "fintechs com história de IA" ([TechCrunch, 06/2026](https://techcrunch.com/2026/06/04/ramp-raises-750m-at-44b-valuation-as-investors-hunger-for-fintechs-with-an-ai-story/)); Mercury captou a US$ 5,2 bilhões e é lucrativa ([CNBC, 05/2026](https://www.cnbc.com/2026/05/20/fintech-mercury-valuation-fundraise-bank-charter.html)).
+- DADO: Ramp captou US$ 750 milhões a US$ 44 bilhões em jun/2026, quando a TechCrunch destacou o apetite de investidores por "fintechs com história de IA", e chegou a US$ 60 bilhões em out/2026 (ver eua_07) ([TechCrunch, 06/2026](https://techcrunch.com/2026/06/04/ramp-raises-750m-at-44b-valuation-as-investors-hunger-for-fintechs-with-an-ai-story/)); Mercury captou a US$ 5,2 bilhões e é lucrativa ([CNBC, 05/2026](https://www.cnbc.com/2026/05/20/fintech-mercury-valuation-fundraise-bank-charter.html)).
 
 ### 5. Software vertical para PMEs e negócios locais
 - DADO: Owner.com captou a US$ 2,3 bilhões e expandiu de restaurantes para negócios locais ([Owner](https://www.owner.com/d)); ServiceTitan cresce 21% a 25% ao ano já com quase US$ 1 bilhão de receita ([SEC](https://www.sec.gov/Archives/edgar/data/0001638826/000163882626000093/ttan-ex99_1.htm)).

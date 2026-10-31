@@ -4,23 +4,23 @@
 > Nota de método: números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede. Orçamento de 22 buscas compartilhado com o arquivo 11. Números de Abrafarma, IQVIA e Febrafar variam por recorte (12 meses, ano civil, unidades x faturamento); conferir na fonte original antes de uso externo.
 
 ## Resumo em 5 linhas (ANÁLISE)
-1. Mercado grande, essencial e crescendo dois dígitos nominais (varejo farmacêutico de R$ 240,97 bi em 2025, +10,88%, IQVIA), mas com margens de varejo finas (EBITDA de 6,5% a 8% nas listadas) e concentração crescente nas grandes redes.
+1. Mercado grande, essencial e crescendo dois dígitos nominais (varejo farmacêutico de R$ 240,97 bi nos 12 meses até out/2025, +10,88%, IQVIA [3b]), mas com margens de varejo finas (EBITDA de 6,5% a 8% nas listadas) e concentração crescente nas grandes redes.
 2. As ~49 mil farmácias independentes estão encolhendo e perdendo lucro (56% viram a lucratividade cair entre 2020 e 2024, Febrafar); é um público numeroso, com dor real, mas de ticket baixo e pouca disposição a pagar software.
 3. O caminho de venda escalável é o associativismo (Febrafar e redes associativas, 21,9% do mercado), redes regionais (Drogal, São João, Panvel, Nissei e menores) e distribuidores, não a venda porta a porta.
 4. Três ventos mudam o jogo em 2026: GLP-1 (semaglutida nacional desde jun/2026, ticket alto e margem baixa), serviços clínicos (RDC 978/2025, 10 milhões de atendimentos nas redes em 2025) e a reforma tributária (redução de 60% e alíquota zero para medicamentos, com cadastro fiscal complexo).
 5. Melhores dores: precificação e compras, conformidade e monetização de serviços farmacêuticos, saneamento fiscal da reforma e programas de recompra/adesão para GLP-1 e crônicos.
 
 ## Tamanho de mercado (DADO, com fonte e data)
-- **DADO (2025):** varejo farmacêutico total de R$ 240,97 bi em 2025, +10,88% (IQVIA) [3].
+- **DADO (MAT out/2025, revisado):** varejo farmacêutico total de R$ 240,97 bi nos 12 meses até outubro/2025, +10,88% (IQVIA, divulgado pela Febrafar) [3b]. Não é o ano civil 2025; a fonte [3] (out/2025) cita R$ 222 bi em recorte anterior.
 - **DADO (2025):** as 29 redes da Abrafarma faturaram R$ 118,5 bi em 2025, +14,9% (ranking FIA-USP/Abrafarma, mar/2026) [1][2]. Recortes de 12 meses: R$ 114,87 bi até out/2025 (+13,82%) e R$ 113,27 bi de out/2024 a set/2025 [1].
 - **DADO (2025):** redes Abrafarma terminaram 2025 com 11.688 lojas (+5,9%); vendas digitais passaram de R$ 20 bi em 12 meses [1][4].
-- **DADO (MAT out/2025):** farmácias associativistas faturaram R$ 40,98 bi, +13,85% (IQVIA) [3].
+- **DADO (MAT out/2025):** farmácias associativistas faturaram R$ 40,98 bi, +13,85% (IQVIA) [3][3b] (a fonte [3] é de 06/10/2025 e não pode conter o MAT de out/2025; provável origem é o mesmo levantamento da Febrafar [3b], não verificado).
 - **DADO (2025):** farmácias independentes caíram de 50.075 lojas em 2021 para 48.979 em 2025, com 6.555 fechamentos e 5.459 aberturas no ano (Febrafar) [5].
-- **DADO:** total de farmácias no país: cerca de 90 mil (InfoMoney, 2024) a 94 mil (CEO da Abrafarma, 2025); Abrafarma citava 92.282 em 2023 [DADO ANTIGO] [3][6]. Não encontrei contagem oficial do CFF de 2025.
+- **DADO:** total de farmácias no país: cerca de 90 mil (InfoMoney, 2024, mês não confirmado, possivelmente [DADO ANTIGO]) a 94 mil (CEO da Abrafarma, 2025); Abrafarma citava 92.282 em 2023 [DADO ANTIGO] [3][6]. Não encontrei contagem oficial do CFF de 2025.
 - **DADO (data não confirmada):** mais de 8 mil farmácias de manipulação, movimentando cerca de R$ 12 bi/ano; ~90% com proprietário farmacêutico independente (Anfarmag citada em reportagem; fonte única, baixa confiabilidade para o valor) [9].
 
 ## Crescimento histórico e projetado (DADO, com fonte e data; projeções marcadas)
-- **DADO:** varejo total +10,88% em 2025 (IQVIA); redes Abrafarma +14,9% em 2025; associativistas +13,85% (MAT out/2025) [1][3].
+- **DADO:** varejo total +10,88% no MAT out/2025 (IQVIA) [3b]; redes Abrafarma +14,9% em 2025; associativistas +13,85% (MAT out/2025) [1][3].
 - **DADO (2T26):** RD Saúde vendas mesmas lojas +12,5%; Pague Menos receita bruta +9,3% [7][8].
 - **Projeção (Sergio Mena Barreto, Abrafarma, ago/2026):** GLP-1 será "motor de crescimento do varejo farmacêutico por pelo menos 10 anos" [10].
 - **ANÁLISE:** crescimento nominal de 9% a 12% ao ano é plausível (envelhecimento, GLP-1, serviços), com real de 4% a 7%. O crescimento é capturado desproporcionalmente pelas grandes redes: o independente cresce abaixo do mercado.
@@ -83,7 +83,7 @@
 ## Notas Fase 1
 | Critério | Nota | Justificativa |
 |---|---|---|
-| Crescimento 5 anos | 4 | Varejo +10,88% e redes +14,9% em 2025; GLP-1 e envelhecimento sustentam crescimento real acima de 5%. |
+| Crescimento 5 anos | 4 | Varejo +10,88% (MAT out/2025) e redes +14,9% em 2025; GLP-1 e envelhecimento sustentam crescimento real acima de 5%. |
 | Margem típica | 2 | EBITDA de 6,5% (Pague Menos) a 8% (RD Saúde); independentes com lucro em queda. |
 | Concorrência e concentração | 3 | Redes concentram ~48%, mas há ~49 mil independentes e milhares de lojas associativas como clientes fragmentados. |
 | Capital para entrar | 4 | Serviço fiscal, kit de conformidade ou software leve começa com menos de R$ 100 mil. |
@@ -103,6 +103,7 @@
 1. "Abrafarma: faturamento das redes associadas aumentou 13,8% até outubro, para R$ 114,8 bi", Mercado & Consumo, 19/12/2025 https://mercadoeconsumo.com.br/19/12/2025/noticias-varejo/abrafarma-faturamento-das-redes-associadas-aumentou-138-ate-outubro-para-r-1148-bi/ ; "Vendas digitais no setor farmacêutico ultrapassam R$ 20 bilhões", Mercado & Consumo, 14/01/2026 https://mercadoeconsumo.com.br/14/01/2026/noticias-varejo/vendas-digitais-no-setor-farmaceutico-crescem-e-ultrapassam-r-20-bilhoes/
 2. "RD Saúde, Pague Menos e Drogaria São Paulo lideram ranking das maiores farmácias do Brasil", Mercado & Consumo, 31/03/2026 https://mercadoeconsumo.com.br/31/03/2026/noticias-varejo/rd-saude-pague-menos-e-drogaria-sao-paulo-lideram-ranking-das-maiores-farmacias-do-brasil/
 3. "Mercado farmacêutico brasileiro atinge R$ 222 bilhões e lidera na América Latina" (dados IQVIA), O Hoje, 06/10/2025 https://ohoje.com/2025/10/06/mercado-farmaceutico-brasileiro-atinge-r-222-bilhoes-e-lidera-na-america-latina/ ; InfoMoney, "Brasil tem 90 mil farmácias", 2024 https://www.infomoney.com.br/business/brasil-tem-90-mil-farmacias-e-muitas-ficam-uma-ao-lado-da-outra-por-que-sao-tantas/
+3b. "Varejo farmacêutico alcança crescimento de 10,88% em 2025" (IQVIA MAT 10/2025, via Febrafar), Giro News, 2025/2026 https://gironews.com/farma-cosmeticos/varejo-farmaceutico-alcanca-crescimento-de-1088-em-2025/ ; Central do Varejo https://centraldovarejo.com.br/varejo-farmaceutico-alcanca-r-240-bilhoes-em-2025-e-amplia-aposta-na-digitalizacao-para-2026/ (revisão, out/2026)
 4. "Mercado farmacêutico brasileiro concentra mais vendas nas grandes redes após avanço do ecommerce", Economic News Brasil, 31/07/2026 https://economicnewsbrasil.com.br/2026/07/31/mercado-farmaceutico-brasileiro-grandes-redes/
 5. "Farmácias independentes perdem espaço no Brasil e mais da metade já sente queda no lucro" (Febrafar, Visão 360º), Times Brasil/CNBC, 2026 https://timesbrasil.com.br/empresas-e-negocios/ciencias-e-saude/farmacias-independentes-perdem-espaco-no-brasil-e-mais-da-metade-ja-sente-queda-no-lucro/
 6. "Sergio Mena Barreto, CEO da Abrafarma: farmácias podem integrar o sistema de saúde", Futuro da Saúde, 2025 https://futurodasaude.com.br/farmacias-futuro-talks/

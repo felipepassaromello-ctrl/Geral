@@ -13,7 +13,7 @@ Trabalhadores informais africanos de baixa renda não têm histórico de crédit
 Margem embutida no preço parcelado do aparelho (juros implícitos), mais serviços financeiros adicionais.
 
 ## Crescimento (DADO)
-- Primeiro lucro anual reportado em out/2025, com receita de US$ 416 mi (+66%) (TechCabal).
+- Primeiro lucro anual reportado em out/2025, com receita de US$ 416 mi (+66%) (TechCabal). Pela conta (416 x 1,45 = cerca de 600), esse número se refere ao exercício anterior ao FY2025 citado abaixo.
 - FY2025: receita de cerca de US$ 600 mi (+45%), mantendo lucro; mais de 2.500 funcionários e cerca de 50 mil agentes de vendas (FF News, TechEconomy, out/2026).
 - 10 milhões de clientes acumulados em jul/2026, 3 milhões nos últimos 12 meses, cerca de 10 mil novos por dia (TechCabal, jul/2026).
 - Alerta: lucro bruto na venda de aparelhos caiu de US$ 67,9 mi para US$ 57,9 mi enquanto custo de vendas subiu 66,6% (LaunchBase Africa, análise das demonstrações).

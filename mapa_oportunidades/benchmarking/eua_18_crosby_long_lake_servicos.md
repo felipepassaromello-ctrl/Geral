@@ -38,7 +38,7 @@
 | Regulação | 2 | OAB restringe sócios não advogados, publicidade e "mercantilização". |
 | Logística | 5 | Digital. |
 | Comportamento | 3 | Clientes aceitam preço fixo; advogados resistem. |
-| Tamanho de mercado | 4 | País com mais de 1 milhão de advogados e enorme volume de processos (a confirmar com OAB/CNJ). |
+| Tamanho de mercado | 4 | Cerca de 1,4 milhão de advogados e 40,9 milhões de casos novos em 2025 (CNJ; ver [setores/23_prof_juridico.md](../setores/23_prof_juridico.md)). |
 | **Geral** | **3,5** | Bom em formato "escritório de advocacia AI-native" com sócio advogado; roll-up é mais viável em contabilidade (ver eua_10) do que em advocacia. |
 
 ## Defensabilidade na era da IA

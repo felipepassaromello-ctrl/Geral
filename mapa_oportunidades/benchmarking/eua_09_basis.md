@@ -19,7 +19,7 @@ Receita e número de clientes: não encontrei fonte confiável. A Forbes ressalt
 
 ## Já existe no Brasil?
 - Não verificado nesta rodada. No Brasil, a contabilidade online para PMEs tem players conhecidos (Contabilizei, Agilize, Conube) e softwares para escritórios contábeis (Domínio/Thomson Reuters, Questor, Alterdata, Nibo, Acessórias). Há startups usando IA para escrituração e conciliação, mas não confirmei nomes, rodadas ou tração.
-- ANÁLISE: o Brasil tem dezenas de milhares de escritórios contábeis (número a confirmar com CFC) que atendem milhões de PMEs do Simples Nacional, com muito trabalho repetitivo (importação de XML de NF-e, conciliação bancária, apuração, obrigações acessórias). A reforma tributária (CBS/IBS, split payment, convivência de dois sistemas de 2026 a 2033) vai aumentar o volume de trabalho e a dor. É um vento a favor forte.
+- ANÁLISE: o Brasil tem de 70 mil a 98 mil escritórios contábeis, conforme o critério (ver [setores/22_prof_contabilidade.md](../setores/22_prof_contabilidade.md)) que atendem milhões de PMEs do Simples Nacional, com muito trabalho repetitivo (importação de XML de NF-e, conciliação bancária, apuração, obrigações acessórias). A reforma tributária (CBS/IBS, split payment, convivência de dois sistemas de 2026 a 2033) vai aumentar o volume de trabalho e a dor. É um vento a favor forte.
 - Por que ainda não foi replicado em escala: escritórios cobram honorários baixos e já usam sistemas legados; a venda para escritórios é lenta e fragmentada; e os fornecedores de software contábil (Domínio, Alterdata) devem incorporar IA.
 
 ## Viabilidade de tropicalizar (ANÁLISE)

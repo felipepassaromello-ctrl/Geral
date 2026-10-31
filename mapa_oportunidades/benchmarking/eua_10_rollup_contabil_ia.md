@@ -20,7 +20,7 @@ Escritórios contábeis tradicionais nos EUA têm donos perto da aposentadoria, 
 
 ## Já existe no Brasil?
 - Não verificado nesta rodada. Há consolidação de escritórios contábeis por grupos e por empresas de contabilidade online (exemplo conhecido: Contabilizei cresceu organicamente, não por aquisição; grupos regionais compram carteiras). Não confirmei casos de roll-up "com IA" financiados por VC no Brasil.
-- ANÁLISE: o Brasil tem exatamente as condições do modelo: dezenas de milhares de escritórios pequenos, muitos donos envelhecendo sem sucessor, e uma onda de complexidade com a reforma tributária. A compra de "carteira de clientes" de contador é prática comum e barata (múltiplos baixos sobre honorário mensal, valor a confirmar em pesquisa setorial). O que falta é capital paciente e um sistema operacional de IA para padronizar.
+- ANÁLISE: o Brasil tem exatamente as condições do modelo: de 70 mil a 98 mil escritórios contábeis, a maioria pequenos (ver [setores/22_prof_contabilidade.md](../setores/22_prof_contabilidade.md)), muitos donos envelhecendo sem sucessor, e uma onda de complexidade com a reforma tributária. A compra de "carteira de clientes" de contador é prática comum e barata (múltiplos baixos sobre honorário mensal, valor a confirmar em pesquisa setorial). O que falta é capital paciente e um sistema operacional de IA para padronizar.
 - Riscos: churn de clientes após a compra (relação é pessoal), responsabilidade técnica, integração cultural, e honorários baixos.
 
 ## Viabilidade de tropicalizar (ANÁLISE)
@@ -36,7 +36,7 @@ Escritórios contábeis tradicionais nos EUA têm donos perto da aposentadoria, 
 | **Geral** | **4** | Modelo muito aderente; o gargalo é capital para aquisições e execução de integração. |
 
 ## Defensabilidade na era da IA
-Aqui a defensabilidade não é o software, e sim o ativo: carteira de clientes, relacionamento, marca local e processos. A IA é a alavanca de margem. Ninguém copia em semanas uma base de 2.000 PMEs atendidas.
+Aqui a defensabilidade não é o software, e sim o ativo: carteira de clientes, relacionamento, marca local e processos. A IA é a alavanca de margem. Uma base de, por exemplo, 2.000 PMEs atendidas não se copia em semanas.
 
 ## Encaixe para o Felipe
 Médio a alto em versão enxuta: começar como escritório contábil AI-native em um nicho (ex.: clínicas, prestadores de serviço PJ, e-commerce) com contador sócio, depois comprar 1 a 3 carteiras pequenas com earn-out (pagamento atrelado à retenção). Não exige ser técnico; exige operação e vendas. Em paralelo ao emprego é difícil depois das primeiras aquisições.

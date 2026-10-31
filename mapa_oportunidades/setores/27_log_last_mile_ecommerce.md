@@ -26,7 +26,7 @@
 
 ## Distribuição regional (onde a oportunidade está concentrada, com dado)
 - **DADO**: São Paulo concentra cerca de 17 milhões de m² de galpões logísticos (Newmark, 2025); absorção bruta de cerca de 1,43 milhão de m² em 2025, recorde [15](*).
-- **DADO**: JLL registrou quase 3 milhões de m² de novo estoque em 2025 no país, cerca de metade em São Paulo, com vacância nacional de 7,7% [16](*).
+- **DADO** [DADO ANTIGO em parte: o endereço da fonte [16] indica relatório do 4T2024, então o ano pode ser 2024 e não 2025; não confirmado]: JLL registrou quase 3 milhões de m² de novo estoque no ano no país, cerca de metade em São Paulo, com vacância nacional de 7,7% [16](*).
 - **DADO**: vacância de galpões alto padrão em SP de 7,5% (SiiLA) a 7,8% (BTG) no fim de 2025; Rio de Janeiro com vacância elevada [15][17](*).
 - **ANÁLISE**: a densidade de pedidos (e portanto de dores de última milha) está no eixo SP capital, Grande SP, Campinas, RJ, BH, Curitiba e Porto Alegre. Interior do Nordeste e Norte tem dor oposta: falta de cobertura e dependência dos Correios.
 
@@ -51,7 +51,7 @@
 - **ANÁLISE**: entrega no mesmo dia vira padrão nos grandes centros, pressionando PMEs a ter estoque perto do cliente (dark stores, micro-fulfillment). Logística reversa cresce com moda e marketplaces. IA aplicável em atendimento de rastreio (WhatsApp), roteirização, previsão de demanda e auditoria de frete.
 
 ## Riscos e motivos para NÃO entrar (ANÁLISE)
-- Os marketplaces gigantes fazem logística própria e oferecem frete subsidiado; competir em operação é suicídio para quem tem pouco capital.
+- Os marketplaces gigantes fazem logística própria e oferecem frete subsidiado; competir em operação é inviável para quem tem pouco capital.
 - Agregadores de frete já existem e são baratos (alguns gratuitos para o lojista, monetizando no frete).
 - Margem de operação é mínima e o risco trabalhista (entregadores) é alto.
 - Crise dos Correios pode gerar oportunidades, mas também volatilidade de preço e prazo que afeta qualquer intermediário dependente deles.

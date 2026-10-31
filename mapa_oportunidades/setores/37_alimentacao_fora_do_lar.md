@@ -25,7 +25,7 @@
 
 ## Distribuição regional (DADO)
 - **DADO (2026, Abrasel regionais):** DF, 28% com prejuízo em janeiro [10]; RN, 25% em janeiro e 33% em fevereiro [11]; PE, em agosto, 46% com queda de faturamento e 24% com prejuízo [12].
-- **DADO:** São Paulo tem o maior mercado de foodservice do país, com mais de 419 mil pontos ativos [13].
+- **DADO (data não confirmada):** São Paulo tem o maior mercado de foodservice do país, com mais de 419 mil pontos ativos [13].
 - **ANÁLISE:** a cidade de São Paulo e a região metropolitana concentram densidade de restaurantes independentes, guerra de delivery (iFood, 99Food e Keeta disputando a cidade) e capacidade de pagar software; é o melhor mercado-teste para Felipe.
 
 ## Principais empresas e grau de concentração (DADO)
@@ -48,7 +48,7 @@
 
 ## Tendências
 - **DADO (mai 2026, IFB):** delivery respondeu por 26,6% do faturamento das empresas do índice [5].
-- **DADO (2025):** 148 mil novas empresas de foodservice abertas em 12 meses (dado de jan/2025) [21].
+- **DADO [DADO ANTIGO em parte] (jan/2025, cobrindo os 12 meses anteriores, em grande parte antes de nov/2024):** 148 mil novas empresas de foodservice abertas em 12 meses [21].
 - Dark kitchens: não encontrei fonte confiável com número recente.
 - **ANÁLISE:** IA para previsão de demanda e compras, cardápio dinâmico, atendimento por WhatsApp com agentes de IA, canal próprio para fugir de comissões, programas de fidelidade, crescimento de "ghost brands" operadas por restaurantes existentes (sem cozinha nova).
 
@@ -62,7 +62,7 @@
 1. **CMV descontrolado e ficha técnica desatualizada.** Quem sofre: dono de restaurante independente. Por que dói: insumo sobe mais que o preço do cardápio; só 42% lucram. Hoje: planilha ou nada. Quem ataca: módulos de ERPs (Consumer, Saipos); fora: MarketMan, MarginEdge. ANÁLISE: serviço de "CFO de restaurante" com IA, cobrado por mês, é testável.
 2. **Gestão multicanal de delivery (iFood, 99Food, Keeta, canal próprio).** Quem sofre: restaurante com delivery acima de 25% das vendas. Por que dói: comissões de 9,9% a 23%, cardápios e preços diferentes. Hoje: vários tablets. Quem ataca: integradores e PDVs; fora: Deliverect, Otter.
 3. **Canal próprio de pedidos com fidelização.** Quem sofre: restaurante que paga 23% ao iFood. Hoje: WhatsApp manual e cardápio digital simples. Quem ataca: Anota AI, Goomer; fora: Owner.com, Olo.
-4. **Capital de giro e dívidas em atraso.** Quem sofre: cerca de 40% com atraso. Hoje: antecipação de recebíveis cara, crédito do iFood. ANÁLISE: intermediação de crédito (correspondente) é leve, mas a inadimplência é alta.
+4. **Capital de giro e dívidas em atraso.** Quem sofre: cerca de 40% com atraso (pesquisa Abrasel de 2024, possivelmente [DADO ANTIGO]). Hoje: antecipação de recebíveis cara, crédito do iFood. ANÁLISE: intermediação de crédito (correspondente) é leve, mas a inadimplência é alta.
 5. **Rotatividade e treinamento de equipe.** Quem sofre: todos. Hoje: treinamento informal. Quem ataca: plataformas de treinamento e de vagas temporárias.
 6. **Precificação de cardápio para a reforma tributária e Simples.** Quem sofre: restaurantes de médio porte fora do Simples. Hoje: contador generalista.
 

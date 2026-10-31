@@ -6,7 +6,7 @@
 ## Resumo em 5 linhas (ANÁLISE)
 1. As Ceasas movimentaram 16,6 milhões de t e R$ 68,7 bilhões em 2025 (Conab), com volume estável e valor em queda; a Ceagesp sozinha responde por cerca de R$ 13,9 bilhões.
 2. A cadeia segue fragmentada e pouco digitalizada: permissionários, distribuidores, varejões e restaurantes negociam por telefone e WhatsApp, com pagamento informal.
-3. Perdas pós-colheita são altas (estimativas Embrapa de 30% em frutas e 35% em hortaliças), mas os números mais citados são antigos; a falta de medição atualizada é ela mesma uma dor.
+3. Perdas pós-colheita são altas (estimativas Embrapa de 30% em frutas e 35% em hortaliças [DADO ANTIGO] [23][24]), mas os números mais citados são antigos; a falta de medição atualizada é ela mesma uma dor.
 4. Startups capitalizadas atacam o abastecimento de food service (Cayena, Praso, Arado), e a saída da Frubana do Brasil em 2025 mostra que operar logística de perecíveis queima caixa; software leve para o meio da cadeia é o caminho para Felipe.
 5. A reforma tributária (crédito presumido na compra de produtor não contribuinte; hortícolas, frutas e ovos com alíquota zero) cria trabalho fiscal novo para atacadistas e redes médias.
 
@@ -35,7 +35,7 @@
 - **DADO:** Praso (atacado digital de food service) captou US$ 22 milhões em sua única rodada; o fundador diz que 70% das compras de restaurantes são feitas em Ceagesp, Ceasa ou atacarejos (data da rodada não confirmada). Fonte [19].
 - **DADO:** Arado (ex-Clicampo) recebeu R$ 60 milhões liderados pela Acre Venture Partners e adquiriu startup de delivery de hortifruti (data não confirmada no resultado). Fonte [20].
 - Pomar e Shopper: não encontrei fonte confiável sobre rodadas recentes.
-- ANÁLISE: na base (milhares de permissionários e distribuidores) o mercado é fragmentado; no topo de food service já há players bem capitalizados. Não há líder digital no software de gestão do permissionário.
+- ANÁLISE: na base (milhares de permissionários e distribuidores) o mercado é fragmentado; no topo de food service já há players bem capitalizados. Não identifiquei líder digital no software de gestão do permissionário (busca limitada).
 
 ## Margens típicas
 - Não encontrei fonte confiável. ANÁLISE: atacado de hortifruti tem margem unitária baixa e risco alto de perda; varejo de FLV tem margem bruta alta com quebra elevada. A saída da Frubana sugere que intermediação com logística própria tem economia unitária difícil.
@@ -51,7 +51,7 @@
 - WhatsApp como canal dominante de pedidos; automação de pedidos e cobrança é barata.
 - Food service e dark stores aumentam demanda por fornecimento B2B confiável (validado pela tese da Cayena e da Praso).
 - Reforma tributária formaliza a cadeia (split payment, crédito presumido).
-- Exportação de frutas com tarifa dos EUA (50% desde ago/2025) e abertura europeia pelo acordo Mercosul-UE. Fontes [13], [22].
+- Exportação de frutas com tarifa dos EUA (50% desde ago/2025; vigência em out/2026 não verificada nesta revisão) e abertura europeia pelo acordo Mercosul-UE. Fontes [13], [22].
 
 ## Riscos e motivos para NÃO entrar (ANÁLISE)
 1. Informalidade alta: clientes resistem a formalizar e a pagar assinatura.
@@ -72,7 +72,7 @@
 ## Startups e capital no subsetor
 - **DADO:** Cayena Série B US$ 55 milhões (jul/2024) [DADO ANTIGO]. Fontes [15], [16].
 - **DADO:** Frubana saiu do Brasil em jul/2025. Fonte [17].
-- **DADO:** Praso US$ 22 milhões; Arado R$ 60 milhões (datas não confirmadas). Fontes [19], [20].
+- **DADO:** Praso US$ 22 milhões; Arado R$ 60 milhões (datas não confirmadas; provavelmente anteriores a nov/2024, tratar como [DADO ANTIGO] até confirmar). Fontes [19], [20].
 - **DADO transversal:** 2.075 agtechs no Radar Agtech Brasil 2025. Fonte [4]. Investimento em agtechs em 2025 cerca de 10% abaixo de 2024. Fonte [5].
 - Rodadas de 2025/2026 específicas de hortifruti: não encontrei fonte confiável.
 

@@ -13,7 +13,7 @@
 ## Velocidade de crescimento e investimento (DADO)
 **Gusto**
 - Receita anual passou de US$ 1 bilhão, com vários anos de fluxo de caixa positivo (TechCrunch, mai/2026, citado por resultado de busca [4]; não confirmado em fonte primária). Receita acima de US$ 500 milhões no ano fiscal 2023 (Fortune, mai/2024) [DADO ANTIGO].
-- Tender offer de mais de US$ 200 milhões a valuation de US$ 9,3 bilhões, liderada pela Teachers' Venture Growth (Ontario Teachers'), jun/2025 (Fortune [1]). Valuation praticamente estável desde a Série E de 2022 (US$ 9,5 bilhões).
+- Tender offer de mais de US$ 200 milhões a valuation de US$ 9,3 bilhões, liderada pela Teachers' Venture Growth (Ontario Teachers'), jun/2025 (Fortune [1]). Valuation praticamente estável desde a Série E de 2022 (US$ 9,5 bilhões) [DADO ANTIGO; sem fonte própria nesta lista, não verificado].
 - Clientes: mais de 500 mil em 2026 (tear sheet, não confirmado [7]).
 
 **Pilot**

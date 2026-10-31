@@ -15,7 +15,7 @@ SaaS por funcionário por mês, modular (cada produto adicional aumenta a receit
 - Cerca de US$ 1 bilhão em receita anualizada em 2026 aparece apenas em agregadores (baixa confiabilidade, não confirmado).
 
 ## Investimento, investidores e valuation (DADO)
-- Série G: US$ 450 milhões a US$ 16,8 bilhões, mais tender offer de US$ 200 milhões (09/05/2025, TechCrunch [2], CNBC [1]). Rodada anterior: US$ 13,4 a 13,5 bilhões (abr/2024).
+- Série G: US$ 450 milhões a US$ 16,8 bilhões, mais tender offer de US$ 200 milhões (09/05/2025, TechCrunch [2], CNBC [1]). Rodada anterior: US$ 13,4 a 13,5 bilhões (abr/2024) [DADO ANTIGO; sem fonte própria nesta lista, não verificado].
 - Não encontrei rodada primária de 2026 em fonte confiável.
 
 ## Já existe no Brasil?

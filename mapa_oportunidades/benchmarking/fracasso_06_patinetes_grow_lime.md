@@ -3,6 +3,8 @@
 
 > Método: números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede. Ficha VERIFICADA nos pontos principais. A versão preliminar estava correta no essencial, mas subestimava o desfecho: a Grow não apenas encolheu, ela pediu recuperação judicial em 2020 e teve falência decretada em 2023.
 
+> [DADO ANTIGO] A maior parte dos fatos deste arquivo é anterior a nov/2024; são mantidos de propósito por serem o histórico do caso.
+
 ## O que era
 Patinetes e bicicletas destravados por app, modelo nascido nos EUA (Bird, Lime). No Brasil, a Yellow (brasileira) se uniu à mexicana Grin no início de 2019, formando a Grow [1]. A americana Lime chegou a São Paulo e Rio em jul/2019 [2].
 

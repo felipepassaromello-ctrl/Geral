@@ -8,7 +8,7 @@
 2. A grande janela é legal e datada: a Lei 15.269/2025 (sancionada em 24/11/2025) abre o mercado livre para comerciais e industriais de baixa tensão até nov/2027 e para residenciais até nov/2028; o Decreto 13.097/2026 (ago/2026) regulamentou.
 3. A abertura cria dor de escolha, comparação e migração para dezenas de milhões de unidades consumidoras, enquanto a tarifa regulada sobe (efeito médio projetado de 9,4% em 2026, ANEEL).
 4. Felipe não deve operar usina nem comercializadora (exige capital, garantias e habilitação na CCEE); deve atuar como intermediário, consultor ou software.
-5. Risco: grandes grupos já se posicionam comprando startups (Energisa comprou a Clarke; Electra comprou a Enliv) e as migrações no ACL caíram em 2025 e no início de 2026.
+5. Risco: grandes grupos já se posicionam comprando startups (Energisa comprou a Clarke; Electra comprou a Enliv; datas das operações não confirmadas) e as migrações no ACL caíram em 2025 e no início de 2026.
 
 ## Tamanho de mercado (DADO, com fonte e data)
 - **Solar total:** ABSOLAR projetava 75,9 GW acumulados no fim de 2026 (51,8 GW em GD e 24,1 GW em usinas), com adição de 10,6 GW em 2026 contra 11,4 GW em 2025 [fonte 1]. Matéria posterior do Canal Solar informa 77,6 GW, com a GD 2,2 GW acima do projetado para dezembro (data exata não confirmada) [fonte 2].

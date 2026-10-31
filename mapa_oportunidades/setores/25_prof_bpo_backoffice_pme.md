@@ -5,7 +5,7 @@
 
 ## Resumo em 5 linhas (ANÁLISE)
 1. A base potencial é enorme: 24,2 milhões de empresas ativas (2º quad. 2025), cerca de 17 milhões de MEIs e 5,14 milhões de aberturas em 2025, 96,5% pequenos negócios [1][2]; e está em estresse recorde (8,8 milhões de MPEs negativadas em ago/2026) [3].
-2. BPO financeiro (pagar e receber, conciliação, cobrança, fluxo de caixa, relatórios) é recorrente, fragmentado, sem líder, com barreira regulatória baixa; não há medição confiável do tamanho do nicho.
+2. BPO financeiro (pagar e receber, conciliação, cobrança, fluxo de caixa, relatórios) é recorrente, fragmentado, sem líder identificado nas buscas, com barreira regulatória baixa; não há medição confiável do tamanho do nicho.
 3. IA reduz o custo de operação e melhora a margem de quem entra agora, mas também barateia o "faça você mesmo" das plataformas (Omie, Conta Azul/Visma).
 4. A reforma tributária (apuração híbrida no Simples a partir de jan/2027, split payment opcional em 2027 e obrigatório entre empresas em 2028) e a duplicata escritural (2027 a 2028) criam tarefas novas que a PME não sabe fazer [6][7][8].
 5. Segue o subsetor do bloco com melhor encaixe para o Felipe: leve, testável em semanas, vendável via contadores; o risco central é churn por mortalidade alta de pequenos negócios.
@@ -15,11 +15,11 @@
 - **DADO (MEIs e pequenos):** 17.075.033 MEIs ativos (Fecomércio-MG, Estudo sobre o MEI 2026) [2]; 5,14 milhões de empresas abertas em 2025, 96,5% pequenos negócios (Sebrae, jan/2026) [2]; micro e pequenas são cerca de 91,7% do estoque em jun/2026 (CNSaúde, base Receita) [2].
 - **DADO (BPO, recorte amplo):** mercado de BPO no Brasil (todas as funções, não só financeiro) de cerca de US$ 5,6 bi em 2025, projeção de US$ 15,1 bi em 2034, CAGR 11,62% 2026 a 2034 (IMARC; **fonte de baixa confiabilidade**, projeção) [4].
 - **Tamanho do BPO financeiro para PMEs: não encontrei fonte confiável.**
-- **DADO (estresse):** 9,3 milhões de CNPJs inadimplentes em ago/2026, R$ 244,4 bi em dívidas; MPEs são 8,8 milhões desses CNPJs (Serasa Experian) [3]; 6.341 MPMEs em recuperação judicial no 1º sem. 2026 (+6,2%) [9]; 76% dos empreendedores não buscaram crédito no 1º tri 2026, 46% de aprovação entre os que buscaram (Sebrae) [10]; inadimplência PJ no SFN de 4,3% em ago/2026 [11].
+- **DADO (estresse):** 9,3 milhões de CNPJs inadimplentes em ago/2026, R$ 244,4 bi em dívidas; MPEs são 8,8 milhões desses CNPJs (Serasa Experian) [3]; 6.341 MPMEs em recuperação judicial no 1º sem. 2026 (+6,2%) [9] (cifra a conferir: incompatível com o recorde anual de 2.273 pedidos de RJ em 2024, ver arquivo 21); 76% dos empreendedores não buscaram crédito no 1º tri 2026, 46% de aprovação entre os que buscaram (Sebrae) [10]; inadimplência PJ no SFN de 4,3% em ago/2026 [11].
 
 ## Crescimento histórico e projetado
-- **DADO:** empresas ativas: 21,0 mi (1º quad. 2023), 21,7 mi (1º quad. 2024), 24,2 mi (2º quad. 2025) [1]. 1º quad. 2025: 1.815.912 aberturas (+24,4%) e 973.330 fechamentos (-13,4%) [1].
-- **DADO:** MEIs ativos subiram de cerca de 11,5 mi (Sebrae, out/2024) para 17,1 mi (Fecomércio-MG, 2026); bases diferentes, comparar com cautela [2].
+- **DADO:** empresas ativas: 21,0 mi (1º quad. 2023) [DADO ANTIGO], 21,7 mi (1º quad. 2024) [DADO ANTIGO], 24,2 mi (2º quad. 2025) [1]. 1º quad. 2025: 1.815.912 aberturas (+24,4%) e 973.330 fechamentos (-13,4%) [1].
+- **DADO:** MEIs ativos subiram de cerca de 11,5 mi (Sebrae, out/2024) [DADO ANTIGO] para 17,1 mi (Fecomércio-MG, 2026); bases diferentes, comparar com cautela [2].
 - **DADO (projeção IMARC, baixa confiabilidade):** BPO total crescendo 11,6% a.a. até 2034 [4].
 - **ANÁLISE:** demanda cresce com (a) estresse de caixa com Selic em 13,75% (set/2026) e Focus em 13,25% no fim de 2026, (b) complexidade da transição tributária 2026 a 2033, (c) duplicata escritural 2027 a 2028 [8], (d) Pix Automático [12].
 

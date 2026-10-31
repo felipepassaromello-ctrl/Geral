@@ -5,15 +5,15 @@
 
 ## Resumo em 5 linhas (ANÁLISE)
 1. O restaurante compra de dezenas de fornecedores (atacarejo, distribuidores, hortifruti, carnes, bebidas), por WhatsApp e telefone, sem comparar preço nem controlar entrega; o comprador é o próprio dono.
-2. O atacado distribuidor faturou R$ 616,6 bilhões em 2025 (alta real de 11%), mas é dominado pelo Atacadão no autosserviço e por milhares de distribuidores regionais na entrega.
-3. A Cayena levantou R$ 300 milhões para ser o marketplace B2B de insumos para restaurantes, prova de que a dor existe e de que o modelo de estoque e crédito exige muito capital.
+2. O atacado distribuidor faturou R$ 616,6 bilhões em 2025 (alta real de 11%), mas é liderado pelo Atacadão no autosserviço (R$ 89,9 bilhões, cerca de 15% do total; cálculo do revisor) e pulverizado em milhares de distribuidores regionais na entrega.
+3. A Cayena levantou R$ 300 milhões (Série B, 2024, mês não confirmado) para ser o marketplace B2B de insumos para restaurantes, prova de que a dor existe e de que o modelo de estoque e crédito exige muito capital.
 4. Ângulos leves: software de cotação e pedido para o restaurante, ferramenta de força de vendas e pedido digital para o distribuidor regional, serviço de compras terceirizadas para pequenas redes, e créditos de CBS/IBS na reforma tributária.
 5. Risco: margens finas do distribuidor, crédito e inadimplência do restaurante, e um player capitalizado já ocupando o espaço em SP.
 
 ## Tamanho de mercado (DADO)
 - **DADO (2025, Ranking ABAD/NielsenIQ 2026):** atacado distribuidor (todos os canais, inclusive varejo) faturou R$ 616,6 bilhões em 2025, alta real de 11% e nominal de 17,27% (*) [1][2].
 - **DADO (2025, Abrasel):** os bares e restaurantes, principais clientes do canal, faturaram R$ 495 bilhões [3].
-- **DADO (abr 2025, Fispal citando IFB):** faturamento de foodservice acima de R$ 210 bilhões no ano (metodologia diferente da Abrasel) [4].
+- **DADO (abr 2025, Fispal citando IFB; ano de referência provavelmente 2024, [DADO ANTIGO em parte]):** faturamento de foodservice acima de R$ 210 bilhões no ano (metodologia diferente da Abrasel) [4].
 - **ANÁLISE:** o custo de insumos costuma representar de 28% a 38% do faturamento de um restaurante; aplicado a R$ 495 bilhões, as compras do setor ficariam na ordem de R$ 140 bilhões a R$ 190 bilhões por ano. Estimativa própria, não é dado.
 
 ## Crescimento histórico e projetado (DADO)
@@ -24,7 +24,7 @@
 
 ## Distribuição regional (DADO)
 - **DADO (2025):** Atakadão Atakarejo (Bahia) é o único nordestino entre os 10 maiores do ranking ABAD [6]; Delly's (Sul) com mais de R$ 5,8 bilhões [7]; Gazin Atacado lidera no Paraná com R$ 2,467 bilhões [8]; Riograndense é o maior atacadista do RN [9]; empresa do DF ocupa o 3º lugar do país [10].
-- **DADO:** São Paulo tem mais de 419 mil pontos de foodservice ativos [11].
+- **DADO (data não confirmada):** São Paulo tem mais de 419 mil pontos de foodservice ativos [11].
 - **ANÁLISE:** distribuição é regional por natureza (frete e perecíveis). A Grande São Paulo concentra a maior densidade de clientes e de distribuidores médios.
 
 ## Principais empresas e grau de concentração (DADO)

@@ -13,7 +13,7 @@
 ## Tamanho de mercado (DADO, com fonte e data)
 - Tamanho do mercado de rastreabilidade e certificação agro no Brasil: não encontrei fonte confiável.
 - **DADO (2025, CNA):** a UE foi o 2º destino do agro brasileiro, com US$ 25,2 bilhões (14,9% do total); principais produtos: soja, café, celulose, suco de laranja e carnes. Fonte [8].
-- **DADO:** 51,2% da produção de café brasileiro foi para a UE em 2024 (estudo UFRJ); exportação de café verde para a UE de US$ 6,43 bilhões entre jan e nov/2025 (+US$ 1,22 bilhão sobre 2024). Fontes [9], [10].
+- **DADO:** 51,2% da produção de café brasileiro foi para a UE em 2024 (estudo UFRJ; como o Brasil consome internamente boa parte do café, é provável que o percentual se refira às exportações, conferir na fonte); exportação de café verde para a UE de US$ 6,43 bilhões entre jan e nov/2025 (+US$ 1,22 bilhão sobre 2024). Fontes [9], [10].
 - **DADO:** estimativa da indústria de que a EUDR alcança 16% das exportações da agroindústria, cerca de US$ 17,5 bilhões por ano (estudo citado pelo Canal Rural; data anterior a nov/2024 [DADO ANTIGO]). Fonte [11].
 - **DADO:** exportação de soja de 108,18 milhões de t em 2025, 79,9% para a China. Fonte [1].
 - **DADO:** exportação recorde de algodão, 3,37 milhões de t no ano comercial 2025/26. Fontes [2], [3].
@@ -64,7 +64,7 @@
 6. Janela das grandes fecha em 30/12/2026: quem entra agora chega tarde para esse lote e depende das micro e pequenas (jun/2027) e de manutenção recorrente.
 
 ## Hipóteses de dores (ANÁLISE)
-1. **Dossiê EUDR para micro e pequenos operadores e cooperativas de café e cacau (prazo 30/06/2027).** Quem sofre: exportadores fora das grandes tradings. Por que dói: risco padrão exige diligência completa e café tem 51% da produção indo para a UE. Hoje: consultorias e planilhas. Quem ataca: Agrotools, Produzindo Certo; fora: Satelligence, Meridia, Koltiva. Fontes [9], [17], [20].
+1. **Dossiê EUDR para micro e pequenos operadores e cooperativas de café e cacau (prazo 30/06/2027).** Quem sofre: exportadores fora das grandes tradings. Por que dói: risco padrão exige diligência completa e cerca de 51% do café (provavelmente das exportações, ver Tamanho de mercado) vai para a UE. Hoje: consultorias e planilhas. Quem ataca: Agrotools, Produzindo Certo; fora: Satelligence, Meridia, Koltiva. Fontes [9], [17], [20].
 2. **Coleta de polígonos, CAR e documentos de pequenos produtores via app/WhatsApp.** Quem sofre: cooperativas de café com milhares de cooperados em MG. Hoje: técnicos de campo. Suporte: CAR validado ainda baixo em vários estados. Fontes [12], [13].
 3. **Regularização ambiental (análise do CAR e adesão ao PRA) como pré-requisito de rastreabilidade.** Só 10% dos validados com passivo apresentaram projeto de recuperação. Fonte [28]. Quem ataca: consultorias ambientais regionais.
 4. **Monitoramento contínuo de fornecedores indiretos de gado.** Ver arquivo 02.

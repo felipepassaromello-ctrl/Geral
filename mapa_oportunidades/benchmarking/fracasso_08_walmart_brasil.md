@@ -3,6 +3,8 @@
 
 > Método: números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede. Ficha VERIFICADA quanto à cronologia, aquisições, venda à Advent e compra pelo Carrefour. Os motivos tributários (ICMS-ST) permanecem como ANÁLISE: não encontrei fonte que os quantifique.
 
+> [DADO ANTIGO] A maior parte dos fatos deste arquivo é anterior a nov/2024; são mantidos de propósito por serem o histórico do caso.
+
 ## O que era
 Maior varejista do mundo. Entrou no Brasil em 1995 e cresceu devagar por quase uma década [1].
 

@@ -13,13 +13,13 @@ Começou como software para bancos (TeamApt), virou rede de agentes bancários e
 **ANÁLISE:** taxa por transação (MDR e saques via agentes), juros de crédito ao comerciante e serviços financeiros.
 
 ## Crescimento (DADO)
-- Mais de 1 bilhão de transações por mês no início de 2025, contra 800 milhões em out/2024 (LaunchBase Africa / TechAfricaNews).
+- Mais de 1 bilhão de transações por mês no início de 2025, contra 800 milhões em out/2024 [DADO ANTIGO] (LaunchBase Africa / TechAfricaNews).
 - Maior adquirente de comerciantes da Nigéria, segundo perfil secundário (Silicon Valley Investclub, citando TechCabal; baixa confiabilidade).
-- Receita: estimativas de terceiros (US$ 264,5 mi em 2023; US$ 600 mi de ARR em set/2025 segundo GetLatka): não confirmadas pela empresa.
+- Receita: estimativas de terceiros (US$ 264,5 mi em 2023 [DADO ANTIGO]; US$ 600 mi de ARR em set/2025 segundo GetLatka): não confirmadas pela empresa.
 - Descrita como lucrativa em estudos de caso; não encontrei demonstração financeira pública.
 
 ## Investimento (DADO)
-- Out/2024: Série C de US$ 110 mi, avaliação acima de US$ 1 bi, liderada por Development Partners International, com Google Africa Investment Fund e Verod Capital (The Paypers, TechInAfrica).
+- Out/2024 [DADO ANTIGO]: Série C de US$ 110 mi, avaliação acima de US$ 1 bi, liderada por Development Partners International, com Google Africa Investment Fund e Verod Capital (The Paypers, TechInAfrica).
 - Out/2025: extensão de US$ 90 mi, total da Série C acima de US$ 200 mi, com Visa e IFC entre investidores (LaunchBase Africa).
 
 ## Situação atual

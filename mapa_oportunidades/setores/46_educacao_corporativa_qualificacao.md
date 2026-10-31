@@ -1,10 +1,10 @@
 # Educação corporativa e qualificação profissional (requalificação, cursos livres, mão de obra técnica, IA)
 Última atualização: 31/10/2026 | Pesquisador: agente Bloco Educação, Setor Público, Indústria, Mídia e Outros
 
-> Nota de método: WebFetch bloqueado pela política de rede da sessão e cota de buscas esgotada no meio da pesquisa deste arquivo. Números confirmados pelo conteúdo exibido nos resultados de busca. Faltou confirmar: tamanho total do mercado de educação corporativa em reais, e o status/datas da NR-1 (riscos psicossociais), que ficaram sem fonte nesta sessão.
+> Nota de método: WebFetch bloqueado pela política de rede da sessão e cota de buscas esgotada no meio da pesquisa deste arquivo. Números confirmados pelo conteúdo exibido nos resultados de busca. Faltou confirmar: tamanho total do mercado de educação corporativa em reais. (Revisão de 31/10/2026: o status da NR-1 foi confirmado no arquivo 42_fitness_bem_estar.md, ver Regulação.)
 
 ## Resumo em 5 linhas (ANÁLISE)
-1. Demanda estrutural forte: a CNI estima que 14 milhões de pessoas precisam ser qualificadas ou requalificadas para a indústria entre 2025 e 2027, e a falta de trabalhador qualificado virou o 4º maior problema da indústria (23% das menções em 2025).
+1. Demanda estrutural forte: a CNI estimou em out/2024 [DADO ANTIGO] que 14 milhões de pessoas precisam ser qualificadas ou requalificadas para a indústria entre 2025 e 2027, e a falta de trabalhador qualificado virou o 4º maior problema da indústria (23% das menções em 2025).
 2. Empresas investem pouco por pessoa (cerca de R$ 1.199 por colaborador em 2025, cerca de 1,7% da folha, segundo ABTD citada por terceiros) e quase nunca medem resultado (3% dos projetos).
 3. IA é o grande vetor: 86% dos funcionários já usam IA (KPMG 2025), mas só 15% das empresas oferecem capacitação recorrente em IA (Robert Half, out. 2025).
 4. Cursos livres não são regulados pelo MEC: barreira de entrada baixa, margem alta, mas concorrência enorme (Senai/Sistema S subsidiado, Alura, plataformas globais, criadores de conteúdo).
@@ -25,7 +25,7 @@
 - **ANÁLISE:** São Paulo concentra o maior volume absoluto e as empresas com orçamento de T&D; interior de SP, Sul e Goiás têm escassez técnica aguda em polos industriais e agroindustriais.
 
 ## Principais empresas e grau de concentração (DADO)
-- **DADO:** Sistema S (Senai, Senac) é o maior ofertante de formação técnica e profissional; a CNI lançou programas como "Senai Futuro" (Diário de Pernambuco, ago. 2026). Fonte [7].
+- **ANÁLISE (sem dado de participação verificado):** Sistema S (Senai, Senac) é provavelmente o maior ofertante de formação técnica e profissional. **DADO:** a CNI lançou programas como "Senai Futuro" (Diário de Pernambuco, ago. 2026). Fonte [7].
 - **DADO:** Alura comprou participação majoritária na FIAP em 2022 [DADO ANTIGO]; Descomplica captou R$ 450 milhões e comprou a UniAmérica [DADO ANTIGO]. Fonte [8].
 - **ANÁLISE:** mercado muito fragmentado: consultorias de T&D, plataformas LMS (há dezenas), produtores de cursos, Sistema S, universidades corporativas internas e plataformas globais. Não há líder dominante em treinamento B2B para PMEs.
 
@@ -34,7 +34,7 @@
 - **ANÁLISE:** cursos digitais e treinamento in company têm margem bruta alta (custo marginal baixo no digital; instrutor como principal custo no presencial). Margem líquida depende do custo de aquisição de clientes B2B.
 
 ## Regulação
-- **ANÁLISE (sem dado numérico):** cursos livres não exigem autorização do MEC; cursos técnicos de nível médio exigem credenciamento em conselho estadual. Normas regulamentadoras (NR) do Ministério do Trabalho exigem treinamentos obrigatórios (ex.: NR-10 eletricidade, NR-35 altura, NR-12 máquinas), o que cria demanda recorrente. A atualização da NR-1 sobre riscos psicossociais no gerenciamento de riscos ocupacionais é relevante, mas não consegui confirmar nesta sessão as datas de vigência e de fiscalização: não encontrei fonte confiável (busca esgotada).
+- **ANÁLISE (sem dado numérico):** cursos livres não exigem autorização do MEC; cursos técnicos de nível médio exigem credenciamento em conselho estadual. Normas regulamentadoras (NR) do Ministério do Trabalho exigem treinamentos obrigatórios (ex.: NR-10 eletricidade, NR-35 altura, NR-12 máquinas), o que cria demanda recorrente. A atualização da NR-1 sobre riscos psicossociais no gerenciamento de riscos ocupacionais é relevante: segundo as fontes reunidas no arquivo 42_fitness_bem_estar.md (Portaria MTE 1.419/2024; Portaria MTE 765/2025), a exigência vigora desde 26/05/2026, com 90 dias de fiscalização orientativa e possibilidade de autuação desde cerca do fim de ago/2026 (informação trazida pela revisão; fontes listadas naquele arquivo).
 - **DADO (reforma tributária):** a redução de 60% do IBS/CBS da LC 214/2025 alcança serviços educacionais do Anexo II, incluindo instituições técnicas e profissionalizantes. Fonte [9]. Não confirmei se cursos livres corporativos se enquadram (provavelmente não; ANÁLISE).
 
 ## Tendências

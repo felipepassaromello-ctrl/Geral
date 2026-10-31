@@ -54,7 +54,7 @@
 - Software de agenda saturado e barato; Trinks, Avec e Booksy já têm base instalada.
 - Cliente micro (94% MEI), sensível a preço, com rotatividade alta.
 - Estética invasiva tem risco jurídico (TRF-1, Ato Médico) e sanitário; não operar.
-- Consumo parcialmente discricionário, com endividamento das famílias em nível recorde (28,9% da renda, BCB) [16] e Selic em 13,75%.
+- Consumo parcialmente discricionário, com comprometimento da renda das famílias com dívidas em nível recorde (28,9%, BCB, mês de referência não confirmado; capital/panorama_macro.md registra 29,7% em fev/2026) [16] e Selic em 13,75%.
 - Crescimento do mercado desacelerou de 10% para 6,8% nominal (próximo de 2% real).
 
 ## Hipóteses de dores

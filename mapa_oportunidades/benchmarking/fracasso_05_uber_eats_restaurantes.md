@@ -3,6 +3,8 @@
 
 > Método: números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede. Ficha VERIFICADA nos pontos principais (datas, escopo da saída, participação de mercado citada pela imprensa, caso CADE).
 
+> [DADO ANTIGO] A maior parte dos fatos deste arquivo é anterior a nov/2024; são mantidos de propósito por serem o histórico do caso.
+
 ## O que era
 Braço de delivery de comida da Uber, que disputava restaurantes e consumidores com o iFood e a Rappi no Brasil.
 

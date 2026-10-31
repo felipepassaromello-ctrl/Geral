@@ -24,7 +24,7 @@ IPO de cerca de Rs 5.421 crore (Rs 4.250 crore primário + Rs 1.171,2 crore secu
 **ANÁLISE:** um dos raros casos indianos de consumo de massa que chegou à bolsa com tração real. O ponto central é o modelo de receita por anúncios, que só funciona com escala gigante.
 
 ## Existe no Brasil? Quem faz, força, por que não replicou
-**DADO:** a Facily, social commerce brasileira inspirada no modelo de compras em grupo, captou mais de US$ 500 milhões em 12 meses até dez/2021 e depois cortou mais de 30% da equipe em 2022 (Startups, Prosus). Ver fracasso_03.
+**DADO:** a Facily, social commerce brasileira inspirada no modelo de compras em grupo, captou mais de US$ 500 milhões em 12 meses até dez/2021 e depois cortou mais de 30% da equipe em 2022 (Startups, Prosus) [DADO ANTIGO]. Ver fracasso_03.
 **ANÁLISE:** hoje o "Meesho brasileiro" é na prática Shopee, Temu e Shein, que já cobrem o consumidor de baixa renda com produto barato importado. Um novo entrante local não tem como competir em preço nem em verba de anúncio. O que sobra: revenda social de produtos nacionais via WhatsApp (modelo "consultora", como Natura/Avon) com ferramenta digital.
 
 ## Viabilidade de tropicalizar (1 a 5)

@@ -5,8 +5,8 @@
 
 ## Resumo em 5 linhas (ANÁLISE)
 1. Depois de um 2025 de recuperação (receita da indústria de R$ 66,7 bilhões, +7,4%), 2026 é ano de queda forte: faturamento -21,6% até setembro, vendas internas -24,8%, colheitadeiras -39,4% em unidades.
-2. O crédito subsidiado encolheu: o Moderfrota caiu de cerca de R$ 12,6 bilhões para R$ 5,8 bilhões no Plano Safra 2026/27, a 12,5% ao ano, com Selic de 13,75% e produtor de soja com rentabilidade projetada 35% menor.
-3. Importados (sobretudo chineses) ganham espaço: importações +42% em unidades até setembro; China foi de 13% para 17,4% das importações em 2025. Isso pressiona preços e as redes de concessionárias tradicionais.
+2. O crédito subsidiado encolheu: o Moderfrota caiu de cerca de R$ 12,6 bilhões para R$ 5,8 bilhões no Plano Safra 2026/27, a 12,5% ao ano [23][24], com Selic de 13,75% (decisão do Copom de 16/09/2026) e produtor de soja com rentabilidade projetada 35% menor [3].
+3. Importados (sobretudo chineses) ganham espaço: importações +42% em unidades até setembro [14]; China foi de 13% para 17,4% das importações em 2025 [8]. Isso pressiona preços e as redes de concessionárias tradicionais.
 4. Em ciclo de baixa, o valor migra para pós-venda, peças, seminovos, locação e remarketing de máquinas retomadas; grupos concessionários se consolidam (Vamos/Simpar com 34 lojas AGCO) e buscam receita recorrente.
 5. Para Felipe: serviços para concessionárias, bancos e financeiras (precificação de usados, remarketing de retomadas, inteligência de pós-venda), nunca fabricar ou vender máquina.
 
@@ -21,7 +21,7 @@
 **DADO**
 - 2025: +7,4% em receita, após dois anos de queda [8]. 2026: -21,6% até setembro [11].
 - Fabricantes: CNH com receita de US$ 4,8 bilhões no 2T26 (+2%) e lucro -35%, citando América do Sul/Brasil como principal pressão e "fundo do ciclo"; projeção de margem EBIT ajustada de 5,0% a 5,5% em Agricultura [19]. Deere: vendas -6% no 3º tri fiscal 2026 por menores embarques no Brasil e Europa, segmento de grandes equipamentos com queda de cerca de 10% no ano fiscal (fonte de baixa confiabilidade, blog de terceiros) [20].
-**ANÁLISE**: 2027 depende de juros (Focus: Selic 11,75% no fim de 2027) e do preço da soja; recuperação de volume é provável a partir de 2027/28, mas com maior fatia de importados. Média de 5 anos fraca a moderada.
+**ANÁLISE**: 2027 depende de juros (Focus de 26/10/2026: Selic 11,75% no fim de 2027, dado repassado pela coordenação, sem link neste arquivo) e do preço da soja; recuperação de volume é provável a partir de 2027/28, mas com maior fatia de importados. Média de 5 anos fraca a moderada.
 
 ## Distribuição regional
 - DADO: MT (51,6 milhões de t de soja), MATOPIBA (25,4), PR (21,7) e GO (20,1) concentram a produção de grãos em 2025/26 e, logo, a frota de grande porte [5].

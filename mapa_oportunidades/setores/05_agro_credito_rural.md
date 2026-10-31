@@ -1,7 +1,7 @@
 # Agro: crédito rural (Plano Safra, CPR, Fiagro, agfintechs, inadimplência e recuperações judiciais)
 Última atualização: 31/10/2026 | Pesquisador: agente Agronegócio
 
-> Nota de método: WebFetch bloqueado pela política de rede nesta sessão (serasaexperian, infomoney, forbes, poder360, gov.br não resolvem). Números confirmados pelo conteúdo dos resultados de busca, como o briefing permite. Os números-chave marcados com (*) devem ser reabertos antes de uso externo. A cota de buscas da sessão foi esgotada antes de eu confirmar a Selic de outubro/2026 e os dados de crédito rural do SICOR/Banco Central; ambos ficam como lacuna.
+> Nota de método: WebFetch bloqueado pela política de rede nesta sessão (serasaexperian, infomoney, forbes, poder360, gov.br não resolvem). Números confirmados pelo conteúdo dos resultados de busca, como o briefing permite. Os números-chave marcados com (*) devem ser reabertos antes de uso externo. A cota de buscas da sessão foi esgotada antes de eu confirmar os dados de crédito rural do SICOR/Banco Central, que ficam como lacuna. (Revisão: a Selic vigente, 13,75% desde 16/09/2026, foi confirmada pela coordenação.)
 
 ## Resumo em 5 linhas (ANÁLISE)
 1. O crédito rural brasileiro é enorme (Plano Safra 2026/27 de R$ 610,3 bilhões, estoque de CPR perto de R$ 600 bilhões, Fiagros com R$ 65,8 bilhões), mas está no pior momento de qualidade da série recente.
@@ -67,7 +67,7 @@
 - O BB iniciou renegociações sob a MP com cerca de 113 mil clientes elegíveis e até R$ 100 bilhões em dívidas. Fonte [27].
 - Juros do Plano Safra 2026/27: faixa de 8% a 12,5% ao ano nas principais linhas, contra 8,5% a 14% no plano anterior. Fonte [2].
 - Reforma tributária: produtor com receita abaixo de R$ 3,6 milhões não é contribuinte de IBS/CBS; comprador toma crédito presumido (LC 214/2025, art. 168). Fonte [28]. Impacto no crédito: muda a estrutura de barter e de CPR com liquidação física (tributação na entrega do produto), hipótese a validar com tributarista.
-- Selic: o briefing indica faixa de 14% a 15% em 2026; não confirmei o valor de outubro/2026 nesta sessão (cota de busca esgotada).
+- Selic: 13,75% ao ano desde a decisão do Copom de 16/09/2026 (Poder360, confirmado pela coordenação do projeto); Focus de 26/10/2026 projeta 13,25% no fim de 2026 e 11,75% em 2027.
 
 **ANÁLISE**
 - Barreiras: conceder crédito exige SCD/SEP ou fundo (CVM); registrar CPR exige registradora autorizada. Prestar serviço de análise, formalização, monitoramento e cobrança tem barreira baixa (cobrança precisa respeitar CDC quando aplicável e LGPD; advocacia exige OAB, então parceria com escritório).
@@ -103,7 +103,7 @@
 5. **Assessoria para adesão à MP 1.376 e montagem de dossiê de perdas (duas safras, queda de 30% de renda).**
    Quem sofre: produtores e cooperativas elegíveis. Por que dói: exigência documental e prazos do CMN [24][26]. Hoje: sindicatos rurais, contadores, advogados. Risco: janela temporária (one-shot).
 6. **Planejamento tributário e societário do produtor (PF para PJ, holding rural) por causa da reforma tributária e do risco de RJ.**
-   Quem sofre: produtor médio. Fonte de suporte [28], [30 do arquivo 01]. Hoje: contadores e advogados regionais.
+   Quem sofre: produtor médio. Fonte de suporte [28] e a fonte [30] do arquivo 01_agro_graos.md (AgFeed sobre PJs do agro). Hoje: contadores e advogados regionais.
 
 ## Startups e capital no subsetor (DADO)
 - Agrolend: R$ 145 milhões liderada pela Lightrock, com Yara Growth Ventures (data não confirmada nesta sessão). Fonte [19]. Rodada anterior de R$ 80 milhões. Fonte [30].

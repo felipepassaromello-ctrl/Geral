@@ -30,11 +30,11 @@
 5. **Crédito embutido funciona quando há garantia tecnológica ou dado proprietário** (bloqueio de aparelho na M-KOPA; dados de gasto na Clara).
 
 ## Padrões que falham, em emergentes e no Brasil (DADO + ANÁLISE)
-1. **Balanço pesado com juros altos.** Kavak perdeu cerca de 75% da avaliação (em_11, fracasso_04); Udaan ainda perde cerca de Rs 850 crore por ano (em_02); a Loft (valuation de US$ 2,9 bi em 2021) cortou cerca de 1.200 pessoas entre 2022 e mar/2023 e só chegou ao breakeven no 4T23 depois de pivotar para crédito e serviços B2B (fracasso_09); o Walmart registrou baixa de cerca de US$ 4,5 bi ao vender 80% da operação à Advent sem pagamento à vista, em grande parte perda cambial (fracasso_08).
+1. **Balanço pesado com juros altos.** (Os casos Loft e Walmart abaixo são [DADO ANTIGO], 2018 a 2023, mantidos como histórico.) Kavak perdeu cerca de 75% da avaliação (em_11, fracasso_04); Udaan ainda perde cerca de Rs 850 crore por ano (em_02); a Loft (valuation de US$ 2,9 bi em 2021) cortou cerca de 1.200 pessoas entre 2022 e mar/2023 e só chegou ao breakeven no 4T23 depois de pivotar para crédito e serviços B2B (fracasso_09); o Walmart registrou baixa de cerca de US$ 4,5 bi ao vender 80% da operação à Advent sem pagamento à vista, em grande parte perda cambial (fracasso_08).
 2. **Logística de baixo ticket subsidiada por VC.** Frubana fechou o Brasil em 2025 após captar cerca de US$ 271 mi (fracasso_01); JOKR saiu de quatro países (fracasso_02); Facily cortou mais de 30% após virar unicórnio (fracasso_03).
 3. **Receita bruta de commodity como métrica de vaidade.** eFishery inflou receita em centenas de milhões de dólares e o fundador foi condenado a 9 anos (em_09); Zetwerk estreou na bolsa com prêmio de 5% e caiu abaixo do preço de emissão no mesmo dia (em_07).
-4. **Atacar o líder local em mercado de rede.** Uber Eats, com cerca de 10% contra cerca de 80% do iFood, saiu do delivery de restaurantes em mar/2022; o CADE só limitou a exclusividade do iFood em fev/2023, após denúncia da Rappi (fracasso_05).
-5. **Ativos físicos na rua e importados em dólar.** Grin e Yellow tiveram prejuízo de quase R$ 350 mi com receita de R$ 65 mi em 2019, saíram de 14 cidades em jan/2020, pediram RJ em jul/2020 e tiveram falência decretada em nov/2023; a Lime saiu em jan/2020 e voltou ao Rio meses depois (fracasso_06).
+4. **Atacar o líder local em mercado de rede.** Uber Eats, com cerca de 10% contra cerca de 80% do iFood, saiu do delivery de restaurantes em mar/2022; o CADE só limitou a exclusividade do iFood em fev/2023, após denúncia da Rappi (fracasso_05) [DADO ANTIGO].
+5. **Ativos físicos na rua e importados em dólar.** Grin e Yellow tiveram prejuízo de quase R$ 350 mi com receita de R$ 65 mi em 2019, saíram de 14 cidades em jan/2020, pediram RJ em jul/2020 e tiveram falência decretada em nov/2023; a Lime saiu em jan/2020 e voltou ao Rio meses depois (fracasso_06) [DADO ANTIGO].
 6. **Arbitragem de prazo em imóveis.** WeWork Brasil enfrentou despejos por atraso de aluguel em 2024, caiu de 32 para 28 unidades e voltou ao controle integral da matriz em fev/2025 (fracasso_07).
 
 ## Por que o Brasil é diferente de Índia/Indonésia (ANÁLISE)
@@ -53,7 +53,7 @@ Os modelos emergentes mais promissores para o Brasil, na versão leve:
 5. **Clara/Zetwerk como software**: não emitir cartão nem fabricar, mas vender conciliação de despesas com IA para contadores e PMEs (com o split payment da reforma) ou cotação inteligente para pequenas indústrias (nota 3).
 
 ## Cinco lições dos fracassos para quem quer tropicalizar
-1. **Não carregue ativo no balanço com Selic alta (13,75% em set/2026).** Estoque de carro, imóvel, alimento ou patinete destruiu ou forçou pivô em Kavak, Loft, Frubana e Grow; a Loft só lucrou depois de virar B2B.
+1. **Não carregue ativo no balanço com Selic alta (13,75% desde a decisão de 16/09/2026).** Estoque de carro, imóvel, alimento ou patinete destruiu ou forçou pivô em Kavak, Loft, Frubana e Grow; a Loft só lucrou depois de virar B2B.
 2. **Não dispute o líder local de um mercado de rede; sirva o ecossistema dele.** Nem a Uber conseguiu passar de cerca de 10% contra o iFood. iFood, Mercado Livre, Ambev e os adquirentes são sócios ou canais em potencial, não alvos. Não conte com o CADE: a restrição às exclusividades do iFood chegou depois da saída do Uber Eats.
 3. **Modele a tributação estadual, a burocracia e o câmbio antes de copiar.** ICMS-ST, Detran, cartórios e ITBI transformam margens importadas em prejuízo; no Walmart, a perda cambial acumulada foi a maior parte da baixa de US$ 4,5 bi.
 4. **Subsídio não é tração.** Facily, JOKR e Frubana cresceram com dinheiro de VC; quando o dinheiro acabou, a demanda sem desconto não existia.

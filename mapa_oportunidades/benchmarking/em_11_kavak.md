@@ -22,7 +22,7 @@ Margem na revenda do carro, juros do financiamento, seguros e garantia estendida
 - Fev/2026: Série F de US$ 300 mi liderada por Andreessen Horowitz (citada em agregadores e post do LinkedIn; confirmar).
 
 ## Situação atual
-**DADO:** saiu de Colômbia e Peru (Startups.com.br), cortou empregos e custos em 2022 (Bloomberg Línea) e manteve o Brasil e o México entre os mercados ativos (lista completa de países atuais não verificada).
+**DADO:** saiu de Colômbia e Peru (Startups.com.br), cortou empregos e custos em 2022 (Bloomberg Línea) [DADO ANTIGO] e manteve o Brasil e o México entre os mercados ativos (lista completa de países atuais não verificada).
 **ANÁLISE:** sobreviveu com avaliação 75% menor. O modelo de balanço próprio de estoque é perigoso com juros altos (estoque parado custa caro).
 
 ## Existe no Brasil? Quem faz, força, por que não replicou

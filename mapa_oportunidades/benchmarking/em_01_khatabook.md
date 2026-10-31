@@ -15,8 +15,8 @@ App gratuito de livro-caixa e contas a receber, com lembrete de cobrança via Wh
 ## Crescimento (DADO)
 - FY20: prejuízo de Rs 126 crore com receita praticamente nula (depois corrigida para Rs 24,4 crore registrados da controladora). [DADO ANTIGO] Fonte: Entrackr (resultado de busca).
 - FY21: gastou Rs 108 crore para faturar Rs 19,1 crore. [DADO ANTIGO] Fonte: Inc42.
-- FY22: receita operacional de Rs 71 crore (4x) e prejuízo de Rs 111 crore. [DADO ANTIGO] Fonte: Inc42/Entrackr.
-- FY24 (abr/2023 a mar/2024): receita de Rs 102,7 crore (+27%) e prejuízo de Rs 116,2 crore (-7%), segundo YourStory (nov/2024). O Inc42 informa Rs 113,8 crore de receita no mesmo ano: as fontes divergem.
+- FY22: receita operacional de Rs 71 crore (4x) e prejuízo de Rs 111 crore. [DADO ANTIGO] Fonte: Inc42/Entrackr. Divergência: o título da Inc42 [2] fala em receita de Rs 78 crore (provavelmente receita total, incluindo outras receitas).
+- FY24 (abr/2023 a mar/2024): receita de Rs 102,7 crore (+27%) e prejuízo de Rs 116,2 crore (-7%), segundo YourStory (nov/2024) [DADO ANTIGO: exercício encerrado em mar/2024]. O Inc42 informa Rs 113,8 crore de receita no mesmo ano: as fontes divergem.
 - FY25: não encontrei fonte confiável (o número que aparece em agregador parece erro de dado).
 
 ## Investimento (DADO)

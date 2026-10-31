@@ -11,16 +11,16 @@
 5. Para Felipe: serviço/software de risco de crédito, cobrança e gestão de barter/CPR para revendas e cooperativas; bioinsumos é o nicho que cresce, mas exige técnica.
 
 ## Tamanho de mercado (DADO, com fonte e data)
-- Defensivos (Sindiveg/Kynetec): faturamento pago pelo produtor de cerca de US$ 20,19 bilhões em 2025 (+0,7%); área potencial tratada acima de 2,6 bilhões de ha (+7,6%), volume +6,5% com preços médios em queda [18]. Em 2024: US$ 19,9 bilhões (-6,6%) [19].
+- Defensivos (Sindiveg/Kynetec): faturamento pago pelo produtor de cerca de US$ 20,19 bilhões em 2025 (+0,7%); área potencial tratada acima de 2,6 bilhões de ha (+7,6%; a AgFeed reporta +7,5% [28]), volume +6,5% com preços médios em queda [18]. Em 2024: US$ 19,9 bilhões (-6,6%) [19].
 - Fertilizantes (ANDA): entregas de 30,55 milhões de t de jan a ago/2025 [20] e 40,94 milhões de t de jan a out/2025 (+8,4%) [21]; importações de 31,49 milhões de t de jan a set/2025 (+8,4%) [21]. Total anual 2025 fechado: não encontrei fonte confiável (projeções falam em importação recorde de cerca de 48 milhões de t, estimativa de mercado).
-- Bioinsumos (CropLife Brasil): cerca de R$ 6,2 bilhões em 2025 (+15%, maior alta desde 2022); bioinseticidas R$ 2,1 bilhões, biofungicidas R$ 1,4 bilhão (+41%) [22]. Área tratada com bioinsumos de 194 milhões de ha na safra 2025/26 (+28%) [23].
+- Bioinsumos (CropLife Brasil): cerca de R$ 6,2 bilhões em 2025 (+15%, maior alta desde 2022); bioinseticidas R$ 2,1 bilhões, biofungicidas R$ 1,4 bilhão (+41%) [22]. Área tratada com bioinsumos de 194 milhões de ha na safra 2025/26 (+28%) [23]. Divergências: a Anpii-Bio fala em mercado de R$ 7 bilhões [27] e a AgFeed em área tratada com biológicos +18% no 1º sem/2026 [26] (métricas e períodos distintos).
 - Distribuição (Andav/Cepea, 11ª Pesquisa Nacional da Distribuição, ago/2026): R$ 171 bilhões em 2025 (+2,4%), sendo R$ 105 bilhões em insumos, R$ 43 bilhões em grãos e R$ 23 bilhões em máquinas e serviços; distribuidores atendem 47% do insumo fornecido aos produtores [24]. Em 2024: R$ 167 bilhões (+10,6%) [25].
 - Custo da soja em MT 2025/26: R$ 7.657,89/ha (+7,69%), puxado por fertilizantes e defensivos [1]; 2026/27 cerca de R$ 8,17 mil/ha [2].
 - Área de grãos 2026/27: 85,4 milhões de ha (+2,3%), 49,3 milhões de ha de soja (Conab) [4].
 - Plano Safra 2026/27: custeio e comercialização R$ 384,9 bilhões (-7,2%) [5].
 - Sementes (Abrasem): não encontrei fonte confiável nesta rodada.
 
-**[A VERIFICAR]**: participação exata da importação no consumo de fertilizantes (ANÁLISE: com 31,49 milhões de t importadas até setembro e entregas de cerca de 36 milhões de t no mesmo período, a dependência externa é claramente majoritária [21]).
+**[A VERIFICAR]**: participação exata da importação no consumo de fertilizantes (ANÁLISE: com 31,49 milhões de t importadas até setembro e entregas estimadas em cerca de 36 milhões de t no mesmo período (interpolação do pesquisador entre jan a ago e jan a out), a dependência externa é claramente majoritária [21]).
 
 ## Crescimento histórico e projetado
 **DADO**

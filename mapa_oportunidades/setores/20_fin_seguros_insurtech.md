@@ -60,8 +60,8 @@
 5. **Benefícios de seguro de vida em grupo mal administrados.** Quem sofre: RH de PMEs. Ângulo: integra com arquivo 24.
 
 ## Startups e capital no subsetor
-- **DADO:** Darwin Seguros, Série B de cerca de R$ 102 mi liderada pela Vintage; 180 Seguros, R$ 50 mi com Vivo Ventures; juntas cerca de R$ 115 mi (Finsiders, 2026) [8].
-- **DADO:** Justos captou R$ 92 mi; Bliss R$ 57 mi para vender planos de saúde com IA [8].
+- **DADO (com inconsistência):** Darwin Seguros, Série B liderada pela Vintage, e 180 Seguros, com Vivo Ventures; a manchete da Finsiders (2026) fala em R$ 115 mi somados, o que não fecha com os valores individuais anotados na rodada anterior (cerca de R$ 102 mi e R$ 50 mi). Valores individuais não verificados; usar só o total de R$ 115 mi [8].
+- **DADO (datas não confirmadas):** Justos captou R$ 92 mi; Bliss R$ 57 mi para vender planos de saúde com IA [8].
 - **DADO (fonte de baixa confiabilidade):** Azos, US$ 24,1 mi Série C em mar/2026 (VCBacked) [8].
 - **DADO (data não confirmada):** Segura, R$ 45 mi de a16z e Kaszek para levar IA a corretores [8].
 

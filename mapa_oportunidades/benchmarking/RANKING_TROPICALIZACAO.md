@@ -38,7 +38,7 @@ Média simples. Os dados de cada empresa (receita, rodadas, valuation) estão no
 - **Rippling e Deel**: produto pesado e canal dominado por contadores e ERPs; serviço na borda pode funcionar, mas não é tropicalização do modelo.
 
 ## Lições dos fracassos que entram em todas as notas (resumo de [00_licoes_emergentes_e_fracassos.md](00_licoes_emergentes_e_fracassos.md))
-1. Não carregar estoque nem crédito no próprio balanço com Selic na casa de 14%: Kavak, Frubana, Loft (iBuying), Daki e JOKR recuaram quando o capital secou.
+1. Não carregar estoque nem crédito no próprio balanço com Selic de 13,75% (desde 16/09/2026): Kavak, Frubana, Loft (iBuying), Daki e JOKR recuaram quando o capital secou.
 2. Não disputar mercado de rede com o líder local (iFood, Mercado Livre, Ambev); servir o ecossistema dele. A Uber Eats saiu do delivery de restaurantes em 2022 com cerca de 10% do mercado contra cerca de 80% do iFood ([fracasso_05](fracasso_05_uber_eats_restaurantes.md)).
 3. Fazer a conta tributária e burocrática antes de copiar (ICMS-ST, cartórios, Detran, e agora a transição CBS/IBS).
 4. Desconto bancado por capital de risco não é tração (Facily, Grow).

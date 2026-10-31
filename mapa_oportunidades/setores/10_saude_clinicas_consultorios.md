@@ -5,8 +5,8 @@
 
 ## Resumo em 5 linhas (ANÁLISE)
 1. O Brasil vai de 575.930 médicos ativos (2024) para 635.706 projetados no fim de 2025 e ~1,15 milhão em 2035 [1][2]: a oferta de médicos explode, e cada novo médico precisa de agenda cheia, o que cria demanda por agendamento, confirmação, marketing e cobrança.
-2. A dor operacional mais visível é a perda de receita por falta e por desorganização de agenda: 34% das clínicas e hospitais relatam no-show acima de 11% (Panorama Doctoralia/Feegow 2026) e 42,2% das clínicas privadas dizem ter dificuldade de confirmar consultas (pesquisa Conclínica) [5][6].
-3. O software de gestão já está razoavelmente difundido (65% usam software pago, Panorama 2024) e o grupo Docplanner (Doctoralia + Feegow) e a Afya (iClinic) dominam a camada de "sistema" [4][7][8]; não vale construir outro prontuário/agenda.
+2. A dor operacional mais visível é a perda de receita por falta e por desorganização de agenda: 34% das clínicas e hospitais relatam no-show acima de 11% (Panorama Doctoralia/Feegow 2026) e 42,2% das clínicas privadas dizem ter dificuldade de confirmar consultas (pesquisa Conclínica, data não confirmada) [5][6].
+3. O software de gestão já está razoavelmente difundido (65% usam software pago, Panorama 2024 [DADO ANTIGO]) e o grupo Docplanner (Doctoralia + Feegow) e a Afya (iClinic) são os grupos mais capitalizados na camada de "sistema" (dados de base de 2022 [DADO ANTIGO]; não há fonte de participação de mercado) [4][7][8]; não vale construir outro prontuário/agenda.
 4. A brecha está em serviços e automações por cima do sistema: confirmação e reativação por WhatsApp com IA, faturamento de convênio e recurso de glosa para clínicas pequenas (BPO por êxito), cobrança de particulares.
 5. Clínicas populares (AmorSaúde com ~520 clínicas no ecossistema Cartão de TODOS, dr.consulta) mostram que o paciente sem plano paga do bolso [3][9]; são compradores grandes, mas centralizados e com TI própria, então o alvo inicial são clínicas independentes de 1 a 20 médicos.
 
@@ -35,7 +35,7 @@
   - iClinic: comprada pela Afya em 2020 por R$ 182,7 mi; cerca de 20 mil médicos na base em 2022 [DADO ANTIGO] [8].
   - Outros citados no mercado (sem dado de base confirmado): Conclínica, Amplimed, Ninsaúde, Shosp. Não encontrei fonte confiável de participação de mercado.
 - **Clínicas populares:** AmorSaúde/Cartão de TODOS (~520 clínicas) [3]; dr.consulta (32 unidades, maioria em SP, segundo Bloomberg Línea, data não clara; faturou R$ 310 mi em 2021 [DADO ANTIGO]; Série D de R$ 170 mi da Kamaroopin) [9].
-- **ANÁLISE:** a camada de software está concentrada em poucos grupos com capital (Docplanner, Afya). Já a camada de clínicas é extremamente fragmentada, e é ali que serviços terceirizados (faturamento, recepção remota, cobrança) têm espaço.
+- **ANÁLISE:** a camada de software parece concentrada em poucos grupos com capital (Docplanner, Afya), sem dado de participação de mercado que confirme. Já a camada de clínicas é extremamente fragmentada, e é ali que serviços terceirizados (faturamento, recepção remota, cobrança) têm espaço.
 
 ## Margens típicas (DADO quando houver)
 - **Não encontrei fonte confiável** com margem média de clínicas médicas independentes no Brasil.
@@ -50,8 +50,8 @@
 
 ## Tendências (IA, digitalização, demografia, ESG etc.)
 - **DADO (2026):** Panorama das Clínicas e Hospitais 2026 (Doctoralia/Feegow, 639 gestores em 26 estados): no-show sem aviso é o 5º maior desafio de gestão (17%); 34% têm no-show acima de 11%; 67% nunca mapearam a jornada do paciente [5].
-- **DADO (2024):** 65% das clínicas e hospitais já usam software pago para gerenciar consultas (Panorama Doctoralia 2024) [7].
-- **DADO (2024):** 92% dos estabelecimentos de saúde têm algum sistema eletrônico de registro, mas 55% ainda mantêm informações em papel e eletrônico (TIC Saúde 2024) [14].
+- **DADO (2024) [DADO ANTIGO]:** 65% das clínicas e hospitais já usam software pago para gerenciar consultas (Panorama Doctoralia 2024) [7].
+- **DADO (2024, coleta da TIC Saúde 2024) [DADO ANTIGO]:** 92% dos estabelecimentos de saúde têm algum sistema eletrônico de registro, mas 55% ainda mantêm informações em papel e eletrônico (TIC Saúde 2024) [14].
 - **DADO (2025):** Liga Ventures aponta que "gestão financeira e contábil" foi o segmento de healthtech que mais atraiu recursos em 2025 (ex.: Caveo, contabilidade para médicos, R$ 34 mi) [15]. Sinal de que serviços financeiros ao médico são tese validada por investidores.
 - **ANÁLISE:** IA conversacional no WhatsApp tornou barato automatizar confirmação, remarcação, lista de espera e reativação. A barreira deixou de ser tecnologia e passou a ser distribuição e integração com o sistema de agenda da clínica.
 
@@ -73,14 +73,14 @@
 
 ## Startups e capital no subsetor (rodadas e aquisições recentes, com fonte)
 - **DADO (2025):** Caveo (contabilidade para médicos) captou R$ 34 mi liderados pela Kortex Ventures; healthtechs brasileiras tiveram 43 rodadas em 2025 contra 41 em 2024 (Liga Ventures, via Futuro da Saúde) [15].
-- **DADO (data não confirmada):** dr.consulta captou Série D de R$ 170 mi da Kamaroopin e destinou R$ 70 mi para tecnologia [9].
+- **DADO (data não confirmada, provavelmente [DADO ANTIGO]):** dr.consulta captou Série D de R$ 170 mi da Kamaroopin e destinou R$ 70 mi para tecnologia [9].
 - **DADO [DADO ANTIGO]:** Doctoralia comprou Feegow (jul/2022) e MyDr (fev/2023) [4]; Afya comprou iClinic (2020) [8].
 - Não encontrei rodadas de 2025/2026 especificamente de startups de confirmação/no-show no Brasil.
 
 ## Notas Fase 1
 | Critério | Nota | Justificativa |
 |---|---|---|
-| Crescimento 5 anos | 4 | Médicos crescem ~10% ao ano (575 mil para 636 mil em 1 ano; 1,15 mi em 2035) e clínicas populares expandem. |
+| Crescimento 5 anos | 4 | Médicos crescem ~10% ao ano no curto prazo (575 mil para 636 mil em 1 ano) e ~6% ao ano até 2035 (1,15 mi, cálculo do revisor) e clínicas populares expandem. |
 | Margem típica | 3 | Sem dado confiável; consultórios têm margem boa, clínicas de convênio apertada. |
 | Concorrência e concentração | 3 | Software concentrado em Docplanner e Afya; clínicas e serviços terceirizados muito fragmentados. |
 | Capital para entrar | 5 | Automação de WhatsApp ou BPO de faturamento começa com menos de R$ 50 mil. |

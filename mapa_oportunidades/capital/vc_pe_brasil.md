@@ -12,25 +12,25 @@ Parcialmente completo. Faltam: total consolidado do 1º semestre e do 3º trimes
 
 | Período | Volume | Nº de rodadas | Variação | Fonte (base) |
 |---|---|---|---|---|
-| 2024 | US$ 4,89 bi | 513 | n/d | LAVCA, citado por Chambers "Venture Capital 2025" ([1]) |
-| 2024 | aprox. US$ 4 bi | n/d | n/d | Sebrae, "Estratégia de Investimento em Inovação" 2026 ([2]) |
-| 2024 (acumulado até dez/2024) | US$ 1,9 bi | n/d | n/d | Distrito, via Mobile Time ([3]). Número bem menor, provavelmente só equity e recorte diferente |
+| 2024 [DADO ANTIGO em parte] | US$ 4,89 bi | 513 | n/d | LAVCA, citado por Chambers "Venture Capital 2025" ([1]) |
+| 2024 [DADO ANTIGO em parte] | aprox. US$ 4 bi | n/d | n/d | Sebrae, "Estratégia de Investimento em Inovação" 2026 ([2]) |
+| 2024 (acumulado até dez/2024) [DADO ANTIGO em parte] | US$ 1,9 bi | n/d | n/d | Distrito, via Mobile Time ([3]). Número bem menor, provavelmente só equity e recorte diferente |
 | 1º tri 2025 | US$ 482 mi | n/d | queda forte a/a | Sling Hub, via Bloomberg Línea ([4]) |
 | 1º sem 2025 | US$ 1,25 bi | n/d | "pouco mais da metade do total do ano anterior" | TTR Data ([5]) |
 | 2025 (ano) | US$ 4,5 bi | 459 | **-13%** a/a | Bloomberg Línea, "Rodadas da semana" ([6]) |
 | 2025 (ano) | R$ 13 bi | 407 transações | **-16%** a/a | Liga Ventures, via Diário do Comércio ([7]); Sebrae cita R$ 13,1 bi (Liga Ventures) ([8]) |
 | 2025 (ano) | aprox. R$ 14,5 bi | 367 | n/d | Link to Leaders, via blog mean.ceo ([9]) (fonte de baixa confiabilidade) |
-| 1º tri 2026 | **US$ 428,6 mi** | n/d | **-36%** a/a | KPMG Venture Pulse, via Monitor do Mercado ([10]); a queda é atribuída em parte ao ano eleitoral |
+| 1º tri 2026 | **US$ 428,6 mi** | n/d | **-36%** a/a | KPMG Venture Pulse, via Monitor do Mercado ([10]); a queda é atribuída em parte ao ano eleitoral. Atenção: o -36% é sobre a base KPMG do 1º tri 2025, não sobre os US$ 482 mi da Sling Hub (que dariam cerca de -11%) |
 | 2º tri 2026 (América Latina) | aprox. US$ 3 bi, dos quais US$ 1,58 bi em IA | n/d | n/d | Sling Hub, via Portal IN ([11]); recorte só do Brasil não encontrado |
 | 1º sem 2026 e 3º tri 2026 (Brasil) | **não encontrei fonte confiável** | | | |
 
 Outros dados de contexto:
-- Em 2024 o Brasil concentrou 62% das rodadas de equity da América Latina e teve 9 rodadas acima de US$ 50 mi (Sling Hub e Itaú BBA, "2024 in Review", via Forbes Brasil, nov/2025) ([12]).
+- [DADO ANTIGO em parte, ano 2024] Em 2024 o Brasil concentrou 62% das rodadas de equity da América Latina e teve 9 rodadas acima de US$ 50 mi (Sling Hub e Itaú BBA, "2024 in Review", via Forbes Brasil, nov/2025) ([12]).
 - No 2º trimestre de 2025 o México superou o Brasil em volume de VC pela primeira vez em 15 anos (dado LAVCA); o Brasil retomou a liderança no 3º trimestre de 2025 (Contxto) ([13]).
 - Startups.com.br registra que em 2025 "equity encolhe e crédito passa a dominar investimentos em startups" (título da reportagem) ([14]). As cinco maiores "rodadas" de 2025 foram estruturadas via FIDC ([15]).
 - Global: VC mundial somou US$ 510 bi no 1º sem 2026, com IA concentrando 43% do capital (Startups.com.br, página de categoria; data da matéria não confirmada) ([16]).
 
-**ANÁLISE:** a leitura consistente entre as fontes é: 2024 foi ano de recuperação, 2025 recuou entre 13% e 16%, e 2026 começou ainda mais fraco (1º tri -36%) por causa de juros e eleição. Com a reeleição de Lula em 26/10/2026, a queda da bolsa e a alta do dólar registradas em panorama_macro.md, e Selic de 13,75% (Focus projeta 13,25% no fim de 2026 e 11,75% em 2027), a expectativa razoável para o 1º semestre de 2027 é captação seletiva, com cheques concentrados em empresas com receita.
+**ANÁLISE:** a leitura consistente entre as fontes é: 2024 foi ano de recuperação, 2025 recuou entre 13% e 16%, e 2026 começou ainda mais fraco (1º tri -36%) por causa de juros e eleição. Com a reeleição de Lula no 2º turno de 25/10/2026, a queda da bolsa e a alta do dólar registradas em panorama_macro.md, e Selic de 13,75% (Focus projeta 13,25% no fim de 2026 e 11,75% em 2027), a expectativa razoável para o 1º semestre de 2027 é captação seletiva, com cheques concentrados em empresas com receita.
 
 ## 2. Ranking de setores por volume (DADO)
 
@@ -91,7 +91,7 @@ Ranking completo de 2026: **não encontrei fonte confiável.** Um ranking Startu
 ---
 
 ## ANÁLISE
-1. **Ciclo:** o VC brasileiro está em retração moderada desde 2025 (-13% a -16%) e piorou no 1º tri 2026 (-36%). O PE, ao contrário, cresceu muito em 2025 (R$ 50,1 bi segundo a ABVCAP) e gestoras globais (Advent, Patria) estão com muito capital disponível. Para um fundador pequeno, isso significa: dinheiro de VC early stage escasso e exigente, mas compradores e consolidadores com caixa. A rota "construir negócio lucrativo e vender para consolidador" fica mais realista que a rota "levantar Série A".
+1. **Ciclo:** o VC brasileiro está em retração moderada desde 2025 (-13% a -16%) e piorou no 1º tri 2026 (-36%). O PE, ao contrário, parece ter crescido muito em 2025 (R$ 50,1 bi segundo número atribuído à ABVCAP, cuja matéria de origem não foi identificada com certeza; um salto de quase 4 vezes sobre 2024 que merece reconferência) e gestoras globais (Advent, Patria) estão com muito capital disponível. Para um fundador pequeno, isso significa: dinheiro de VC early stage escasso e exigente, mas compradores e consolidadores com caixa. A rota "construir negócio lucrativo e vender para consolidador" fica mais realista que a rota "levantar Série A".
 2. **Onde o dinheiro está:** fintech segue no topo, mas em forma de dívida; em equity, o capital vai para software B2B para PME (Omie, Starian) e infraestrutura financeira. Healthtech e retailtech vêm em seguida. IA é condição de entrada no pitch, não diferencial.
 3. **Implicação para o Felipe:** começar com capital próprio e receita (bootstrapping) é o cenário-base. Se for buscar capital, os cheques de pre-seed (R$ 100 mil a R$ 1 mi) existem, mas fundos priorizam tração; anjos e programas de aceleração corporativa (Itaú, B3, BNDES via fundos) são mais acessíveis que VC tradicional em 2027.
 4. **Risco pós-eleição:** juros acima de 13%, câmbio volátil e incerteza fiscal reduzem valuations e alongam captação. Motivo para NÃO planejar o negócio dependente de rodada nos próximos 12 a 18 meses.

@@ -19,7 +19,7 @@
 - Exportação de soja 2025 (*): 108,18 milhões de t pela Secex; Anec estimou 108,6 milhões de t e receita de US$ 43,5 bilhões. A China levou 79,9% do volume (média 2021 a 2024: 74%). Exportação de farelo acima de 23,07 milhões de t, recorde. Fontes [6], [7].
 - Algodão 2025/26: Abrapa estimou 4,05 milhões de t de pluma (ago/2026); Conab, citada pela Band, 4,14 milhões de t. Exportação recorde de 3,37 milhões de t no ano comercial 2025/26; Brasil é o maior exportador mundial e 3º produtor (atrás de China e Índia). Fontes [8], [9].
 - Cooperativas do ramo agropecuário faturaram R$ 487,3 bilhões em 2025 (+11,2%), 57,4% da receita total de todas as cooperativas do país (R$ 848 bilhões, +12%), segundo a OCB. Fonte [10]. As dez maiores cooperativas agroindustriais somaram R$ 154,2 bilhões em 2025 (+8,9%). Fonte [11].
-- Forbes Agro100 (lista de 2024): as 100 maiores empresas e cooperativas do agro faturaram R$ 1,886 trilhão, alta de 3,3%. Fonte [12].
+- Forbes Agro100 (lista de 2024) [DADO ANTIGO]: as 100 maiores empresas e cooperativas do agro faturaram R$ 1,886 trilhão, alta de 3,3%. Fonte [12].
 
 **ANÁLISE (dimensionamento do mercado endereçável para serviço/software)**
 - Não encontrei fonte confiável para o gasto anual do setor de grãos com software ou serviços de gestão. Qualquer TAM em reais aqui seria inventado.
@@ -88,7 +88,7 @@
 ## Tendências
 **DADO**
 - Rural Tech Report 2025: investimento em agtechs cerca de 10% menor que em 2024; levantamento aponta mais de R$ 680 milhões no ano, concentrados em climate techs e marketplaces; demanda do produtor concentrada em gestão rural, planejamento de safra e controle de custos. Fonte [32].
-- Déficit de armazenagem: Conab estimou produção de 322,2 milhões de t em 2024/25 contra capacidade estática de 210 milhões de t; com dados do IBGE (233,8 milhões de t no 2º sem/2025), o déficit ficou perto de 135 milhões de t e o investimento necessário em R$ 148 bilhões (jun/2026). Fontes [33], [34].
+- Déficit de armazenagem: Conab estimou produção de 322,2 milhões de t em 2024/25 contra capacidade estática de 210 milhões de t (estimativa inicial da safra 2024/25, anterior ao fechamento; não bate com o +2,4% citado acima, que implica cerca de 352 milhões de t em 2024/25); com dados do IBGE (233,8 milhões de t no 2º sem/2025), o déficit ficou perto de 135 milhões de t e o investimento necessário em R$ 148 bilhões (jun/2026). Fontes [33], [34].
 
 **ANÁLISE**
 - IA: leitura de contratos de barter/CPR, conciliação de romaneios, previsão de quebra por satélite e chatbots de cotação em WhatsApp são aplicações baratas de construir hoje.

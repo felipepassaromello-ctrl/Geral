@@ -4,7 +4,7 @@
 > Nota de método: nesta rodada o WebFetch estava bloqueado para domínios externos (gov.br, mundologistica, cnnbrasil etc. não resolveram no ambiente). Todos os números abaixo foram confirmados pelo conteúdo retornado nos resultados de busca (WebSearch), conforme permitido pela regra 1 do briefing, mas NÃO foram abertos página a página. Recomenda-se reabrir as fontes marcadas com (*) antes de usar em material externo.
 
 ## Resumo em 5 linhas (ANÁLISE)
-1. Setor gigante e extremamente fragmentado: cerca de 1,05 milhão de transportadores no RNTRC, 73% autônomos com frota de idade média acima de 24 anos.
+1. Setor gigante e extremamente fragmentado: cerca de 1,05 milhão de transportadores no RNTRC, 73% autônomos com frota de idade média acima de 24 anos [1].
 2. 2026 é um ano de choque regulatório: MP 1.343/2026 (convertida em lei em ago/2026, segundo uma fonte) torna o CIOT obrigatório e vinculado ao MDF-e e pune frete abaixo do piso, e a reforma tributária muda o CT-e (grupo IBS/CBS) e o custo do frete.
 3. Essas mudanças criam dores pagáveis de conformidade (emissão de CIOT/MDF-e/CT-e, cálculo de piso, prova documental) em centenas de milhares de pequenos operadores e embarcadores médios.
 4. Os grandes marketplaces de frete (Fretebras/Frete.com, CargoX) e meios de pagamento (Repom, Pamcard, Edenred) já ocupam o núcleo; a oportunidade para um entrante é nicho vertical (compliance, back-office terceirizado, documentação, cobrança) e não marketplace.
@@ -24,7 +24,7 @@
 - Projeção de crescimento do setor em 5 anos: não encontrei fonte confiável.
 
 ## Distribuição regional (onde a oportunidade está concentrada, com dado)
-- **DADO**: roubo de cargas em 2025: 8.570 ocorrências (queda de 16,7% sobre 2024; algumas matérias citam 8.750), prejuízo estimado em cerca de R$ 900 milhões, contra 10.478 ocorrências e cerca de R$ 1,217 bilhão em 2024 (NTC&Logística) [7][26](*).
+- **DADO**: roubo de cargas em 2025: 8.570 ocorrências (queda de 16,7% sobre 2024; algumas matérias citam 8.750), prejuízo estimado em cerca de R$ 900 milhões, contra 10.478 ocorrências e cerca de R$ 1,217 bilhão em 2024 (NTC&Logística) [7][26](*). Revisão: as cifras não fecham entre si (de 10.478 para 8.570 a queda seria de 18,2%; a queda de 16,7% bate melhor com 8.750) e a manchete da CNN [7] fala em prejuízo "bilionário", o que diverge dos R$ 900 milhões. Conferir no relatório da NTC antes de usar.
 - **DADO**: roubo de cargas 2025: Sudeste concentra 86,8% das ocorrências e 68,1% do valor de prejuízo; RJ lidera com 3.777 casos e SP vem em segundo com 3.470 (NTC&Logística, publicado em mar/2026) [7][8](*).
 - **DADO**: Nordeste perdeu R$ 159,5 milhões com roubo de cargas no 1º sem/2025; PE e BA lideram na região e a BR-101 é a rodovia de maior risco [9](*).
 - Distribuição de transportadores RNTRC por UF/região: não encontrei o recorte nos resultados disponíveis (o dado existe no PDF do Anuário TRC 2025 da ANTT, que não pôde ser aberto).

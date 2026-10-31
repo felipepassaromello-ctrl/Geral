@@ -16,10 +16,10 @@ Escritórios de "personal injury" (danos pessoais, acidentes) nos EUA trabalham 
 - ARR "dobrando ano contra ano", sem valor em dólar divulgado (autodeclarado, EvenUp, out/2025 [1]).
 - Volume na plataforma quase dobrou em seis meses, para 10.000 casos por semana (Crunchbase News, out/2025 [3]).
 - Mais de 200.000 casos resolvidos e mais de US$ 10 bilhões em indenizações obtidas, número posteriormente atualizado para US$ 14 bilhões (autodeclarado [1]).
-- Em out/2024 vendia para mais de 1.000 escritórios (Bloomberg [4]).
+- Em out/2024 vendia para mais de 1.000 escritórios (Bloomberg [4]) [DADO ANTIGO].
 
 ## Investimento, investidores e valuation (DADO)
-- Série D: US$ 135 milhões, valuation acima de US$ 1 bilhão (out/2024, Bloomberg [4]).
+- Série D: US$ 135 milhões, valuation acima de US$ 1 bilhão (out/2024, Bloomberg [4]) [DADO ANTIGO].
 - Série E: US$ 150 milhões, valuation acima de US$ 2 bilhões, liderada por Bessemer, com REV (braço de VC da RELX/LexisNexis), B Capital, SignalFire, Lightspeed, HarbourVest, Adams Street e Broadlight. Total captado: US$ 385 milhões (07/10/2025, Bloomberg Law [2] e Fortune [7]).
 
 ## Já existe no Brasil?
@@ -36,7 +36,7 @@ Escritórios de "personal injury" (danos pessoais, acidentes) nos EUA trabalham 
 | Regulação | 3 | OAB proíbe captação de clientela e exercício por não advogado; vender ferramenta ou peça para o advogado assinar é permitido, mas "serviço jurídico" direto ao cliente final não. |
 | Logística | 5 | Digital. |
 | Comportamento | 3 | Advogado pequeno é sensível a preço, mas compra o que aumenta produção (modelo por peça ajuda). |
-| Tamanho de mercado | 5 | Volume de processos e de advogados no Brasil é muito grande (confirmar números no CNJ "Justiça em Números"). |
+| Tamanho de mercado | 5 | Volume de processos e de advogados no Brasil é muito grande (40,9 milhões de casos novos em 2025 segundo o CNJ; ver [setores/23_prof_juridico.md](../setores/23_prof_juridico.md)). |
 | **Geral** | **4** | Um dos modelos mais tropicalizáveis do benchmarking, se focado em nicho (previdenciário ou trabalhista). |
 
 ## Defensabilidade na era da IA

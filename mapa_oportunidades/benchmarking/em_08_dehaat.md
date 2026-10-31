@@ -13,7 +13,7 @@ Rede de microempreendedores rurais (centros DeHaat) que vendem insumos, dão ass
 **ANÁLISE:** margem na venda de insumos (especialmente marca própria, de margem maior), margem na comercialização da safra, armazenagem/processamento e crédito.
 
 ## Crescimento (DADO)
-- FY24: prejuízo de Rs 1.133 crore (Inc42). [DADO ANTIGO]
+- FY24: prejuízo de Rs 1.133 crore (Inc42). [DADO ANTIGO] Atenção: o endereço da fonte [4] traz "1331"; valor exato a confirmar.
 - FY25: receita consolidada de cerca de Rs 3.000 crore (+11%); run rate anual de Rs 4.000 crore segundo o CEO (Outlook Business). Lucro líquido contábil de Rs 369 crore, mas inflado por ganho não caixa de Rs 576 crore em CCPS; sem ele, prejuízo de cerca de Rs 207 crore (Inc42).
 - 1º tri FY26: empresa afirma ter ficado lucrativa e mira lucro no ano (Inc42).
 

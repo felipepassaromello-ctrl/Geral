@@ -39,7 +39,7 @@ ANÁLISE: o valuation triplicou em cerca de 15 meses. A CNBC enquadra a rodada d
 | Regulação | 3 | OAB restringe publicidade e exercício por não advogados, mas ferramenta interna é permitida; LGPD e sigilo exigem cuidado. |
 | Logística | 5 | Digital. |
 | Comportamento do consumidor | 3 | Grandes bancas adotam; base é conservadora. |
-| Tamanho de mercado | 4 | Brasil tem um dos maiores contingentes de advogados do mundo e volume enorme de processos (número a confirmar com CNJ/OAB em pesquisa setorial). |
+| Tamanho de mercado | 4 | Brasil tem um dos maiores contingentes de advogados do mundo e volume enorme de processos: cerca de 1,4 milhão de advogados e 40,9 milhões de casos novos em 2025 (CNJ), ver [setores/23_prof_juridico.md](../setores/23_prof_juridico.md). |
 | **Geral** | **3** | Mercado existe, mas o topo (big law) é pequeno e disputado por players globais com capital. |
 
 ## Defensabilidade na era da IA

@@ -59,7 +59,7 @@
 - Clientes alavancados (Iguá 10,4x, Aegea sob desconfiança) podem atrasar pagamentos ou cortar opex [16].
 - Serviços de campo exigem atestados técnicos, engenheiro responsável e caixa para capital de giro.
 - Grandes fornecedores (Tigre/Linedata, multinacionais de medição) já atacam perdas [15].
-- Eleições estaduais de 2026 e mudanças de governo podem atrasar leilões.
+- Trocas de governo estadual após as eleições de out/2026 (posses em jan/2027) podem atrasar leilões.
 
 ## Hipóteses de dores
 1. **Perdas comerciais (fraude, ligação irregular, hidrômetro parado ou subdimensionado).** Quem sofre: concessionárias e SAAEs; perdas de 40% incluem parcela comercial relevante [3]. Hoje: equipes de campo e análise manual. Oportunidade: análise de dados de consumo com IA para priorizar vistorias, cobrado por receita recuperada. Quem ataca: Iguá Lab busca exatamente isso [15]; fora, empresas como Itron e Xylem (ANÁLISE).

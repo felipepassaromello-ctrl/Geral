@@ -5,7 +5,7 @@
 
 ## Resumo em 5 linhas (ANÁLISE)
 1. Pecuária é mercado-alvo grande e em recorde: 42,94 milhões de bovinos abatidos em 2025 (+8,2%), exportação de carne bovina de US$ 18 bilhões (+40%) e leite captado recorde de 27,5 bilhões de litros.
-2. O ciclo do boi virou em 2026: retenção de fêmeas, arroba na máxima histórica (cerca de R$ 353) e bezerro caro; isso aperta a margem dos frigoríficos (Minerva e Friboi com margem EBITDA entre 6% e 9%) e melhora o caixa do pecuarista de cria.
+2. O ciclo do boi virou em 2026: retenção de fêmeas, arroba na máxima histórica (cerca de R$ 353) e bezerro caro; isso aperta a margem dos frigoríficos (Friboi com margem EBITDA de 5,9% no 2T26 e Minerva de 8,3% no 1T26 [15][17]) e melhora o caixa do pecuarista de cria.
 3. A dor regulatória mais concreta é o Plano Nacional de Identificação Individual de Bovinos e Búfalos (PNIB): portaria de jul/2025 fixa identificação obrigatória a partir de 2027 e para todo o rebanho até 2032. Isso cria demanda forçada por brinco, cadastro, emissão de dados e integração com frigoríficos.
 4. Para quem não opera fazenda, o melhor cliente é intermediário: frigoríficos médios, laticínios, cooperativas, sindicatos rurais, revendas veterinárias e certificadoras, que precisam organizar milhares de pecuaristas fornecedores.
 5. Vender direto ao pecuarista continua difícil (baixa adoção, ticket baixo); o modelo vencedor tende a ser B2B2C (frigorífico ou laticínio paga, produtor usa).
@@ -27,7 +27,7 @@
 - Exportação bovina superou a própria projeção da Abiec (que previa +12% em volume em set/2025) [7].
 - Ciclo: em MT a participação de fêmeas no abate caiu de 54,78% (2025) para 50,98% (2026), sinal de retenção (Imea) [13]. Primeiro trimestre de 2026 ainda refletia o abate elevado de fêmeas dos anos anteriores (Cepea) [10].
 **ANÁLISE**
-- Retenção de fêmeas em 2026 e 2027 tende a reduzir a oferta de boi para abate e manter a arroba alta até o fim da década; frigoríficos devem ter 2 a 3 anos de margem comprimida no Brasil. Exportação de frango e suíno cresce de 2% a 5% ao ano. Projeção de 5 anos: volume total de proteína cresce perto de 2% a 4% ao ano, com oscilação forte de margem.
+- Retenção de fêmeas em 2026 e 2027 tende a reduzir a oferta de boi para abate e manter a arroba alta até o fim da década; frigoríficos devem ter 2 a 3 anos de margem comprimida no Brasil. Exportação de frango e suíno deve crescer de 2% a 5% ao ano (estimativa do pesquisador; em 2025 o frango cresceu só 0,6% [9]). Projeção de 5 anos: volume total de proteína cresce perto de 2% a 4% ao ano, com oscilação forte de margem.
 
 ## Distribuição regional (DADO)
 - Rebanho bovino 2024: MT 32,9 milhões (13,8%), PA 25,6 milhões (10,7%), GO 9,7%, MG 9,3%, MS 7,9%. São Félix do Xingu (PA) lidera entre municípios (2,5 milhões) [1].
@@ -76,8 +76,8 @@
 
 ## Startups e capital no subsetor (DADO)
 - Ecotrace recebeu primeiro aporte da GS1 Ventures (CVC da GS1 Brasil), 2026, faixa de R$ 5 a R$ 10 milhões, 14% a 16% de participação [26].
-- iRancho (Safe Beef, rastreio de fornecedores para frigoríficos) captou com a MSW Capital, gestora do BB Ventures; manchete cita R$ 72 milhões, valor e data não confirmados no trecho [27].
-- JetBov captou em rodada liderada pela EqSeed para expandir franquias de rastreabilidade, ligando a tese ao PNIB (2025 segundo o resultado de busca) [24].
+- iRancho (Safe Beef, rastreio de fornecedores para frigoríficos) captou com a MSW Capital, gestora do BB Ventures; manchete cita R$ 72 milhões, valor e data não confirmados no trecho; se a rodada for anterior a nov/2024, tratar como [DADO ANTIGO] [27].
+- JetBov captou R$ 1 milhão (valor do título da matéria) em rodada liderada pela EqSeed para expandir franquias de rastreabilidade, ligando a tese ao PNIB (2025 segundo o resultado de busca) [24].
 - Investimento total em agtechs em 2025 cerca de 10% menor que em 2024 [28].
 
 ## Notas Fase 1 (revisadas na rodada 2)

@@ -56,7 +56,7 @@
 - Cliente com margem líquida de 1% a 3% negocia cada real e prefere pagar por resultado (participação na perda evitada).
 - Ciclo de venda longo e decisão centralizada no dono; churn alto em ferramentas que exigem disciplina operacional da loja.
 - Integração obrigatória com ERPs fechados e PDVs heterogêneos; sem integração o produto não funciona.
-- Incumbentes com dados e capital (Scanntech captou rodada de cerca de US$ 180 milhões; Neogrid é listada; TOTVS domina gestão).
+- Incumbentes com dados e capital (Scanntech captou rodada de cerca de US$ 180 milhões, data não confirmada; Neogrid é listada; TOTVS é forte em gestão, sem dado de participação de mercado verificado).
 - Juros altos fazem as redes cortarem projetos de tecnologia não essenciais primeiro.
 
 ## Hipóteses de dores
@@ -118,5 +118,5 @@
 23. "Exclusivo: Scanntech fecha rodada de US$ 180 milhões; Warburg faz saída parcial", Brazil Journal (data não confirmada). https://braziljournal.com/exclusivo-scanntech-fecha-rodada-de-us-180-milhoes-warburg-faz-saida-parcial
 24. "Warburg Pincus investe US$ 40 milhões na Scanntech", NeoFeed, 2023. https://neofeed.com.br/startups/warburg-pincus-investe-us-40-milhoes-na-scanntech/
 25. "Exclusivo: Z-Tech, braço de inovação da Ambev, investe na Mercafacil", NeoFeed, 2021. https://neofeed.com.br/blog/home/exclusivo-z-tech-braco-de-inovacao-da-ambev-investe-na-mercafacil/
-26. Contexto macro (válido para todo o bloco): endividamento e comprometimento de renda das famílias em níveis recordes (BCB): "Dívidas comprometem recorde de 28,9% da renda das famílias", SBT News, 2026. https://sbtnews.sbt.com.br/noticia/economia/comprometimento-renda-familias-dividas-recorde-banco-central
+26. Contexto macro (válido para todo o bloco): endividamento e comprometimento de renda das famílias em níveis recordes (BCB): "Dívidas comprometem recorde de 28,9% da renda das famílias", SBT News, 2026 (mês de referência não confirmado; capital/panorama_macro.md registra 29,7% em fev/2026, provável leitura de mês diferente). https://sbtnews.sbt.com.br/noticia/economia/comprometimento-renda-familias-dividas-recorde-banco-central
 27. Selic: Copom reduziu de 14% para 13,75% em 16/09/2026, Economic News Brasil. https://economicnewsbrasil.com.br/2026/09/16/nova-taxa-selic-projecao-dezembro-2026/

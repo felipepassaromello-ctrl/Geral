@@ -34,7 +34,7 @@
 - **Claro + Desktop:** Claro comprou cerca de 73% da Desktop por R$ 2,4 bi mais R$ 1,6 bi de dívida (mar/2026); anuência prévia da Anatel em maio; Cade aprovou sem restrições (SG em 11/09/2026, decisão definitiva informada em 30/09/2026); fechamento ainda pendente; cerca de 1,2 milhão de clientes. CEO da Claro diz que quer comprar mais [11].
 - **Brisanet (2T26):** receita líquida de R$ 475,9 mi (+16%), EBITDA ajustado de R$ 200 mi, margem de 42% (43,6% no 2T25), lucro de R$ 26,1 mi, 1,579 milhão de acessos de banda larga, churn de 2,12%, ARPU B2C de R$ 92,65, alavancagem de 2,17x [12].
 - **Alloha Fibra (eB Capital) e Vero:** em nov/2024 ambas contrataram bancos para buscar compradores ou parceiros; Alloha negou estar à venda [13]. Vero e Americanet fundiram-se em 2023 (cerca de 1,4 milhão de assinantes, 450 cidades) [DADO ANTIGO] [13]. Não encontrei notícia de transação em 2025 ou 2026.
-- Múltiplo de referência: BTG estimou que a Desktop comprava ISPs a cerca de 5,5x EBITDA, pagando 50% à vista e o resto em até 5 anos [14].
+- Múltiplo de referência (data da reportagem não confirmada, provavelmente anterior a nov/2024 [DADO ANTIGO]): BTG estimou que a Desktop comprava ISPs a cerca de 5,5x EBITDA, pagando 50% à vista e o resto em até 5 anos [14].
 - **ANÁLISE:** consolidação passou de "pulverizada" para "grandes combinações"; grandes operadoras voltam a comprar. Os milhares de ISPs pequenos continuam fragmentados.
 
 ## Margens típicas (DADO)

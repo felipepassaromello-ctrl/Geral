@@ -4,18 +4,18 @@
 > Nota de método: números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede (WebFetch bloqueado). O total oficial de dentistas do CFO em 2025 não foi confirmado (ver lacunas).
 
 ## Resumo em 5 linhas (ANÁLISE)
-1. O Brasil tem o maior número de dentistas do mundo (363.546 inscritos no CFO em fev/2022; fonte de divulgação cita ~450 mil em 2026, não confirmado) [1]: excesso de oferta, preço pressionado e disputa acirrada por paciente.
+1. O Brasil tem um dos maiores contingentes de dentistas do mundo (363.546 inscritos no CFO em fev/2022 [DADO ANTIGO]; fonte de baixa confiabilidade cita ~450 mil em 2026 e ~20% do total mundial, não confirmado) [1][1b]: excesso de oferta, preço pressionado e disputa acirrada por paciente.
 2. Planos exclusivamente odontológicos seguem batendo recorde: 34,9 milhões em set/2025 e 35,5 milhões em jan/2026, com +1,13 milhão em 12 meses [2][3]. Mas o plano odontológico paga pouco ao dentista credenciado; a renda vem de tratamentos particulares (prótese, implante, ortodontia, estética).
-3. Redes de franquia são grandes em número de unidades (OdontoCompany ~1.899 em 2023, Sorridents 391 em jul/2025) [4][5], mas a maioria dos consultórios é independente e mal gerida comercialmente.
+3. Redes de franquia são grandes em número de unidades (OdontoCompany ~1.899 em 2023 [DADO ANTIGO], Sorridents 391 em jul/2025) [4][5], mas a maioria dos consultórios é independente e mal gerida comercialmente.
 4. A dor mais pagável é comercial: transformar orçamento em tratamento fechado, reativar pacientes (limpeza semestral, manutenção ortodôntica), reduzir faltas e financiar tratamentos caros. É dor leve e repetida em centenas de milhares de consultórios.
-5. Software de gestão já tem líderes (Simples Dental, do grupo Henry Schein; Clinicorp com ~30 mil clínicas declaradas) [6], então a oportunidade está em serviço ou automação comercial por cima, não em novo sistema.
+5. Software de gestão já tem players estabelecidos (Simples Dental, do grupo Henry Schein; Clinicorp com ~30 mil clínicas declaradas; dados de base de 2021/2022 [DADO ANTIGO], sem participação de mercado) [6], então a oportunidade está em serviço ou automação comercial por cima, não em novo sistema.
 
 ## Tamanho de mercado (DADO, com fonte e data)
 - **DADO (fev/2022) [DADO ANTIGO]:** 363.546 cirurgiões-dentistas inscritos no CFO (estudo publicado na SciELO); 278.394 em 2016 [1].
 - **DADO (2026, fonte de baixa confiabilidade):** texto de divulgação cita cerca de 450 mil dentistas ativos em 2026, ~20% do total mundial [1b]. Não confirmado em fonte oficial do CFO.
 - **DADO (2024):** especialistas em harmonização orofacial passaram de 908 (2021) para mais de 4 mil no fim de 2024; implantodontia de 21.134 para 22.622 (dados CFO via imprensa) [7].
 - **DADO (2025/2026):** beneficiários de planos exclusivamente odontológicos: 34.466.532 (dez/2024), 34,9 milhões (set/2025), 35.487.403 (jan/2026), 35,8 milhões (mar/2026, IESS) [2][3].
-- **DADO (2025):** Odontoprev, maior operadora odontológica listada: lucro líquido recorrente de R$ 550 mi em 2025 (+4,1%), margem líquida de 23%, margem EBITDA ajustada de 31,0%; receita líquida de R$ 2,38 bi em 9M25 (+7,1%); sinistralidade guiada de 38,9% [8].
+- **DADO (2025):** Odontoprev, maior operadora odontológica listada: lucro líquido recorrente de R$ 550 mi em 2025 (+4,1%), margem líquida de 23% (atenção: com receita líquida de R$ 2,38 bi em 9M25, a receita anual seria ~R$ 3,2 bi e a margem líquida ~17%; a base dos 23% não está clara, conferir no release), margem EBITDA ajustada de 31,0%; receita líquida de R$ 2,38 bi em 9M25 (+7,1%); sinistralidade guiada de 38,9% [8].
 - **DADO (2024):** sell-out de alinhadores/ortodontia estimado em R$ 1,5 bi no Brasil em 2024 (NeoFeed) [9].
 - **Lacuna:** não encontrei número oficial de clínicas e consultórios odontológicos no CNES em 2025, nem faturamento total do setor.
 
@@ -34,7 +34,7 @@
 
 ## Principais empresas e grau de concentração (DADO)
 - **Redes de clínicas/franquias:** OdontoCompany, 1.899 unidades em funcionamento no fim de 2023 (-5,2% vs 2022), sell-out de R$ 4,5 bi e receita da franqueadora ~R$ 315 mi em 2023 (NeoFeed, ABF) [DADO ANTIGO] [4]; Sorridents, 391 unidades (Portal do Franchising, 10/07/2025) [5]; OrthoDontic, receita recorde de R$ 525 mi (BTG, data não confirmada) [4b].
-- **Planos:** Odontoprev (listada, ODPV3) é a líder [8].
+- **Planos:** Odontoprev (listada, ODPV3) é a maior operadora odontológica listada; participação de mercado não levantada [8].
 - **Software:** Simples Dental (grupo Henry Schein; mais de 45 mil clientes em 2021) [DADO ANTIGO]; Clinicorp (Santa Catarina, fundada em 2017; manchete cita 30 mil clínicas digitalizadas; Série A de US$ 16 mi em fev/2022 segundo Caplight) [6].
 - **Alinhadores:** Invisalign (Align), ClearCorrect (Straumann, fábrica em Curitiba desde 2018), marcas nacionais [9].
 - **ANÁLISE:** consultórios muito fragmentados; software e planos concentrados.

@@ -6,7 +6,7 @@
 ## Resumo em 5 linhas (ANÁLISE)
 1. Dois movimentos opostos: o turismo estrangeiro bateu recorde em 2025 (cerca de 9 milhões de visitantes, alta de cerca de 45% até setembro), enquanto o turismo doméstico medido pelo IBGE recuou 1,0% de janeiro a julho de 2026.
 2. Hotéis de rede estão ganhando preço (diária média +10,5% em 2025), mas a maior parte da oferta é de pousadas e hotéis independentes pouco digitalizados e dependentes de Booking e Airbnb.
-3. A formalização é baixa: em levantamento do MTur, só cerca de 26% dos meios de hospedagem em operação estavam no Cadastur.
+3. A formalização é baixa: em levantamento do MTur (data não confirmada), só cerca de 26% dos meios de hospedagem em operação estavam no Cadastur.
 4. Dores pagáveis: distribuição e dependência de OTA, receita e preço (revenue management), atendimento multilíngue para o estrangeiro, reputação e reviews, gestão de canal.
 5. Turismo é discricionário e sensível a juros, câmbio e clima; o cliente (pousada) é pequeno e sazonal.
 
@@ -16,7 +16,7 @@
 - **DADO (2025, fechamento):** fontes de imprensa citam cerca de 9 milhões e 9,2 milhões de turistas estrangeiros (divergência entre fontes) [3][4].
 - **DADO (meta):** o governo pretende chegar a 12 milhões de turistas estrangeiros em dois anos [5].
 - Receita cambial do turismo (gastos de estrangeiros no Brasil, BCB): não encontrei fonte confiável nesta rodada.
-- **DADO (2024, Cadastur):** mais de 159,4 mil cadastros no total (todas as categorias de prestadores turísticos) [6].
+- **DADO (2024, mês não confirmado, possivelmente [DADO ANTIGO]; Cadastur):** mais de 159,4 mil cadastros no total (todas as categorias de prestadores turísticos) [6].
 
 ## Crescimento histórico e projetado (DADO)
 - **DADO (jan a jul 2026, IBGE PMS):** índice de atividades turísticas com retração de 1,0% frente a 2025; julho de 2026 com alta de 2,7% sobre junho; o setor está 9,4% acima de fev/2020 e 3,8% abaixo do pico de dez/2024 [7][8].

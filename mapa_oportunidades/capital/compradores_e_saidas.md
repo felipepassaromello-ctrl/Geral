@@ -4,7 +4,7 @@
 **Aviso de método:** números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede. A operação Itaú/NeoSpace foi confirmada pelo coordenador (fato relevante e imprensa). As demais linhas vêm do conteúdo de resultados de busca. Linhas cuja data não ficou clara estão na seção "A verificar" e não na tabela principal.
 
 ## STATUS
-Parcialmente completo. Tabela principal com 10 operações confirmadas de 2025 e 2026. Faltam: aquisições de CloudWalk, BTG, Bradesco, Stone (como compradora), iFood, Mercado Livre, RD Saúde, Hapvida, Locaweb e Sankhya no período (nenhuma encontrada nas buscas feitas, o que não prova que não existam), e compras de agtechs com comprador e valor.
+Parcialmente completo. Tabela principal com 10 linhas de 2025 e 2026; dessas, Rede D'Or/Fleury é negociação não concluída e Nubank/Porto Real tem data só de agregador (revisão de 31/10/2026: a contagem anterior de "10 operações confirmadas" era otimista). Faltam: aquisições de CloudWalk, BTG, Bradesco, Stone (como compradora), iFood, Mercado Livre, RD Saúde, Hapvida, Locaweb e Sankhya no período (nenhuma encontrada nas buscas feitas, o que não prova que não existam), e compras de agtechs com comprador e valor.
 
 ## 1. Tabela principal (DADO)
 
@@ -30,10 +30,10 @@ Parcialmente completo. Tabela principal com 10 operações confirmadas de 2025 e
 - **PwC** comprou o AgTech Garage (hub de inovação do agro), valor não divulgado ([Startupi](https://startupi.com.br/tags/pwc/)). Data não confirmada.
 
 ## 3. Dados agregados de M&A (DADO)
-- 2024: das 200 operações de M&A com startups na América Latina, 153 envolveram startups brasileiras (Sling Hub e Itaú BBA, via [Forbes Brasil, nov/2025](https://forbes.com.br/forbes-money/2025/11/brasil-e-ia-puxam-retomada-das-startups-na-america-latina-em-2024/)).
+- 2024 [DADO ANTIGO em parte: ano-calendário 2024]: das 200 operações de M&A com startups na América Latina, 153 envolveram startups brasileiras (Sling Hub e Itaú BBA, via [Forbes Brasil, nov/2025](https://forbes.com.br/forbes-money/2025/11/brasil-e-ia-puxam-retomada-das-startups-na-america-latina-em-2024/)).
 - Jan/2025: 21 operações de M&A de startups no mês, 50% acima de dez/2024 (Distrito, via resultado de busca que inclui [Money Times](https://www.moneytimes.com.br/startups-brasileiras-captam-us-591-mi-em-janeiro-45-do-volume-latino-americano/)).
 - 2025: Sling Hub descreveu o M&A como "moderado", voltado a eficiência e reestruturação ([Startups.com.br](https://startups.com.br/negocios/rodada-de-investimento/startups-brasileiras-saltam-em-investimentos-no-3o-trimestre/)). Convergência Digital: "ERP e TI lideram fusões e aquisições em 2025 no Brasil" (título) ([link](https://convergenciadigital.com.br/mercado/erp-ti-lideram-fusoes-e-aquisicoes-em-2025-no-brasil/)).
-- Estudo Mattos Filho e Sling Hub (2019 a 2024) aponta aumento de aquisições feitas por outras startups e participação crescente de corporações ([Mattos Filho](https://www.mattosfilho.com.br/?p=106734)).
+- Estudo Mattos Filho e Sling Hub (2019 a 2024) [DADO ANTIGO] aponta aumento de aquisições feitas por outras startups e participação crescente de corporações ([Mattos Filho](https://www.mattosfilho.com.br/?p=106734)).
 - Saúde: 36 operações de M&A somando R$ 1,79 bi no segmento, período não especificado ([Revista Apólice](https://revistaapolice.com.br/?p=102347)).
 - Número total de M&A de startups em 2025 e 2026: **não encontrei fonte confiável.**
 
@@ -43,8 +43,8 @@ Parcialmente completo. Tabela principal com 10 operações confirmadas de 2025 e
 
 ### Setores com saída mais provável para uma startup pequena
 1. **Software de gestão, fiscal e financeiro para PME (ERP, contabilidade, cobrança, conciliação).** É onde há mais compradores naturais e transações recentes de bilhões (Totvs/Linx, Visma/Conta Azul) e consolidadores que fazem compras menores em série (Omie, Conta Azul, Senior, Constellation). A reforma tributária (CBS/IBS, split payment, transição 2026 a 2033) cria dor obrigatória e base de clientes adaptada, que é exatamente o que esses compradores pagam para obter.
-2. **Software vertical de saúde (gestão de clínicas, prontuário, saúde corporativa, faturamento hospitalar).** Compradores ativos em 2025/2026: Senior (Salu), Bionexo, Constellation (Pixeon), Doctoralia, Semantix, operadoras de telecom. Os grandes hospitais e laboratórios (Rede D'Or, Dasa, Hapvida) estão ocupados com consolidação de ativos físicos e dívida, então tendem a ser clientes, não compradores, de startups pequenas.
-3. **Dados, antifraude e infraestrutura de crédito.** Serasa Experian é compradora serial (nove ou mais startups), e bancos estão comprando capacidade de IA (Itaú/NeoSpace). Exige escala de dados, o que é mais difícil para fundador não técnico.
+2. **Software vertical de saúde (gestão de clínicas, prontuário, saúde corporativa, faturamento hospitalar).** Compradores ativos em 2025/2026: Senior (Salu), Bionexo, Constellation (Pixeon); Doctoralia, Semantix e operadoras de telecom também compraram healthtechs, mas a data dessas operações não foi confirmada (ver seção 2). Os grandes hospitais e laboratórios (Rede D'Or, Dasa, Hapvida) estão ocupados com consolidação de ativos físicos e dívida, então tendem a ser clientes, não compradores, de startups pequenas.
+3. **Dados, antifraude e infraestrutura de crédito.** Serasa Experian é compradora serial (a Finsiders descreve a FlexPag como a nona startup comprada; datas não confirmadas), e bancos estão comprando capacidade de IA (Itaú/NeoSpace). Exige escala de dados, o que é mais difícil para fundador não técnico.
 4. **Agro:** há compradores (Serasa com Brain Ag e AgroSatélite, PwC com AgTech Garage, CVCs de usinas como Grupo Colorado), mas poucos negócios com valor público. Saída possível, porém menos líquida.
 
 ### O que cada tipo de comprador valoriza
@@ -55,4 +55,4 @@ Parcialmente completo. Tabela principal com 10 operações confirmadas de 2025 e
 - **Private equity (Patria, Advent, Vinci):** compram empresas já grandes e lucrativas (Amigão, Essentia); para startup pequena só interessam como add-on de uma plataforma que o fundo já tem.
 
 ### Implicação para o Felipe
-O caminho de saída mais realista para um negócio pequeno, leve e testável é um software ou serviço com receita recorrente para PMEs de um nicho específico (fiscal, financeiro, gestão de clínica), desenhado para ser integrável aos ERPs líderes. Risco: compradores consolidadores pagam múltiplos modestos para empresas pequenas e exigem lucro; o desfecho mais comum é venda por poucos milhões de reais, não por bilhões. Casos como NeoSpace (R$ 2,9 bi) dependem de tecnologia profunda e equipe técnica de ponta, fora do perfil do Felipe.
+O caminho de saída mais realista para um negócio pequeno, leve e testável é um software ou serviço com receita recorrente para PMEs de um nicho específico (fiscal, financeiro, gestão de clínica), desenhado para ser integrável aos ERPs líderes. Risco: compradores consolidadores pagam múltiplos modestos para empresas pequenas e exigem lucro; o desfecho mais comum é venda por poucos milhões de reais, não por bilhões. Casos como NeoSpace (R$ 2,925 bi) dependem de tecnologia profunda e equipe técnica de ponta, fora do perfil do Felipe.

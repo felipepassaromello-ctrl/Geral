@@ -15,11 +15,11 @@
 - **DADO (2025):** o Brasil tem 535.392 leitos hospitalares, dos quais 357.425 em estabelecimentos do SUS (ElastiCNES, via Poder360) [4].
 - **DADO (2025):** Rede D'Or, maior grupo hospitalar, teve receita bruta consolidada de R$ 60,4 bilhões em 2025 (+10,3%); o segmento hospitais, oncologia e outros somou receita bruta de R$ 35,5 bi [6].
 - **DADO (2025/2026):** existem cerca de 2,1 mil santas casas e hospitais filantrópicos, com dívida estimada pela CMB entre R$ 15 bi e R$ 22 bi conforme a reportagem (cifras divergentes entre fontes) [8].
-- **ANÁLISE:** Não encontrei fonte confiável e recente para o faturamento total dos hospitais privados no Brasil. Uma aproximação: as operadoras médico-hospitalares tiveram receitas de R$ 287,3 bi entre jan e set de 2025 (ANS) [7] e cerca de 80% disso vira despesa assistencial, boa parte paga a hospitais. Se 15,93% do faturamento de convênio é glosado inicialmente, o volume em disputa anual é da ordem de dezenas de bilhões de reais. Isso é estimativa minha, não dado.
+- **ANÁLISE:** Não encontrei fonte confiável e recente para o faturamento total dos hospitais privados no Brasil. Uma aproximação: as operadoras médico-hospitalares tiveram receitas de R$ 287,3 bi entre jan e set de 2025 (ANS) [7] e cerca de 80% disso vira despesa assistencial (sinistralidade aproximada, premissa do pesquisador; ver arquivo 12), boa parte paga a hospitais. Se 15,93% do faturamento de convênio é glosado inicialmente, o volume em disputa anual é da ordem de dezenas de bilhões de reais. Isso é estimativa minha, não dado.
 
 ## Crescimento histórico e projetado (DADO, com fonte e data; projeções marcadas como projeção e de quem)
 - **DADO (2025):** receita bruta da Rede D'Or +10,3% em 2025; EBITDA consolidado de R$ 8,143 bi (+13,6%); lucro líquido de R$ 4,828 bi (+22,7%) [6].
-- **DADO (2008 a 2019) [DADO ANTIGO]:** entre 2010 e 2019, 2.127 hospitais privados com 92.645 leitos deixaram de operar (CNSaúde) [5]. Tendência de consolidação: pequenos fecham, redes crescem.
+- **DADO (2010 a 2019) [DADO ANTIGO]:** entre 2010 e 2019, 2.127 hospitais privados com 92.645 leitos deixaram de operar (CNSaúde) [5]. Tendência de consolidação: pequenos fecham, redes crescem.
 - **Projeção:** não encontrei projeção confiável de crescimento do mercado hospitalar privado para 5 anos.
 - **ANÁLISE:** o crescimento real do setor depende de beneficiários de planos (que cresceram em 2025, ver arquivo 12) e de envelhecimento. Espero crescimento nominal de receita de 8% a 12% ao ano nas grandes redes, com fechamento contínuo de hospitais pequenos.
 
@@ -35,9 +35,9 @@
 
 ## Margens típicas (DADO quando houver)
 - **DADO (1º tri 2026):** margem EBITDA média dos hospitais Anahp em 9,45% no trimestre, em trajetória de queda (10ª edição do Observatório) [2].
-- **DADO (2º tri 2023 a 2º tri 2025):** margem EBITDA dos hospitais caiu de 14,0% para 10,7% [1].
+- **DADO (2º tri 2023 a 2º tri 2025; ponto de partida de 2023 é [DADO ANTIGO]):** margem EBITDA dos hospitais caiu de 14,0% para 10,7% [1].
 - **DADO (2025):** segmento hospitalar da Rede D'Or com margem EBITDA de 25,9% (escala e mix de oncologia) [6].
-- **DADO (2025/2026):** pelo menos 83% dos ~2.100 hospitais filantrópicos operam no vermelho (estimativa CMB citada em reportagem) [8].
+- **DADO (2025/2026):** entre 80% (manchete da Folha Vitória) e 83% (outra reportagem) dos ~2.100 hospitais filantrópicos operam no vermelho (estimativa CMB; cifras divergentes entre fontes) [8].
 - **ANÁLISE:** margens baixas e caixa apertado significam que o hospital médio compra quando o retorno é imediato e mensurável (recuperação de glosa, redução de prazo). Venda de "software caro com licença" é difícil; modelo de êxito (percentual do recuperado) é mais aceito.
 
 ## Regulação (órgãos, licenças, mudanças recentes, impacto da reforma tributária)
@@ -63,7 +63,7 @@
 ## Hipóteses de dores (pelo menos 5)
 1. **Glosa inicial alta e recurso de glosa manual.** Quem sofre: faturamento de hospitais médios. Por que dói: 15,93% da receita de convênios glosada inicialmente em 2025 [1]; recurso exige análise item a item, prazos curtos. Hoje: equipe interna em planilhas e portais de cada operadora. Quem ataca: BPOs de faturamento, módulos de ERPs; Mater Dei com A3Data/AWS internamente [9]; nos EUA, empresas de revenue cycle management (RCM) com IA. Oportunidade: serviço de recurso de glosa com IA, cobrança por êxito.
 2. **Auditoria prévia da conta (antes de enviar).** Quem sofre: hospital e clínicas de alta complexidade. Por que dói: erros de codificação TUSS, falta de autorização, materiais não cobertos geram glosa evitável. Hoje: auditoria interna de enfermagem, amostral. Quem ataca: ERPs, consultorias; lado operadora tem Arvo [3]. Oportunidade: "pré-auditoria" automatizada lendo a conta TISS (XML) e comparando com regras do contrato.
-3. **Prazo de recebimento e capital de giro.** Quem sofre: CFO do hospital. Por que dói: 77 dias de prazo médio em 2025 contra 48 dias para pagar fornecedores [1][2]. Hoje: antecipação bancária cara (Selic em 14% em ago/2026 [11]). Quem ataca: FIDCs e fintechs de antecipação de recebíveis médicos. Oportunidade: intermediação de antecipação (exige parceiro financeiro; não é leve em capital próprio, mas pode ser originação).
+3. **Prazo de recebimento e capital de giro.** Quem sofre: CFO do hospital. Por que dói: 77 dias de prazo médio em 2025 contra 48 dias para pagar fornecedores [1][2]. Hoje: antecipação bancária cara (Selic cortada para 14% em ago/2026 [11] e para 13,75% em 16/09/2026, decisão do Copom confirmada pela coordenação). Quem ataca: FIDCs e fintechs de antecipação de recebíveis médicos. Oportunidade: intermediação de antecipação (exige parceiro financeiro; não é leve em capital próprio, mas pode ser originação).
 4. **Gestão de contratos e tabelas com dezenas de operadoras.** Quem sofre: área comercial/credenciamento. Por que dói: cada operadora tem tabela, pacote e regra diferentes; reajustes não aplicados viram perda silenciosa. Hoje: planilhas. Quem ataca: pouco software específico conhecido; não encontrei fonte que mapeie concorrentes. Oportunidade: SaaS de gestão de contratos e conferência de pagamento x contratado.
 5. **Conciliação de pagamentos (demonstrativo de pagamento x conta enviada).** Quem sofre: tesouraria. Por que dói: pagamentos parciais e glosas não identificadas viram "perda invisível". Hoje: manual. Oportunidade: conciliação automática dos demonstrativos TISS.
 6. **Parametrização tributária da reforma (NBS, créditos de IBS/CBS) no faturamento.** Quem sofre: fiscal/contábil de hospitais e clínicas. Por que dói: transição 2026 a 2033 com regras novas e redução de 60% condicionada a NBS [10]. Hoje: consultorias tributárias. Oportunidade: serviço de diagnóstico e parametrização, de curto prazo.

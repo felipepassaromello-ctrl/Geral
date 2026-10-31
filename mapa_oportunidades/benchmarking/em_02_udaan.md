@@ -20,7 +20,7 @@ Plataforma B2B que conecta marcas e atacadistas diretamente ao pequeno varejista
 
 ## Investimento (DADO)
 - Fev/2025: US$ 75 mi na primeira parcela da Série G, avaliação estável (Entrackr).
-- Jun/2025: Série G de US$ 114 mi liderada por M&G Investments e Lightspeed; Inc42 aponta queda de 59% na avaliação em relação ao pico; avaliação pós-money citada de US$ 1,8 bi (agregadores, confirmar).
+- Jun/2025: Série G de US$ 114 mi liderada por M&G Investments e Lightspeed; Inc42 aponta queda de 59% na avaliação em relação ao pico; avaliação pós-money citada de US$ 1,8 bi (agregadores, confirmar). Os dois números não batem entre si: se o pico foi de US$ 3,1 bi (2021, não verificado nesta sessão), queda de 59% levaria a cerca de US$ 1,3 bi, e US$ 1,8 bi seria queda de cerca de 42%.
 - Dívida de Rs 300 crore com Lighthouse Canton e outros (Entrackr, data não confirmada).
 
 ## Situação atual (DADO + ANÁLISE)

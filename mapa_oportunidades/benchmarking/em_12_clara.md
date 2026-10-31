@@ -23,7 +23,7 @@ Cartão corporativo (físico e virtual) com limite baseado em dados da empresa, 
 - Dívida estruturada de US$ 70 mi para cartão e pagamento de contas no México e Colômbia (LatamList, data não confirmada).
 
 ## Situação atual
-**ANÁLISE:** um dos poucos fintechs B2B latinos que segue crescendo e se aproxima de lucro. O Brasil já é seu segundo mercado, quase do tamanho do México.
+**ANÁLISE:** um dos poucos fintechs B2B latinos que segue crescendo e se aproxima de lucro. O Brasil seria seu segundo mercado, quase do tamanho do México (afirmação não verificada em fonte nesta sessão).
 
 ## Existe no Brasil? Quem faz, força, por que não replicou
 **DADO:** a própria Clara opera no Brasil com breakeven mensal (Contxto).

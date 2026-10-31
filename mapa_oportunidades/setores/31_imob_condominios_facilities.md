@@ -8,7 +8,7 @@
 2. A gestão é fragmentada entre administradoras de todos os tamanhos e síndicos (moradores ou profissionais). Síndico profissional ainda é minoria (13,7% nos associados da AABIC em 2023), mas cresce.
 3. Dores claras e com dado: inadimplência (6,8% nacional na Superlógica em 2025; 11,95% na base uCondo no 1º tri 2025 [fonte 21]), taxa condominial subindo acima da inflação, manutenção preventiva obrigatória e custo de portaria.
 4. Oportunidades leves: software/serviço para síndicos profissionais (carteira de vários prédios), gestão de manutenção preventiva e laudos, marketplace de fornecedores auditável, auditoria de consumo e contratos.
-5. Riscos: softwares de condomínio bem capitalizados (Superlógica levantou R$ 450 milhões com Warburg Pincus); síndico decide, mas assembleia aprova gasto; regulamentação do síndico profissional em tramitação pode restringir quem atua.
+5. Riscos: softwares de condomínio bem capitalizados (Superlógica levantou R$ 450 milhões com Warburg Pincus em 2020 e 2023 [DADO ANTIGO]); síndico decide, mas assembleia aprova gasto; regulamentação do síndico profissional em tramitação pode restringir quem atua.
 
 ## Tamanho de mercado (DADO, com fonte e data)
 - **Brasil:** 327.248 condomínios ativos e formalizados, com cerca de 39 milhões de moradores (Censo Condominial uCondo 2025/2026, divulgado em 2025 e repercutido em ago/2026). Considera apenas condomínios com gestão administrativa estruturada; metodologia proprietária, não oficial [fonte 1, 2].

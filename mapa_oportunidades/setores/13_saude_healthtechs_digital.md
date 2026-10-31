@@ -4,11 +4,11 @@
 > Nota de método: números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede (WebFetch bloqueado). Rodadas e tração de startups vêm de reportagens baseadas em comunicados das empresas (não auditados).
 
 ## Resumo em 5 linhas (ANÁLISE)
-1. Saúde digital deixou de ser novidade: 92% dos estabelecimentos têm registro eletrônico (TIC Saúde 2024) e a telemedicina privada passou de 200 mil atendimentos em 2020 para mais de 3,1 milhões em 2025 (painel Saúde Digital Brasil/Serasa) [1][2].
-2. A fronteira agora é IA clínica: scribes que escrevem o prontuário a partir da conversa (Voa Health, US$ 3 mi da Prosus, mais de 100 mil usuários cadastrados; Telepatia AI, US$ 33 mi da a16z; Memed com R$ 80 mi para IA) [3][4]. É um mercado já disputado por gente bem capitalizada.
+1. Saúde digital deixou de ser novidade: 92% dos estabelecimentos têm registro eletrônico (TIC Saúde 2024, coleta em 2024 [DADO ANTIGO]) e a telemedicina privada passou de 200 mil atendimentos em 2020 para mais de 3,1 milhões em 2025 (painel Saúde Digital Brasil/Serasa) [1][2].
+2. A fronteira agora é IA clínica: scribes que escrevem o prontuário a partir da conversa (Voa Health, US$ 3 mi da Prosus, mais de 100 mil usuários cadastrados; Telepatia AI, US$ 33 mi da a16z; Memed com R$ 80 mi para IA; datas de Telepatia e Memed não confirmadas) [3][4]. É um mercado já disputado por gente bem capitalizada.
 3. A Resolução CFM 2.454/2026 (IA na medicina) entrou em vigor em 26/08/2026: exige registro do uso de IA no prontuário, informação ao paciente, classificação de risco em 4 níveis e Comissão de IA e Telemedicina em instituições com sistemas próprios [5]. Isso cria uma dor nova de conformidade.
 4. Para o Felipe, construir uma healthtech de produto (scribe, PEP, telemedicina) é competir com Docplanner, Afya, Prosus e a16z: mau negócio. O espaço leve é serviço: implantação e governança de IA (adequação à CFM 2.454 e à LGPD) e operação de automações em clínicas.
-5. O capital voltou de forma seletiva (43 rodadas em 2025 contra 41 em 2024, Liga Ventures; reportagem cita queda de 28% no volume captado), com preferência por IA e gestão financeira [6][7].
+5. O capital voltou de forma seletiva (43 rodadas em 2025 contra 41 em 2024, Liga Ventures; reportagem cita queda de 28% no volume captado, ano e base não identificados), com preferência por IA e gestão financeira [6][7].
 
 ## Tamanho de mercado (DADO, com fonte e data)
 - **DADO (2025):** atendimentos remotos registrados no Painel de Indicadores da Saúde Digital (Saúde Digital Brasil + Serasa Experian) saltaram de 200 mil em 2020 para mais de 3,1 milhões em 2025, quase 8 milhões no acumulado; 72% das consultas resolvidas no ambiente digital [2]. Outra publicação da SDB cita 6,6 milhões no acumulado 2020 a 2025 (87% teleconsultas); totais divergem [2b].
@@ -18,7 +18,7 @@
 
 ## Crescimento histórico e projetado (DADO, com fonte e data; projeções marcadas como projeção e de quem)
 - **DADO:** teleatendimentos privados medidos pela SDB cresceram ~15 vezes entre 2020 e 2025 [2].
-- **DADO (2024):** registro eletrônico em 92% dos estabelecimentos, +5 p.p. sobre 2023; 37% só eletrônico, 55% papel e eletrônico, 6% só papel (TIC Saúde 2024, Cetic.br) [1].
+- **DADO (2024) [DADO ANTIGO]:** registro eletrônico em 92% dos estabelecimentos, +5 p.p. sobre 2023; 37% só eletrônico, 55% papel e eletrônico, 6% só papel (TIC Saúde 2024, Cetic.br) [1].
 - **DADO (2025):** 97% das UBS usam sistema eletrônico para registro (TIC Saúde 2025, resumo executivo) [1b].
 - **DADO (2023 a 2025):** Liga Ventures: investimento em healthtechs caiu 13% em 2023 (R$ 1,142 bi para R$ 993 mi) [DADO ANTIGO]; 43 rodadas em 2025 contra 41 em 2024 [6][7].
 - **Projeção:** não encontrei projeção confiável de 5 anos para saúde digital no Brasil.
@@ -46,7 +46,7 @@
 - **Reforma tributária:** software vendido a prestadores de saúde não tem a redução de 60% (ver arquivo 09); o cliente no regime regular toma crédito.
 
 ## Tendências (IA, digitalização, demografia, ESG etc.)
-- **DADO (2024):** 69% dos médicos usaram IA generativa para auxiliar em pesquisas e 54% para auxiliar em relatórios inseridos nos prontuários (TIC Saúde 2024, via Futuro da Saúde) [1].
+- **DADO (2024) [DADO ANTIGO]:** 69% dos médicos usaram IA generativa para auxiliar em pesquisas e 54% para auxiliar em relatórios inseridos nos prontuários (TIC Saúde 2024, via Futuro da Saúde) [1].
 - **DADO (2024):** startups de IA passaram de 14% para 20% do setor de healthtechs em dois anos (Distrito) [6b].
 - **DADO (jun/2026):** reportagem aponta que a IA está transformando o mercado de healthtechs e que investidores estão reduzindo riscos antes de rodadas maiores (Times Brasil/CNBC) [7].
 - **ANÁLISE:** a combinação "médicos já usam IA generativa por conta própria" + "CFM agora exige registro, informação ao paciente e governança" cria um gap de conformidade: muitos médicos usam ChatGPT com dado de paciente sem base legal. Isso é dor pagável para clínicas e redes médias.
@@ -69,7 +69,7 @@
 ## Startups e capital no subsetor (rodadas e aquisições recentes, com fonte)
 - **DADO (mar/2025):** Voa Health, seed de US$ 3 mi liderada pela Prosus Ventures [3].
 - **DADO (set/2025):** Arvo, R$ 106 mi com Kaszek e Base10 (ver arquivo 09) [4].
-- **DADO (data não confirmada nos resultados):** Telepatia AI, US$ 33 mi com a16z; Memed, R$ 80 mi com DGF e BridgeOne; Hilab, rodada liderada pela eB Capital [4].
+- **DADO (data não confirmada nos resultados):** Telepatia AI, US$ 33 mi com a16z; Memed, R$ 80 mi com DGF e BridgeOne; Hilab, rodada liderada pela eB Capital (Série B de 2023, [DADO ANTIGO], ver arquivo 11) [4].
 - **DADO (2025):** Caveo, R$ 34 mi (Kortex Ventures); 43 rodadas de healthtech em 2025 (Liga Ventures) [7].
 - **DADO (2024):** América Latina US$ 253,7 mi em healthtechs (+37,6%) [6b].
 - **Lacuna:** não encontrei o relatório Distrito de 2025 completo nem rodadas de IA clínica brasileiras anunciadas em 2026.

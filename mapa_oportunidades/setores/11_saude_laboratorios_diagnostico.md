@@ -11,7 +11,7 @@
 5. Melhor ângulo: produtos de "conformidade + receita" baratos e de implantação rápida (faturamento/glosa de convênio, acreditação que destrava reajuste, kit regulatório RDC 978 para farmácias), vendidos por canal (associações, distribuidores de reagentes, LIS).
 
 ## Tamanho de mercado (DADO, com fonte e data)
-- **DADO (2024, divulgado em 2025):** o Brasil realizou mais de 2,53 bilhões de exames laboratoriais em 2024, alta de 10% sobre 2,3 bilhões em 2023, segundo o 7º Painel Abramed (inclui laboratório clínico, imagem e outros procedimentos diagnósticos) [1].
+- **DADO (2024, divulgado em 2025):** o Brasil realizou mais de 2,53 bilhões de exames laboratoriais em 2024, alta de 10% sobre 2,3 bilhões em 2023 (a manchete da fonte fala em alta de 9%), segundo o 7º Painel Abramed (inclui laboratório clínico, imagem e outros procedimentos diagnósticos) [1].
 - **DADO (2024):** outro recorte do mesmo setor fala em mais de 1 bilhão de exames em serviços de diagnóstico em 2024, +15,7% sobre 2023 (Legismap); a diferença de escopo em relação aos 2,53 bi não está explicada [2].
 - **DADO (2023) [DADO ANTIGO]:** metade dos exames de 2023 (1,2 bilhão) foi feita pelo setor privado [1].
 - **DADO (2026):** Fleury teve receita bruta de R$ 2,51 bi no 2T26 (anualizando, ordem de R$ 10 bi); Dasa teve EBITDA de R$ 1,019 bi no 1º semestre de 2026 [3][4].
@@ -31,7 +31,7 @@
 - **ANÁLISE:** a cauda de laboratórios independentes está no interior e no Norte/Nordeste/Centro-Oeste, onde os grandes chegam via aquisição. Para um fornecedor de serviço, o interior paulista e mineiro combinam densidade de laboratórios e de convênios. Dado regional atual de número de laboratórios: não encontrei fonte confiável.
 
 ## Principais empresas e grau de concentração (DADO)
-- **DADO:** Fleury (incluindo Hermes Pardini e a+) é apontado como principal consolidador; Itaú BBA vê o Fleury ganhando participação no premium e intermediário [6]. Fleury anunciou compra de 100% do Laboratório São Lucas (data exata não confirmada nos resultados) [8], e a Exame registrou que o grupo "vai às compras" mesmo com juros altos (2026) [3].
+- **DADO:** Fleury (incluindo Hermes Pardini e a+) é apontado como principal consolidador; Itaú BBA vê o Fleury ganhando participação no premium e intermediário [6]. Fleury anunciou compra de 100% do Laboratório São Lucas (data exata não confirmada; a lista de fontes não traz link específico desse anúncio, tratar como não verificado), e a Exame registrou que o grupo "vai às compras" mesmo com juros altos (2026) [3].
 - **DADO:** Dasa (DASA3) segue em reorganização "back to basics", com dívida líquida financeira de R$ 5,48 bi e alavancagem de covenant de 3,39x no 2T26 (limite 4,0x) [4].
 - **DADO (jul/2025 a out/2025):** Rede D'Or e Fleury negociaram uma combinação; ambos negaram decisão em jul/2025; em out/2025 a Rede D'Or chamou as conversas de "infrutíferas" mas não encerradas, e o Fleury disse que continuavam. Bradesco é o principal acionista do Fleury, com 23% [8][9]. **Não encontrei notícia de 2026 confirmando acordo, aprovação do Cade ou encerramento.**
 - **DADO:** Sabin, capital fechado, ~R$ 2 bi de receita [5].
@@ -77,7 +77,7 @@
 
 ## Startups e capital no subsetor (rodadas e aquisições recentes, com fonte)
 - **DADO (2025):** Sabin comprou o laboratório Bonamigo (TO), sua 33ª aquisição [5].
-- **DADO (2026, data exata não confirmada):** Fleury anunciou compra de 100% do Laboratório São Lucas [8]; Exame noticia que o Fleury "vai às compras" mesmo com juros altos [3].
+- **Não verificado (data e link não confirmados):** Fleury anunciou compra de 100% do Laboratório São Lucas; Exame noticia que o Fleury "vai às compras" mesmo com juros altos [3].
 - **DADO (jul a out/2025):** negociação Rede D'Or e Fleury sem desfecho confirmado [8][9].
 - **DADO (2023) [DADO ANTIGO]:** Hilab, Série B liderada pela eB Capital, valor não divulgado; CB Insights estima US$ 33,16 mi captados no total (fonte de terceiros) [10].
 - Não encontrei rodadas de 2025/2026 de startups brasileiras focadas em software para laboratórios independentes.

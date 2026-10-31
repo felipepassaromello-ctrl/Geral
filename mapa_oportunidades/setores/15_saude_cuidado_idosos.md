@@ -4,16 +4,16 @@
 > Nota de método: números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede (WebFetch bloqueado). Orçamento de 22 buscas compartilhado com o arquivo 17. Quando a fonte é reportagem que cita um órgão (IBGE, NEAD, Sebrae), isso está indicado. Reconferir nas fontes primárias (IBGE/Sidra, BEPS da Previdência, NEAD/Fipe) antes de uso externo.
 
 ## Resumo em 5 linhas (ANÁLISE)
-1. O vento demográfico é o mais forte de todo o mapa: 32,1 milhões de pessoas com 60+ no Censo 2022 (alta de 56% sobre 2010), 4,6 milhões com 80+, e projeção do IBGE de 75,3 milhões de idosos (37,8% da população) em 2070.
+1. O vento demográfico é o mais forte de todo o mapa: 32,1 milhões de pessoas com 60+ no Censo 2022 [DADO ANTIGO, mas é o censo mais recente] (alta de 56% sobre 2010), 4,6 milhões com 80+, e projeção do IBGE (revisão de ago/2024) de 75,3 milhões de idosos (37,8% da população) em 2070 [1][2][4].
 2. A oferta de cuidado é informal e fragmentada: não existe cadastro nacional de ILPIs, cerca de 79% dos cuidadores que trabalham em domicílio não têm carteira e o mercado roda por indicação e WhatsApp.
 3. A dor mais vendável não é operar ILPI (capital, Anvisa, risco reputacional), e sim coordenar o cuidado: achar, checar, escalar, substituir e supervisionar cuidadores, e dar visibilidade à família (muitas vezes filha que trabalha e mora longe).
 4. Quem paga é a família (renda própria somada à aposentadoria do idoso), o que torna a demanda essencial mas sensível a preço; o ticket alto vem de 80+ com dependência (grau II e III).
 5. Riscos centrais: passivo trabalhista (vínculo de emprego doméstico, LC 150/2015), responsabilidade civil por incidentes com o idoso e mão de obra escassa e mal paga.
 
 ## Tamanho de mercado (DADO, com fonte e data)
-- **DADO (Censo 2022):** 32.113.490 pessoas com 60 anos ou mais (15,6% da população), aumento de 56,0% em relação a 2010; índice de envelhecimento (60+) de 80,0 idosos para cada 100 crianças de 0 a 14 anos, contra 44,8 em 2010 (IBGE) [1].
-- **DADO (Censo 2022):** 4,6 milhões de pessoas com 80 anos ou mais; 37.814 pessoas com 100 anos ou mais (27.244 mulheres) [2][3].
-- **DADO (Projeções IBGE, revisão 2024):** cerca de 33 milhões de idosos (60+) em 2023, ou 15,6% da população [4].
+- **DADO (Censo 2022) [DADO ANTIGO; censo mais recente disponível]:** 32.113.490 pessoas com 60 anos ou mais (15,6% da população), aumento de 56,0% em relação a 2010; índice de envelhecimento (60+) de 80,0 idosos para cada 100 crianças de 0 a 14 anos, contra 44,8 em 2010 (IBGE) [1].
+- **DADO (Censo 2022) [DADO ANTIGO]:** 4,6 milhões de pessoas com 80 anos ou mais; 37.814 pessoas com 100 anos ou mais (27.244 mulheres) [2][3].
+- **DADO (Projeções IBGE, revisão de ago/2024) [DADO ANTIGO, projeção oficial vigente]:** cerca de 33 milhões de idosos (60+) em 2023, ou 15,6% da população [4].
 - **DADO (consumo, data imprecisa, 2025/2026):** a "economia prateada" (60+) movimenta cerca de R$ 2 trilhões por ano, cifra atribuída à consultoria Data8, ao Sebrae Nacional/Agência Brasil e ao Instituto Locomotiva; o Sebrae estima 4,5 milhões de empreendedores com mais de 60 anos [5][6]. **Fonte de confiabilidade média** (números redondos, metodologia não vista).
 - **DADO (2024):** o consumo das pessoas com mais de 50 anos somou R$ 1,8 trilhão, 24% do consumo privado dos domicílios (Gazeta do Povo citando Sebrae-PR) [7].
 - **DADO (home care, divulgado mar/2025, edição da pesquisa não identificada):** o setor de atenção domiciliar movimenta cerca de R$ 12,3 bilhões por ano e atende mais de 346 mil pacientes (NEAD, via imprensa) [8]. Censo NEAD/Fipe 2021/22 [DADO ANTIGO]: 1.167 empresas de serviço de atenção domiciliar registradas, maioria no Nordeste e Sudeste [8]. Observação: esse número inclui home care hospitalar pago por planos, não só cuidado de idosos.
@@ -31,20 +31,20 @@
 - **ANÁLISE:** o número de 80+ cresce mais rápido que o de 60+, e é o 80+ que demanda cuidado pago. Crescimento real da demanda acima de 5% a.a. é plausível por uma década, independentemente de ciclo econômico.
 
 ## Distribuição regional (onde a oportunidade está concentrada, com dado)
-- **DADO (Censo 2022):** Sudeste (17,64%) e Sul (17,60%) são as regiões mais envelhecidas; Norte a menos (10,4%). Estados com maior proporção de 60+: Rio Grande do Sul (20,2%), Rio de Janeiro (18,8%) e Minas Gerais (17,8%) [1].
+- **DADO (Censo 2022) [DADO ANTIGO]:** Sudeste (17,64%) e Sul (17,60%) são as regiões mais envelhecidas; Norte a menos (10,4%). Estados com maior proporção de 60+: Rio Grande do Sul (20,2%), Rio de Janeiro (18,8%) e Minas Gerais (17,8%) [1].
 - **DADO:** centenários concentrados na Bahia (5.336), São Paulo (5.095) e Minas Gerais (4.104) [3].
 - **DADO (2017) [DADO ANTIGO]:** 836 das 1.451 ILPIs cadastradas estavam no Sudeste [15].
 - **DADO (projeção):** Bahia deve ter 40,3% da população com 60+ em 2070; DF acima de 40% [4].
 - **ANÁLISE:** para um piloto, a Grande São Paulo combina volume absoluto de idosos, renda das famílias e oferta de cuidadores; Porto Alegre e Rio são as praças com maior proporção de idosos.
 
 ## Principais empresas e grau de concentração (DADO)
-- **Home Angels (franquia de cuidadores):** mais de 200 unidades franqueadas em maio/2024 [18]; faturamento de R$ 97 milhões em 2016 e cerca de R$ 100 milhões em 2018 [DADO ANTIGO] [19]. Não encontrei faturamento de 2025.
+- **Home Angels (franquia de cuidadores):** mais de 200 unidades franqueadas em maio/2024 [DADO ANTIGO] [18]; faturamento de R$ 97 milhões em 2016 e cerca de R$ 100 milhões em 2018 [DADO ANTIGO] [19]. Não encontrei faturamento de 2025.
 - **ACG Home Care:** R$ 15 milhões de faturamento em 2025 [17].
 - **Sanii (healthtech de cuidado domiciliar):** captou R$ 5 milhões em follow-on com a Sororitê Ventures (nov/2025), após pré-seed de R$ 8 milhões em 2023; outra página cita Valor Capital como investidor, fontes divergem [20][21].
 - **Cuid (plataforma que conecta profissionais a famílias):** cofundador afirma que a receita triplicou em 2025 sobre 2024 (declaração da empresa, sem valores) [22].
 - **Outras franquias citadas:** Cuidare Brasil, Acolher e Cuidar [16].
 - **Cora, Laços Saúde, Sênior Saúde:** não encontrei fonte confiável nos resultados de busca desta rodada (lacuna).
-- **ANÁLISE:** mercado muito fragmentado. O maior player identificado (Home Angels) é uma rede de franquias com faturamento de ordem de R$ 100 milhões, em um mercado de bilhões. Não há líder digital dominante em cuidado não clínico.
+- **ANÁLISE:** mercado muito fragmentado. O maior player identificado (Home Angels) é uma rede de franquias com faturamento de ordem de R$ 100 milhões, em um mercado de bilhões. Não identifiquei líder digital dominante em cuidado não clínico (busca limitada).
 
 ## Margens típicas (DADO quando houver)
 - Não encontrei balanço público de empresa de cuidadores ou ILPI.

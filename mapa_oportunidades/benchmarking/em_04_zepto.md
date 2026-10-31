@@ -26,7 +26,7 @@ Rede densa de "dark stores" (minicentros de distribuição fechados ao público)
 **ANÁLISE:** a Índia é o único grande mercado onde quick commerce virou categoria de massa (Blinkit, Swiggy Instamart, Zepto). Funciona por fatores locais: densidade populacional extrema, mão de obra de entrega muito barata e famílias que compram pouco por vez. A guerra de preços com Blinkit e Instamart é intensa.
 
 ## Existe no Brasil? Quem faz, força, por que não replicou
-**DADO:** a JOKR (dona da Daki) saiu dos EUA, Chile, Colômbia e, em fev/2023, do México para focar no Brasil; demitiu cerca de 119 pessoas, a maioria de dark stores (Bloomberg Línea, Startups). Ver fracasso_02.
+**DADO:** a JOKR (dona da Daki) saiu dos EUA, Chile, Colômbia e, em fev/2023, do México para focar no Brasil; demitiu cerca de 119 pessoas, a maioria de dark stores (Bloomberg Línea, Startups) [DADO ANTIGO]. Ver fracasso_02.
 **ANÁLISE:** o Brasil tem quick commerce de nicho (Daki, Rappi Turbo, iFood Mercado, Zé Delivery da Ambev para bebidas). O Zé Delivery é o caso que deu certo porque usa a rede de depósitos parceiros já existente (asset-light). Dark store própria esbarra em: custo de entregador maior, densidade menor, ticket baixo e violência urbana.
 
 ## Viabilidade de tropicalizar (1 a 5)

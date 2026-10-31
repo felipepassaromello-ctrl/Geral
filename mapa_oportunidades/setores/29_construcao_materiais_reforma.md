@@ -6,7 +6,7 @@
 ## Resumo em 5 linhas (ANÁLISE)
 1. Reforma e autoconstrução formam um mercado enorme (varejo de materiais com cerca de R$ 240 bilhões projetados para 2025 pela Anamaco), pulverizado e informal, mas hoje estagnado: a indústria (Abramat) fechou 2025 em queda e acumula -1,7% em 2026 até agosto.
 2. O varejo é dominado por lojas de bairro: a maior rede, Leroy Merlin, faturou cerca de R$ 9,4 bilhões em 2025, algo como 4% do varejo (cálculo do pesquisador). C&C se reestrutura e a Telhanorte está à venda.
-3. Profissionais autônomos (pedreiros, eletricistas, pintores) decidem a compra e são mal servidos; mais de 80% das obras são feitas sem arquiteto ou engenheiro (CAU/Datafolha).
+3. Profissionais autônomos (pedreiros, eletricistas, pintores) decidem a compra e são mal servidos; mais de 80% das obras são feitas sem arquiteto ou engenheiro (CAU/Datafolha, 2015) [DADO ANTIGO].
 4. Vento a favor pontual: o programa Reforma Casa Brasil (nov/2025, R$ 30 bilhões do Fundo Social, até R$ 50 mil por família desde abr/2026) cria demanda subsidiada por orçamento, projeto simples e execução.
 5. Risco: com Selic de 13,75%, reforma é adiada; marketplaces de serviço para casa (GetNinjas) tiveram crescimento fraco e sofrem desintermediação.
 
@@ -60,7 +60,7 @@
 ## Startups e capital no subsetor (DADO)
 - Juntos Somos Mais (Votorantim, Gerdau, Tigre) comprou participação minoritária na Conecta Reforma em jan/2021, com plano de investir mais de R$ 50 milhões em dois anos [DADO ANTIGO] [fonte 15].
 - Obra Vista captou R$ 1 milhão (mai/2025), plataforma com big data, geomarketing e IA [fonte 16].
-- GetNinjas (NINJ3): lucro de R$ 2,9 milhões no 1T24 com receita líquida de R$ 16,7 milhões; receita depende só da venda de moedas a profissionais [DADO ANTIGO] [fonte 17]. Não encontrei resultados de 2025/2026 nem informação sobre Habitissimo.
+- GetNinjas (NINJ3): lucro de R$ 2,9 milhões no 1T24 com receita líquida de R$ 16,7 milhões; receita depende só da venda de moedas a profissionais [DADO ANTIGO] [fonte 17]. Não encontrei resultados de 2025/2026 nem informação sobre Habitissimo. (Nota da revisão: o arquivo 52_servicos_domesticos_e_autonomos.md registra que a GetNinjas virou Reag Investimentos via IPO reverso em jan/2025 e que a Triider comprou a operação brasileira da Habitissimo [DADO ANTIGO, data não confirmada].)
 
 ## Notas Fase 1 (revisadas com dados)
 | Critério | Nota | Justificativa |

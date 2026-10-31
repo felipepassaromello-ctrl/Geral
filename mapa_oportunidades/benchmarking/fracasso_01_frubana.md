@@ -7,7 +7,7 @@
 Marketplace B2B e operação logística colombiana que vendia hortifrúti, proteínas e mercearia para restaurantes e pequenos comércios (canal HoReCa), com promessa de preço melhor que a Ceasa/atacadista e entrega no dia seguinte. Chegou a atender mais de 30 mil restaurantes na Colômbia (Portafolio/descubre.vc). Captou cerca de US$ 271 mi no total, incluindo Série B de US$ 100 mi em 2021 com Tiger Global (Click Petróleo e Gás, 2025). No Brasil, captou R$ 351 mi em 2021 para dobrar a operação (Exame, Olhar Digital) [DADO ANTIGO].
 
 ## O que aconteceu (DADO)
-- Fev/2024: fechou Colômbia e México, alegando condições macroeconômicas que impediram captar recursos; concentrou-se no Brasil, que representava 60% da receita (Forbes Colombia, Startups.com.br).
+- Fev/2024 [DADO ANTIGO]: fechou Colômbia e México, alegando condições macroeconômicas que impediram captar recursos; concentrou-se no Brasil, que representava 60% da receita (Forbes Colombia, Startups.com.br).
 - Jul/2025: encerrou as atividades no Brasil, seu último mercado ativo; funcionários foram avisados cerca de uma semana antes (GiroNews citando NeoFeed; Forbes Colombia, ago/2025).
 
 ## Por que falhou (ANÁLISE)

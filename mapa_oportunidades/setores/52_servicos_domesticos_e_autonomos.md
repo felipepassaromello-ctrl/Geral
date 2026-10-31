@@ -6,7 +6,7 @@
 ## Resumo em 5 linhas (ANÁLISE)
 1. Há 26,1 milhões de trabalhadores por conta própria (PNAD, 2º tri 2026), 72,9% sem CNPJ, e 13,1 milhões de MEIs ativos (7,6 milhões em serviços): enorme base de prestadores com baixa formalização e quase nenhuma ferramenta de gestão.
 2. Trabalho doméstico soma cerca de 5,6 milhões de pessoas (4º tri 2025), cerca de 76% sem carteira e 47% diaristas; o emprego formal caiu 21,1% desde 2016. A "diarização" é tendência de longo prazo.
-3. Marketplaces horizontais falharam em rentabilizar: GetNinjas encolheu (receita de R$ 14 milhões no 3º tri 2024, -11%), parou de publicar balanços e virou casca da Reag via IPO reverso; Triider foi absorvida por grupos de materiais de construção.
+3. Marketplaces horizontais falharam em rentabilizar: GetNinjas encolheu (receita de R$ 14 milhões no 3º tri 2024, -11% [DADO ANTIGO]), parou de publicar balanços e virou casca da Reag via IPO reverso; Triider foi absorvida por grupos de materiais de construção.
 4. Envelhecimento e crescimento de condomínios aumentam demanda por pequenos reparos e manutenção recorrente; administradoras, seguradoras e varejo de construção são canais B2B pouco explorados.
 5. Para Felipe: entrada barata e testável em semanas; melhor ângulo é vertical (um serviço, uma região, garantia e padronização) ou B2B2C, evitando o marketplace horizontal de leads.
 

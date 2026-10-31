@@ -33,7 +33,7 @@ Financeiras de crédito automotivo e bancos mantêm grandes call centers para at
 | Regulação | 3 | CDC proíbe cobrança constrangedora; Anatel restringe robôs de ligação (prefixo 0303, bloqueio de chamadas abusivas); LGPD. |
 | Logística | 5 | Digital. |
 | Comportamento | 4 | Devedor prefere negociar por WhatsApp sem falar com humano. |
-| Tamanho de mercado | 5 | Dezenas de milhões de inadimplentes (número a confirmar com Serasa). |
+| Tamanho de mercado | 5 | 82,8 milhões de pessoas inadimplentes em mar/2026 e 9,3 milhões de CNPJs em ago/2026 (Serasa; ver [setores/21_fin_cobranca_recuperacao.md](../setores/21_fin_cobranca_recuperacao.md)). |
 | **Geral** | **4** | Muito aderente; mas já há vários players com capital. |
 
 ## Defensabilidade na era da IA

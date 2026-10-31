@@ -5,7 +5,7 @@
 
 ## Resumo em 5 linhas (ANÁLISE)
 1. Frota de cerca de 48,8 milhões de autoveículos com idade média de 11 anos em 2025, envelhecendo desde 2014: demanda de manutenção estrutural e pouco sensível a juros (crédito caro adia troca de carro).
-2. Oficinas independentes (estimativa de 92 mil, cerca de 80% da reparação) muito pouco digitalizadas: 65% das pequenas e médias não usam sistema de gestão (levantamento RepareCar, 2026).
+2. Oficinas independentes (estimativa de 92 mil, cerca de 80% da reparação; dado sem data identificada) muito pouco digitalizadas: 65% das pequenas e médias não usam sistema de gestão (levantamento RepareCar, 2026).
 3. Usados batem recorde (18,5 milhões de transações em 2025, +17,3%), e 37% são carros com 13 anos ou mais: reforça a frota velha.
 4. Eletrificados já são 21% a 22% das vendas de leves (jul e ago/2026), mas quase nenhuma oficina independente está preparada: dor nova de capacitação, peças e informação técnica.
 5. Negócio leve possível: orçamento digital e CRM para oficinas, cotação de peças, capacitação em alta tensão; concorrentes capitalizados (Mecanizou, Pitz) já atacam cotação de peças.

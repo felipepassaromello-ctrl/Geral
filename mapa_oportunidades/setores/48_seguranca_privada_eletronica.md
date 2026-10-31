@@ -4,7 +4,7 @@
 > STATUS: COMPLETADO NA RODADA 2, com lacunas. Método: números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede. Ainda falta: faturamento Abese de 2025 (só existe 2024 nas buscas), número oficial PF de vigilantes em 2025, faturamento atual da vigilância humana (Fenavist só até 2020), margens de listadas.
 
 ## Resumo em 5 linhas (ANÁLISE)
-1. Duas metades muito diferentes: vigilância humana (cerca de 530 mil vigilantes, regulada pela Polícia Federal, intensiva em mão de obra, margem apertada) e segurança eletrônica (R$ 14 bi em 2024, crescendo 16,1% ao ano, câmeras, alarmes, controle de acesso, monitoramento remoto).
+1. Duas metades muito diferentes: vigilância humana (cerca de 530 mil vigilantes no 1º sem. 2024 [DADO ANTIGO], regulada pela Polícia Federal, intensiva em mão de obra, margem apertada) e segurança eletrônica (R$ 14 bi em 2024, alta de 16,1% naquele ano, câmeras, alarmes, controle de acesso, monitoramento remoto).
 2. A demanda é essencial e recorrente, o que dá resiliência contra juros altos (Selic 13,75% em set/2026).
 3. A grande transformação é a substituição de porteiro e vigilante presencial por portaria remota (+25,3% em 2025, segundo a Abese), analytics de vídeo com IA e monitoramento centralizado.
 4. Fato novo e decisivo: o Estatuto da Segurança Privada (Lei 14.967/2024) e o Decreto 13.012/2026 colocaram o monitoramento eletrônico sob autorização prévia da PF, com prazo de adequação reportado até set/2027. Isso cria barreira para operar e, ao mesmo tempo, uma dor de compliance pagável para cerca de 10 mil empresas.

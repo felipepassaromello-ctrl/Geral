@@ -12,17 +12,17 @@
 
 ## Tamanho de mercado (DADO, com fonte e data)
 - **DADO:** 82,8 milhões de brasileiros inadimplentes em mar/2026 (+1,35% no mês); 81,7 milhões em fev/2026, maior patamar da série (Serasa) [1].
-- **DADO:** 49,9% da população adulta com nome restrito em 2026 (39,2% em 2016); 332 milhões de dívidas (+43% em 10 anos); 42% dos inadimplentes já estavam nessa condição há 10 anos (cerca de 34 milhões); bancos e financeiras originam 47,1% das dívidas (32,7% em 2016) [1].
+- **DADO:** 49,9% da população adulta com nome restrito em 2026 (mês não identificado; a média nacional de jul/2026 citada abaixo é 51,04%) (39,2% em 2016); 332 milhões de dívidas (+43% em 10 anos); 42% dos inadimplentes já estavam nessa condição há 10 anos (cerca de 34 milhões); bancos e financeiras originam 47,1% das dívidas (32,7% em 2016) [1].
 - **DADO:** 9,3 milhões de CNPJs inadimplentes em ago/2026, com R$ 244,4 bi em dívidas negativadas; micro e pequenas empresas concentram 8,8 milhões de CNPJs e 61,4 milhões de dívidas (Serasa Experian, divulgado em 20/10/2026) [2]. Trajetória: 8,7 mi (jan), 9,0 mi (abr, primeira vez acima de 9 mi), 9,1 mi (jun, R$ 232,9 bi), 9,2 mi (jul, R$ 238,6 bi) [2].
 - **DADO:** famílias com dívidas a vencer em 82% (jul/2026, recorde da Peic/CNC); contas em atraso 29,8%; comprometimento médio de renda 29,5%; inadimplência de 38,5% nas famílias de menor renda e 15,1% nas de maior renda [3].
-- **DADO:** inadimplência do crédito total do SFN em 5,0% em ago/2026 (BCB) [ver arquivo 18].
+- **DADO:** inadimplência do crédito total do SFN em 5,0% em ago/2026 (BCB) (ver arquivo 18).
 - **DADO:** mercado de venda de carteiras inadimplentes (NPL): R$ 34 bi em 2025 e projeção de R$ 40 bi em 2026 (Recovery, Itaú) [4]; Deloitte projeta R$ 52,3 bi em 2026 (+73%) [4]; R$ 17 bi cedidos no 1º sem. 2026 segundo a Recovery [4].
 
 ## Crescimento histórico e projetado
 - **DADO:** inadimplentes PF +38,1% em 10 anos (59 mi em 2016 para 81,7 mi em 2026) [1]. CNPJs inadimplentes de 8,7 mi para 9,3 mi entre jan e ago/2026 [2].
 - **Projeção (Recovery):** NPL +20% em 2026 [4]. **Projeção (Deloitte):** +73% [4].
-- **DADO:** micro, pequenas e médias empresas em recuperação judicial: 6.341 no 1º sem. 2026, +6,2%; Serasa projeta continuidade de alta se a Selic seguir alta [5]. Recorde anual de 2.273 pedidos de RJ em 2024 (+61,8%), 1.676 de MPEs [5].
-- **ANÁLISE:** mesmo com queda gradual da Selic (14% em ago/2026), o estoque de dívidas leva 2 a 3 anos para ser digerido; demanda por cobrança e renegociação segue alta até 2028.
+- **DADO:** micro, pequenas e médias empresas em recuperação judicial: 6.341 no 1º sem. 2026, +6,2%; Serasa projeta continuidade de alta se a Selic seguir alta [5]. Recorde anual de 2.273 pedidos de RJ em 2024 (+61,8%), 1.676 de MPEs [5]. **Inconsistência não resolvida:** 6.341 MPMEs no 1º sem. 2026 é quase o triplo do recorde anual de 2024; provavelmente as duas cifras medem coisas diferentes (estoque de empresas em RJ x pedidos no período, ou fontes distintas). Não usar as duas como série.
+- **ANÁLISE:** mesmo com queda gradual da Selic (14% em ago/2026 e 13,75% desde 16/09/2026; Focus projeta 13,25% no fim de 2026), o estoque de dívidas leva 2 a 3 anos para ser digerido; demanda por cobrança e renegociação segue alta até 2028.
 
 ## Distribuição regional
 - **DADO:** Amapá com 65,1% dos adultos inadimplentes (mar/2026), maior do país; Piauí com a menor parcela, 26,4% (set/2026); média nacional de 51,04% em jul/2026 [6].
@@ -32,7 +32,7 @@
 
 ## Principais empresas e grau de concentração
 - **DADO:** compradores e gestores de NPL: Recovery (Itaú), Banco do Brasil Ativos, Bradesco/Vinci, Caixa/Emgea, Santander Ipanema, BTG Pactual Enforce [4].
-- **DADO:** bancos estrangeiros puxaram vendas de NPL por falta de estrutura dedicada (Exame, anterior a 2026) [4].
+- **DADO:** bancos estrangeiros puxaram vendas de NPL por falta de estrutura dedicada (Exame, data não confirmada, possivelmente [DADO ANTIGO]) [4].
 - **DADO:** Itaú lançou cobrança por comando de voz na maquininha (IA generativa) [7].
 - **ANÁLISE:** PF massificado concentrado em Serasa (Limpa Nome), Acordo Certo, grandes assessorias de cobrança (Atento, Paschoalotto, Zanc e outras, não verificadas nesta sessão). B2B de PME muito fragmentado: escritórios de advocacia locais, assessorias pequenas e o próprio dono da empresa.
 
@@ -58,7 +58,7 @@
 
 ## Hipóteses de dores
 1. **PME B2B não cobra seus clientes PJ com método.** Quem sofre: distribuidores, indústrias leves, prestadores de serviços (credores entre os 9,3 mi de CNPJs envolvidos). Hoje: dono liga, contador avisa, protesto tardio. Quem ataca: ERPs (régua básica), Asaas, assessorias locais; fora: Upflow, Chaser (UK). Ângulo: régua com IA + negociação humana + protesto, remuneração por sucesso.
-2. **Escolas, clínicas e condomínios com inadimplência recorrente.** Por que dói: receita recorrente e caixa apertado; migração para Pix Automático [arquivo 19]. Hoje: administradoras e escritórios jurídicos. Ângulo: cobrança vertical com integração ao sistema do nicho.
+2. **Escolas, clínicas e condomínios com inadimplência recorrente.** Por que dói: receita recorrente e caixa apertado; migração para Pix Automático (arquivo 19). Hoje: administradoras e escritórios jurídicos. Ângulo: cobrança vertical com integração ao sistema do nicho.
 3. **Fintechs e varejistas pequenos não têm estrutura de recuperação.** Quem sofre: originadores pequenos de crédito e varejo com crediário. Hoje: vendem carteira barato (NPL R$ 40 a 52 bi) [4]. Ângulo: cobrança terceirizada com IA antes da venda da carteira.
 4. **Empresas credoras em recuperação judicial de clientes.** Quem sofre: fornecedores de 6.341 MPMEs em RJ [5]. Hoje: advogado caro. Ângulo: serviço de habilitação de crédito e acompanhamento de RJ em escala (atenção à reserva de mercado da OAB).
 5. **Devedor PF quer renegociar tudo num lugar.** Quem sofre: 82,8 mi de pessoas [1]. Hoje: Serasa Limpa Nome, Acordo Certo, apps de bancos. Não recomendado para entrante.

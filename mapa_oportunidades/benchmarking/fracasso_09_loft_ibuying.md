@@ -3,6 +3,8 @@
 
 > Método: números confirmados no conteúdo dos resultados de busca; páginas não abertas por restrição de rede. **Verificação parcial.** CONFIRMADO: modelo original de compra e revenda, última captação e valuation, demissões, efeito dos juros, breakeven após pivô para B2B e crédito, números de 2025 e 2026. NÃO CONFIRMADO: data exata em que a Loft parou (ou reduziu) a compra de imóveis com balanço próprio; números da Opendoor nos EUA (não buscados).
 
+> [DADO ANTIGO] A maior parte dos fatos deste arquivo é anterior a nov/2024; são mantidos de propósito por serem o histórico do caso.
+
 ## O que era
 O iBuying, popularizado pela americana Opendoor, consiste em comprar imóveis dos donos com oferta rápida baseada em algoritmo, reformar e revender. A Loft comprava apartamentos usados em bairros específicos de São Paulo, reformava com empreiteiros parceiros e revendia, num ciclo de cerca de quatro meses segundo a empresa [1].
 
