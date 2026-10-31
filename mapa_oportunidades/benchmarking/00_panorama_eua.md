@@ -24,6 +24,31 @@
 | 13 | Accordance | Contabilidade com IA | Plataforma para contadores | US$ 13 mi seed (General Catalyst entre investidores) | [General Catalyst](https://www.generalcatalyst.com/stories/the-future-of-services) |
 | 14 | Owner.com | Vertical SaaS restaurantes | Site, pedidos diretos e marketing com IA | US$ 240 mi a US$ 2,3 bi (ago/2026) | [Owner](https://www.owner.com/d), [GS](https://am.gs.com/en-au/advisors/news/press-release/2026/owner-raises-240m-gs-alts) |
 | 15 | EliseAI | IA para imobiliário e saúde | Atendimento e operações de administradoras | US$ 350 mi a US$ 4 bi (set/2026); ARR acima de US$ 200 mi | [TechCrunch](https://techcrunch.com/2026/09/29/a16z-backed-eliseai-raises-350m-doubles-valuation-to-4b/) |
+| 16 | Avoca (eua_13) | Voz para home services | Atende ligações, agenda serviços e faz follow-up de orçamentos | Mais de US$ 125 mi acumulados a US$ 1 bi (abr/2026) | [Fortune](https://www.fortune.com/2026/04/27/avoca-ai-agents-missed-calls-hvac-plumbing-roofing-kleiner-perkins-chen-shrivastava-braswell/) |
+| 17 | Sierra (eua_14) | Agentes de atendimento | SAC de grandes marcas, cobrança por resolução | US$ 950 mi a US$ 15,8 bi (mai/2026); ARR acima de US$ 150 mi (fev/2026) | [Sacra](https://sacra.com/c/sierra/) (agregador, não confirmado em fonte primária) |
+| 18 | Decagon (eua_14) | Agentes de atendimento | Automação de suporte ao cliente | US$ 250 mi a US$ 4,5 bi (jan/2026) | [Bloomberg](https://www.bloomberg.com/news/articles/2026-01-28/ai-customer-support-startup-decagon-valued-at-4-5-billion) |
+| 19 | Vanta (eua_15) | Compliance | Automação de SOC 2, ISO 27001 | ARR acima de US$ 300 mi (abr/2026); valuation cerca de US$ 4,15 bi (2025) | [Fortune](https://www.fortune.com/2026/04/29/exclusive-vanta-arr-300-million-sequoia-shadow-ai-claude-cursor/) |
+| 20 | Delve (eua_15) | Compliance com agentes | Coleta de evidências e relatórios por IA | US$ 32 mi a US$ 300 mi (jul/2025) | [Delve](https://www.delve.co/blog/series-a) |
+| 21 | Toast (eua_16) | Vertical SaaS restaurantes | PDV, pagamentos e crédito (listada) | ARR US$ 2,4 bi (+25%), 180 mil locais (2º tri 2026) | [Business Wire](https://www.businesswire.com/news/home/20260804267340/en/) |
+| 22 | Tennr (eua_17) | Healthtech operacional | Encaminhamentos e documentos médicos | US$ 101 mi a US$ 605 mi (jun/2025) | [Fierce Healthcare](https://fiercehealthcare.com/health-tech/tennr-clinches-101m-build-out-ai-automates-patient-referral-workflows) |
+| 23 | Commure/Athelas (eua_17) | Healthtech RCM | Ciclo de receita e operações hospitalares | US$ 70 mi a US$ 7 bi (mai/2026); ARR contratado acima de US$ 200 mi | [Athelas](https://www.athelas.com/tbh/athelas-raises-70m-at-7b-valuation-to-transform-healthcare-operations-using-ai) |
+| 24 | Crosby (eua_18) | Escritório de advocacia AI-native | Revisão de contratos com preço fixo | US$ 60 mi a US$ 400 mi (mar/2026) | [Global Legal Post](https://www.globallegalpost.com/news/cooley-backed-contract-review-start-up-crosby-raises-60m-in-fresh-funding-1011864931) |
+| 25 | Long Lake (eua_18) | Holding de serviços com IA | Compra empresas de serviço e aplica IA | Mais de US$ 600 mi e cerca de 12 aquisições no 1º ano (agregador) | [Dealroom](https://dealroom.co/companies/long-lake-management/) (baixa confiabilidade; foco em HOA NÃO confirmado) |
+| 26 | Gusto (eua_19) | Folha PME | Folha e benefícios para pequenas empresas | Tender a US$ 9,3 bi (jun/2025); receita acima de US$ 1 bi (mai/2026, não confirmado em fonte primária) | [Fortune](https://fortune.com/2025/06/09/gusto-200-million-plus-tender-offer) |
+| 27 | Pilot (eua_19) | Contabilidade PME | Bookkeeping e impostos para startups | Sem rodada recente; receita 2024 estimada em US$ 27 mi (agregador) | [GetLatka](https://getlatka.com/companies/pilot) (baixa confiabilidade) |
+| 28 | Salient (eua_20) | Cobrança com voz | Agentes de voz para servicing e cobrança de crédito | US$ 60 mi Série A liderada pela a16z (2025) | [a16z](https://a16z.com/announcement/investing-in-salient/) |
+
+## Tabela A2: tropicalização dos arquivos 13 a 20 (rodada 2)
+| Arquivo | Modelo | Existe no Brasil? (DADO) | Nota geral (ANÁLISE) |
+|---|---|---|---|
+| eua_13 Avoca | Agente de voz que atende e agenda para prestadores | Parcial: integradores de voz para grandes call centers (Nextcomm, StaryaAI); Meta lançou IA no WhatsApp Business para PMEs; sem startup de voz para PME com rodada | 3 |
+| eua_14 Sierra/Decagon | Agente de SAC cobrado por resolução | Sim: Blip (Série C US$ 60 mi, SoftBank), Zenvia, Cloud Humans | 3 |
+| eua_15 Vanta/Delve | Compliance contínuo automatizado | Incipiente: DPOnet, Imara Trust, Privacy Tools | 3,5 |
+| eua_16 Toast | PDV + pagamentos + crédito para restaurantes | Fragmentado: Saipos (iFood), Goomer, adquirentes; sem Toast brasileiro | 2,5 |
+| eua_17 Tennr/Commure | RCM e operações de saúde com IA | Incipiente: Marisa.Care, A3Data/Mater Dei; nenhuma startup de glosas com rodada encontrada | 4 |
+| eua_18 Crosby/Long Lake | Escritório AI-native e roll-up de serviços | Sim no contencioso de massa: Enter (unicórnio, mai/2026); roll-up não encontrado | 3,5 |
+| eua_19 Gusto/Pilot | Folha e contabilidade para PMEs | Sim: contabilidade online (Contabilizei etc.) e escritórios; folha via contador | 4 |
+| eua_20 Salient | Cobrança com agentes de IA | Sim: Monest (Mia Voz), Neofin, Quero Quitar, Fidexa | 4 |
 
 Contexto de mercado verificado: TechCrunch listou 55 startups americanas de IA que captaram US$ 100 milhões ou mais em 2025 ([TechCrunch, 19/01/2026](https://techcrunch.com/2026/01/19/here-are-the-49-us-ai-startups-that-have-raised-100m-or-more-in-2025/)). Legora (sueca, concorrente da Harvey) teria valuation de US$ 5,6 bilhões e ARR de US$ 100 milhões segundo agregador (fonte de baixa confiabilidade, não confirmado).
 
