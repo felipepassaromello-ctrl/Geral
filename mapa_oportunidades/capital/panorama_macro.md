@@ -117,7 +117,9 @@ O 3º tri de 2026 ainda não foi divulgado (IBGE costuma divulgar no início de 
 
 **DADO**: não encontrei fonte confiável nesta sessão para PIB por região e estado (Contas Regionais do IBGE) nem para o crescimento do Centro-Oeste; o limite de buscas acabou antes. O único dado regional confirmado: o agro liderou o PIB de 2025 (+11,7%) e do 2º tri 2026 (+6,8% contra 2º tri 2025) ([IBGE](https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/45968-pib-cresce-2-3-em-2025-e-fecha-o-ano-em-r-12-7-trilhoes); [Diário do Comércio](https://diariodocomercio.com.br/economia/pib-brasil-cresce/)). Desocupação caiu em 13 das 27 UFs no 2º tri/2026 ([IBGE](https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/47774-pnad-continua-trimestral-desocupacao-cai-em-13-das-27-ufs-no-2-trimestre-de-2026)).
 
-**ANÁLISE (pendente de dado)**: com o agro puxando o PIB, é razoável supor que estados do Centro-Oeste e o interior de SP, PR e MG concentram crescimento acima da média, mas isso precisa ser confirmado nas Contas Regionais antes de entrar em qualquer tese.
+**DADO (acrescentado pelo coordenador na revisão)**: Contas Regionais do IBGE com dados de 2023, divulgadas em 14/11/2025: o PIB cresceu em todas as 27 UFs em 2023; o Centro-Oeste teve a maior alta regional (7,6%) e chegou a cerca de 10,6% do PIB nacional; o Sudeste perdeu cerca de 0,3 p.p. de participação entre 2022 e 2023; entre 2002 e 2023, Centro-Oeste (+2,0 p.p.) e Norte (+1,1 p.p.) foram as regiões que mais ganharam participação ([IBGE, Contas Regionais 2023](https://agenciadenoticias.ibge.gov.br/pt/agencia-noticias/45142-pib-cresce-em-todos-os-27-estados-do-pais-em-2023.html?lang=pt-BR)). São Paulo segue como maior economia (cerca de 31% do PIB, mas o rótulo exato do ano na tabela do release não foi confirmado). Contas Regionais de 2024: não localizadas nesta sessão.
+
+**ANÁLISE**: com o agro puxando o PIB, é razoável supor que estados do Centro-Oeste e o interior de SP, PR e MG concentram crescimento acima da média, mas isso precisa ser confirmado nas Contas Regionais antes de entrar em qualquer tese.
 
 ---
 
