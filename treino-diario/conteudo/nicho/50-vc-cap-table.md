@@ -18,7 +18,7 @@ verificado: 2026-11-05
 
 Em cada rodada, a startup emite novas ações para o investidor. **Pre-money** é o valor da empresa antes do aporte; **post-money** é o pre-money mais o aporte. O preço por ação é o pre-money dividido pelo número de ações existentes antes da rodada (em base totalmente diluída, se assim negociado). Como novas ações são emitidas, todos os antigos acionistas são **diluídos** na mesma proporção. Na S.A., o preço de emissão deve ser fixado sem diluição injustificada dos antigos acionistas ([LSA, art. 170, § 1º](https://www.planalto.gov.br/ccivil_03/leis/l6404consol.htm)).
 
-No Brasil, rodadas iniciais frequentemente usam mútuo conversível ou outros instrumentos previstos no [Marco Legal das Startups, LC 182/2021, art. 5º](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp182.htm), que não tornam o investidor sócio até a conversão (verificar a redação do art. 5º).
+No Brasil, rodadas iniciais frequentemente usam mútuo conversível ou outros instrumentos previstos no [Marco Legal das Startups, LC 182/2021, art. 5º, § 1º](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp182.htm), que não tornam o investidor sócio até a conversão (art. 5º, § 2º).
 
 ### Liquidation preference
 
@@ -120,9 +120,6 @@ Explique para um fundador que vai receber o primeiro term sheet a diferença ent
 - Em saídas médias, a diferença para o fundador é grande
 ### Resposta modelo
 Nos dois casos, se a empresa for vendida, o investidor recebe antes de você. Com non-participating, ele escolhe: ou pega de volta o que investiu, ou abre mão disso e fica com a porcentagem dele no preço de venda. Com participating, ele pega de volta o que investiu e ainda leva a porcentagem dele no que sobrar. Em uma venda grande, a diferença dilui; em uma venda média, pode tirar milhões do seu bolso. Por isso, o padrão favorável ao fundador é 1x non-participating.
-
-## Verificar
-- Redação do art. 5º da LC 182/2021 quanto à lista de instrumentos e à não caracterização do investidor como sócio antes da conversão.
 
 ## Fontes
 - [Lei 6.404/76, art. 170, § 1º](https://www.planalto.gov.br/ccivil_03/leis/l6404consol.htm) — preço de emissão sem diluição injustificada

@@ -14,7 +14,7 @@ verificado: 2026-11-05
 
 ## Lição
 
-**Livro:** *Never Split the Difference: Negotiating As If Your Life Depended On It*, de Chris Voss com o jornalista Tahl Raz, publicado em 2016. No Brasil: *Negocie como se sua vida dependesse disso*, pela Sextante, com tradução de Bruno Casotti.
+**Livro:** *Never Split the Difference: Negotiating As If Your Life Depended On It*, de Chris Voss com o jornalista Tahl Raz, publicado em 2016. No Brasil: *Negocie como se sua vida dependesse disso*, pela Sextante, em 2019, com tradução de Bruno Casotti.
 
 ### Mensagem central
 Voss foi negociador de sequestros do FBI. A tese do livro é que pessoas não decidem como máquinas racionais: decidem movidas por emoção, medo de perder e necessidade de se sentirem compreendidas. Por isso, quem negocia bem não começa argumentando. Começa ouvindo e mostrando que entendeu a posição do outro. Ele chama isso de **empatia tática**: entender e nomear o que o outro sente, não para concordar, mas para influenciar.
@@ -78,9 +78,6 @@ O vendedor de uma empresa insiste num cap de indenização de 10% do preço; o c
 - Auditoria de acusações :: Dizer antes as piores coisas que o outro pode pensar de você, para desarmar objeções
 - Pergunta calibrada :: Pergunta aberta com "como" ou "o que" que faz o outro trabalhar no seu problema
 - Modelo Ackerman :: Ofertas de 65%, 85%, 95% e 100% do alvo, terminando num número quebrado
-
-## Verificar
-- Ano da primeira edição brasileira pela Sextante (um catálogo indica 2019).
 
 ## Fontes
 - [Skoob, ficha da edição brasileira](https://www.skoob.com.br/book/954013)

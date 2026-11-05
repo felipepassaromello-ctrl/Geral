@@ -58,7 +58,7 @@ Na prática, assessores apresentam as três abordagens lado a lado (o "football 
 
 ## No seu trabalho
 
-- **Laudos e opiniões.** A Lei 6.404/76 exige avaliação por peritos ou empresa especializada em conferência de bens ao capital (art. 8º), e a compra de controle relevante por companhia aberta pode exigir aprovação em assembleia e laudo (art. 256, verificar requisitos no caso concreto). Saber ler a metodologia ajuda a revisar esses documentos.
+- **Laudos e opiniões.** A Lei 6.404/76 exige avaliação por peritos ou empresa especializada em conferência de bens ao capital (art. 8º), e a compra, por companhia aberta, do controle de outra sociedade depende de aprovação (prévia ou por ratificação) da assembleia da compradora, com laudo de avaliação, quando o preço for investimento relevante para ela ou superar 1,5 vez o maior de três valores de referência (art. 256). Saber ler a metodologia ajuda a revisar esses documentos.
 - **Earn-out e preço**: o DCF do comprador revela as premissas que ele usou para a oferta; metas de earn-out costumam sair dessas projeções.
 - **Negociação**: quando alguém diz "pagamos 9 vezes", pergunte sobre qual EBITDA (LTM, projetado, ajustado, pré ou pós-IFRS 16) e se é EV ou equity.
 
@@ -123,9 +123,6 @@ Explique para um colega de societário por que dois bancos podem chegar a valore
 - por isso se cruza o DCF com múltiplos e transações
 ### Resposta modelo
 O DCF é uma conta simples sobre premissas que não são. Cada banco projeta receitas, margens e investimentos de um jeito, escolhe um custo de capital e uma taxa de crescimento perpétuo. Como a maior parte do valor costuma estar na perpetuidade, que divide o fluxo por WACC menos crescimento, um ponto percentual a mais ou a menos nessa diferença pode mudar o valor em dezenas de por cento. Por isso o DCF raramente é usado sozinho: compara-se com múltiplos de empresas listadas e de transações para ver se o número faz sentido.
-
-## Verificar
-- Requisitos atuais do art. 256 da Lei 6.404/76 (aprovação em assembleia e laudo na compra de controle por companhia aberta) antes de aplicar a um caso concreto.
 
 ## Fontes
 - [Lei 6.404/76, arts. 8º e 256](https://www.planalto.gov.br/ccivil_03/leis/l6404consol.htm) — avaliação de bens e aquisição de controle por companhia aberta

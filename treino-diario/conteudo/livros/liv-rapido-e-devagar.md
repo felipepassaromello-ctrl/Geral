@@ -30,7 +30,7 @@ Pensamos com dois sistemas. O **Sistema 1** é rápido, automático e intuitivo:
 - **Regressão à média.** Resultados extremos tendem a ser seguidos por resultados mais próximos da média, sem que nenhuma causa especial explique isso.
 - **Dois "eus".** O eu que vive a experiência e o eu que lembra dela. A memória pesa mais o pico e o final do que a duração.
 
-Uma ressalva honesta: alguns estudos de *priming* citados no livro não se confirmaram em replicações posteriores, e o próprio Kahneman reconheceu isso publicamente (verificar a referência). O núcleo do livro, sobre heurísticas, aversão à perda e teoria da perspectiva, continua sólido.
+Uma ressalva honesta: alguns estudos de *priming* citados no livro não se confirmaram em replicações posteriores, e o próprio Kahneman reconheceu isso publicamente, em comentário de fevereiro de 2017 a uma análise de Ulrich Schimmack e coautores no blog Replicability-Index. O núcleo do livro, sobre heurísticas, aversão à perda e teoria da perspectiva, continua sólido.
 
 ### Lições práticas
 - Antes de discutir preço, defina sua faixa com base em dados, para não ser ancorado pela primeira oferta.
@@ -80,9 +80,6 @@ Um vendedor abre a negociação pedindo 12 vezes o EBITDA. O comprador achava ju
 - Visão externa :: Estimar a partir da distribuição de casos parecidos (classe de referência) antes de olhar o próprio caso
 - Pre-mortem :: Imaginar que o projeto fracassou e escrever as causas antes de decidir
 - Teoria da perspectiva :: Modelo de Kahneman e Tversky em que perdas pesam mais que ganhos e o ponto de referência importa
-
-## Verificar
-- Referência da manifestação pública de Kahneman sobre os problemas de replicação dos estudos de priming citados no livro.
 
 ## Fontes
 - [Companhia das Letras, Rápido e devagar (Objetiva)](https://www.companhiadasletras.com.br/livro/9788539003839/rapido-e-devagar) — edição brasileira, ISBN 978-85-390-0383-9

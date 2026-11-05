@@ -21,7 +21,7 @@ verificado: 2026-11-05
 A [Lei 14.430/2022](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14430.htm) criou um regime geral de securitização. Os pontos principais:
 
 - **Companhia securitizadora (art. 18):** sociedade por ações não financeira, cuja finalidade é adquirir direitos creditórios e emitir títulos lastreados neles. O parágrafo único do art. 18 define a operação de securitização.
-- **Certificado de Recebíveis (CR):** título genérico criado pela lei, que pode ter lastro em direitos creditórios de diferentes setores. O **CRI** (Certificado de Recebíveis Imobiliários) e o **CRA** (Certificado de Recebíveis do Agronegócio) são espécies com lastro imobiliário e do agronegócio, com regras próprias na [Lei 9.514/1997, art. 6º](https://www.planalto.gov.br/ccivil_03/leis/l9514.htm), e na [Lei 11.076/2004, arts. 36 e seguintes](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l11076.htm).
+- **Certificado de Recebíveis (CR):** título genérico criado pela lei, que pode ter lastro em direitos creditórios de diferentes setores. O **CRI** (Certificado de Recebíveis Imobiliários) e o **CRA** (Certificado de Recebíveis do Agronegócio) são espécies com lastro imobiliário e do agronegócio, definidas na [Lei 9.514/1997, art. 6º](https://www.planalto.gov.br/ccivil_03/leis/l9514.htm), e na [Lei 11.076/2004, art. 36](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l11076.htm); a Lei 14.430 revogou os arts. 7º a 16 da primeira e os arts. 37 a 40 da segunda, que regulavam esses títulos antes dela (art. 38).
 - **Regime fiduciário e patrimônio separado (arts. 25 a 28; verificar a divisão entre os artigos):** a securitizadora declara, no termo de securitização, que o lastro e as garantias de uma emissão ficam afetados àquela emissão. Forma-se um **patrimônio separado**, que não se confunde com o patrimônio da securitizadora nem com os de outras emissões e não responde pelas dívidas gerais dela.
 
 ### Regulação da CVM
@@ -101,7 +101,7 @@ Um CRI é pago pelos recebíveis que estão por trás dele, como aluguéis ou pa
 ## Fontes
 - [Lei 14.430/2022, arts. 18 e 25 a 28](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14430.htm) — companhia securitizadora, regime fiduciário e patrimônio separado
 - [Lei 9.514/1997, art. 6º](https://www.planalto.gov.br/ccivil_03/leis/l9514.htm) — CRI
-- [Lei 11.076/2004, art. 36 e seguintes](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l11076.htm) — CRA
+- [Lei 11.076/2004, art. 36](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l11076.htm) — CRA (arts. 37 a 40 revogados pela Lei 14.430/2022)
 - [Lei 11.033/2004, art. 3º, II e IV](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l11033.htm) — isenção de IR para pessoa física em CRI e CRA
 - [Resolução CVM 60/2021](https://conteudo.cvm.gov.br/legislacao/resolucoes/resol060.html) — companhias securitizadoras
 - [Resolução CVM 160/2022](https://conteudo.cvm.gov.br/legislacao/resolucoes/resol160.html) — ofertas públicas

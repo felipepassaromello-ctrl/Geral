@@ -35,9 +35,9 @@ A geração de caixa costuma ser o EBITDA menos tributos pagos, menos capex de m
 ### Debêntures incentivadas e de infraestrutura
 
 - **Debêntures incentivadas** ([Lei 12.431/2011, art. 2º](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12431.htm)): emitidas por SPE ou controladora para projetos considerados prioritários. O benefício é do **investidor**: pessoa física tem alíquota zero de imposto de renda sobre os rendimentos.
-- **Debêntures de infraestrutura** ([Lei 14.801/2024](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14801.htm)): o benefício vai para o **emissor**, que, no lucro real, pode, além de deduzir os juros como despesa, excluir 30% dos juros da base do IRPJ e da CSLL (verificar o artigo exato). O investidor é tributado normalmente, o que torna o papel atraente para investidores institucionais. A lei foi regulamentada pelo Decreto 11.964/2024.
+- **Debêntures de infraestrutura** ([Lei 14.801/2024](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14801.htm)): o benefício vai para o **emissor**, que, no lucro real, pode, além de deduzir os juros como despesa, excluir 30% dos juros da base do IRPJ e da CSLL (art. 6º, II). O investidor é tributado normalmente, o que torna o papel atraente para investidores institucionais. A lei foi regulamentada pelo Decreto 11.964/2024.
 
-Em 2025, a Medida Provisória 1.303/2025 propôs tributar em 5% os rendimentos das debêntures incentivadas; a proposta foi retirada no Congresso e a MP perdeu a validade sem conversão em lei (verificar).
+Em 2025, a Medida Provisória 1.303/2025 propôs tributar em 5% os rendimentos das debêntures incentivadas; o relator retirou a proposta na comissão mista e a MP perdeu a validade em 8 de outubro de 2025, sem conversão em lei.
 
 ## Exemplo
 
@@ -105,10 +105,6 @@ Explique para um colega de M&A que nunca fez financiamento por que o banco do pr
 - Covenant aciona lock-up de dividendos ou inadimplemento
 ### Resposta modelo
 No project finance o banco empresta para uma empresa que só tem aquele projeto, e em boa parte sem garantia dos acionistas. Então a pergunta do banco é simples: o caixa que o projeto gera cobre com folga a parcela da dívida do ano? O ICSD responde isso. Um ICSD de 1,25 significa que o caixa é 25% maior que juros mais principal. O contrato fixa um mínimo: abaixo dele, a SPE não pode pagar dividendos, e o caixa fica retido para proteger o credor. Por isso, em uma aquisição, projetar o ICSD diz quando o comprador vai conseguir tirar dinheiro do ativo.
-
-## Verificar
-- Situação final da Medida Provisória 1.303/2025 quanto à tributação das debêntures incentivadas (retirada do tema e perda de validade sem conversão).
-- Artigo exato da Lei 14.801/2024 que prevê a exclusão de 30% dos juros (fontes secundárias citam o art. 2º e o art. 6º).
 
 ## Fontes
 - [Lei 12.431/2011, art. 2º](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12431.htm) — debêntures incentivadas

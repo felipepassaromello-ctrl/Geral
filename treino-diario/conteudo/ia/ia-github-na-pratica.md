@@ -34,7 +34,7 @@ O **Git** é um programa de controle de versões: ele guarda o histórico de cad
 Você não precisa decorar comandos: agentes de código como o Claude Code executam esse fluxo por você, mas entender cada passo permite revisar o que foi feito e desfazer um erro.
 
 ### GitHub Pages
-O **GitHub Pages** publica um site estático (HTML, CSS e JavaScript, sem servidor próprio) direto de um repositório. Você escolhe a branch e a pasta de origem nas configurações, e o site ganha um endereço do tipo `usuario.github.io/projeto`. Cada merge na branch publicada atualiza o site. Atenção: o site publicado é público na internet mesmo que o repositório seja privado, conforme o plano da conta (verificar regras atuais na documentação), então nunca publique dados de clientes.
+O **GitHub Pages** publica um site estático (HTML, CSS e JavaScript, sem servidor próprio) direto de um repositório. Você escolhe a branch e a pasta de origem nas configurações, e o site ganha um endereço do tipo `usuario.github.io/projeto`. Cada merge na branch publicada atualiza o site. Atenção: o site publicado é público na internet mesmo que o repositório seja privado (publicar a partir de repositório privado exige plano pago, e só o GitHub Enterprise Cloud permite restringir o acesso ao site), então nunca publique dados de clientes.
 
 ## Exemplo
 Felipe quer acrescentar 3 unidades de livros ao Lastro. Ele cria a branch `livros-novembro`, adiciona os 3 arquivos `.md`, faz 1 commit com a mensagem "adiciona 3 livros: Outsiders, Voss, Kahneman" e envia a branch. No pull request, o diff mostra 3 arquivos novos. Um teste automático confere se cada quiz tem exatamente uma resposta certa. Ele revisa, faz o merge na `main` e, se o app estiver publicado pelo GitHub Pages a partir da `main`, a nova versão entra no ar em seguida. Se algo der errado, basta reverter aquele commit: o histórico guarda a versão anterior.
@@ -86,9 +86,6 @@ Explique para um sócio do escritório, que nunca programou, o que são branch, 
 - Histórico permite saber quem mudou o quê e voltar atrás
 ### Resposta modelo
 Imagine que a versão oficial do contrato fica numa pasta que ninguém edita direto. Quem quer mudar algo faz uma cópia de trabalho: isso é a branch. Depois de editar, a pessoa envia as mudanças em marcas de revisão pedindo aprovação: isso é o pull request. O revisor vê exatamente quais linhas mudaram, comenta e pede ajustes. Quando aprova, as mudanças entram na versão oficial: isso é o merge. Tudo fica registrado, então dá para saber quem alterou cada cláusula e voltar a uma versão anterior se necessário.
-
-## Verificar
-- Regras atuais de disponibilidade do GitHub Pages para repositórios privados por plano de conta.
 
 ## Fontes
 - [GitHub Docs, About Git](https://docs.github.com/pt/get-started/using-git/about-git) — conceitos de Git

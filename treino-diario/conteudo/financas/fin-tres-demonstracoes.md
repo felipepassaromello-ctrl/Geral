@@ -45,7 +45,7 @@ A empresa investiu R$ 6 milhões em máquinas (investimento: −6) e pagou R$ 2 
 
 No balanço, o imobilizado de R$ 30 milhões vai para 30 + 6 − 4 = R$ 32 milhões. O patrimônio líquido cresce R$ 10 milhões de lucro menos R$ 2 milhões de dividendos, ou seja, R$ 8 milhões. As três demonstrações contam a mesma história.
 
-Observação: o CPC 03 permite classificar juros pagos como atividade operacional ou de financiamento, desde que de forma consistente. Ao comparar empresas, confira a escolha.
+Observação: hoje o CPC 03 permite classificar juros pagos como atividade operacional ou de financiamento, desde que de forma consistente. Ao comparar empresas, confira a escolha. Isso muda nos exercícios iniciados a partir de 1º de janeiro de 2027: com o CPC 51 (correspondente ao IFRS 18), na maioria das empresas não financeiras os juros pagos passam a ser classificados como atividade de financiamento, sem a opção.
 
 ## No seu trabalho
 
@@ -118,3 +118,4 @@ O lucro é medido por competência: a venda conta quando é feita, mesmo que o c
 - [CPC 26 (R1) — Apresentação das Demonstrações Contábeis (texto no site da CVM)](https://conteudo.cvm.gov.br/cvm_institucional/export/sites/cvm/menu/regulados/normascontabeis/cpc/CPC_26_R1_rev_14.pdf)
 - [CPC 03 (R2) — Demonstração dos Fluxos de Caixa (texto no site da CVM)](https://conteudo.cvm.gov.br/export/sites/cvm/menu/regulados/normascontabeis/cpc/CPC_03_R2_rev_10.pdf)
 - [IAS 7 — Statement of Cash Flows (IFRS Foundation)](https://www.ifrs.org/issued-standards/list-of-standards/ias-7-statement-of-cash-flows/)
+- [IFRS 18 — Presentation and Disclosure in Financial Statements (IFRS Foundation)](https://www.ifrs.org/issued-standards/list-of-standards/ifrs-18-presentation-and-disclosure-in-financial-statements/) — a partir de 2027, altera a classificação de juros e dividendos no fluxo de caixa

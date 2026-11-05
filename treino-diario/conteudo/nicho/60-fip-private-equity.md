@@ -18,7 +18,7 @@ verificado: 2026-11-05
 
 No Brasil, o fundo de private equity típico é o **FIP** (Fundo de Investimento em Participações). Desde 2023, os fundos são regulados pela [Resolução CVM 175/2022](https://conteudo.cvm.gov.br/legislacao/resolucoes/resol175.html), com uma parte geral e anexos normativos por tipo de fundo; o FIP está no **Anexo Normativo IV**, que substituiu a antiga Instrução CVM 578. Pontos centrais:
 
-- O FIP deve aplicar ao menos **90% do patrimônio** nos ativos-alvo: ações, bônus de subscrição, debêntures (conversíveis ou não) e outros títulos de emissão das sociedades investidas (verificar o artigo exato no Anexo IV).
+- O FIP deve aplicar ao menos **90% do patrimônio** nos ativos-alvo: ações, bônus de subscrição, debêntures (conversíveis ou não) e outros títulos de emissão das sociedades investidas (Anexo IV, art. 11, que remete aos ativos listados no art. 5º).
 - O fundo deve **participar do processo decisório** da investida, com influência efetiva na definição de sua política estratégica e na gestão, por exemplo indicando membros do conselho de administração ou via acordo de acionistas (Anexo IV, art. 5º, verificar parágrafo e eventual alteração posterior).
 - Desde a reforma do Código Civil pela Lei da Liberdade Econômica, o regulamento pode limitar a responsabilidade de cada cotista ao valor de suas cotas e criar classes com patrimônios segregados ([Código Civil, art. 1.368-D](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm)).
 
@@ -113,7 +113,6 @@ Explique para um colega de tributário como o gestor de um fundo de private equi
 O gestor ganha de duas formas. A taxa de gestão, em torno de 2% ao ano, paga a estrutura da equipe, haja lucro ou não. O carried interest, normalmente 20% do lucro, é o que alinha interesses: ele só aparece depois que os cotistas recebem todo o dinheiro que colocaram e mais um retorno mínimo, como 8% ao ano. Em seguida, o gestor tem uma faixa de recuperação, o catch-up, até chegar aos 20% do lucro total, e daí em diante tudo se divide 80/20. No modelo europeu essa conta é feita sobre o fundo inteiro; no americano, investimento a investimento, com obrigação de devolver o excesso no final.
 
 ## Verificar
-- Artigo exato do Anexo Normativo IV da Resolução CVM 175 que fixa o mínimo de 90% em ativos-alvo.
 - Redação vigente do art. 5º do Anexo Normativo IV sobre influência efetiva na gestão, considerando a consulta pública CVM SDM 03/2024 e eventual alteração posterior.
 
 ## Fontes

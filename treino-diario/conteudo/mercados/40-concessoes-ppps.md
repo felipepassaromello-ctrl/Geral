@@ -20,7 +20,7 @@ Quando o Estado quer que um parceiro privado construa, opere e financie um servi
 
 Na [Lei 8.987/1995](https://www.planalto.gov.br/ccivil_03/leis/l8987cons.htm), o concessionário presta o serviço por sua conta e risco e é remunerado pela **tarifa** paga pelos usuários (e por receitas acessórias). Exemplos: rodovias com pedágio, saneamento, aeroportos. Pontos que caem em M&A e financiamento:
 
-- Licitação na modalidade **concorrência ou diálogo competitivo** (art. 2º, II, com redação da Lei 14.133/2021, verificar).
+- Licitação na modalidade **concorrência ou diálogo competitivo** (art. 2º, II, com redação da Lei 14.133/2021).
 - Política tarifária e equilíbrio econômico-financeiro (arts. 9º e 10).
 - **Transferência da concessão ou do controle** da concessionária sem prévia anuência do poder concedente implica caducidade (art. 27).
 - **Step-in** dos financiadores (art. 27-A) e garantia dos direitos emergentes da concessão (art. 28).
@@ -40,7 +40,7 @@ Outros pontos: constituição de **SPE** antes da celebração do contrato (art.
 
 ### E a Lei 14.133/2021?
 
-A [Lei 14.133/2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm), nova lei de licitações e contratos, aplica-se **subsidiariamente** às Leis 8.987/1995 e 11.079/2004 (art. 186, verificar). Ou seja: as leis de concessão e PPP regem primeiro, e a Lei 14.133 preenche lacunas. Ela trouxe, por exemplo, o **diálogo competitivo** como modalidade de licitação.
+A [Lei 14.133/2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm), nova lei de licitações e contratos, aplica-se **subsidiariamente** às Leis 8.987/1995 e 11.079/2004 (art. 186). Ou seja: as leis de concessão e PPP regem primeiro, e a Lei 14.133 preenche lacunas. Ela trouxe, por exemplo, o **diálogo competitivo** como modalidade de licitação.
 
 ## Exemplo
 
@@ -96,10 +96,6 @@ Explique para um amigo economista por que um hospital público seria feito como 
 - Pagamento atrelado a disponibilidade e desempenho
 ### Resposta modelo
 Uma concessão comum só funciona se o usuário pagar uma tarifa suficiente para remunerar o investimento, como em uma rodovia com pedágio. No hospital público, o paciente não paga nada. Então o modelo é uma PPP administrativa: o parceiro privado constrói e opera, e o próprio Estado, que é o usuário do serviço, paga uma contraprestação ao longo do contrato. Esse pagamento normalmente só começa quando o hospital está funcionando e pode ser reduzido se o desempenho for ruim. A lei exige contrato de pelo menos R$ 10 milhões e prazo entre 5 e 35 anos.
-
-## Verificar
-- Redação do art. 186 da Lei 14.133/2021 (aplicação subsidiária às Leis 8.987/1995, 11.079/2004 e 12.232/2010); a busca não trouxe o texto oficial.
-- Redação atual do art. 2º, II, da Lei 8.987/1995 incluindo o diálogo competitivo (alteração atribuída à Lei 14.133/2021).
 
 ## Fontes
 - [Lei 8.987/1995, arts. 2º, 9º, 10, 27, 27-A, 28, 35 e 37](https://www.planalto.gov.br/ccivil_03/leis/l8987cons.htm) — concessões e permissões de serviços públicos

@@ -23,7 +23,7 @@ Este desafio usa a sua pesquisa do mapa de oportunidades (relatório final de 31
 - **Preço de referência.** O Santander informa que o BPO financeiro pode começar em R$ 500 por mês, variando com o volume de lançamentos (página atualizada em 04/11/2025).
 - **Concorrência.** A BHub tinha 8,5 mil clientes e receita recorrente anual de R$ 168 milhões em novembro de 2025, ou cerca de R$ 1.650 por cliente por mês (conta sua). Omie e Conta Azul, esta comprada pela Visma em agosto de 2025 por cerca de US$ 300 milhões, vendem ferramentas e disputam o contador como canal.
 - **Alerta.** A americana Bench, de contabilidade barata com tecnologia, fechou em 27/12/2024 com mais de 10 mil clientes. Serviço barato demais e sem margem quebra.
-- **Mortalidade.** Pelo Sebrae, cerca de 29% dos MEIs fecham em até cinco anos (dado de 2020), e pelo IBGE só cerca de 38% das empresas sem empregados sobrevivem cinco anos. Churn é um risco estrutural.
+- **Mortalidade.** Pelo Sebrae, cerca de 29% dos MEIs fecham em até cinco anos (dado de 2020), e pelo IBGE só cerca de 38% das empresas sem empregados sobrevivem cinco anos (verificar). Churn é um risco estrutural.
 
 ### A tese (ANÁLISE)
 Um analista financeiro com IA monta uma previsão de caixa de 13 semanas a partir dos extratos e manda um relatório semanal pelo WhatsApp. Depois vêm a cobrança de clientes por êxito e, a partir de 2027, a operação da apuração híbrida de IBS e CBS no Simples. O preço de referência fica entre R$ 800 e R$ 1.500 por mês, e o piloto da Fase 3 sai por R$ 400 a R$ 600. A venda é feita por contadores parceiros, que já têm a confiança do dono e recebem comissão recorrente de 10% a 20%. O alvo são empresas com funcionários e faturamento de R$ 1 milhão a R$ 20 milhões por ano, que sobrevivem mais.
@@ -74,6 +74,7 @@ Defendo, com condição de preço. A dor é real: 44% dos pequenos negócios cob
 - Preço de referência de R$ 800 a R$ 1.500 por mês é ANÁLISE do relatório; só o piso de R$ 500 do Santander tem fonte.
 - Referência de churn abaixo de 5% ao mês vem de um blog especializado (Roberto Dias Duarte), não de estudo amplo.
 - Dados de mortalidade do Sebrae e do IBGE são antigos (2020 e 2022).
+- IBGE: os cerca de 38% parecem ser a taxa geral de sobrevivência em cinco anos (37,9% para as empresas nascidas em 2017), e não a das empresas sem empregados, que foi menor em coortes anteriores (32,1% na de 2014; 35,5% na de 2015). Conferir a tabela por porte da Demografia das Empresas.
 
 ## Fontes
 - [Mapa de Empresas, boletim do 2º quadrimestre de 2025 (MDIC, via Poder360)](https://static.poder360.com.br/2025/10/mapa-de-empresas-boletim-2o-quadrimestre-2025.pdf) — 24,2 milhões de empresas ativas

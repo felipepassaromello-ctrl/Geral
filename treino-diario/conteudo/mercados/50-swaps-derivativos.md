@@ -36,7 +36,7 @@ O derivativo de balcão costuma ser contratado sob um **contrato global de deriv
 
 ### Stock options em uma linha
 
-A **opção de compra** dá o direito, não a obrigação, de comprar uma ação por um preço fixado (o **strike**). Em companhias, planos de opção para administradores e empregados dependem de previsão no estatuto e de plano aprovado pela assembleia, dentro do capital autorizado ([Lei 6.404/76, art. 168, § 3º](https://www.planalto.gov.br/ccivil_03/leis/l6404consol.htm)). O **valor intrínseco** é a diferença entre o preço da ação e o strike, quando positiva. Sobre a tributação, o STJ decidiu em 2024, em recurso repetitivo, que os planos de stock option têm natureza mercantil, com imposto de renda apenas sobre o ganho de capital na venda das ações (verificar o número do tema e o alcance).
+A **opção de compra** dá o direito, não a obrigação, de comprar uma ação por um preço fixado (o **strike**). Em companhias, planos de opção para administradores e empregados dependem de previsão no estatuto e de plano aprovado pela assembleia, dentro do capital autorizado ([Lei 6.404/76, art. 168, § 3º](https://www.planalto.gov.br/ccivil_03/leis/l6404consol.htm)). O **valor intrínseco** é a diferença entre o preço da ação e o strike, quando positiva. Sobre a tributação, o STJ decidiu em setembro de 2024, no Tema 1.226 dos recursos repetitivos, que os planos de stock option do art. 168, § 3º, têm natureza mercantil: não incide imposto de renda da pessoa física na aquisição das ações, só sobre o ganho de capital na venda. A tese trata apenas do IRPF, não da contribuição previdenciária.
 
 ## Exemplo
 
@@ -108,9 +108,6 @@ Explique para um cliente do setor de varejo por que ele pode "perder dinheiro" n
 - Riscos remanescentes: contraparte e caixa para pagar o ajuste
 ### Resposta modelo
 O swap foi contratado para que sua dívida em CDI custasse, no fim, uma taxa fixa conhecida. Se os juros caem, sua dívida fica mais barata, mas você paga a diferença no swap. Se os juros sobem, a dívida encarece, mas o banco paga a diferença. Nos dois casos, somando dívida e swap, o custo fica igual à taxa fixa combinada. Então o ajuste negativo não é prejuízo do hedge: é o preço da previsibilidade. O cuidado é ter caixa para pagar esse ajuste quando ele vier.
-
-## Verificar
-- Número do tema repetitivo e alcance da decisão do STJ de 2024 sobre a natureza mercantil dos planos de stock option para fins de imposto de renda.
 
 ## Fontes
 - [Lei 6.385/1976, art. 2º, VIII](https://www.planalto.gov.br/ccivil_03/leis/l6385compilada.htm) — contratos derivativos como valores mobiliários
