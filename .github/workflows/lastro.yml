@@ -1,0 +1,45 @@
+# Valida o conteúdo do Lastro a cada push e publica o app no GitHub Pages
+# quando a mudança chega na branch padrão do repositório.
+name: Lastro — validar e publicar
+
+on:
+  push:
+    paths: ['treino-diario/**', '.github/workflows/lastro.yml']
+  pull_request:
+    paths: ['treino-diario/**']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gerar data/conteudo.json a partir dos arquivos .md
+        run: node treino-diario/scripts/build-conteudo.mjs
+      - name: Checar o código do app
+        run: node --check treino-diario/app.js && node --check treino-diario/sw.js
+      - name: Empacotar o site
+        if: github.event_name != 'pull_request' && github.ref_name == github.event.repository.default_branch
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: treino-diario
+
+  publicar:
+    needs: validar
+    if: github.event_name != 'pull_request' && github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
