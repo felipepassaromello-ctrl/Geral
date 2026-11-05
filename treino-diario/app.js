@@ -472,7 +472,7 @@
       <section class="caixa">
         <h3>Backup do progresso</h3>
         <p>O progresso fica salvo só neste navegador. Exporte de vez em quando para não perder, ou para levar para outro aparelho.</p>
-        <div class="acoes"><button class="btn btn-s" data-acao="exportar">Copiar backup</button><button class="btn btn-s" data-acao="baixar">Baixar arquivo</button></div>
+        <div class="acoes"><button class="btn btn-s" data-acao="exportar">Copiar backup</button>${document.getElementById('dados-conteudo') ? '' : '<button class="btn btn-s" data-acao="baixar">Baixar arquivo</button>'}</div>
         <label class="rotulo" for="imp-texto">Restaurar: cole o backup aqui</label>
         <textarea id="imp-texto" placeholder='{"versao":1,...}' style="min-height:80px"></textarea>
         <div class="acoes"><button class="btn btn-s" data-acao="importar">Restaurar backup</button>
