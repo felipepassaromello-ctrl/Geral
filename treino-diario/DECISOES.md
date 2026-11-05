@@ -196,7 +196,7 @@ Nenhuma chave de API e nenhum cartão de crédito.
 
 ## 11. Premissas que assumi sem perguntar
 
-1. O app fica em `treino-diario/` dentro do repositório `Geral`, para não misturar com o mapa de oportunidades.
+1. O repositório `Geral` passou a conter só o Lastro (o app fica em `treino-diario/`). Os materiais anteriores (mapa de oportunidades e arquivos da aula G4) saíram da pasta atual e continuam no histórico do git.
 2. O Pages publica a partir da branch padrão do repositório (hoje `claude/new-session-4el77x`), depois do merge.
 3. "Manhã" vale até as 15h e "noite" a partir daí. É só o padrão inicial; você troca num toque.
 4. Os números dos casos de empreendedorismo que não vieram da sua pesquisa (custo de engenheiro, de analista, de ferramentas) são **premissas do exercício** e estão marcados assim no texto.

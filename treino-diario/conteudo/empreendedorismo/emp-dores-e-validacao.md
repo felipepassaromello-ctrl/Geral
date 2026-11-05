@@ -86,4 +86,4 @@ Nota da dor: frequência 4 (todo mês), intensidade 4 (juros e estresse) e dispo
 
 ## Fontes
 - [Rob Fitzpatrick, The Mom Test](https://www.momtestbook.com/) — site oficial do livro
-- Material interno: mapa_oportunidades/fase3_validacao.md, seção 1 (regras de entrevista e critério de continuidade de 6 em 10)
+- Pesquisa própria, mapa de oportunidades (31/10/2026): [validação](https://github.com/felipepassaromello-ctrl/Geral/blob/e1472c1dfbb6dfb12b7f2b7fc23d43ea7f23289c/mapa_oportunidades/fase3_validacao.md), seção 1 (regras de entrevista e critério de continuidade de 6 em 10)

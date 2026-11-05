@@ -25,18 +25,16 @@ treino-diario/
 
 O fluxo é: você (ou o Claude) escreve um `.md` → o script valida e gera o `conteudo.json` → o app lê esse arquivo.
 
-## Publicar no GitHub Pages (grátis, uma vez só)
+## Publicação e instalação
 
-1. **Junte este trabalho à branch padrão.** No GitHub, abra o repositório `Geral`. Vai aparecer um aviso amarelo "claude/new-session-q029mw had recent pushes" com o botão **Compare & pull request**. Clique, depois em **Create pull request** e em **Merge pull request**. Isso é um *pull request* (PR): um pedido para juntar as mudanças de uma branch em outra, com a lista do que mudou para você revisar.
-2. **Ligue o Pages.** No repositório: **Settings › Pages › Build and deployment › Source: GitHub Actions**.
-3. **Publique.** Vá em **Actions › Lastro — validar e publicar › Run workflow**. Em cerca de 1 minuto o site fica no ar em:
-   **https://felipepassaromello-ctrl.github.io/Geral/**
+Estão no [README principal do repositório](../README.md):
 
-Daí em diante, toda mudança em `treino-diario/` que chegar à branch padrão é publicada sozinha. A aba **Actions** mostra cada publicação: verde deu certo; vermelho mostra o erro (por exemplo, uma pergunta sem resposta marcada).
+- endereço do app;
+- ativação do GitHub Pages, que é feita uma vez só;
+- instalação no iPhone e no Android;
+- fluxo de mudanças (branch → pull request → merge → publicação automática).
 
-## Instalar no iPhone
-
-Abra o link no **Safari** › botão Compartilhar › **Adicionar à Tela de Início**. Para uma voz melhor no modo direção: Ajustes › Acessibilidade › Conteúdo Falado › Vozes › Português (Brasil) › baixe uma voz "Aprimorada"; depois escolha em Lastro › Progresso › Ajustes.
+Resumo técnico: o workflow `.github/workflows/lastro.yml` roda `scripts/build-conteudo.mjs` e checa o JavaScript a cada push. Quando a mudança chega à branch padrão, ele publica esta pasta (`treino-diario/`) no GitHub Pages. Se uma execução ficar vermelha na aba **Actions**, ela mostra o erro, por exemplo uma pergunta sem resposta marcada.
 
 ## Adicionar ou corrigir conteúdo
 
