@@ -15,6 +15,9 @@
   const difDias = (a, b) => Math.round((deISO(b) - deISO(a)) / 864e5);
   const LETRAS = ['A', 'B', 'C', 'D', 'E', 'F'];
   const fmtData = (s, op) => new Intl.DateTimeFormat('pt-BR', op).format(deISO(s));
+  const pl = (n, um, varios) => `${n} ${n === 1 ? um : varios}`;
+  const fmtN = (n) => Math.round(n || 0).toLocaleString('pt-BR');
+  const reduzMovimento = () => { try { return matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (_) { return false; } };
   function semanaISO(d = new Date()) {
     const t = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
     const dia = t.getUTCDay() || 7;
@@ -237,9 +240,9 @@
   const NOMES_BLOCO = { revisao: 'Revisão', licao: 'Lição', quiz: 'Quiz', caso: 'Caso prático', explique: 'Explique com suas palavras', fim: 'Fechamento' };
   function descreverBloco(b) {
     switch (b.tipo) {
-      case 'revisao': return { t: 'Revisão espaçada', s: `${b.cards.length} flashcards` };
+      case 'revisao': return { t: 'Revisão espaçada', s: pl(b.cards.length, 'flashcard', 'flashcards') };
       case 'licao': return { t: b.releitura ? 'Releitura' : b.u.tipo === 'livro' ? 'Livro' : b.u.tipo === 'radar' ? 'Radar' : 'Lição', s: b.u.titulo };
-      case 'quiz': return { t: b.titulo || 'Quiz', s: b.u ? `${b.itens.length} perguntas · ${b.u.titulo}` : `${b.itens.length} perguntas` };
+      case 'quiz': return { t: b.titulo || 'Quiz', s: b.u ? `${pl(b.itens.length, 'pergunta', 'perguntas')} · ${b.u.titulo}` : pl(b.itens.length, 'pergunta', 'perguntas') };
       case 'caso': return { t: b.desafio ? 'Desafio da semana' : 'Caso prático', s: b.u.titulo };
       case 'explique': return { t: 'Explique com suas palavras', s: b.u.titulo };
       default: return { t: 'Fechamento', s: 'placar e anotação' };
@@ -248,7 +251,10 @@
 
   // ------------------------------------------------------------------ estado de interface
   const hora = new Date().getHours();
-  const ui = { tela: 'hoje', minutos: E.prefs.minutos || 20, momento: hora < 15 ? 'manha' : 'noite', trilha: null, filtro: null, confirmar: null, toast: null };
+  const ui = {
+    tela: 'hoje', minutos: E.prefs.minutos || 20, momento: hora < 15 ? 'manha' : 'noite', trilha: null, filtro: null, confirmar: null, toast: null,
+    primeira: true, pautaSig: null, ind: {}, etapaChave: null, viaTeclado: false,
+  };
   let S = null; // sessão ativa
   let relogioTimer = null;
 
@@ -257,8 +263,11 @@
     clearTimeout(toast.t); toast.t = setTimeout(() => { ui.toast = null; renderToast(); }, 2600);
   }
   function renderToast() {
-    let el = document.querySelector('.toast');
-    if (!ui.toast) { el?.remove(); return; }
+    let el = document.querySelector('.toast:not(.sai)');
+    if (!ui.toast) {
+      if (el) { el.classList.add('sai'); setTimeout(() => el.remove(), 220); } // sai mais rápido do que entra
+      return;
+    }
     if (!el) { el = document.createElement('div'); el.className = 'toast'; el.setAttribute('role', 'status'); document.body.appendChild(el); }
     el.textContent = ui.toast;
   }
@@ -266,6 +275,42 @@
   function aplicarTema() {
     const t = E.prefs.tema;
     if (t) document.documentElement.setAttribute('data-theme', t); else document.documentElement.removeAttribute('data-theme');
+    corBarra();
+  }
+  // a barra de status do celular acompanha a cor do topo da página (e o modo direção, que é escuro)
+  function corBarra() {
+    try {
+      let m = document.querySelector('meta[name="theme-color"]');
+      if (!m) { m = document.createElement('meta'); m.setAttribute('name', 'theme-color'); document.head.appendChild(m); }
+      m.setAttribute('content', ui.tela === 'direcao' ? '#07110D' : getComputedStyle(document.body).backgroundColor);
+    } catch (_) { /* opcional */ }
+  }
+
+  // indicador deslizante (seg e tempos): uma cópia "ativa" recortada por clip-path, que desliza entre as opções
+  const clipSeg = (i, n) => `inset(0 calc(100% - ${i + 1} * 100% / ${n}) 0 calc(${i} * 100% / ${n}) round 999px)`;
+  const clipTempo = (i) => `inset(0 calc(100% - ${i} * ((100% - 24px) / 4 + 8px) - (100% - 24px) / 4) 0 calc(${i} * ((100% - 24px) / 4 + 8px)) round 9px)`;
+  function segmento(chave, opcoes, ativo, acao, rotulo) {
+    const n = opcoes.length;
+    const i = Math.max(0, opcoes.findIndex((o) => o.v === ativo));
+    const bts = opcoes.map((o) => `<button data-acao="${acao}" data-v="${esc(o.v)}" aria-pressed="${o.v === ativo}">${esc(o.t)}</button>`).join('');
+    const copia = opcoes.map((o) => `<span>${esc(o.t)}</span>`).join('');
+    return `<div class="seg" role="group" aria-label="${esc(rotulo)}" data-ind="${chave}" data-i="${i}" data-n="${n}">${bts}<div class="seg-ativo ind-ativo" aria-hidden="true" style="clip-path:${clipSeg(i, n)}">${copia}</div></div>`;
+  }
+  function animarIndicadores() {
+    document.querySelectorAll('[data-ind]').forEach((el) => {
+      const chave = el.dataset.ind, i = +el.dataset.i, n = +el.dataset.n;
+      const ov = el.querySelector('.ind-ativo');
+      if (!ov) return;
+      const clip = (k) => (chave === 'tempo' ? clipTempo(k) : clipSeg(k, n));
+      const antes = ui.ind[chave];
+      ui.ind[chave] = i;
+      if (antes == null || antes === i || antes >= n) return;
+      ov.style.transition = 'none';
+      ov.style.clipPath = clip(antes);
+      ov.getBoundingClientRect(); // fixa o ponto de partida antes de animar
+      ov.style.transition = '';
+      ov.style.clipPath = clip(i);
+    });
   }
 
   // ------------------------------------------------------------------ ícones
@@ -285,10 +330,16 @@
   // ------------------------------------------------------------------ telas
   function render() {
     if (!D) return;
-    if (ui.tela === 'sessao' && S) return renderSessao();
-    if (ui.tela === 'direcao') return renderDirecao();
-    const corpo = ui.tela === 'biblioteca' ? telaBiblioteca() : ui.tela === 'progresso' ? telaProgresso() : telaHoje();
-    app.innerHTML = `<main class="casca">${corpo}</main>${nav()}`;
+    document.documentElement.classList.toggle('em-sessao', (ui.tela === 'sessao' && !!S) || ui.tela === 'direcao');
+    if (ui.tela === 'sessao' && S) renderSessao();
+    else if (ui.tela === 'direcao') renderDirecao();
+    else {
+      const corpo = ui.tela === 'biblioteca' ? telaBiblioteca() : ui.tela === 'progresso' ? telaProgresso() : telaHoje();
+      app.innerHTML = `<main class="casca${ui.primeira ? ' primeira' : ''}">${corpo}</main>${nav()}`;
+      ui.primeira = false;
+      animarIndicadores();
+    }
+    corBarra();
   }
 
   function nav() {
@@ -301,11 +352,11 @@
     return `<header class="topo"><h1 class="marca">Lastro<i>.</i></h1><div class="data">${esc(hoje)}</div></header>`;
   }
 
-  function faixaDias() {
+  function faixaDias(acender = false) {
     let html = '';
     for (let i = 13; i >= 0; i--) {
       const d = somaDias(iso(), -i);
-      html += `<i class="dia${E.dias[d] ? ' feito' : ''}${i === 0 ? ' hoje' : ''}" title="${esc(fmtData(d, { day: 'numeric', month: 'short' }))}${E.dias[d] ? ` · ${E.dias[d]} min` : ''}"></i>`;
+      html += `<i class="dia${E.dias[d] ? ' feito' : ''}${i === 0 ? ' hoje' : ''}${i === 0 && acender ? ' acende' : ''}" title="${esc(fmtData(d, { day: 'numeric', month: 'short' }))}${E.dias[d] ? ` · ${E.dias[d]} min` : ''}"></i>`;
     }
     return html;
   }
@@ -319,7 +370,15 @@
     const des = desafioDaSemana();
     const feitoHoje = !!E.dias[iso()];
 
-    const tempos = [15, 20, 30, 40].map((m) => `<button class="tempo" data-acao="tempo" data-m="${m}" aria-pressed="${ui.minutos === m}"><b class="num">${m}</b><span>min</span></button>`).join('');
+    const MIN = [15, 20, 30, 40];
+    const iT = Math.max(0, MIN.indexOf(ui.minutos));
+    const tempos = `<div class="tempos" data-ind="tempo" data-i="${iT}" data-n="4">
+        <div class="tempos-grade">${MIN.map((m) => `<button class="tempo" data-acao="tempo" data-m="${m}" aria-pressed="${ui.minutos === m}" aria-label="${m} minutos"><b class="num">${m}</b><span>min</span></button>`).join('')}</div>
+        <div class="tempos-ativo tempos-grade ind-ativo" aria-hidden="true" style="clip-path:${clipTempo(iT)}">${MIN.map((m) => `<div class="tempo"><b class="num">${m}</b><span>min</span></div>`).join('')}</div>
+      </div>`;
+    const sig = pauta.blocos.map((b) => `${b.tipo}${b.u ? b.u.id : ''}${b.itens ? b.itens.length : ''}${b.cards ? b.cards.length : ''}`).join('|') + pauta.previsto;
+    const mudou = ui.pautaSig != null && ui.pautaSig !== sig;
+    ui.pautaSig = sig;
     const chips = [`<button class="chip" data-acao="trilha" data-t="" aria-pressed="${!ui.trilha}">Pauta automática</button>`]
       .concat(D.trilhas.map((t) => `<button class="chip" data-acao="trilha" data-t="${t.id}" aria-pressed="${ui.trilha === t.id}">${esc(t.nome)}</button>`)).join('');
     const linhas = pauta.blocos.map((b, i) => {
@@ -344,15 +403,12 @@
 
     <section class="bloco" aria-label="Quanto tempo você tem">
       <p class="rotulo">Quanto tempo você tem</p>
-      <div class="tempos">${tempos}</div>
-      <div class="seg" role="group" aria-label="Momento do dia">
-        <button data-acao="momento" data-v="manha" aria-pressed="${ui.momento === 'manha'}">Manhã · algo novo</button>
-        <button data-acao="momento" data-v="noite" aria-pressed="${ui.momento === 'noite'}">Noite · revisão</button>
-      </div>
+      ${tempos}
+      ${segmento('momento', [{ v: 'manha', t: 'Manhã · algo novo' }, { v: 'noite', t: 'Noite · revisão' }], ui.momento, 'momento', 'Momento do dia')}
       <div class="chips" role="group" aria-label="Trilha">${chips}</div>
     </section>
 
-    <section class="boleta" aria-label="Pauta do dia">
+    <section class="boleta${mudou ? ' mudou' : ''}" aria-label="Pauta do dia">
       <div class="boleta-topo"><h2>Pauta do dia</h2><span class="rotulo num">≈ ${pauta.previsto} min</span></div>
       ${linhas}
     </section>
@@ -423,8 +479,9 @@
       return `<div><em class="num">${m || ''}</em><i class="${m ? '' : 'vazio'}" style="height:${m ? Math.max(6, (m / max) * 100) : 3}%"></i><span>${esc(fmtData(d, { weekday: 'short' }).replace('.', ''))}</span></div>`;
     }).join('');
 
-    const hist = E.historico.slice(0, 20).map((h) => `<article>
-      <span class="rotulo num">${esc(fmtData(h.data, { weekday: 'short', day: 'numeric', month: 'short' }))} · ${h.minutos} min · +${h.xp} XP${h.total ? ` · ${h.acertos}/${h.total}` : ''}${h.direcao ? ' · áudio' : ''}</span>
+    const nHist = ui.histN || 7;
+    const hist = E.historico.slice(0, nHist).map((h) => `<article>
+      <span class="rotulo num">${esc(fmtData(h.data, { weekday: 'short', day: 'numeric', month: 'short' }))} · ${h.minutos} min · +${fmtN(h.xp)} XP${h.total ? ` · ${h.acertos}/${h.total}` : ''}${h.direcao ? ' · áudio' : ''}</span>
       <p>${esc(h.titulos.join(' · '))}</p>
       ${h.nota ? `<p class="nota">${esc(h.nota)}</p>` : ''}</article>`).join('');
 
@@ -439,7 +496,7 @@
           <div><b class="num">${total ? Math.round((certas / total) * 100) : 0}%</b><span>acerto no quiz</span></div>
           <div><b class="num">${E.melhorStreak}</b><span>melhor sequência</span></div>
         </div>
-        <span class="rotulo">${esc(nv.titulo)}${nv.prox ? ` · faltam ${nv.falta} XP para ${esc(nv.prox)}` : ''}</span>
+        <span class="rotulo">${esc(nv.titulo)}${nv.prox ? ` · faltam ${fmtN(nv.falta)} XP para ${esc(nv.prox)}` : ''}</span>
       </section>
 
       <section class="bloco"><p class="rotulo">Domínio e nível por trilha</p><div class="barras">${barras}</div></section>
@@ -454,16 +511,13 @@
 
       <section class="bloco"><p class="rotulo">Histórico e anotações</p>
         <div class="historico">${hist || '<p class="aviso">As sessões concluídas aparecem aqui, com a sua anotação de cada dia.</p>'}</div>
+        ${E.historico.length > nHist ? `<div class="acoes"><button class="btn btn-t" data-acao="mais-hist">Mostrar mais ${Math.min(20, E.historico.length - nHist)} de ${fmtN(E.historico.length - nHist)}</button></div>` : ''}
       </section>
 
       <section class="caixa">
         <h3>Ajustes</h3>
-        <label class="rotulo" for="aj-tema">Tema</label>
-        <div class="seg" role="group" id="aj-tema">
-          <button data-acao="tema" data-v="" aria-pressed="${!E.prefs.tema}">Automático</button>
-          <button data-acao="tema" data-v="light" aria-pressed="${E.prefs.tema === 'light'}">Claro</button>
-          <button data-acao="tema" data-v="dark" aria-pressed="${E.prefs.tema === 'dark'}">Escuro</button>
-        </div>
+        <p class="rotulo">Tema</p>
+        ${segmento('tema', [{ v: '', t: 'Automático' }, { v: 'light', t: 'Claro' }, { v: 'dark', t: 'Escuro' }], E.prefs.tema || '', 'tema', 'Tema')}
         <label class="rotulo" for="aj-voz">Voz da leitura</label>
         <select id="aj-voz" data-campo="voz" style="padding:10px;border-radius:9px;border:1px solid var(--linha);background:var(--superficie)"><option value="">Automática (melhor voz pt-BR disponível)</option>${vozes}</select>
         <p>No iPhone, vozes melhores ficam em Ajustes › Acessibilidade › Conteúdo Falado › Vozes › Português (Brasil). Baixe uma voz "Aprimorada" ou "Premium".</p>
@@ -474,10 +528,9 @@
         <p>O progresso fica salvo só neste navegador. Exporte de vez em quando para não perder, ou para levar para outro aparelho.</p>
         <div class="acoes"><button class="btn btn-s" data-acao="exportar">Copiar backup</button>${document.getElementById('dados-conteudo') ? '' : '<button class="btn btn-s" data-acao="baixar">Baixar arquivo</button>'}</div>
         <label class="rotulo" for="imp-texto">Restaurar: cole o backup aqui</label>
-        <textarea id="imp-texto" placeholder='{"versao":1,...}' style="min-height:80px"></textarea>
-        <div class="acoes"><button class="btn btn-s" data-acao="importar">Restaurar backup</button>
-          ${ui.confirmar === 'apagar' ? '<button class="btn btn-m" data-acao="apagar-sim">Confirmar: apagar tudo</button><button class="btn-t btn" data-acao="apagar-nao">Cancelar</button>' : '<button class="btn btn-t" data-acao="apagar">Apagar progresso</button>'}
-        </div>
+        <textarea id="imp-texto" placeholder='{"versao":1,...}' style="min-height:80px" autocapitalize="off" autocorrect="off" spellcheck="false"></textarea>
+        <div class="acoes"><button class="btn btn-s" data-acao="importar">Restaurar backup</button></div>
+        <button class="btn btn-s segurar" data-segurar="apagar" aria-label="Apagar todo o progresso: mantenha pressionado por 2 segundos"><span>Segure para apagar o progresso</span><span class="enchendo" aria-hidden="true">Segure para apagar o progresso</span></button>
       </section>`;
   }
 
@@ -491,32 +544,40 @@
     render(); window.scrollTo(0, 0);
   }
 
+  const CIRC = 2 * Math.PI * 25;
+  function estadoRelogio() {
+    const total = Math.max(60, S.minutos * 60), pass = (Date.now() - S.inicio) / 1000, resto = total - pass;
+    if (S.fimEm) return { off: 0, txt: 'fim' };
+    const m = Math.floor(Math.abs(resto) / 60), s = Math.floor(Math.abs(resto) % 60);
+    return { off: CIRC * Math.min(1, pass / total), txt: `${resto < 0 ? '+' : ''}${m}:${pad(s)}` };
+  }
   function atualizarRelogio() {
     if (!S) return;
     const el = document.querySelector('.relogio');
     if (!el) return;
-    const total = S.minutos * 60, pass = (Date.now() - S.inicio) / 1000;
-    const resto = total - pass;
-    const c = 2 * Math.PI * 25;
-    if (S.fimEm) { el.querySelector('.frente').style.strokeDashoffset = String(c); el.querySelector('span').textContent = 'fim'; return; }
-    el.querySelector('.frente').style.strokeDashoffset = String(c * Math.min(1, pass / total));
-    const m = Math.floor(Math.abs(resto) / 60), s = Math.floor(Math.abs(resto) % 60);
-    el.querySelector('span').textContent = `${resto < 0 ? '+' : ''}${m}:${pad(s)}`;
+    const r = estadoRelogio();
+    el.classList.toggle('fim', !!S.fimEm);
+    el.querySelector('.frente').style.strokeDashoffset = String(r.off);
+    el.querySelector('span').textContent = r.txt;
   }
 
   function renderSessao() {
     const b = S.blocos[S.i];
     const passos = S.blocos.map((x, i) => `<i class="${i < S.i ? 'ok' : i === S.i ? 'at' : ''}"></i>`).join('');
-    const c = 2 * Math.PI * 25;
+    const rel = estadoRelogio();
+    const chave = `${S.i}:${b.k}`;
+    const entra = chave !== ui.etapaChave && !ui.viaTeclado;
+    ui.etapaChave = chave; ui.viaTeclado = false;
     const cab = `<div class="sessao-topo">
-        <div class="relogio" aria-label="Tempo da sessão"><svg viewBox="0 0 60 60"><circle class="fundo" cx="30" cy="30" r="25"/><circle class="frente" cx="30" cy="30" r="25" stroke-dasharray="${c}" stroke-dashoffset="0"/></svg><span class="num"></span></div>
+        <div class="relogio" role="timer" aria-label="Tempo da sessão"><svg viewBox="0 0 60 60" aria-hidden="true"><circle class="fundo" cx="30" cy="30" r="25"/><circle class="frente" cx="30" cy="30" r="25" stroke-dasharray="${CIRC}" stroke-dashoffset="${rel.off}"/></svg><span class="num">${rel.txt}</span></div>
         <div><div class="passos">${passos}</div><p class="rotulo">${pad(S.i + 1)}/${pad(S.blocos.length)} · ${esc(NOMES_BLOCO[b.tipo])}</p></div>
         <button class="fechar" data-acao="sair" aria-label="Encerrar sessão">${IC.fechar}</button>
       </div>
-      ${ui.confirmar === 'sair' ? `<div class="caixa"><p>Encerrar agora? O que você já fez fica salvo${S.feitos ? ' e a sessão conta para a sequência' : ''}.</p><div class="acoes"><button class="btn btn-m" data-acao="sair-sim">Encerrar</button><button class="btn btn-s" data-acao="sair-nao">Continuar</button></div></div>` : ''}`;
+      ${ui.confirmar === 'sair' ? `<div class="caixa confirmar"><p>Encerrar agora? O que você já fez fica salvo${S.feitos ? ' e a sessão conta para a sequência' : ''}.</p><div class="acoes"><button class="btn btn-m" data-acao="sair-sim">Encerrar</button><button class="btn btn-s" data-acao="sair-nao">Continuar</button></div></div>` : ''}`;
     const corpo = { revisao: etapaRevisao, licao: etapaLicao, quiz: etapaQuiz, caso: etapaCaso, explique: etapaExplique, fim: etapaFim }[b.tipo](b);
-    app.innerHTML = `<main class="casca">${cab}<section class="etapa" id="etapa">${corpo}</section></main>`;
+    app.innerHTML = `<main class="casca">${cab}<section class="etapa${entra ? ' entra' : ''}" id="etapa">${corpo}</section></main>`;
     atualizarRelogio();
+    if (S && S.contarAgora) { S.contarAgora = false; contarXP(); }
   }
 
   const tagsUnidade = (u) => `<div class="meta"><span class="tag t-ambar">${esc(trilhaDe(u.trilha).nome)}</span>${u.tipo === 'livro' ? '<span class="tag">Livro</span>' : u.tipo === 'radar' ? '<span class="tag">Radar</span>' : `<span class="tag">Nível ${u.nivel}</span>`}<span class="tag num">${u.minutos} min</span>${u.verificado ? `<span class="tag num">conferido ${esc(fmtData(u.verificado, { day: '2-digit', month: '2-digit', year: '2-digit' }))}</span>` : ''}</div>`;
@@ -541,12 +602,13 @@
     return `<div class="etapa-cab"><span class="contador num">Cartão ${b.k + 1} de ${b.cards.length} · ${esc(u.titulo)}</span></div>
       <button class="cartao${virado ? ' virado' : ''}" data-acao="virar" aria-label="Virar cartão">
         <span class="frente">${c.frente}</span>
-        ${virado ? `<span class="verso">${c.verso}</span>` : '<span class="rotulo">Responda de cabeça, depois toque para ver</span>'}
+        ${virado ? `<span class="verso revela">${c.verso}</span>` : '<span class="rotulo">Responda de cabeça, depois toque para ver</span>'}
       </button>
-      ${virado ? `<div class="notas3">
+      ${virado ? '' : '<p class="atalho">Espaço vira o cartão</p>'}
+      ${virado ? `<div class="notas3 revela-2">
         <button class="btn btn-s" data-acao="card" data-n="0">Errei<small>amanhã</small></button>
         <button class="btn btn-s" data-acao="card" data-n="1">Difícil<small>em breve</small></button>
-        <button class="btn btn-m" data-acao="card" data-n="2">Sabia<small>mais tarde</small></button></div>` : ''}`;
+        <button class="btn btn-m" data-acao="card" data-n="2">Sabia<small>mais tarde</small></button></div><p class="atalho">Teclas 1, 2 e 3</p>` : ''}`;
   }
 
   function etapaQuiz(b) {
@@ -562,8 +624,9 @@
     return `<div class="etapa-cab"><span class="contador num">Pergunta ${b.k + 1} de ${b.itens.length} · ${esc(u.titulo)}</span></div>
       <h2 class="pergunta">${q.pergunta}</h2>
       <div class="opcoes">${ops}</div>
-      ${r != null ? `<div class="explica${r === q.correta ? '' : ' mal'}"><p class="rotulo">${r === q.correta ? 'Correto' : `Resposta: ${LETRAS[q.correta]}`}</p><div class="texto">${q.explicacao}</div></div>
-      <div class="acoes"><button class="btn btn-p" data-acao="quiz-prox">${b.k + 1 < b.itens.length ? 'Próxima pergunta' : 'Continuar'} <span class="seta">→</span></button></div>` : ''}`;
+      ${r == null ? '<p class="atalho">Teclas 1 a 4 respondem</p>' : ''}
+      ${r != null ? `<div class="explica revela${r === q.correta ? '' : ' mal'}"><p class="rotulo">${r === q.correta ? 'Correto' : `Resposta: ${LETRAS[q.correta]}`}</p><div class="texto">${q.explicacao}</div></div>
+      <div class="acoes revela-2"><button class="btn btn-p" data-acao="quiz-prox">${b.k + 1 < b.itens.length ? 'Próxima pergunta' : 'Continuar'} <span class="seta">→</span></button></div>` : ''}`;
   }
 
   function etapaCaso(b) {
@@ -573,10 +636,10 @@
       <label class="rotulo" for="caso-resp">Sua conta e sua resposta</label>
       <textarea id="caso-resp" data-campo="caso" placeholder="Faça a conta aqui ou no papel. Escreva o resultado final antes de abrir a resolução.">${esc(b.st.texto || '')}</textarea>
       ${!b.st.aberto ? '<div class="acoes"><button class="btn btn-p" data-acao="caso-abrir">Ver resolução</button></div>' : `
-        ${c.resposta ? `<div class="resposta-final"><span class="rotulo">Resposta</span><b>${c.resposta}</b></div>` : ''}
-        <section class="secao texto"><p class="rotulo">Resolução passo a passo</p>${c.resolucao}</section>
+        ${c.resposta ? `<div class="resposta-final revela" id="resposta-final"><span class="rotulo">Resposta</span><b>${c.resposta}</b></div>` : ''}
+        <section class="secao texto revela-2" id="resolucao"><p class="rotulo">Resolução passo a passo</p>${c.resolucao}</section>
         <p class="rotulo">Como foi?</p>
-        <div class="notas3"><button class="btn btn-s" data-acao="caso-nota" data-n="0">Errei</button><button class="btn btn-s" data-acao="caso-nota" data-n="0.5">Em parte</button><button class="btn btn-m" data-acao="caso-nota" data-n="1">Acertei</button></div>`}`;
+        <div class="notas3 revela-3"><button class="btn btn-s" data-acao="caso-nota" data-n="0">Errei</button><button class="btn btn-s" data-acao="caso-nota" data-n="0.5">Em parte</button><button class="btn btn-m" data-acao="caso-nota" data-n="1">Acertei</button></div>`}`;
   }
 
   function promptClaude(u, texto) {
@@ -590,9 +653,9 @@
       <label class="rotulo" for="exp-resp">Sua explicação</label>
       <textarea id="exp-resp" data-campo="explique" placeholder="Escreva como se estivesse explicando para um colega. Sem consultar o texto.">${esc(b.st.texto || '')}</textarea>
       ${!b.st.aberto ? '<div class="acoes"><button class="btn btn-p" data-acao="exp-abrir">Comparar com a referência</button></div>' : `
-        <p class="rotulo">Marque o que a sua resposta cobriu</p>
-        <div class="checklist">${x.pontos.map((p, i) => `<label><input type="checkbox" id="pt-${i}" data-ponto="${i}" ${b.st.pts?.[i] ? 'checked' : ''}><span>${p}</span></label>`).join('')}</div>
-        ${x.modelo ? `<section class="secao texto"><p class="rotulo">Resposta de referência</p>${x.modelo}</section>` : ''}
+        <p class="rotulo revela" id="marque">Marque o que a sua resposta cobriu</p>
+        <div class="checklist revela">${x.pontos.map((p, i) => `<label><input type="checkbox" id="pt-${i}" data-ponto="${i}" ${b.st.pts?.[i] ? 'checked' : ''}><span>${p}</span></label>`).join('')}</div>
+        ${x.modelo ? `<section class="secao texto revela-2"><p class="rotulo">Resposta de referência</p>${x.modelo}</section>` : ''}
         <div class="caixa"><p>Quer uma correção detalhada? Copie o pedido abaixo e cole numa conversa com o Claude. Não tem custo além da sua assinatura.</p>
           <div class="acoes"><button class="btn btn-s" data-acao="copiar-claude">Copiar para o Claude</button></div></div>
         <div class="acoes"><button class="btn btn-p" data-acao="exp-ok">Concluir <span class="seta">→</span></button></div>`}`;
@@ -600,6 +663,7 @@
 
   function etapaFim() {
     if (!S.registrada) {
+      S.diaNovo = !E.dias[iso()];
       const min = Math.max(1, Math.round((Date.now() - S.inicio) / 60000));
       ganharXP(15, null);
       registrarDia(min);
@@ -617,18 +681,35 @@
       salvar();
     }
     const st = streakAtual();
+    const primeiraVez = !S.mostrouFim;
+    S.mostrouFim = true;
+    const contar = primeiraVez && S.xp > 0 && !reduzMovimento();
+    if (contar) S.contarAgora = true;
     return `<section class="mata">
         <span class="rotulo">Sessão concluída · dia ${st} da sequência</span>
-        <p class="score num">+${S.xp}<sup>XP</sup></p>
-        <div class="placar">
+        <p class="score num"><span id="xp-conta">+${contar ? 0 : fmtN(S.xp)}</span><sup>XP</sup></p>
+        <div class="dias" aria-label="Últimos 14 dias">${faixaDias(primeiraVez && S.diaNovo)}</div>
+        <div class="placar${primeiraVez ? ' chega' : ''}">
           <div><b class="num">${S.minReais}</b><span>minutos</span></div>
           <div><b class="num">${S.total ? `${S.acertos}/${S.total}` : '—'}</b><span>acertos</span></div>
-          <div><b class="num">${cardsVencidos().length}</b><span>cards para amanhã</span></div>
+          <div><b class="num">${Object.values(E.cards).filter((c) => c.proxima <= somaDias(iso(), 1)).length}</b><span>cards até amanhã</span></div>
         </div>
       </section>
       <label class="rotulo" for="nota-sessao">Anotação do dia</label>
       <textarea id="nota-sessao" data-campo="nota" placeholder="Uma ideia que você quer lembrar, uma dúvida para pesquisar, onde aplicar no trabalho.">${esc(S.registro.nota)}</textarea>
       <div class="acoes"><button class="btn btn-p" data-acao="finalizar">Salvar e voltar</button></div>`;
+  }
+
+  function contarXP() {
+    const el = document.getElementById('xp-conta');
+    if (!el) return;
+    const alvo = S.xp, t0 = performance.now() + 150, dur = 900;
+    const passo = (t) => {
+      const p = Math.min(1, Math.max(0, (t - t0) / dur));
+      el.textContent = '+' + fmtN(alvo * (1 - Math.pow(1 - p, 3)));
+      if (p < 1 && document.body.contains(el)) requestAnimationFrame(passo);
+    };
+    requestAnimationFrame(passo);
   }
 
   function proximoAuto() {
@@ -713,10 +794,10 @@
     const seg = [];
     const F = (texto, titulo, sub) => texto && seg.push({ tipo: 'fala', texto, titulo, sub });
     const paragrafos = (t, titulo, sub) => (t || '').split('\n').filter((x) => x.trim()).forEach((p) => F(p, titulo, sub));
-    F(`Sessão de hoje, cerca de ${pauta.previsto} minutos. ${pauta.blocos.filter((b) => b.tipo !== 'fim').length} blocos. Para pausar, toque no botão grande do meio.`, 'Começando', '');
+    F(`Sessão de hoje, cerca de ${pauta.previsto} minutos. ${pl(pauta.blocos.filter((b) => b.tipo !== 'fim').length, 'bloco', 'blocos')}. Para pausar, toque no botão grande do meio.`, 'Começando', '');
     for (const b of pauta.blocos) {
       if (b.tipo === 'revisao') {
-        F(`Revisão rápida. ${b.cards.length} cartões. Responda de cabeça antes de ouvir a resposta.`, 'Revisão', `${b.cards.length} cartões`);
+        F(`Revisão rápida. ${pl(b.cards.length, 'cartão', 'cartões')}. Responda de cabeça antes de ouvir a resposta.`, 'Revisão', pl(b.cards.length, 'cartão', 'cartões'));
         b.cards.forEach((k, n) => { const { c } = cardDe(k); if (!c) return; F(c.frenteFalada, 'Revisão', `Cartão ${n + 1} de ${b.cards.length}`); seg.push({ tipo: 'pausa', ms: 3500, titulo: 'Pense…', sub: '' }); F('Resposta: ' + c.versoFalado, 'Revisão', `Cartão ${n + 1}`); });
       } else if (b.tipo === 'licao') {
         const u = b.u, nome = u.tipo === 'livro' ? 'Livro' : u.tipo === 'radar' ? 'Radar' : 'Lição';
@@ -726,7 +807,7 @@
         if (u.trabalhoFalado) { F('No seu trabalho.', 'No seu trabalho', u.titulo); paragrafos(u.trabalhoFalado, 'No seu trabalho', u.titulo); }
         seg.push({ tipo: 'marcar', u });
       } else if (b.tipo === 'quiz') {
-        F(`Quiz. ${b.itens.length} perguntas.`, 'Quiz', '');
+        F(`Quiz. ${pl(b.itens.length, 'pergunta', 'perguntas')}.`, 'Quiz', '');
         b.itens.forEach((it, n) => seg.push({ tipo: 'pergunta', u: U[it.u], q: it.q, titulo: 'Quiz', sub: `Pergunta ${n + 1} de ${b.itens.length}` }));
       } else if (b.tipo === 'caso') {
         const c = b.u.caso;
@@ -784,11 +865,12 @@
         <button class="play" data-acao="dir-play" aria-label="${DIR.rodando ? 'Pausar' : 'Ouvir'}">${DIR.rodando ? IC.pausa : IC.play}<span>${DIR.rodando ? 'Pausar' : DIR.i ? 'Continuar' : 'Ouvir'}</span></button>
         <button data-acao="dir-pular" aria-label="Pular trecho">${IC.pular}<span>Pular</span></button>
       </div>
-      <div class="dir-ajustes">
-        <div class="seg" role="group" aria-label="Formato"><button data-acao="dir-modo" data-v="interativo" aria-pressed="${DIR.modo === 'interativo'}">Responder perguntas</button><button data-acao="dir-modo" data-v="podcast" aria-pressed="${DIR.modo === 'podcast'}">Só ouvir</button></div>
-        <div class="seg" role="group" aria-label="Velocidade">${[0.95, 1.05, 1.2].map((v) => `<button data-acao="dir-vel" data-v="${v}" aria-pressed="${Math.abs((E.prefs.velocidade || 1) - v) < 0.01}">${String(v).replace('.', ',')}×</button>`).join('')}</div>
-      </div>
+      ${DIR.esperando ? '' : `<div class="dir-ajustes">
+        ${segmento('dir-modo', [{ v: 'interativo', t: 'Responder perguntas' }, { v: 'podcast', t: 'Só ouvir' }], DIR.modo, 'dir-modo', 'Formato')}
+        ${segmento('dir-vel', [0.95, 1.05, 1.2].map((v) => ({ v: String(v), t: `${String(v).replace('.', ',')}×` })), String([0.95, 1.05, 1.2].reduce((a, v) => (Math.abs(v - (E.prefs.velocidade || 1)) < Math.abs(a - (E.prefs.velocidade || 1)) ? v : a), 1.05)), 'dir-vel', 'Velocidade')}
+      </div>`}
     </div>`;
+    animarIndicadores();
   }
   function atualizarDirecao(titulo, sub) {
     if (titulo != null) DIR.titulo = titulo;
@@ -913,6 +995,11 @@
     }
   }
 
+  function rolarAte(...ids) {
+    const el = ids.map((id) => document.getElementById(id)).find(Boolean);
+    if (el) requestAnimationFrame(() => el.scrollIntoView({ block: 'start', behavior: reduzMovimento() ? 'auto' : 'smooth' }));
+  }
+
   const acoes = {
     ir: (el) => { if (el.dataset.tela === 'direcao') return abrirDirecao(); ui.tela = el.dataset.tela; ui.confirmar = null; render(); window.scrollTo(0, 0); },
     tempo: (el) => { ui.minutos = +el.dataset.m; E.prefs.minutos = ui.minutos; salvar(); DIR.seg = []; render(); },
@@ -954,7 +1041,7 @@
       registrarResposta(it.u, it.q, certo); salvar(); render();
     },
     'quiz-prox': () => { const b = S.blocos[S.i]; b.k++; if (b.k >= b.itens.length) { S.feitos++; avancar(); } else { render(); window.scrollTo(0, 0); } },
-    'caso-abrir': () => { const b = S.blocos[S.i]; b.st.texto = document.getElementById('caso-resp')?.value || ''; b.st.aberto = true; render(); },
+    'caso-abrir': () => { const b = S.blocos[S.i]; b.st.texto = document.getElementById('caso-resp')?.value || ''; b.st.aberto = true; render(); rolarAte('resposta-final', 'resolucao'); },
     'caso-nota': (el) => {
       const b = S.blocos[S.i], n = +el.dataset.n, s = est(b.u.id);
       s.caso = s.caso == null ? n : (s.caso + n) / 2;
@@ -962,7 +1049,7 @@
       if (b.desafio && S.desafioChave && !E.desafios[S.desafioChave]) { E.desafios[S.desafioChave] = iso(); ganharXP(50, b.u.trilha); }
       S.feitos++; salvar(); avancar();
     },
-    'exp-abrir': () => { const b = S.blocos[S.i]; b.st.texto = document.getElementById('exp-resp')?.value || ''; b.st.aberto = true; b.st.pts = b.st.pts || {}; render(); },
+    'exp-abrir': () => { const b = S.blocos[S.i]; b.st.texto = document.getElementById('exp-resp')?.value || ''; b.st.aberto = true; b.st.pts = b.st.pts || {}; render(); rolarAte('marque'); },
     'copiar-claude': () => { const b = S.blocos[S.i]; copiar(promptClaude(b.u, document.getElementById('exp-resp')?.value || b.st.texto)); },
     'exp-ok': () => {
       const b = S.blocos[S.i], n = b.u.explique.pontos.length || 1;
@@ -977,6 +1064,7 @@
       salvar(); S = null; clearInterval(relogioTimer); ui.tela = 'hoje'; render(); window.scrollTo(0, 0);
       toast('Sessão salva');
     },
+    'mais-hist': () => { ui.histN = (ui.histN || 7) + 20; render(); },
     tema: (el) => { E.prefs.tema = el.dataset.v; salvar(); aplicarTema(); render(); },
     exportar: () => copiar(JSON.stringify(E)),
     baixar: () => {
@@ -995,9 +1083,6 @@
         salvar(); aplicarTema(); render(); toast('Backup restaurado');
       } catch (_) { toast('Esse texto não é um backup válido do Lastro.'); }
     },
-    apagar: () => { ui.confirmar = 'apagar'; render(); },
-    'apagar-nao': () => { ui.confirmar = null; render(); },
-    'apagar-sim': () => { E = estadoNovo(); salvar(); ui.confirmar = null; aplicarTema(); render(); toast('Progresso apagado'); },
     'dir-sair': () => sairDirecao(),
     'dir-play': () => {
       if (DIR.rodando) { DIR.rodando = false; pararFala(); pararEscuta(); if (DIR.esperando) { DIR.esperando(-2); DIR.esperando = null; } renderDirecao(); return; }
@@ -1022,8 +1107,34 @@
     const el = ev.target.closest('[data-acao]');
     if (!el || !app.contains(el)) return;
     const f = acoes[el.dataset.acao];
-    if (f) { ev.preventDefault(); f(el); }
+    if (f) { ev.preventDefault(); f(el); salvarSessao(); }
   });
+  // segurar para confirmar (ação destrutiva): 2 s pressionado executa; soltar antes cancela
+  const acoesSegurar = {
+    apagar: () => { E = estadoNovo(); salvar(); aplicarTema(); render(); toast('Progresso apagado'); },
+  };
+  let segurarT = null;
+  function cancelarSegurar() {
+    clearTimeout(segurarT); segurarT = null;
+    document.querySelectorAll('.segurando').forEach((e) => e.classList.remove('segurando'));
+  }
+  function iniciarSegurar(el) {
+    if (segurarT) return;
+    el.classList.add('segurando');
+    segurarT = setTimeout(() => { segurarT = null; el.classList.remove('segurando'); acoesSegurar[el.dataset.segurar]?.(); }, 2000);
+  }
+  app.addEventListener('pointerdown', (ev) => {
+    const el = ev.target.closest('[data-segurar]');
+    if (!el || ev.button > 0) return;
+    iniciarSegurar(el);
+    ['pointerup', 'pointerleave', 'pointercancel'].forEach((t) => el.addEventListener(t, cancelarSegurar, { once: true }));
+  });
+  app.addEventListener('contextmenu', (ev) => { if (ev.target.closest('[data-segurar]')) ev.preventDefault(); });
+  app.addEventListener('keydown', (ev) => { const el = ev.target.closest?.('[data-segurar]'); if (el && (ev.key === 'Enter' || ev.key === ' ') && !ev.repeat) { ev.preventDefault(); iniciarSegurar(el); } });
+  app.addEventListener('keyup', (ev) => { if (ev.target.closest?.('[data-segurar]')) cancelarSegurar(); });
+  // no iOS, :active só pinta com algum listener de toque registrado
+  document.addEventListener('touchstart', () => {}, { passive: true });
+
   app.addEventListener('change', (ev) => {
     const el = ev.target;
     if (el.dataset.ponto != null && S) { const b = S.blocos[S.i]; b.st.pts = b.st.pts || {}; b.st.pts[el.dataset.ponto] = el.checked; }
@@ -1033,9 +1144,54 @@
     const el = ev.target;
     if (!S) return;
     const b = S.blocos[S.i];
-    if (el.dataset.campo === 'caso' || el.dataset.campo === 'explique') b.st.texto = el.value;
+    if (el.dataset.campo === 'caso' || el.dataset.campo === 'explique') { b.st.texto = el.value; salvarSessaoDepois(); }
   });
   if (temFala) speechSynthesis.addEventListener?.('voiceschanged', () => { if (ui.tela === 'progresso') render(); });
+
+  // ------------------------------------------------------------------ sessão salva (sobrevive a recarregar)
+  const CHAVE_SESSAO = 'lastro.sessao';
+  function salvarSessao() {
+    try {
+      if (!S || S.registrada) { localStorage.removeItem(CHAVE_SESSAO); return; }
+      const { registro, ...resto } = S;
+      localStorage.setItem(CHAVE_SESSAO, JSON.stringify({ ...resto, blocos: S.blocos.map((b) => ({ ...b, u: b.u ? b.u.id : null })) }));
+    } catch (_) { /* sem armazenamento: segue em memória */ }
+  }
+  function restaurarSessao() {
+    try {
+      const p = JSON.parse(localStorage.getItem(CHAVE_SESSAO) || 'null');
+      if (!p || p.registrada || !Array.isArray(p.blocos) || Date.now() - p.inicio > 6 * 3600e3) return null;
+      const blocos = p.blocos.map((b) => ({ ...b, u: b.u ? U[b.u] : undefined }));
+      const quebrada = blocos.some((b) => ['licao', 'caso', 'explique'].includes(b.tipo) && !b.u)
+        || blocos.some((b) => b.itens && b.itens.some((it) => !U[it.u]?.quiz?.[it.q]));
+      if (quebrada || p.i >= blocos.length) return null;
+      return { ...p, blocos };
+    } catch (_) { return null; }
+  }
+  let salvarSessaoT = null;
+  const salvarSessaoDepois = () => { clearTimeout(salvarSessaoT); salvarSessaoT = setTimeout(salvarSessao, 400); };
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') salvarSessao(); });
+
+  // ------------------------------------------------------------------ teclado (desktop): sem animação em ação de teclado
+  document.addEventListener('keydown', (ev) => {
+    if (ev.defaultPrevented || ev.metaKey || ev.ctrlKey || ev.altKey || ui.tela !== 'sessao' || !S) return;
+    if (ev.target.closest?.('textarea, input, select, button, a')) return;
+    const b = S.blocos[S.i];
+    const k = ev.key.toLowerCase();
+    let sel = null;
+    if (b.tipo === 'quiz') {
+      const mapa = { 1: 0, 2: 1, 3: 2, 4: 3, a: 0, b: 1, c: 2, d: 3 };
+      if (k in mapa && b.st[b.k] == null) sel = `[data-acao="responder"][data-i="${mapa[k]}"]`;
+      else if (k === 'enter' || k === 'arrowright') sel = '[data-acao="quiz-prox"]';
+    } else if (b.tipo === 'revisao') {
+      if (!b.st.virado && (k === ' ' || k === 'enter')) sel = '[data-acao="virar"]';
+      else if (b.st.virado && ['1', '2', '3'].includes(k)) sel = `[data-acao="card"][data-n="${+k - 1}"]`;
+    } else if (k === 'enter') {
+      sel = '.etapa .btn-p';
+    }
+    const el = sel && document.querySelector(sel);
+    if (el && !el.disabled) { ev.preventDefault(); ui.viaTeclado = true; el.click(); }
+  });
 
   // ------------------------------------------------------------------ início
   async function carregarConteudo() {
@@ -1046,9 +1202,16 @@
     return r.json();
   }
   aplicarTema();
+  try { matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => corBarra()); } catch (_) { /* navegador antigo */ }
   carregarConteudo().then((d) => {
     D = d;
     D.unidades.forEach((u) => { U[u.id] = u; });
+    const r = restaurarSessao();
+    if (r) {
+      S = r; ui.tela = 'sessao';
+      relogioTimer = setInterval(atualizarRelogio, 1000);
+      setTimeout(() => toast('Sessão retomada de onde você parou'), 300);
+    }
     render();
   }).catch((err) => {
     app.innerHTML = `<main class="casca"><h1 class="titulo-pag">Lastro</h1><p class="sub">Não consegui carregar o conteúdo (${esc(err.message)}). Se abriu o arquivo direto do computador, rode um servidor local: <code>npx serve treino-diario</code>.</p></main>`;

@@ -54,6 +54,40 @@ O relógio da sessão conta o tempo, mas não corta nada no meio.
 
 **Dribbble:** a rede desta sessão bloqueou o acesso a dribbble.com, então não consegui pesquisar lá e não há links do Dribbble listados. Para a próxima rodada há dois caminhos: liberar `dribbble.com` nas configurações de rede do ambiente (menu do ambiente › Editar › Network access › Allowed domains) ou me mandar links e prints.
 
+### Acabamento (skills de design do Emil Kowalski)
+
+As skills de `emilkowalski/skills` estão instaladas em `.claude/skills/` e guiaram uma passada de acabamento. O que mudou e por quê:
+
+- **Toque que parece de app.**
+  - Sem o flash cinza ao tocar.
+  - Botões respondem na pressão, encolhendo de leve, e não na soltura.
+  - O texto dos botões não é selecionado num toque longo.
+  - Hover só existe para quem usa mouse; no celular ele "grudava".
+  - No iPhone, o efeito de pressão só aparece com um ajuste específico, que já está feito.
+- **Movimento só onde tem função.**
+  - Seletor de tempo e de manhã/noite: a opção ativa desliza como uma pílula. A cor do texto troca exatamente na borda, pela técnica de recortar uma cópia.
+  - Resposta do quiz e verso do flashcard aparecem com um fade curto.
+  - A pauta faz um crossfade quando muda.
+  - Etapas novas entram em 180 ms. Re-desenhar a mesma etapa não anima de novo, e ações feitas pelo teclado nunca animam.
+- **Um único momento de comemoração:** o fechamento da sessão, que acontece uma vez por dia. O XP é contado, o dia de hoje acende na faixa da sequência e o anel do relógio se completa.
+- **Menos movimento:** se o celular estiver com "reduzir movimento", os deslocamentos somem e ficam só os fades.
+- **Ação destrutiva:** "Apagar progresso" agora exige segurar o botão por 2 segundos. A barra enche devagar enquanto você decide e volta rápido se você soltar.
+- **Robustez:**
+  - Se o iPhone recarregar o app no meio de uma sessão (por exemplo, quando você vai ao Claude e volta), a sessão é retomada de onde parou.
+  - Puxar a tela para baixo durante a sessão não recarrega a página.
+  - A barra de status acompanha o tema.
+- **Teclado (no computador):**
+  - 1 a 4 respondem o quiz;
+  - Espaço vira o flashcard;
+  - 1, 2 e 3 dão a nota do cartão;
+  - Enter avança.
+- **Teste com dados extremos:** simulei um ano de uso, com sequência de 365 dias, 123.456 XP, 300 sessões, notas com URL longa e tela de 320 px. Nada estourou. Corrigi:
+  - plural ("1 pergunta");
+  - separador de milhar no XP;
+  - o histórico, que agora mostra 7 sessões e um botão "mostrar mais";
+  - o mapa de domínio, que passa a ter 2 colunas no celular.
+- **O que só dá para confirmar no seu iPhone:** sensação do toque, cor da barra de status com o app instalado e vozes. Emulação no computador não reproduz essas coisas.
+
 ## 4. Stack (tecnologia)
 
 - **HTML, CSS e JavaScript puros**, sem framework e sem dependências. São três arquivos (`index.html`, `app.css`, `app.js`) que você consegue abrir e entender. Não há `npm install` nem pasta `node_modules`, e nada quebra quando uma biblioteca atualiza.
@@ -70,6 +104,11 @@ O relógio da sessão conta o tempo, mas não corta nada no meio.
   - livros em paráfrase;
   - toda unidade traz a data em que foi conferida.
   - O que não deu para confirmar aparece dentro do app num quadro "Verificar antes de usar". Não escondi incerteza.
+- **Revisão independente:** depois de escrito, todo o conteúdo passou por uma segunda leitura feita só para caçar erro factual, jurídico e de conta. Ela refez todas as contas (nenhuma estava errada) e corrigiu dois erros:
+  - artigos da Lei 9.514 e da Lei 11.076 citados como vigentes, embora a Lei 14.430/2022 os tenha revogado;
+  - uma regra da OAB sobre IA descrita de forma imprecisa.
+
+  Ela também resolveu dez pontos que estavam marcados para verificar. Por fim, atualizei a lição de fluxo de caixa: a partir de 2027, com o CPC 51 (IFRS 18), juros pagos deixam de ter escolha de classificação na maioria das empresas.
 - **Limite real desta rodada:** a rede da sessão bloqueia a abertura de vários sites oficiais (Planalto, CVM, IFRS, OAB). Os dispositivos foram confirmados pelos resultados de busca, sem abrir a página inteira, e os links seguem o endereço oficial. Antes de usar um ponto crítico com cliente, clique na fonte.
 - **Radar de IA:** um arquivo por mês (`conteudo/ia/ia-radar-AAAA-MM.md`), feito sob pedido com busca na web. Basta pedir: "atualize o Radar de IA". Conferi duas notícias diretamente na fonte: o pedido de IPO da Anthropic (S-1, 26/10/2026) e a doação do Agent Skills à Agentic AI Foundation (22/10/2026).
 - **Correção de respostas abertas sem API:** no "explique" e no caso prático, você escreve, abre a referência e marca os pontos-chave que cobriu (autoavaliação com gabarito). Para uma correção detalhada, o botão **Copiar para o Claude** monta o pedido completo (enunciado, sua resposta e os pontos esperados) para você colar numa conversa com o Claude. O custo é zero, porque usa a assinatura que você já tem.
