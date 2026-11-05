@@ -1,0 +1,312 @@
+<!doctype html>
+<!-- Cena 3D do Lastro. Abra via renderizar.mjs; cada objeto é escolhido pelo hash (#obj=moeda-secao). -->
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<style>html, body { margin: 0; background: #000; }</style>
+<script type="importmap">{ "imports": { "three": "./node_modules/three/build/three.module.js", "three/addons/": "./node_modules/three/examples/jsm/" } }</script>
+</head>
+<body>
+<script type="module">
+import * as THREE from 'three';
+import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
+import { FontLoader } from 'three/addons/loaders/FontLoader.js';
+import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
+
+const q = new URLSearchParams(location.hash.slice(1));
+const NOME = q.get('obj');
+
+// ---------------------------------------------------------------- materiais
+const C = (h) => new THREE.Color(h);
+const vidro = (cor, att, o = {}) => new THREE.MeshPhysicalMaterial({
+  color: C(cor), transmission: 1, thickness: 1.0, roughness: 0.14, ior: 1.45,
+  attenuationColor: C(att), attenuationDistance: 1.0,
+  iridescence: 0.8, iridescenceIOR: 1.35, iridescenceThicknessRange: [180, 620],
+  clearcoat: 1, clearcoatRoughness: 0.04, specularIntensity: 1, envMapIntensity: 1.5, ...o,
+});
+const geleia = (cor, att, o = {}) => vidro(cor, att, { roughness: 0.08, thickness: 1.6, attenuationDistance: 1.4, iridescence: 0.35, ...o });
+// núcleo emissivo: o vidro por fora refrata esse brilho, como gelatina iluminada por dentro
+const nucleo = (cor, k = 1) => new THREE.MeshStandardMaterial({ color: C(cor), emissive: C(cor), emissiveIntensity: k, roughness: 0.7 });
+function comNucleo(geo, casca, corNucleo, k = 1, escala = [0.8, 0.8, 0.8]) {
+  const g = new THREE.Group();
+  const n = new THREE.Mesh(geo, nucleo(corNucleo, k)); n.scale.set(...escala); g.add(n);
+  g.add(new THREE.Mesh(geo, casca));
+  return g;
+}
+const brilho = (cor, o = {}) => new THREE.MeshPhysicalMaterial({
+  color: C(cor), roughness: 0.2, metalness: 0, clearcoat: 1, clearcoatRoughness: 0.05,
+  sheen: 0.5, sheenColor: C('#ffffff'), iridescence: 0.25, envMapIntensity: 1.15, ...o,
+});
+const metal = (cor, o = {}) => new THREE.MeshPhysicalMaterial({
+  color: C(cor), metalness: 0.92, roughness: 0.17, clearcoat: 1, clearcoatRoughness: 0.04,
+  iridescence: 0.75, iridescenceIOR: 1.55, envMapIntensity: 1.35, ...o,
+});
+
+// ---------------------------------------------------------------- formas
+function poligonoArredondado(pts, raio) {
+  // contorno com cantos arredondados: corta cada vértice e usa o vértice como ponto de controle
+  const s = new THREE.Shape();
+  const n = pts.length;
+  for (let i = 0; i < n; i++) {
+    const p = pts[i], a = pts[(i - 1 + n) % n], b = pts[(i + 1) % n];
+    const da = p.clone().sub(a).normalize(), db = b.clone().sub(p).normalize();
+    const la = p.distanceTo(a), lb = p.distanceTo(b);
+    const r = Math.min(raio, la / 2.2, lb / 2.2);
+    const p1 = p.clone().sub(da.multiplyScalar(r)), p2 = p.clone().add(db.multiplyScalar(r));
+    if (i === 0) s.moveTo(p1.x, p1.y); else s.lineTo(p1.x, p1.y);
+    s.quadraticCurveTo(p.x, p.y, p2.x, p2.y);
+  }
+  s.closePath();
+  return s;
+}
+const V = (x, y) => new THREE.Vector2(x, y);
+const extrudar = (forma, prof, bev, seg = 14) => {
+  const g = new THREE.ExtrudeGeometry(forma, { depth: prof, bevelEnabled: true, bevelThickness: bev, bevelSize: bev * 0.75, bevelSegments: seg, curveSegments: 28 });
+  g.center(); return g;
+};
+
+function moeda(simbolo, corpo, detalhe, fonte, escala = 0.82) {
+  const g = new THREE.Group();
+  const s = new THREE.Shape(); s.absarc(0, 0, 1, 0, Math.PI * 2, false);
+  const geo = new THREE.ExtrudeGeometry(s, { depth: 0.14, bevelEnabled: true, bevelThickness: 0.08, bevelSize: 0.075, bevelSegments: 12, curveSegments: 120 });
+  geo.translate(0, 0, -0.07);
+  g.add(new THREE.Mesh(geo, corpo));
+  if (corpo.transmission > 0) {
+    const n = new THREE.Mesh(geo, nucleo('#ffb3f1', 0.32)); n.scale.set(0.88, 0.88, 0.4); g.add(n);
+  }
+  for (const z of [0.155, -0.155]) {
+    const aro = new THREE.Mesh(new THREE.TorusGeometry(0.84, 0.042, 24, 160), detalhe);
+    aro.position.z = z; g.add(aro);
+  }
+  if (simbolo) {
+    const tg = new TextGeometry(simbolo, { font: fonte, size: simbolo.length > 1 ? escala * 0.7 : escala, height: 0.07, depth: 0.07, curveSegments: 18, bevelEnabled: true, bevelThickness: 0.025, bevelSize: 0.018, bevelSegments: 5 });
+    tg.computeBoundingBox();
+    const bb = tg.boundingBox;
+    tg.translate(-(bb.max.x + bb.min.x) / 2, -(bb.max.y + bb.min.y) / 2, 0.12);
+    g.add(new THREE.Mesh(tg, detalhe));
+  }
+  return g;
+}
+
+function gema(mat) {
+  const perfil = [V(0.0001, -1.0), V(0.98, -0.02), V(1.0, 0.07), V(0.64, 0.44), V(0.0001, 0.44)];
+  const geo = new THREE.LatheGeometry(perfil, 10).toNonIndexed();
+  geo.computeVertexNormals();
+  mat.flatShading = true;
+  return new THREE.Mesh(geo, mat);
+}
+
+function blocos() {
+  const g = new THREE.Group();
+  const cor = { l: '#b7a2ff', m: '#d61fc8', v: '#7432ef', o: '#f6bf3f', r: '#ff5fcf' };
+  const mapa = [
+    [0, 0, 'l'], [1, 0, 'l'], [0, 1, 'm'], [0, 2, 'm'], [1, 2, 'v'], [2, 0, 'o'], [2, 1, 'o'], [1, 3, 'v'], [2, 3, 'v'], [0, 3, 'r'], [2, 2, 'o'],
+  ];
+  const geo = new RoundedBoxGeometry(0.94, 0.94, 0.94, 5, 0.13);
+  for (const [x, y, k] of mapa) {
+    const m = new THREE.Mesh(geo, brilho(cor[k], { transmission: 0.15, thickness: 1, roughness: 0.1, iridescence: 0.25, sheen: 0, emissive: C(cor[k]), emissiveIntensity: 0.12 }));
+    m.position.set(x - 1, y - 1.5, (x + y) % 2 ? 0.05 : -0.05);
+    g.add(m);
+  }
+  return g;
+}
+
+function aneis() {
+  const g = new THREE.Group();
+  const geo = new THREE.TorusGeometry(1, 0.19, 40, 160);
+  const de = C('#5a44ee'), ate = C('#b49bff');
+  for (let i = 0; i < 7; i++) {
+    const t = i / 6;
+    const m = new THREE.Mesh(geo, brilho('#ffffff', { color: de.clone().lerp(ate, t), roughness: 0.14, iridescence: 0.45, transmission: 0.2, thickness: 0.6 }));
+    m.rotation.x = Math.PI / 2;
+    m.position.set(Math.sin(i * 0.9) * 0.06, i * 0.4 - 1.2, 0);
+    g.add(m);
+  }
+  return g;
+}
+
+function esfera(corPontos = '#ffffff') {
+  const g = new THREE.Group();
+  const nucleo = new THREE.ShaderMaterial({
+    uniforms: { a: { value: C('#ffae8c') }, b: { value: C('#c9b6ff') }, c: { value: C('#2d68f2') } },
+    vertexShader: `varying vec3 vN; varying vec3 vP; void main(){ vN = normalize(normalMatrix*normal); vP = position; gl_Position = projectionMatrix*modelViewMatrix*vec4(position,1.); }`,
+    fragmentShader: `uniform vec3 a; uniform vec3 b; uniform vec3 c; varying vec3 vN; varying vec3 vP;
+      void main(){ float t = clamp((vP.y*0.55 - vP.x*0.45)*1.05 + 0.5, 0., 1.);
+        vec3 col = mix(c, b, smoothstep(0.05, 0.55, t)); col = mix(col, a, smoothstep(0.55, 1.0, t));
+        float fr = pow(1. - abs(vN.z), 2.6); col = mix(col, vec3(1.), fr * 0.45);
+        gl_FragColor = vec4(col, 1.);
+        #include <tonemapping_fragment>
+        #include <colorspace_fragment>
+      }`,
+  });
+  g.add(new THREE.Mesh(new THREE.SphereGeometry(0.82, 96, 64), nucleo));
+  // casca pontilhada com leve ondulação
+  const N = 14000, pos = new Float32Array(N * 3);
+  const ouro = Math.PI * (3 - Math.sqrt(5));
+  for (let i = 0; i < N; i++) {
+    const y = 1 - (i / (N - 1)) * 2, rr = Math.sqrt(1 - y * y), th = ouro * i;
+    let x = Math.cos(th) * rr, z = Math.sin(th) * rr;
+    const onda = 1.13 + 0.07 * Math.sin(5 * x + 2 * y) * Math.cos(4 * z - y) + 0.03 * Math.sin(11 * y);
+    pos.set([x * onda, y * onda, z * onda], i * 3);
+  }
+  const pg = new THREE.BufferGeometry(); pg.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+  const pts = new THREE.Points(pg, new THREE.PointsMaterial({ color: C(corPontos), size: 0.016, sizeAttenuation: true, transparent: true, opacity: 0.95, depthWrite: false }));
+  pts.userData.mascaraTamanho = 0.016;
+  g.add(pts);
+  return g;
+}
+
+function estrela(mat) {
+  const pts = [];
+  for (let i = 0; i < 10; i++) { const a = i * Math.PI / 5 + Math.PI / 2, r = i % 2 ? 0.52 : 1; pts.push(V(Math.cos(a) * r, Math.sin(a) * r)); }
+  return extrudar(poligonoArredondado(pts, 0.2), 0.34, 0.3);
+}
+function cruz(mat) {
+  const a = 0.36, b = 1;
+  const pts = [V(-a, b), V(a, b), V(a, a), V(b, a), V(b, -a), V(a, -a), V(a, -b), V(-a, -b), V(-a, -a), V(-b, -a), V(-b, a), V(-a, a)];
+  return extrudar(poligonoArredondado(pts, 0.16), 0.36, 0.28);
+}
+function anelQuadrado(mat) {
+  const ext = poligonoArredondado([V(-1, 1), V(1, 1), V(1, -1), V(-1, -1)], 0.42);
+  const furo = poligonoArredondado([V(-0.45, 0.45), V(0.45, 0.45), V(0.45, -0.45), V(-0.45, -0.45)], 0.2);
+  ext.holes.push(new THREE.Path(furo.getPoints(48).reverse()));
+  return extrudar(ext, 0.3, 0.26);
+}
+
+function fita() {
+  const g = new THREE.Group();
+  const curva = new THREE.CatmullRomCurve3([
+    new THREE.Vector3(-3.4, -1.3, -0.6), new THREE.Vector3(-1.8, -0.2, 0.2), new THREE.Vector3(-0.4, -0.9, 0.5),
+    new THREE.Vector3(0.9, 0.4, 0.1), new THREE.Vector3(2.2, 1.1, -0.4), new THREE.Vector3(3.6, 0.6, -1.0),
+  ]);
+  const tubo = new THREE.TubeGeometry(curva, 360, 0.42, 56, false);
+  g.add(comNucleo(tubo, vidro('#fbf3ff', '#c98cf5', { roughness: 0.06, thickness: 1.1, attenuationDistance: 1.2, iridescence: 0.6 }), '#e6b8ff', 0.45, [1, 1, 1]).children[1]);
+  const brilhoInterno = new THREE.Mesh(new THREE.TubeGeometry(curva, 360, 0.2, 32, false), nucleo('#efc2ff', 0.55)); g.add(brilhoInterno);
+  const p = curva.getPointAt(0.56), t = curva.getTangentAt(0.56);
+  const caps = new THREE.Mesh(new THREE.CapsuleGeometry(0.3, 0.42, 16, 32), metal('#f3c45a', { iridescence: 0.2, roughness: 0.12 }));
+  caps.position.copy(p).add(new THREE.Vector3(0, 0.6, 0.1));
+  caps.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), t.clone().normalize());
+  g.add(caps);
+  return g;
+}
+
+// ---------------------------------------------------------------- objetos (nome → construção, tamanho, fundo, rotação)
+const ROSA = ['#ffffff', '#f59be9'];
+const simbolo = () => brilho('#d81bc9', { emissive: C('#7d0675'), emissiveIntensity: 0.35, roughness: 0.08, iridescence: 0.5, sheen: 0 });
+const PRESETS = {
+  'moeda-secao':  { w: 420, h: 420, fundo: 'claro', rot: [0.18, -0.55, 0.12], obj: (f) => moeda('§', vidro(...ROSA), simbolo(), f) },
+  'moeda-real':   { w: 420, h: 420, fundo: 'claro', rot: [0.1, -0.7, -0.22], obj: (f) => moeda('R$', vidro(...ROSA), simbolo(), f) },
+  'moeda-pct':    { w: 420, h: 420, fundo: 'claro', rot: [-0.25, -0.62, 0.3], obj: (f) => moeda('%', vidro(...ROSA), simbolo(), f) },
+  'moeda-lastro': { w: 512, h: 512, fundo: 'claro', rot: [0.22, -0.42, 0.08], obj: (f) => moeda('L', metal('#bdb5f6'), metal('#8e7ff0', { roughness: 0.12 }), f, 0.95) },
+  'gema':         { w: 360, h: 360, fundo: 'claro', rot: [0.42, 0.4, 0.06], obj: () => comNucleo(gema(vidro('#f6d2ff', '#b04cf0', { roughness: 0.03, ior: 1.9, thickness: 1.4, iridescence: 1, attenuationDistance: 0.55 })).geometry, (() => { const m = vidro('#f6d2ff', '#b04cf0', { roughness: 0.03, ior: 1.9, thickness: 1.4, iridescence: 1, attenuationDistance: 0.55 }); m.flatShading = true; return m; })(), '#e08cff', 0.6, [0.7, 0.7, 0.7]) },
+  'blocos':       { w: 360, h: 360, fundo: 'claro', rot: [0.35, -0.62, 0.02], obj: () => blocos() },
+  'aneis':        { w: 360, h: 360, fundo: 'claro', rot: [0.52, 0.0, -0.08], obj: () => aneis() },
+  'esfera':       { w: 420, h: 420, fundo: 'claro', rot: [0.2, 0.5, 0], obj: () => esfera('#8fa8ff') },
+  'esfera-escura':{ w: 640, h: 640, fundo: 'escuro', rot: [0.2, 0.5, 0], obj: () => esfera() },
+  'estrela':      { w: 360, h: 360, fundo: 'escuro', rot: [0.3, -0.45, 0.16], obj: () => comNucleo(estrela(), geleia('#f1d4ff', '#b13cf0'), '#b438f2', 1.4) },
+  'estrela-clara':{ w: 360, h: 360, fundo: 'claro', rot: [0.3, -0.45, 0.16], obj: () => comNucleo(estrela(), geleia('#f4dcff', '#b13cf0'), '#c45cf5', 0.9) },
+  'toro':         { w: 360, h: 360, fundo: 'escuro', rot: [0.95, 0.35, 0.2], obj: () => comNucleo(new THREE.TorusGeometry(0.74, 0.34, 64, 128), geleia('#e2fff4', '#16c98a', { thickness: 0.5, attenuationDistance: 0.9 }), '#3ef0b0', 1.4, [1, 1, 0.7]) },
+  'cruz':         { w: 360, h: 360, fundo: 'escuro', rot: [0.4, 0.55, 0.35], obj: () => comNucleo(cruz(), geleia('#e9ffd6', '#4bd61c'), '#6ff03a', 1.3) },
+  'anel-laranja': { w: 360, h: 360, fundo: 'escuro', rot: [0.55, -0.5, 0.3], obj: () => comNucleo(anelQuadrado(), geleia('#fff0dc', '#ff7a1a'), '#ff9a3a', 1.3, [0.86, 0.86, 0.75]) },
+  'bola-roxa':    { w: 300, h: 300, fundo: 'escuro', rot: [0, 0, 0], obj: () => comNucleo(new THREE.SphereGeometry(1, 96, 64), geleia('#f1e2ff', '#8a2be2', { iridescence: 0.8 }), '#a54cf2', 1.2, [0.78, 0.78, 0.78]) },
+  'fita':         { w: 960, h: 520, fundo: 'claro', rot: [0.1, 0.0, 0.0], margem: 1.04, obj: () => fita() },
+};
+
+// ---------------------------------------------------------------- ambiente de luz (estúdio lavanda) e fundo da passada de cor
+function ambiente(r, tom) {
+  const env = new THREE.Scene();
+  const geo = new THREE.SphereGeometry(10, 64, 32);
+  const topo = C(tom === 'escuro' ? '#3a3166' : '#ffffff'), meio = C(tom === 'escuro' ? '#17132b' : '#d6cdfa'), base = C(tom === 'escuro' ? '#3a1d45' : '#f2bfe9');
+  const cores = [], p = geo.attributes.position;
+  for (let i = 0; i < p.count; i++) { const y = p.getY(i) / 10; const c = y > 0 ? meio.clone().lerp(topo, y) : meio.clone().lerp(base, -y); cores.push(c.r, c.g, c.b); }
+  geo.setAttribute('color', new THREE.Float32BufferAttribute(cores, 3));
+  env.add(new THREE.Mesh(geo, new THREE.MeshBasicMaterial({ vertexColors: true, side: THREE.BackSide })));
+  const caixa = (w, h, cor, k, pos) => {
+    const m = new THREE.Mesh(new THREE.PlaneGeometry(w, h), new THREE.MeshBasicMaterial({ color: C(cor).multiplyScalar(k), side: THREE.DoubleSide }));
+    m.position.set(...pos); m.lookAt(0, 0, 0); env.add(m);
+  };
+  caixa(6, 4, '#ffffff', tom === 'escuro' ? 4 : 5.5, [-5, 6, 5]);
+  caixa(3, 7, '#ff9de8', 4.2, [6.5, -0.5, 2]);
+  caixa(5, 3, '#a497ff', 3.4, [0, -5.5, -4]);
+  caixa(9, 2, '#ffffff', 2.6, [0, 7.5, -3]);
+  caixa(2, 2, '#ffffff', 6, [-2.5, 2.5, 7]);
+  return new THREE.PMREMGenerator(r).fromScene(env, 0.035).texture;
+}
+function fundo(tom) {
+  const c = document.createElement('canvas'); c.width = 4; c.height = 256;
+  const g = c.getContext('2d'), gr = g.createLinearGradient(0, 0, 0, 256);
+  if (tom === 'escuro') { gr.addColorStop(0, '#1a1630'); gr.addColorStop(1, '#0c0a16'); }
+  else { gr.addColorStop(0, '#f8f7ff'); gr.addColorStop(0.55, '#ece8fd'); gr.addColorStop(1, '#f6e4f7'); }
+  g.fillStyle = gr; g.fillRect(0, 0, 4, 256);
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return t;
+}
+
+// ---------------------------------------------------------------- render: cor, máscara (alfa) e "desmistura" das bordas
+async function principal() {
+  const P = PRESETS[NOME];
+  if (!P) { window.erro = 'objeto desconhecido: ' + NOME; return; }
+  const fonte = await new FontLoader().loadAsync('./node_modules/three/examples/fonts/helvetiker_bold.typeface.json');
+  const W = P.w, H = P.h;
+  const r = new THREE.WebGLRenderer({ antialias: true, alpha: false, preserveDrawingBuffer: true });
+  r.setPixelRatio(1); r.setSize(W, H);
+  r.outputColorSpace = THREE.SRGBColorSpace;
+  document.body.appendChild(r.domElement);
+
+  const cena = new THREE.Scene();
+  cena.environment = ambiente(r, P.fundo);
+  const luz = new THREE.DirectionalLight(0xffffff, 1.3); luz.position.set(-3, 4, 5); cena.add(luz);
+  const contra = new THREE.DirectionalLight(C('#ffb3ee'), 0.9); contra.position.set(3, -1.5, -2); cena.add(contra);
+
+  const obj = P.obj(fonte);
+  obj.rotation.set(...P.rot);
+  cena.add(obj);
+
+  // enquadra pelo raio do objeto
+  const caixaB = new THREE.Box3().setFromObject(obj), centro = caixaB.getCenter(new THREE.Vector3());
+  obj.position.sub(centro);
+  const tam = caixaB.getSize(new THREE.Vector3());
+  const fov = 26, cam = new THREE.PerspectiveCamera(fov, W / H, 0.1, 100);
+  const tv = Math.tan(THREE.MathUtils.degToRad(fov / 2)), th = tv * (W / H);
+  const margem = P.margem || 1.16;
+  const dist = Math.max((tam.y / 2) / tv, (tam.x / 2) / th) * margem + tam.z / 2;
+  cam.position.set(0, 0, dist); cam.lookAt(0, 0, 0);
+
+  const out = document.createElement('canvas'); out.width = W; out.height = H;
+  const ctx = out.getContext('2d', { willReadFrequently: true });
+  const capturar = () => { ctx.clearRect(0, 0, W, H); ctx.drawImage(r.domElement, 0, 0); return ctx.getImageData(0, 0, W, H); };
+
+  // 0) só o fundo
+  r.toneMapping = THREE.ACESFilmicToneMapping; r.toneMappingExposure = P.fundo === 'escuro' ? 1.05 : 1.0;
+  cena.background = fundo(P.fundo);
+  obj.visible = false; r.render(cena, cam); const bg = capturar(); obj.visible = true;
+  // 1) cor (o vidro refrata o fundo)
+  r.render(cena, cam); const cor = capturar();
+  // 2) máscara branca sobre preto
+  const originais = new Map();
+  const branco = new THREE.MeshBasicMaterial({ color: 0xffffff });
+  obj.traverse((o) => {
+    if (o.isMesh) { originais.set(o, o.material); o.material = branco; }
+    if (o.isPoints) { originais.set(o, o.material); o.material = new THREE.PointsMaterial({ color: 0xffffff, size: o.userData.mascaraTamanho || 0.02, sizeAttenuation: true }); }
+  });
+  cena.background = new THREE.Color(0x000000); r.toneMapping = THREE.NoToneMapping;
+  r.render(cena, cam); const mask = capturar();
+  originais.forEach((m, o) => { o.material = m; });
+
+  const d = cor.data, b = bg.data, mk = mask.data;
+  for (let i = 0; i < d.length; i += 4) {
+    const a = mk[i] / 255;
+    if (a <= 0.003) { d[i + 3] = 0; continue; }
+    if (a < 0.999) for (let k = 0; k < 3; k++) d[i + k] = Math.max(0, Math.min(255, (d[i + k] - b[i + k] * (1 - a)) / a));
+    d[i + 3] = Math.round(a * 255);
+  }
+  ctx.putImageData(cor, 0, 0);
+  window.resultado = out.toDataURL('image/webp', 0.88);
+  // versão desfocada (profundidade de campo), feita no canvas com alfa pré-multiplicado
+  const borr = document.createElement('canvas'); borr.width = W; borr.height = H;
+  const bctx = borr.getContext('2d'); bctx.filter = `blur(${Math.round(W / 70)}px)`; bctx.drawImage(out, 0, 0);
+  window.desfocado = borr.toDataURL('image/webp', 0.85);
+}
+principal().catch((e) => { window.erro = String(e && e.stack || e); });
+</script>
+</body>
+</html>

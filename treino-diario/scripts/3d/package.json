@@ -1,0 +1,7 @@
+{
+  "name": "lastro-3d",
+  "private": true,
+  "description": "Renderiza os objetos 3D do Lastro (Three.js no Chromium headless) e exporta WebP com transparência.",
+  "scripts": { "renderizar": "node renderizar.mjs" },
+  "dependencies": { "three": "0.160.1" }
+}

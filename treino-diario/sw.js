@@ -1,0 +1,15 @@
+// Service worker: guarda o app para abrir offline. Mude a versão quando alterar app.js/app.css.
+const VERSAO = 'lastro-v3';
+const ARQUIVOS = ['./', 'index.html', 'app.css', 'app.js', 'manifest.webmanifest', 'icons/icone-192.png', 'data/conteudo.json', 'assets/3d/moeda-lastro.webp'];
+self.addEventListener('install', (e) => { e.waitUntil(caches.open(VERSAO).then((c) => c.addAll(ARQUIVOS)).then(() => self.skipWaiting())); });
+self.addEventListener('activate', (e) => {
+  e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== VERSAO).map((k) => caches.delete(k)))).then(() => self.clients.claim()));
+});
+// Rede primeiro (pega conteúdo novo), cache se estiver sem internet.
+self.addEventListener('fetch', (e) => {
+  if (e.request.method !== 'GET' || new URL(e.request.url).origin !== location.origin) return;
+  e.respondWith(
+    fetch(e.request).then((r) => { const copia = r.clone(); caches.open(VERSAO).then((c) => c.put(e.request, copia)); return r; })
+      .catch(() => caches.match(e.request).then((r) => r || caches.match('index.html')))
+  );
+});
