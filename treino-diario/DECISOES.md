@@ -8,7 +8,7 @@ Data: 05/11/2026. Documento curto com o que decidi, por quê e o que ficou para 
 
 **Mecânica: academia com uma camada leve de jogo.** O centro é aprender de verdade (trilhas e unidades). O jogo serve para criar hábito, sem infantilizar:
 
-- **Sequência de dias** em número grande e uma faixa com os últimos 14 dias.
+- **Sequência de dias** em número grande e a semana atual num calendário, com os dias cumpridos preenchidos.
 - **XP e título de carreira** no geral: Estagiário, Associado júnior, pleno, sênior, Counsel, Sócio. Nas trilhas, nível simples (N1, N2...).
 - **Mapa de domínio:** cada unidade vira um bloco colorido (não visto, fraco, em progresso, dominado). O cálculo usa acerto no quiz, nota no caso, cobertura no "explique" e a caixa dos flashcards.
 - **Revisão automática:** pergunta errada volta na sessão da noite até você acertar. Flashcards seguem repetição espaçada (caixas de Leitner: 1, 3, 7, 16 e 35 dias).
@@ -38,21 +38,48 @@ O relógio da sessão conta o tempo, mas não corta nada no meio.
 
 ## 3. Identidade visual e referências
 
-**Direção:** verde-mata profundo e papel acinzentado, com âmbar nos botões de ação e lima só para conquista (dias cumpridos, desafio da semana). Títulos e números grandes numa serifa editorial (Instrument Serif), texto numa grotesca de jornal (Schibsted Grotesk) e dados em fonte mono (JetBrains Mono). A pauta do dia tem cara de boleta: blocos numerados em sequência, com o tempo de cada um. Claro e escuro coexistem; o modo direção é sempre escuro.
+### Nova base visual (05/11/2026)
 
-| Tela | Referências usadas | O que aproveitei |
+A primeira direção (verde-mata, serifa editorial, cara de "boleta") não ficou boa. A pasta `nova-base-visual` substituiu as referências anteriores, inclusive a regra de evitar roxo e gradientes. Estudei as 26 imagens e os 4 vídeos, quadro a quadro, e refiz o design do zero. A divisão ficou assim:
+
+- **Exito AI** (Alex Bender/FANCY) é a identidade.
+- **Healthcare** (Phenomenon) é a estrutura das telas.
+- **Eduwerks** (Phenomenon) é a energia dos momentos de recompensa.
+
+**Paleta e tipografia:**
+
+- **Cores:** lavanda, lilás e rosa sobre muito branco. Violeta é a cor de ação, teal marca acerto e tendência positiva, coral marca erro. Os botões principais são pílulas azul-marinho.
+- **Fonte:** uma só, Plus Jakarta Sans, com títulos em peso médio e pouco texto por tela.
+- **Tema escuro:** segue o Eduwerks, com preto, grade de pontos e o mesmo violeta.
+
+| Referência | Onde entrou | O que levei |
 |---|---|---|
-| Hoje | 07 Purrweb (Day 12), 08 Dipa, 09 Raihan | Número gigante da sequência; cartão verde-escuro como protagonista; widgets com números grandes |
-| Paleta geral | 10 Purrweb (verde), 11 Dtail, 12 Heyo | Verde profundo com destaque quente; lima como cor de conquista, usada com parcimônia |
-| Lição | 01 Ronas IT, 16 Conceptzilla | Leitura limpa e editorial, serifa nos títulos, muito respiro |
-| Sessão | 06 Halo Lab | Relógio circular, reduzido a um anel discreto no topo |
-| Modo direção | 03 Nickelfox, 04 Mostafijur, 05 Sheikh Naeem | Fundo escuro, onda de áudio, controles enormes |
-| Progresso | 08 Dipa, 11 Dtail, 13 Halo Lab | Score grande em cartão verde, barras de dados, mapa em grade |
-| Desafio | 14 Abron | Cartão de "cenário" em cor própria |
+| Exito: hero com moedas de vidro (03, 05) | Cartão "Sessão de hoje" na home | Gradiente azul-lavanda → rosa, moeda de vidro grande com símbolo e moedas menores para dar profundidade. O título fica à esquerda, com botão escuro em pílula ("Começar") e botão branco ("Ouvir") |
+| Exito: telas mobile (09 a 12) | Barra superior e da sessão, botões, títulos | Barra branca translúcida em pílula com a marca à esquerda, títulos médios, muito respiro |
+| Exito: moedas metálicas (01, 02) | Marca e ícone do app | Moeda lavanda metálica com "L" sobre o gradiente |
+| Exito: esfera pontilhada "AI Technology" (11, 12) | Trilha de IA e modo direção | Esfera com núcleo pêssego → azul e casca de pontos; no modo direção ela gira devagar e "respira" enquanto o app fala |
+| Exito: blocos e anéis empilhados (02) | Trilhas M&A e Mercados | Blocos magenta, violeta e dourado (estruturas, cap table); anéis violeta empilhados (fluxos) |
+| FANCY: caminho curvo com objeto dourado (08) | Objeto renderizado e disponível para estados vazios e conquistas | Tubo de vidro lilás com cápsula dourada |
+| Healthcare: saudação e cartões (19, 22, 23) | Home | "Bom dia, Felipe", cartões brancos de métrica com ícone num quadradinho colorido e chip de tendência ("+45 na semana") |
+| Healthcare: "2/5 doses" (19) | "Meta de hoje" e "Domínio geral" | Cartão em gradiente violeta, número grande e barra com o restante hachurado |
+| Healthcare: faixa de calendário e barras de aderência (19, 24) | "Sua semana" e "Minutos nos últimos 7 dias" | Dias com o de hoje circulado e os cumpridos preenchidos; barras em pílula com hachura nos dias vazios |
+| Healthcare: dashboards (20, 25, 26) | Progresso | Linha de métricas, mapa de domínio e nível por trilha em cartões limpos |
+| Eduwerks: formas gelatinosas e pílulas (13, 16, 18) | Desafio da semana e fechamento da sessão | Cartão escuro com grade de pontos, estrela, toro e cruz de gelatina flutuando, pílulas coloridas (lima, magenta, menta) |
+| Eduwerks: números grandes em círculos (14) | Fechamento da sessão | XP, acertos, minutos e cards em círculos grandes. Os temas do dia caem como pílulas |
+| Eduwerks: energia sem infantilizar (14 a 17) | Trilhas | Cartão por trilha com objeto 3D próprio e número grande de unidades |
 
-**Não usei agora:** 02 (biblioteca com capas, que entra junto com as capas de livros) e 15 (mascote 3D, deixado de fora para não infantilizar).
+**Como o 3D foi feito (custo zero):**
 
-**Dribbble:** a rede desta sessão bloqueou o acesso a dribbble.com, então não consegui pesquisar lá e não há links do Dribbble listados. Para a próxima rodada há dois caminhos: liberar `dribbble.com` nas configurações de rede do ambiente (menu do ambiente › Editar › Network access › Allowed domains) ou me mandar links e prints.
+- Os 16 objetos (moedas de vidro com §, R$ e %, moeda metálica, gema, blocos, anéis, esfera, gelatinas e fita) foram modelados e iluminados com **Three.js** e renderizados aqui, no Chromium sem tela. Os materiais têm transmissão, iridescência e verniz, num estúdio de luz lavanda.
+- O vidro precisa de algo atrás para refratar. Por isso cada objeto é renderizado duas vezes: uma com fundo lavanda, para a cor, e outra só com a silhueta, que vira a transparência.
+- As gelatinas têm um núcleo luminoso por dentro, como no Eduwerks.
+- O resultado são imagens WebP com transparência, cerca de **220 KB no total**. No celular não roda nada em 3D: são só imagens, o que garante desempenho e bateria.
+- O movimento é lento e suave, como pedido: os objetos flutuam em ciclos de 7 a 10 segundos. Se o celular estiver com "reduzir movimento", tudo fica parado.
+- Para criar ou ajustar objetos, veja `scripts/3d/LEIA-ME.md`.
+
+**Primeira direção (substituída):** as 16 referências da pasta `inspiracoes` (verde profundo, serifa e números grandes) guiaram o primeiro MVP. Dele ficaram a estrutura de dados, a lógica de sessão e o acabamento de interação descrito abaixo.
+
+**Dribbble:** a rede desta sessão bloqueia dribbble.com, então trabalhei só com os prints e vídeos que você mandou. Para pesquisa própria no Dribbble, libere o domínio nas configurações de rede do ambiente.
 
 ### Acabamento (skills de design do Emil Kowalski)
 
@@ -91,6 +118,7 @@ As skills de `emilkowalski/skills` estão instaladas em `.claude/skills/` e guia
 ## 4. Stack (tecnologia)
 
 - **HTML, CSS e JavaScript puros**, sem framework e sem dependências. São três arquivos (`index.html`, `app.css`, `app.js`) que você consegue abrir e entender. Não há `npm install` nem pasta `node_modules`, e nada quebra quando uma biblioteca atualiza.
+- **Objetos 3D:** imagens WebP em `assets/3d/`, geradas pelo script opcional `scripts/3d/` (Three.js). O app não depende do Three.js para funcionar.
 - **Conteúdo em Markdown** em `conteudo/<trilha>/*.md`. Um script curto (`scripts/build-conteudo.mjs`) converte tudo num único arquivo, `data/conteudo.json`, e acusa erros de formato (pergunta sem resposta certa, trilha errada etc.).
 - **Hospedagem: GitHub Pages**, grátis para repositório público. O GitHub Actions (`.github/workflows/lastro.yml`) roda o script a cada mudança e publica o site sozinho. Por isso dá para editar um `.md` direto no site do GitHub e o app se atualiza sem você rodar nada. Escolhi o Pages em vez de Vercel ou Netlify porque não exige criar outra conta e ensina o fluxo do GitHub, que você quer aprender.
 
@@ -159,7 +187,8 @@ O app pode ser instalado como aplicativo. No iPhone: abra o link no Safari › C
 - GitHub: repositório público, grátis;
 - GitHub Pages: grátis para repositório público;
 - GitHub Actions: grátis para repositório público;
-- Google Fonts: grátis;
+- Google Fonts (Plus Jakarta Sans, licença aberta): grátis;
+- Three.js (código aberto, licença MIT), usado só para gerar as imagens 3D: grátis;
 - Web Speech API: vem no navegador;
 - conteúdo: gerado no Claude Code, dentro da sua assinatura.
 

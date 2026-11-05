@@ -1,6 +1,6 @@
 // Service worker: guarda o app para abrir offline. Mude a versão quando alterar app.js/app.css.
-const VERSAO = 'lastro-v2';
-const ARQUIVOS = ['./', 'index.html', 'app.css', 'app.js', 'manifest.webmanifest', 'icons/icone.svg', 'data/conteudo.json'];
+const VERSAO = 'lastro-v3';
+const ARQUIVOS = ['./', 'index.html', 'app.css', 'app.js', 'manifest.webmanifest', 'icons/icone-192.png', 'data/conteudo.json', 'assets/3d/moeda-lastro.webp'];
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(VERSAO).then((c) => c.addAll(ARQUIVOS)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', (e) => {
   e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== VERSAO).map((k) => caches.delete(k)))).then(() => self.clients.claim()));

@@ -14,10 +14,12 @@ treino-diario/
 ├── sw.js                   service worker: faz o app abrir sem internet
 ├── manifest.webmanifest    nome, ícone e cor do app instalado no celular
 ├── icons/                  ícones do app
+├── assets/3d/              objetos 3D (imagens WebP com fundo transparente)
 ├── conteudo/               AS LIÇÕES, em Markdown, uma pasta por trilha
 │   └── COMO-ESCREVER.md    o formato de cada arquivo
 ├── scripts/
-│   └── build-conteudo.mjs  transforma conteudo/*.md em data/conteudo.json
+│   ├── build-conteudo.mjs  transforma conteudo/*.md em data/conteudo.json
+│   └── 3d/                 gera os objetos 3D com Three.js (opcional; veja o LEIA-ME de lá)
 └── data/conteudo.json      gerado automaticamente; não edite à mão
 ```
 

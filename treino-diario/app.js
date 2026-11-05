@@ -32,7 +32,7 @@
     return {
       versao: 1, criadoEm: iso(), xp: 0, xpTrilha: {}, streak: 0, melhorStreak: 0, ultimoDia: null,
       dias: {}, unidades: {}, cards: {}, erros: [], historico: [], desafios: {}, perguntas: {},
-      prefs: { minutos: 20, voz: '', velocidade: 1.05, tema: '' },
+      prefs: { minutos: 20, voz: '', velocidade: 1.05, tema: '', nome: 'Felipe' },
     };
   }
   function carregar() {
@@ -288,7 +288,7 @@
 
   // indicador deslizante (seg e tempos): uma cópia "ativa" recortada por clip-path, que desliza entre as opções
   const clipSeg = (i, n) => `inset(0 calc(100% - ${i + 1} * 100% / ${n}) 0 calc(${i} * 100% / ${n}) round 999px)`;
-  const clipTempo = (i) => `inset(0 calc(100% - ${i} * ((100% - 24px) / 4 + 8px) - (100% - 24px) / 4) 0 calc(${i} * ((100% - 24px) / 4 + 8px)) round 9px)`;
+  const clipTempo = (i) => `inset(0 calc(100% - ${i} * ((100% - 24px) / 4 + 8px) - (100% - 24px) / 4) 0 calc(${i} * ((100% - 24px) / 4 + 8px)) round 16px)`;
   function segmento(chave, opcoes, ativo, acao, rotulo) {
     const n = opcoes.length;
     const i = Math.max(0, opcoes.findIndex((o) => o.v === ativo));
@@ -314,18 +314,48 @@
   }
 
   // ------------------------------------------------------------------ ícones
+  const svg = (d, extra = '') => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ${extra}>${d}</svg>`;
   const IC = {
-    hoje: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>',
-    biblioteca: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 4.5h4v15H5zM10 4.5h4v15h-4z"/><path d="m15.5 5.5 3.6-1 3 14.5-3.6.8z" transform="translate(-2 0)"/></svg>',
-    progresso: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 19.5h16"/><path d="M6.5 16v-4M11 16V8M15.5 16v-6M20 16V5"/></svg>',
-    direcao: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="2"/><path d="M3.8 10.5c5 1.5 11.4 1.5 16.4 0M10.5 13.8 8 20M13.5 13.8 16 20"/></svg>',
-    fechar: '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6 6 18"/></svg>',
-    play: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15l13-7.5z"/></svg>',
-    pausa: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 4.5h4.5v15H6zM13.5 4.5H18v15h-4.5z"/></svg>',
-    repetir: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12a8 8 0 1 0 2.5-5.8"/><path d="M4 4v4.5h4.5"/></svg>',
-    pular: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 4.5v15l11-7.5zM16.5 4.5H20v15h-3.5z"/></svg>',
-    ouvir: '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg>',
+    hoje: svg('<path d="M4 10.5 12 4l8 6.5V19a1 1 0 0 1-1 1h-4.5v-5.5h-5V20H5a1 1 0 0 1-1-1z"/>'),
+    trilhas: svg('<path d="m12 3.5 8.5 4.7L12 13 3.5 8.2z"/><path d="m3.5 12.4 8.5 4.8 8.5-4.8"/><path d="m3.5 16.4 8.5 4.8 8.5-4.8"/>'),
+    progresso: svg('<path d="M4 20h16"/><rect x="5" y="11" width="3.2" height="6" rx="1.6"/><rect x="10.4" y="7" width="3.2" height="10" rx="1.6"/><rect x="15.8" y="4" width="3.2" height="13" rx="1.6"/>'),
+    direcao: svg('<path d="M4.5 15v-3a7.5 7.5 0 0 1 15 0v3"/><rect x="3.5" y="14" width="4.5" height="6.5" rx="2"/><rect x="16" y="14" width="4.5" height="6.5" rx="2"/>'),
+    fechar: svg('<path d="M6 6l12 12M18 6 6 18"/>'),
+    play: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.2v13.6a1 1 0 0 0 1.5.86l11-6.8a1 1 0 0 0 0-1.72l-11-6.8A1 1 0 0 0 8 5.2z"/></svg>',
+    pausa: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="4.5" width="4.4" height="15" rx="1.4"/><rect x="13.6" y="4.5" width="4.4" height="15" rx="1.4"/></svg>',
+    repetir: svg('<path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4.5v4h4"/>', 'stroke-width="2"'),
+    pular: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.5 5.6v12.8a1 1 0 0 0 1.55.83l9.4-6.4a1 1 0 0 0 0-1.66l-9.4-6.4a1 1 0 0 0-1.55.83z"/><rect x="16.5" y="4.5" width="3.5" height="15" rx="1.2"/></svg>',
+    ouvir: svg('<path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/>'),
+    licao: svg('<path d="M3.5 5.5c2.9-1.2 5.7-1.1 8.5.6 2.8-1.7 5.6-1.8 8.5-.6v13.4c-2.9-1.2-5.7-1.1-8.5.6-2.8-1.7-5.6-1.8-8.5-.6z"/><path d="M12 6.1v13.4"/>'),
+    quiz: svg('<circle cx="12" cy="12" r="8.6"/><path d="M9.6 9.4a2.5 2.5 0 0 1 4.8.9c0 1.7-2.4 2.2-2.4 3.7"/><path d="M12 17v.01"/>'),
+    caso: svg('<rect x="5" y="3" width="14" height="18" rx="3"/><path d="M8.5 7.5h7M8.5 12h.01M12 12h.01M15.5 12h.01M8.5 16h.01M12 16h.01M15.5 16h.01"/>'),
+    explique: svg('<path d="M5 18.5V7a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H9z"/><path d="M9 9h6M9 12h4"/>'),
+    revisao: svg('<rect x="7.5" y="7.5" width="12.5" height="12.5" rx="3"/><path d="M4 15V7a3 3 0 0 1 3-3h8"/>'),
+    fim: svg('<path d="M5.5 21V4"/><path d="M5.5 4.5h11l-2.2 4 2.2 4h-11"/>'),
+    raio: svg('<path d="M13 3 5 13.5h6L10 21l8-10.5h-6z"/>'),
+    alvo: svg('<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.6"/><circle cx="12" cy="12" r="0.8" fill="currentColor"/>'),
+    refazer: svg('<path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4.5v4h4"/>'),
+    relogio: svg('<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>'),
+    calendario: svg('<rect x="4" y="5" width="16" height="15" rx="3"/><path d="M8 3v4M16 3v4M4 10h16"/>'),
+    chama: svg('<path d="M12 21c-3.9 0-6.5-2.7-6.5-6.2 0-3.4 2.4-5.3 3.9-7.6.6 1.6 1.6 2.6 2.6 3.1.2-2.6 1.2-4.9 3.4-6.8.2 2.6 3.1 5.1 3.1 9.4 0 4.6-2.6 8.1-6.5 8.1z"/>'),
+    lista: svg('<path d="M9 6.5h11M9 12h11M9 17.5h11"/><circle cx="4.8" cy="6.5" r="1" fill="currentColor"/><circle cx="4.8" cy="12" r="1" fill="currentColor"/><circle cx="4.8" cy="17.5" r="1" fill="currentColor"/>'),
+    livros: svg('<path d="M5 4.5h4v15H5zM10 4.5h4v15h-4z"/><path d="m15.2 5.3 3.5-.9 2.8 14.2-3.5.9z"/>'),
   };
+  const ICONE_BLOCO = { revisao: ['revisao', 'azul'], licao: ['licao', ''], quiz: ['quiz', 'rosa'], caso: ['caso', 'teal'], explique: ['explique', 'coral'], fim: ['fim', ''] };
+
+  // objetos 3D (renderizados com Three.js em scripts/3d e exportados como WebP)
+  const ASSETS = 'assets/3d/';
+  const img3d = (nome, cls = '', extra = '') => `<img class="obj3d ${cls}" src="${ASSETS}${nome}.webp" alt="" aria-hidden="true" decoding="async" draggable="false" ${extra}>`;
+  const VISUAL = {
+    financas: { img: 'moeda-real', cls: 't-financas', arte: ['moeda-secao', 'moeda-pct-desfocada', 'moeda-real'] },
+    nicho: { img: 'blocos', cls: 't-nicho', arte: ['blocos', 'moeda-secao-desfocada', 'gema'] },
+    mercados: { img: 'aneis', cls: 't-mercados', arte: ['aneis', 'moeda-real-desfocada', 'moeda-pct'] },
+    ia: { img: 'esfera', cls: 't-ia', arte: ['esfera', 'moeda-pct-desfocada', 'gema'] },
+    livros: { img: 'gema', cls: 't-livros', arte: ['gema', 'moeda-secao-desfocada', 'estrela-clara'] },
+    empreendedorismo: { img: 'estrela-clara', cls: 't-empreendedorismo', arte: ['estrela-clara', 'moeda-real-desfocada', 'gema'] },
+  };
+  const visual = (t) => VISUAL[t] || VISUAL.financas;
+  const curto = (t, max = 30) => { const c = String(t).split(/ — | - |: /)[0]; return c.length > max ? c.slice(0, max - 1).trimEnd() + '…' : c; };
 
   // ------------------------------------------------------------------ telas
   function render() {
@@ -343,22 +373,27 @@
   }
 
   function nav() {
-    const b = (id, nome) => `<button data-acao="ir" data-tela="${id}" ${ui.tela === id ? 'aria-current="page"' : ''}>${IC[id]}<span>${nome}</span></button>`;
-    return `<nav class="nav" aria-label="Navegação"><div class="nav-in">${b('hoje', 'Hoje')}${b('biblioteca', 'Biblioteca')}${b('progresso', 'Progresso')}${b('direcao', 'Direção')}</div></nav>`;
+    const b = (id, nome, ic) => `<button data-acao="ir" data-tela="${id}" ${ui.tela === id ? 'aria-current="page"' : ''}>${IC[ic]}<span>${nome}</span></button>`;
+    return `<nav class="nav" aria-label="Navegação">${b('hoje', 'Hoje', 'hoje')}${b('biblioteca', 'Trilhas', 'trilhas')}${b('progresso', 'Progresso', 'progresso')}${b('direcao', 'Direção', 'direcao')}</nav>`;
   }
 
   function topo() {
-    const hoje = fmtData(iso(), { weekday: 'long', day: 'numeric', month: 'long' });
-    return `<header class="topo"><h1 class="marca">Lastro<i>.</i></h1><div class="data">${esc(hoje)}</div></header>`;
+    const ini = ((E.prefs.nome || '').trim().charAt(0) || 'L').toUpperCase();
+    return `<header class="barra"><div class="marca">${img3d('moeda-lastro', '', 'width="30" height="30"')}<span>Lastro</span></div><button class="avatar" data-acao="ir" data-tela="progresso" aria-label="Progresso e ajustes">${esc(ini)}</button></header>`;
   }
 
+  // semana corrente (domingo a sábado), como a faixa de calendário dos dashboards de referência
   function faixaDias(acender = false) {
+    const hoje = deISO(iso()), dom = new Date(hoje);
+    dom.setDate(hoje.getDate() - hoje.getDay());
+    const nomes = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
     let html = '';
-    for (let i = 13; i >= 0; i--) {
-      const d = somaDias(iso(), -i);
-      html += `<i class="dia${E.dias[d] ? ' feito' : ''}${i === 0 ? ' hoje' : ''}${i === 0 && acender ? ' acende' : ''}" title="${esc(fmtData(d, { day: 'numeric', month: 'short' }))}${E.dias[d] ? ` · ${E.dias[d]} min` : ''}"></i>`;
+    for (let i = 0; i < 7; i++) {
+      const d = new Date(dom); d.setDate(dom.getDate() + i);
+      const k = iso(d), feito = !!E.dias[k], ehHoje = k === iso();
+      html += `<div class="dia${feito ? ' feito' : ''}${ehHoje ? ' hoje' : ''}${ehHoje && acender ? ' acende' : ''}"${feito ? ` title="${E.dias[k]} min"` : ''}><span class="ds">${nomes[i]}</span><span class="dn num">${d.getDate()}</span></div>`;
     }
-    return html;
+    return `<div class="semana" aria-label="Semana atual">${html}</div>`;
   }
 
   function telaHoje() {
@@ -368,7 +403,14 @@
     ui.pauta = pauta;
     const venc = cardsVencidos().length;
     const des = desafioDaSemana();
-    const feitoHoje = !!E.dias[iso()];
+    const minHoje = E.dias[iso()] || 0;
+    const principal = (pauta.blocos.find((b) => b.tipo === 'licao') || pauta.blocos.find((b) => b.u))?.u;
+    const tv = visual(principal ? principal.trilha : ui.trilha || 'financas');
+    const h = new Date().getHours();
+    const cumprimento = h < 5 ? 'Boa noite' : h < 12 ? 'Bom dia' : h < 18 ? 'Boa tarde' : 'Boa noite';
+    const nome = (E.prefs.nome || '').trim();
+    const xpSemana = E.historico.filter((x) => x.data >= somaDias(iso(), -6)).reduce((a, x) => a + (x.xp || 0), 0);
+    const domGeral = Math.round(D.unidades.reduce((a, u) => a + dominio(u), 0) / Math.max(1, D.unidades.length) * 100);
 
     const MIN = [15, 20, 30, 40];
     const iT = Math.max(0, MIN.indexOf(ui.minutos));
@@ -379,70 +421,114 @@
     const sig = pauta.blocos.map((b) => `${b.tipo}${b.u ? b.u.id : ''}${b.itens ? b.itens.length : ''}${b.cards ? b.cards.length : ''}`).join('|') + pauta.previsto;
     const mudou = ui.pautaSig != null && ui.pautaSig !== sig;
     ui.pautaSig = sig;
-    const chips = [`<button class="chip" data-acao="trilha" data-t="" aria-pressed="${!ui.trilha}">Pauta automática</button>`]
-      .concat(D.trilhas.map((t) => `<button class="chip" data-acao="trilha" data-t="${t.id}" aria-pressed="${ui.trilha === t.id}">${esc(t.nome)}</button>`)).join('');
-    const linhas = pauta.blocos.map((b, i) => {
-      const d = descreverBloco(b);
-      return `<div class="linha-bloco"><span class="n num">${pad(i + 1)}</span><div class="t"><b>${esc(d.t)}</b><span>${esc(d.s)}</span></div><span class="m num">${b.min ? b.min + ' min' : ''}</span></div>`;
+    const chips = [`<button class="pill" data-acao="trilha" data-t="" aria-pressed="${!ui.trilha}">Pauta automática</button>`]
+      .concat(D.trilhas.map((t) => `<button class="pill" data-acao="trilha" data-t="${t.id}" aria-pressed="${ui.trilha === t.id}">${esc(t.nome)}</button>`)).join('');
+    const passos = pauta.blocos.map((b) => {
+      const d = descreverBloco(b), [ic, cor] = ICONE_BLOCO[b.tipo] || ['lista', ''];
+      return `<div class="passo"><span class="icone ${cor}">${IC[ic]}</span><div><b>${esc(d.t)}</b><span class="s">${esc(d.s)}</span></div><span class="min num">${b.min ? b.min + ' min' : ''}</span></div>`;
     }).join('');
-
-    const barras = D.trilhas.map((t) => {
+    const tipos = [...new Set(pauta.blocos.filter((b) => b.tipo !== 'fim').map((b) => NOMES_BLOCO[b.tipo]))].join(' · ');
+    const metrica = (rot, valor, extra, ic, cor) => `<div class="cartao metrica"><div class="topo-m"><span class="rot">${rot}</span><span class="icone ${cor}">${IC[ic]}</span></div><div class="valor num">${valor}</div>${extra}</div>`;
+    const dominios = D.trilhas.map((t) => {
+      const us = D.unidades.filter((u) => u.trilha === t.id);
+      const vistas = us.filter((u) => E.unidades[u.id]?.vista).length;
       const v = Math.round(dominioTrilha(t.id) * 100);
-      return `<div class="barra"><span>${esc(t.curto)}</span><span class="trilho"><i style="width:${v}%"></i></span><span class="v num">${v}%</span></div>`;
+      return `<div class="dominio-linha">${img3d(visual(t.id).img, '', 'width="42" height="42" loading="lazy"')}<div><div class="nm">${esc(t.nome)}<span class="num">${vistas}/${us.length}</span></div><div class="trilho"><i style="width:${v}%"></i></div></div><span class="pc num">${v}%</span></div>`;
     }).join('');
 
     return `${topo()}
-    <section class="mata" aria-label="Sequência">
-      <div class="streak">
-        <p class="streak-num num"><small>dia</small>${st}</p>
-        <div class="streak-lado"><span class="rotulo">${feitoHoje ? 'Hoje já conta' : st ? 'Mantenha a sequência' : 'Comece a sequência hoje'}</span><strong class="num">${E.xp.toLocaleString('pt-BR')} XP</strong><span class="rotulo">${esc(nv.titulo)}</span></div>
-      </div>
-      <div class="dias">${faixaDias()}</div>
-      <div class="dias-leg"><span>14 dias</span><span>melhor sequência: ${E.melhorStreak}</span></div>
+    <section class="saudacao">
+      <p class="olho">${esc(fmtData(iso(), { weekday: 'long', day: 'numeric', month: 'long' }))}</p>
+      <h1 class="titulo-tela">${cumprimento}${nome ? `, ${esc(nome)}` : ''}</h1>
+      <p class="sub">${st ? `Dia ${st} da sua sequência. ` : ''}${minHoje ? 'Hoje já conta.' : 'Uma sessão hoje mantém o ritmo.'}</p>
     </section>
 
-    <section class="bloco" aria-label="Quanto tempo você tem">
-      <p class="rotulo">Quanto tempo você tem</p>
+    <section class="hero" aria-label="Sessão de hoje">
+      <div class="hero-arte" aria-hidden="true">${img3d(tv.arte[1], 'a2 flutua d2')}${img3d(tv.arte[0], 'a1 flutua')}${img3d(tv.arte[2], 'a3 flutua d3')}</div>
+      <div class="hero-texto">
+        <p class="olho">${ui.momento === 'noite' ? 'Revisão de hoje' : 'Sessão de hoje'}</p>
+        <h2>${esc(principal ? curto(principal.titulo, 46) : 'Sessão de hoje')}</h2>
+        <p><span class="num">≈ ${pauta.previsto} min</span> · ${esc(tipos)}</p>
+      </div>
+      <div class="hero-acoes">
+        <button class="btn btn-p" data-acao="iniciar">${IC.play} Começar</button>
+        <button class="btn btn-s" data-acao="ir" data-tela="direcao">${IC.ouvir} Ouvir</button>
+      </div>
+    </section>
+
+    <section class="cartao" aria-label="Montar a sessão">
+      <div class="cartao-cab"><h3><span class="icone">${IC.relogio}</span>Quanto tempo você tem?</h3><span class="meta num">≈ ${pauta.previsto} min</span></div>
       ${tempos}
       ${segmento('momento', [{ v: 'manha', t: 'Manhã · algo novo' }, { v: 'noite', t: 'Noite · revisão' }], ui.momento, 'momento', 'Momento do dia')}
       <div class="chips" role="group" aria-label="Trilha">${chips}</div>
     </section>
 
-    <section class="boleta${mudou ? ' mudou' : ''}" aria-label="Pauta do dia">
-      <div class="boleta-topo"><h2>Pauta do dia</h2><span class="rotulo num">≈ ${pauta.previsto} min</span></div>
-      ${linhas}
+    <section class="cartao" aria-label="Pauta do dia">
+      <div class="cartao-cab"><h3><span class="icone rosa">${IC.lista}</span>Pauta do dia</h3><span class="meta">${pl(pauta.blocos.length - 1, 'bloco', 'blocos')}</span></div>
+      <div class="pauta${mudou ? ' mudou' : ''}">${passos}</div>
+      ${pauta.aviso ? `<p class="aviso">${esc(pauta.aviso)}</p>` : ''}
+      <button class="btn btn-v btn-largo" data-acao="iniciar">Começar sessão <span class="seta">→</span></button>
     </section>
-    ${pauta.aviso ? `<p class="aviso">${esc(pauta.aviso)}</p>` : ''}
-    <div class="acoes">
-      <button class="btn btn-p" data-acao="iniciar">Começar sessão <span class="seta">→</span></button>
-      <button class="btn btn-s" data-acao="ir" data-tela="direcao">${IC.ouvir} Ouvir no carro</button>
-    </div>
 
-    <section class="grade" aria-label="Painel">
-      <div class="widget"><span class="rotulo">Revisão pendente</span><span class="grande num">${venc}</span><p>${venc === 1 ? 'flashcard vence hoje' : 'flashcards vencem hoje'}</p></div>
-      <div class="widget"><span class="rotulo">Para refazer</span><span class="grande num">${E.erros.length}</span><p>${E.erros.length === 1 ? 'pergunta que você errou' : 'perguntas que você errou'}</p></div>
-      ${des ? `<button class="widget desafio largo" data-acao="desafio"><span class="rotulo">Desafio da semana · ${des.feito ? 'concluído' : '+50 XP'}</span><h3>${esc(des.u.titulo)}</h3><p>${des.feito ? 'Feito. Um novo caso abre na segunda-feira.' : 'Um caso com números para resolver no papel. Cerca de 10 minutos.'}</p></button>` : ''}
-      <div class="widget largo"><span class="rotulo">Domínio por trilha</span><div class="barras">${barras}</div></div>
+    <section class="grade-2" aria-label="Hoje">
+      <div class="cartao metrica meta-dia">
+        <div class="topo-m"><span class="rot">Meta de hoje</span></div>
+        <div class="valor num">${minHoje}<small>/${ui.minutos} min</small></div>
+        <div class="barra-prog" role="img" aria-label="${minHoje} de ${ui.minutos} minutos"><i style="width:${Math.min(100, Math.round((minHoje / ui.minutos) * 100))}%"></i></div>
+      </div>
+      ${metrica('Sequência', `${st}<small>${st === 1 ? 'dia' : 'dias'}</small>`, `<span class="chip neutro">melhor: ${E.melhorStreak}</span>`, 'chama', 'rosa')}
+    </section>
+
+    <section class="cartao" aria-label="Sua semana">
+      <div class="cartao-cab"><h3><span class="icone azul">${IC.calendario}</span>Sua semana</h3><span class="meta">${esc(fmtData(iso(), { month: 'long', year: 'numeric' }))}</span></div>
+      ${faixaDias()}
+    </section>
+
+    <section class="grade-2" aria-label="Indicadores">
+      ${metrica('XP', fmtN(E.xp), `<span class="chip teal">+${fmtN(xpSemana)} na semana</span>`, 'raio', '')}
+      ${metrica('Domínio', `${domGeral}<small>%</small>`, `<span class="chip">${esc(nv.titulo)}</span>`, 'alvo', 'teal')}
+      ${metrica('Revisão', venc, `<span class="s aviso">${venc === 1 ? 'cartão vence hoje' : 'cartões vencem hoje'}</span>`, 'revisao', 'azul')}
+      ${metrica('Para refazer', E.erros.length, `<span class="s aviso">${E.erros.length === 1 ? 'pergunta errada' : 'perguntas erradas'}</span>`, 'refazer', 'coral')}
+    </section>
+
+    ${des ? `<button class="escuro desafio" data-acao="desafio">
+      <div class="arte-escura" aria-hidden="true">${img3d('toro', 'flutua d2', 'style="width:48%;right:52%;top:44%"')}${img3d('estrela', 'flutua', 'style="width:72%;right:4%;top:2%"')}${img3d('cruz', 'flutua d3', 'style="width:38%;right:-4%;top:58%"')}</div>
+      <span class="olho">Desafio da semana</span>
+      <h3>${esc(des.u.titulo)}</h3>
+      <span class="pilulas"><span class="pilula magenta">${des.feito ? 'Concluído' : '+50 XP'}</span><span class="pilula lima">≈ 10 min</span><span class="pilula branca">${esc(trilhaDe(des.u.trilha).curto)}</span></span>
+      <span class="ir">${des.feito ? 'Rever o caso' : 'Resolver agora'} <i>→</i></span>
+    </button>` : ''}
+
+    <section class="cartao" aria-label="Domínio por trilha">
+      <div class="cartao-cab"><h3><span class="icone">${IC.alvo}</span>Domínio por trilha</h3><button class="btn btn-t" data-acao="ir" data-tela="biblioteca">Ver trilhas</button></div>
+      <div class="dominios">${dominios}</div>
     </section>`;
   }
 
   function telaBiblioteca() {
     const f = ui.filtro;
-    const chips = [`<button class="chip" data-acao="filtro" data-t="" aria-pressed="${!f}">Todas</button>`]
-      .concat(D.trilhas.map((t) => `<button class="chip" data-acao="filtro" data-t="${t.id}" aria-pressed="${f === t.id}">${esc(t.nome)}</button>`)).join('');
+    const cards = D.trilhas.map((t) => {
+      const us = D.unidades.filter((u) => u.trilha === t.id);
+      const vistas = us.filter((u) => E.unidades[u.id]?.vista).length;
+      const v = visual(t.id);
+      return `<button class="trilha ${v.cls}" data-acao="filtro" data-t="${f === t.id ? '' : t.id}" aria-pressed="${f === t.id}">${img3d(v.img, 'flutua' + (t.id.length % 3 ? ' d2' : ''), 'width="96" height="96"')}<span class="n num">${us.length}</span><span class="nome">${esc(t.nome)}</span><span class="dom num">${vistas} vistas · ${Math.round(dominioTrilha(t.id) * 100)}% domínio</span></button>`;
+    }).join('');
+    const itemDe = (u) => {
+      const s = E.unidades[u.id];
+      const tipo = u.tipo === 'livro' ? 'Livro' : u.tipo === 'radar' ? 'Radar' : u.tipo === 'desafio' ? 'Desafio' : `Nível ${u.nivel}`;
+      const pc = Math.round(dominio(u) * 100);
+      const st = s?.vista ? `<span class="chip ${pc >= 85 ? 'teal' : pc < 45 ? 'coral' : ''} num">${pc}%</span>` : '<span class="chip neutro">novo</span>';
+      return `<button class="item" data-acao="abrir" data-id="${u.id}"><div><b>${esc(u.titulo)}</b><span class="s">${esc(tipo)} · ${u.minutos} min${u.caso ? ' · caso' : ''}</span></div>${st}</button>`;
+    };
     const grupos = D.trilhas.filter((t) => !f || t.id === f).map((t) => {
       const us = D.unidades.filter((u) => u.trilha === t.id);
-      if (!us.length) return '';
-      const itens = us.map((u) => {
-        const s = E.unidades[u.id];
-        const tipo = u.tipo === 'livro' ? 'Livro' : u.tipo === 'radar' ? 'Radar' : u.tipo === 'desafio' ? 'Desafio' : `Nível ${u.nivel}`;
-        return `<button class="item" data-acao="abrir" data-id="${u.id}"><div><b>${esc(u.titulo)}</b><span>${esc(tipo)} · ${u.minutos} min${u.caso ? ' · caso' : ''}</span></div><span class="st${s?.vista ? ' feito' : ''}">${s?.vista ? Math.round(dominio(u) * 100) + '%' : 'novo'}</span></button>`;
-      }).join('');
-      return `<section class="bloco"><p class="rotulo">${esc(t.nome)} · ${us.length}</p><div class="lista">${itens}</div></section>`;
+      return `<section class="cartao" aria-label="${esc(t.nome)}">
+        <div class="cartao-cab"><h3>${img3d(visual(t.id).img, '', 'width="30" height="30" loading="lazy"')}${esc(t.nome)}</h3><span class="meta">${pl(us.length, 'unidade', 'unidades')}</span></div>
+        <div class="lista">${us.map(itemDe).join('')}</div></section>`;
     }).join('');
     return `${topo()}
-      <div><h2 class="titulo-pag">Biblioteca</h2><p class="sub">Todo o conteúdo disponível. Toque numa unidade para estudar só ela, fora da pauta automática.</p></div>
-      <div class="chips" role="group" aria-label="Filtrar trilha">${chips}</div>
+      <section class="saudacao"><p class="olho">Biblioteca</p><h1 class="titulo-tela">Trilhas</h1><p class="sub">Toque numa trilha para filtrar. Toque numa unidade para estudar só ela, fora da pauta automática.</p></section>
+      <section class="trilhas-grade" aria-label="Trilhas">${cards}</section>
       ${grupos}
       <p class="aviso">Conteúdo gerado em ${esc(fmtData(D.geradoEm, { day: 'numeric', month: 'long', year: 'numeric' }))}. Para ampliar, peça ao Claude Code novos lotes seguindo <code>conteudo/COMO-ESCREVER.md</code>.</p>`;
   }
@@ -453,84 +539,90 @@
     const vistas = D.unidades.filter((u) => E.unidades[u.id]?.vista).length;
     const certas = Object.values(E.unidades).reduce((a, s) => a + s.certas, 0);
     const total = Object.values(E.unidades).reduce((a, s) => a + s.total, 0);
-
-    const barras = D.trilhas.map((t) => {
-      const v = Math.round(dominioTrilha(t.id) * 100);
-      return `<div class="barra"><span>${esc(t.curto)}</span><span class="trilho"><i style="width:${v}%"></i></span><span class="v num">N${nivelTrilha(E.xpTrilha[t.id])}</span></div>`;
-    }).join('');
-
-    const mapa = D.trilhas.map((t) => {
-      const us = D.unidades.filter((u) => u.trilha === t.id);
-      if (!us.length) return '';
-      const tiles = us.map((u) => {
-        const s = E.unidades[u.id];
-        const d = dominio(u);
-        const cls = !s?.vista ? '' : d < 0.45 ? 'n1 fraco' : d < 0.65 ? 'n2' : d < 0.85 ? 'n3' : 'n4';
-        return `<button class="tile ${cls}" data-acao="abrir" data-id="${u.id}"><b>${esc(u.titulo)}</b><span class="pip"><i></i><i></i><i></i><i></i></span></button>`;
-      }).join('');
-      return `<p class="rotulo">${esc(t.nome)}</p><div class="mapa">${tiles}</div>`;
-    }).join('');
+    const metrica = (rot, valor, extra, ic, cor) => `<div class="cartao metrica"><div class="topo-m"><span class="rot">${rot}</span><span class="icone ${cor}">${IC[ic]}</span></div><div class="valor num">${valor}</div>${extra}</div>`;
 
     const dias7 = [];
     for (let i = 6; i >= 0; i--) dias7.push(somaDias(iso(), -i));
     const max = Math.max(40, ...dias7.map((d) => E.dias[d] || 0));
     const semana = dias7.map((d) => {
       const m = E.dias[d] || 0;
-      return `<div><em class="num">${m || ''}</em><i class="${m ? '' : 'vazio'}" style="height:${m ? Math.max(6, (m / max) * 100) : 3}%"></i><span>${esc(fmtData(d, { weekday: 'short' }).replace('.', ''))}</span></div>`;
+      return `<div class="${d === iso() ? 'hoje' : ''}"><em class="num">${m || ''}</em><span class="b">${m ? `<i style="height:${Math.max(8, (m / max) * 100)}%"></i>` : ''}</span><span>${esc(fmtData(d, { weekday: 'short' }).replace('.', ''))}</span></div>`;
+    }).join('');
+
+    const mapa = D.trilhas.map((t) => {
+      const us = D.unidades.filter((u) => u.trilha === t.id);
+      if (!us.length) return '';
+      const tiles = us.map((u) => {
+        const s = E.unidades[u.id], d = dominio(u);
+        const cls = !s?.vista ? '' : d < 0.45 ? 'n1 fraco' : d < 0.65 ? 'n2' : d < 0.85 ? 'n3' : 'n4';
+        return `<button class="tile ${cls}" data-acao="abrir" data-id="${u.id}"><b>${esc(u.titulo)}</b><span class="pip"><i></i><i></i><i></i><i></i></span></button>`;
+      }).join('');
+      return `<div class="grupo-mapa"><p class="olho">${img3d(visual(t.id).img, '', 'width="22" height="22" loading="lazy"')}${esc(t.nome)}</p><div class="mapa">${tiles}</div></div>`;
+    }).join('');
+
+    const niveis = D.trilhas.map((t) => {
+      const v = Math.round(dominioTrilha(t.id) * 100);
+      return `<div class="dominio-linha">${img3d(visual(t.id).img, '', 'width="42" height="42" loading="lazy"')}<div><div class="nm">${esc(t.nome)}<span class="num">${fmtN(E.xpTrilha[t.id] || 0)} XP</span></div><div class="trilho"><i style="width:${v}%"></i></div></div><span class="pc num">N${nivelTrilha(E.xpTrilha[t.id])}</span></div>`;
     }).join('');
 
     const nHist = ui.histN || 7;
     const hist = E.historico.slice(0, nHist).map((h) => `<article>
-      <span class="rotulo num">${esc(fmtData(h.data, { weekday: 'short', day: 'numeric', month: 'short' }))} · ${h.minutos} min · +${fmtN(h.xp)} XP${h.total ? ` · ${h.acertos}/${h.total}` : ''}${h.direcao ? ' · áudio' : ''}</span>
+      <div class="h-topo num"><b>${esc(fmtData(h.data, { weekday: 'short', day: 'numeric', month: 'short' }))}</b>· ${h.minutos} min · +${fmtN(h.xp)} XP${h.total ? ` · ${h.acertos}/${h.total}` : ''}${h.direcao ? ' · áudio' : ''}</div>
       <p>${esc(h.titulos.join(' · '))}</p>
       ${h.nota ? `<p class="nota">${esc(h.nota)}</p>` : ''}</article>`).join('');
-
     const vozes = vozesPt().map((v) => `<option value="${esc(v.name)}" ${E.prefs.voz === v.name ? 'selected' : ''}>${esc(v.name)}</option>`).join('');
 
     return `${topo()}
-      <section class="mata">
-        <span class="rotulo">Domínio geral</span>
-        <p class="score num">${geral}<sup>%</sup></p>
-        <div class="placar">
-          <div><b class="num">${vistas}/${D.unidades.length}</b><span>unidades vistas</span></div>
-          <div><b class="num">${total ? Math.round((certas / total) * 100) : 0}%</b><span>acerto no quiz</span></div>
-          <div><b class="num">${E.melhorStreak}</b><span>melhor sequência</span></div>
-        </div>
-        <span class="rotulo">${esc(nv.titulo)}${nv.prox ? ` · faltam ${fmtN(nv.falta)} XP para ${esc(nv.prox)}` : ''}</span>
+      <section class="saudacao"><p class="olho">${esc(nv.titulo)}${nv.prox ? ` · faltam ${fmtN(nv.falta)} XP para ${esc(nv.prox)}` : ''}</p><h1 class="titulo-tela">Seu progresso</h1></section>
+
+      <section class="cartao metrica meta-dia progresso-topo">
+        ${img3d('gema', 'flutua', 'width="140" height="140"')}
+        <div class="topo-m"><span class="rot">Domínio geral</span></div>
+        <div class="valor num">${geral}<small>%</small></div>
+        <div class="barra-prog" role="img" aria-label="Domínio geral de ${geral}%"><i style="width:${geral}%"></i></div>
       </section>
 
-      <section class="bloco"><p class="rotulo">Domínio e nível por trilha</p><div class="barras">${barras}</div></section>
+      <section class="grade-2">
+        ${metrica('Unidades vistas', `${vistas}<small>/${D.unidades.length}</small>`, '<span class="chip neutro">todas as trilhas</span>', 'licao', '')}
+        ${metrica('Acerto no quiz', `${total ? Math.round((certas / total) * 100) : 0}<small>%</small>`, `<span class="chip ${total && certas / total >= 0.7 ? 'teal' : 'neutro'} num">${certas}/${total}</span>`, 'quiz', 'rosa')}
+        ${metrica('Melhor sequência', `${E.melhorStreak}<small>${E.melhorStreak === 1 ? 'dia' : 'dias'}</small>`, `<span class="chip rosa">atual: ${streakAtual()}</span>`, 'chama', 'coral')}
+        ${metrica('XP total', fmtN(E.xp), `<span class="chip">${esc(nv.titulo)}</span>`, 'raio', 'teal')}
+      </section>
 
-      <section class="bloco">
-        <p class="rotulo">Mapa de domínio</p>
-        <div class="legenda"><span><i style="background:var(--linha)"></i>não visto</span><span><i style="background:var(--erro)"></i>fraco</span><span><i style="background:var(--mata)"></i>em progresso</span><span><i style="background:var(--lima)"></i>dominado</span></div>
+      <section class="cartao"><div class="cartao-cab"><h3><span class="icone">${IC.progresso}</span>Minutos nos últimos 7 dias</h3></div><div class="barras-sem">${semana}</div></section>
+
+      <section class="cartao">
+        <div class="cartao-cab"><h3><span class="icone teal">${IC.alvo}</span>Mapa de domínio</h3></div>
+        <div class="legenda"><span><i style="background:var(--cartao-2);box-shadow:inset 0 0 0 1px var(--borda)"></i>não visto</span><span><i style="background:var(--coral)"></i>fraco</span><span><i style="background:var(--violeta-claro)"></i>em progresso</span><span><i style="background:var(--violeta)"></i>dominado</span></div>
         ${mapa}
       </section>
 
-      <section class="bloco"><p class="rotulo">Minutos nos últimos 7 dias</p><div class="semana">${semana}</div></section>
+      <section class="cartao"><div class="cartao-cab"><h3><span class="icone rosa">${IC.trilhas}</span>Nível por trilha</h3></div><div class="dominios">${niveis}</div></section>
 
-      <section class="bloco"><p class="rotulo">Histórico e anotações</p>
+      <section class="cartao"><div class="cartao-cab"><h3><span class="icone azul">${IC.calendario}</span>Histórico e anotações</h3></div>
         <div class="historico">${hist || '<p class="aviso">As sessões concluídas aparecem aqui, com a sua anotação de cada dia.</p>'}</div>
-        ${E.historico.length > nHist ? `<div class="acoes"><button class="btn btn-t" data-acao="mais-hist">Mostrar mais ${Math.min(20, E.historico.length - nHist)} de ${fmtN(E.historico.length - nHist)}</button></div>` : ''}
+        ${E.historico.length > nHist ? `<button class="btn btn-t" data-acao="mais-hist">Mostrar mais ${Math.min(20, E.historico.length - nHist)} de ${fmtN(E.historico.length - nHist)}</button>` : ''}
       </section>
 
-      <section class="caixa">
-        <h3>Ajustes</h3>
-        <p class="rotulo">Tema</p>
+      <section class="cartao caixa-ajuste">
+        <div class="cartao-cab"><h3>Ajustes</h3></div>
+        <label class="rotulo-campo" for="aj-nome">Como te chamamos</label>
+        <input id="aj-nome" class="campo" data-campo="nome" value="${esc(E.prefs.nome || '')}" placeholder="Seu nome" autocomplete="given-name" enterkeyhint="done">
+        <p class="rotulo-campo">Tema</p>
         ${segmento('tema', [{ v: '', t: 'Automático' }, { v: 'light', t: 'Claro' }, { v: 'dark', t: 'Escuro' }], E.prefs.tema || '', 'tema', 'Tema')}
-        <label class="rotulo" for="aj-voz">Voz da leitura</label>
-        <select id="aj-voz" data-campo="voz" style="padding:10px;border-radius:9px;border:1px solid var(--linha);background:var(--superficie)"><option value="">Automática (melhor voz pt-BR disponível)</option>${vozes}</select>
+        <label class="rotulo-campo" for="aj-voz">Voz da leitura</label>
+        <select id="aj-voz" class="campo" data-campo="voz"><option value="">Automática (melhor voz pt-BR disponível)</option>${vozes}</select>
         <p>No iPhone, vozes melhores ficam em Ajustes › Acessibilidade › Conteúdo Falado › Vozes › Português (Brasil). Baixe uma voz "Aprimorada" ou "Premium".</p>
       </section>
 
-      <section class="caixa">
-        <h3>Backup do progresso</h3>
+      <section class="cartao caixa-ajuste">
+        <div class="cartao-cab"><h3>Backup do progresso</h3></div>
         <p>O progresso fica salvo só neste navegador. Exporte de vez em quando para não perder, ou para levar para outro aparelho.</p>
         <div class="acoes"><button class="btn btn-s" data-acao="exportar">Copiar backup</button>${document.getElementById('dados-conteudo') ? '' : '<button class="btn btn-s" data-acao="baixar">Baixar arquivo</button>'}</div>
-        <label class="rotulo" for="imp-texto">Restaurar: cole o backup aqui</label>
+        <label class="rotulo-campo" for="imp-texto">Restaurar: cole o backup aqui</label>
         <textarea id="imp-texto" placeholder='{"versao":1,...}' style="min-height:80px" autocapitalize="off" autocorrect="off" spellcheck="false"></textarea>
         <div class="acoes"><button class="btn btn-s" data-acao="importar">Restaurar backup</button></div>
-        <button class="btn btn-s segurar" data-segurar="apagar" aria-label="Apagar todo o progresso: mantenha pressionado por 2 segundos"><span>Segure para apagar o progresso</span><span class="enchendo" aria-hidden="true">Segure para apagar o progresso</span></button>
+        <button class="btn segurar" data-segurar="apagar" aria-label="Apagar todo o progresso: mantenha pressionado por 2 segundos"><span>Segure para apagar o progresso</span><span class="enchendo" aria-hidden="true">Segure para apagar o progresso</span></button>
       </section>`;
   }
 
@@ -544,7 +636,7 @@
     render(); window.scrollTo(0, 0);
   }
 
-  const CIRC = 2 * Math.PI * 25;
+  const CIRC = 2 * Math.PI * 19;
   function estadoRelogio() {
     const total = Math.max(60, S.minutos * 60), pass = (Date.now() - S.inicio) / 1000, resto = total - pass;
     if (S.fimEm) return { off: 0, txt: 'fim' };
@@ -569,28 +661,28 @@
     const entra = chave !== ui.etapaChave && !ui.viaTeclado;
     ui.etapaChave = chave; ui.viaTeclado = false;
     const cab = `<div class="sessao-topo">
-        <div class="relogio" role="timer" aria-label="Tempo da sessão"><svg viewBox="0 0 60 60" aria-hidden="true"><circle class="fundo" cx="30" cy="30" r="25"/><circle class="frente" cx="30" cy="30" r="25" stroke-dasharray="${CIRC}" stroke-dashoffset="${rel.off}"/></svg><span class="num">${rel.txt}</span></div>
-        <div><div class="passos">${passos}</div><p class="rotulo">${pad(S.i + 1)}/${pad(S.blocos.length)} · ${esc(NOMES_BLOCO[b.tipo])}</p></div>
         <button class="fechar" data-acao="sair" aria-label="Encerrar sessão">${IC.fechar}</button>
+        <div><div class="passos">${passos}</div><p class="olho">${pad(S.i + 1)}/${pad(S.blocos.length)} · ${esc(NOMES_BLOCO[b.tipo])}</p></div>
+        <div class="relogio" role="timer" aria-label="Tempo da sessão"><svg viewBox="0 0 46 46" aria-hidden="true"><circle class="fundo" cx="23" cy="23" r="19"/><circle class="frente" cx="23" cy="23" r="19" stroke-dasharray="${CIRC}" stroke-dashoffset="${rel.off}"/></svg><span class="num">${rel.txt}</span></div>
       </div>
-      ${ui.confirmar === 'sair' ? `<div class="caixa confirmar"><p>Encerrar agora? O que você já fez fica salvo${S.feitos ? ' e a sessão conta para a sequência' : ''}.</p><div class="acoes"><button class="btn btn-m" data-acao="sair-sim">Encerrar</button><button class="btn btn-s" data-acao="sair-nao">Continuar</button></div></div>` : ''}`;
+      ${ui.confirmar === 'sair' ? `<div class="cartao confirmar"><p class="sub">Encerrar agora? O que você já fez fica salvo${S.feitos ? ' e a sessão conta para a sequência' : ''}.</p><div class="acoes"><button class="btn btn-p" data-acao="sair-sim">Encerrar</button><button class="btn btn-s" data-acao="sair-nao">Continuar</button></div></div>` : ''}`;
     const corpo = { revisao: etapaRevisao, licao: etapaLicao, quiz: etapaQuiz, caso: etapaCaso, explique: etapaExplique, fim: etapaFim }[b.tipo](b);
     app.innerHTML = `<main class="casca">${cab}<section class="etapa${entra ? ' entra' : ''}" id="etapa">${corpo}</section></main>`;
     atualizarRelogio();
     if (S && S.contarAgora) { S.contarAgora = false; contarXP(); }
   }
 
-  const tagsUnidade = (u) => `<div class="meta"><span class="tag t-ambar">${esc(trilhaDe(u.trilha).nome)}</span>${u.tipo === 'livro' ? '<span class="tag">Livro</span>' : u.tipo === 'radar' ? '<span class="tag">Radar</span>' : `<span class="tag">Nível ${u.nivel}</span>`}<span class="tag num">${u.minutos} min</span>${u.verificado ? `<span class="tag num">conferido ${esc(fmtData(u.verificado, { day: '2-digit', month: '2-digit', year: '2-digit' }))}</span>` : ''}</div>`;
+  const tagsUnidade = (u) => `<div class="tags"><span class="chip">${esc(trilhaDe(u.trilha).nome)}</span>${u.tipo === 'livro' ? '<span class="chip rosa">Livro</span>' : u.tipo === 'radar' ? '<span class="chip rosa">Radar</span>' : `<span class="chip neutro">Nível ${u.nivel}</span>`}<span class="chip neutro num">${u.minutos} min</span>${u.verificado ? `<span class="chip teal num">conferido ${esc(fmtData(u.verificado, { day: '2-digit', month: '2-digit', year: '2-digit' }))}</span>` : ''}</div>`;
 
   function etapaLicao(b) {
     const u = b.u;
     return `<div class="etapa-cab">${tagsUnidade(u)}<h1>${esc(u.titulo)}</h1>${u.resumo ? `<p class="sub">${esc(u.resumo)}</p>` : ''}</div>
       <div class="acoes"><button class="btn btn-s" data-acao="ouvir-licao">${IC.ouvir} <span id="ouvir-rot">${falando ? 'Parar leitura' : 'Ouvir'}</span></button></div>
       <article class="texto">${u.licao}</article>
-      ${u.exemplo ? `<section class="secao texto"><p class="rotulo">Exemplo</p>${u.exemplo}</section>` : ''}
-      ${u.trabalho ? `<section class="secao trabalho texto"><p class="rotulo">No seu trabalho</p>${u.trabalho}</section>` : ''}
-      ${u.verificar ? `<section class="secao verificar texto"><p class="rotulo">Verificar antes de usar</p>${u.verificar}</section>` : ''}
-      ${u.fontes ? `<section class="secao fontes texto"><p class="rotulo">Fontes</p>${u.fontes}</section>` : ''}
+      ${u.exemplo ? `<section class="bloco-texto"><p class="olho">Exemplo</p><div class="texto">${u.exemplo}</div></section>` : ''}
+      ${u.trabalho ? `<section class="bloco-texto trabalho"><p class="olho">No seu trabalho</p><div class="texto">${u.trabalho}</div></section>` : ''}
+      ${u.verificar ? `<section class="bloco-texto verificar"><p class="olho">Verificar antes de usar</p><div class="texto">${u.verificar}</div></section>` : ''}
+      ${u.fontes ? `<section class="bloco-texto fontes"><p class="olho">Fontes</p><div class="texto">${u.fontes}</div></section>` : ''}
       <div class="acoes"><button class="btn btn-p" data-acao="licao-ok">Concluir leitura <span class="seta">→</span></button></div>`;
   }
 
@@ -600,15 +692,15 @@
     if (!c) { b.k++; return etapaRevisao(b); }
     const virado = !!b.st.virado;
     return `<div class="etapa-cab"><span class="contador num">Cartão ${b.k + 1} de ${b.cards.length} · ${esc(u.titulo)}</span></div>
-      <button class="cartao${virado ? ' virado' : ''}" data-acao="virar" aria-label="Virar cartão">
+      <button class="flash" data-acao="virar" aria-label="Virar cartão">
         <span class="frente">${c.frente}</span>
-        ${virado ? `<span class="verso revela">${c.verso}</span>` : '<span class="rotulo">Responda de cabeça, depois toque para ver</span>'}
+        ${virado ? `<span class="verso revela">${c.verso}</span>` : '<span class="olho">Responda de cabeça e toque para ver</span>'}
       </button>
       ${virado ? '' : '<p class="atalho">Espaço vira o cartão</p>'}
       ${virado ? `<div class="notas3 revela-2">
         <button class="btn btn-s" data-acao="card" data-n="0">Errei<small>amanhã</small></button>
         <button class="btn btn-s" data-acao="card" data-n="1">Difícil<small>em breve</small></button>
-        <button class="btn btn-m" data-acao="card" data-n="2">Sabia<small>mais tarde</small></button></div><p class="atalho">Teclas 1, 2 e 3</p>` : ''}`;
+        <button class="btn btn-v" data-acao="card" data-n="2">Sabia<small>mais tarde</small></button></div><p class="atalho">Teclas 1, 2 e 3</p>` : ''}`;
   }
 
   function etapaQuiz(b) {
@@ -625,21 +717,21 @@
       <h2 class="pergunta">${q.pergunta}</h2>
       <div class="opcoes">${ops}</div>
       ${r == null ? '<p class="atalho">Teclas 1 a 4 respondem</p>' : ''}
-      ${r != null ? `<div class="explica revela${r === q.correta ? '' : ' mal'}"><p class="rotulo">${r === q.correta ? 'Correto' : `Resposta: ${LETRAS[q.correta]}`}</p><div class="texto">${q.explicacao}</div></div>
+      ${r != null ? `<div class="explica revela${r === q.correta ? '' : ' mal'}"><p class="olho">${r === q.correta ? 'Correto' : `Resposta: ${LETRAS[q.correta]}`}</p><div class="texto">${q.explicacao}</div></div>
       <div class="acoes revela-2"><button class="btn btn-p" data-acao="quiz-prox">${b.k + 1 < b.itens.length ? 'Próxima pergunta' : 'Continuar'} <span class="seta">→</span></button></div>` : ''}`;
   }
 
   function etapaCaso(b) {
     const u = b.u, c = u.caso;
     return `<div class="etapa-cab">${tagsUnidade(u)}<h1>${b.desafio ? 'Desafio da semana' : 'Caso prático'}</h1><p class="sub">${esc(u.titulo)}</p></div>
-      <article class="texto">${c.enunciado}</article>
-      <label class="rotulo" for="caso-resp">Sua conta e sua resposta</label>
+      <section class="bloco-texto"><div class="texto">${c.enunciado}</div></section>
+      <label class="rotulo-campo" for="caso-resp">Sua conta e sua resposta</label>
       <textarea id="caso-resp" data-campo="caso" placeholder="Faça a conta aqui ou no papel. Escreva o resultado final antes de abrir a resolução.">${esc(b.st.texto || '')}</textarea>
       ${!b.st.aberto ? '<div class="acoes"><button class="btn btn-p" data-acao="caso-abrir">Ver resolução</button></div>' : `
-        ${c.resposta ? `<div class="resposta-final revela" id="resposta-final"><span class="rotulo">Resposta</span><b>${c.resposta}</b></div>` : ''}
-        <section class="secao texto revela-2" id="resolucao"><p class="rotulo">Resolução passo a passo</p>${c.resolucao}</section>
-        <p class="rotulo">Como foi?</p>
-        <div class="notas3 revela-3"><button class="btn btn-s" data-acao="caso-nota" data-n="0">Errei</button><button class="btn btn-s" data-acao="caso-nota" data-n="0.5">Em parte</button><button class="btn btn-m" data-acao="caso-nota" data-n="1">Acertei</button></div>`}`;
+        ${c.resposta ? `<div class="resposta-final revela" id="resposta-final"><span class="olho">Resposta</span><b>${c.resposta}</b></div>` : ''}
+        <section class="bloco-texto revela-2" id="resolucao"><p class="olho">Resolução passo a passo</p><div class="texto">${c.resolucao}</div></section>
+        <p class="rotulo-campo">Como foi?</p>
+        <div class="notas3 revela-3"><button class="btn btn-s" data-acao="caso-nota" data-n="0">Errei</button><button class="btn btn-s" data-acao="caso-nota" data-n="0.5">Em parte</button><button class="btn btn-v" data-acao="caso-nota" data-n="1">Acertei</button></div>`}`;
   }
 
   function promptClaude(u, texto) {
@@ -649,15 +741,15 @@
   function etapaExplique(b) {
     const u = b.u, x = u.explique;
     return `<div class="etapa-cab">${tagsUnidade(u)}<h1>Explique com suas palavras</h1><p class="sub">${esc(u.titulo)}</p></div>
-      <div class="texto">${x.pedido}</div>
-      <label class="rotulo" for="exp-resp">Sua explicação</label>
+      <section class="bloco-texto"><div class="texto">${x.pedido}</div></section>
+      <label class="rotulo-campo" for="exp-resp">Sua explicação</label>
       <textarea id="exp-resp" data-campo="explique" placeholder="Escreva como se estivesse explicando para um colega. Sem consultar o texto.">${esc(b.st.texto || '')}</textarea>
       ${!b.st.aberto ? '<div class="acoes"><button class="btn btn-p" data-acao="exp-abrir">Comparar com a referência</button></div>' : `
-        <p class="rotulo revela" id="marque">Marque o que a sua resposta cobriu</p>
+        <p class="rotulo-campo revela" id="marque">Marque o que a sua resposta cobriu</p>
         <div class="checklist revela">${x.pontos.map((p, i) => `<label><input type="checkbox" id="pt-${i}" data-ponto="${i}" ${b.st.pts?.[i] ? 'checked' : ''}><span>${p}</span></label>`).join('')}</div>
-        ${x.modelo ? `<section class="secao texto revela-2"><p class="rotulo">Resposta de referência</p>${x.modelo}</section>` : ''}
-        <div class="caixa"><p>Quer uma correção detalhada? Copie o pedido abaixo e cole numa conversa com o Claude. Não tem custo além da sua assinatura.</p>
-          <div class="acoes"><button class="btn btn-s" data-acao="copiar-claude">Copiar para o Claude</button></div></div>
+        ${x.modelo ? `<section class="bloco-texto revela-2"><p class="olho">Resposta de referência</p><div class="texto">${x.modelo}</div></section>` : ''}
+        <section class="cartao revela-3"><p class="sub">Quer uma correção detalhada? Copie o pedido e cole numa conversa com o Claude. Não tem custo além da sua assinatura.</p>
+          <div class="acoes"><button class="btn btn-s" data-acao="copiar-claude">Copiar para o Claude</button></div></section>
         <div class="acoes"><button class="btn btn-p" data-acao="exp-ok">Concluir <span class="seta">→</span></button></div>`}`;
   }
 
@@ -685,17 +777,24 @@
     S.mostrouFim = true;
     const contar = primeiraVez && S.xp > 0 && !reduzMovimento();
     if (contar) S.contarAgora = true;
-    return `<section class="mata">
-        <span class="rotulo">Sessão concluída · dia ${st} da sequência</span>
-        <p class="score num"><span id="xp-conta">+${contar ? 0 : fmtN(S.xp)}</span><sup>XP</sup></p>
-        <div class="dias" aria-label="Últimos 14 dias">${faixaDias(primeiraVez && S.diaNovo)}</div>
-        <div class="placar${primeiraVez ? ' chega' : ''}">
-          <div><b class="num">${S.minReais}</b><span>minutos</span></div>
-          <div><b class="num">${S.total ? `${S.acertos}/${S.total}` : '—'}</b><span>acertos</span></div>
-          <div><b class="num">${Object.values(E.cards).filter((c) => c.proxima <= somaDias(iso(), 1)).length}</b><span>cards até amanhã</span></div>
+    const amanha = Object.values(E.cards).filter((c) => c.proxima <= somaDias(iso(), 1)).length;
+    const temas = [...new Set(S.blocos.filter((x) => x.u).map((x) => x.u.titulo))].slice(0, 6);
+    const cores = ['lima', 'magenta', 'menta', 'laranja', 'branca', 'lilas'], giros = [-6, 4, -3, 7, -5, 3];
+    const pilulas = temas.map((t, i) => `<span class="pilula ${cores[i % 6]}" style="--giro:${giros[i % 6]}deg;animation-delay:${420 + i * 90}ms">${esc(curto(t))}</span>`).join('');
+    return `<section class="escuro premio${primeiraVez ? ' chega' : ''}" aria-label="Sessão concluída">
+        <div class="arte-escura" aria-hidden="true">${img3d('toro', 'flutua d3', 'style="width:40%;right:-10%;top:40%"')}${img3d('estrela', 'flutua', 'style="width:62%;right:-2%;top:2%"')}${img3d('bola-roxa', 'flutua d2', 'style="width:24%;right:58%;top:6%"')}</div>
+        <p class="olho">Sessão concluída</p>
+        <h2>Bom trabalho. <span>Dia ${st} da sequência.</span></h2>
+        <div class="circulos">
+          <div class="circulo"><b class="num" id="xp-conta">+${contar ? 0 : fmtN(S.xp)}</b><span>XP ganhos</span></div>
+          <div class="circulo"><b class="num">${S.total ? `${S.acertos}/${S.total}` : '—'}</b><span>acertos no quiz</span></div>
+          <div class="circulo"><b class="num">${S.minReais}</b><span>${S.minReais === 1 ? 'minuto' : 'minutos'}</span></div>
+          <div class="circulo"><b class="num">${amanha}</b><span>cards até amanhã</span></div>
         </div>
+        ${faixaDias(primeiraVez && S.diaNovo)}
+        ${pilulas ? `<div class="pilulas-caem" aria-label="Temas de hoje">${pilulas}</div>` : ''}
       </section>
-      <label class="rotulo" for="nota-sessao">Anotação do dia</label>
+      <label class="rotulo-campo" for="nota-sessao">Anotação do dia</label>
       <textarea id="nota-sessao" data-campo="nota" placeholder="Uma ideia que você quer lembrar, uma dúvida para pesquisar, onde aplicar no trabalho.">${esc(S.registro.nota)}</textarea>
       <div class="acoes"><button class="btn btn-p" data-acao="finalizar">Salvar e voltar</button></div>`;
   }
@@ -850,16 +949,16 @@
   function renderDirecao() {
     const resp = DIR.esperando ? `<div class="dir-respostas">${(DIR.opcoes || []).map((_, i) => `<button data-acao="dir-resp" data-i="${i}" aria-label="Alternativa ${LETRAS[i]}">${LETRAS[i]}</button>`).join('')}</div>` : '';
     app.innerHTML = `<div class="direcao" role="application" aria-label="Modo direção">
-      <div class="dir-topo"><span class="rotulo">Modo direção · ${DIR.modo === 'podcast' ? 'episódio' : 'interativo'}</span><button data-acao="dir-sair">Sair</button></div>
+      <div class="dir-topo"><span class="olho">Modo direção · ${DIR.modo === 'podcast' ? 'episódio' : 'interativo'}</span><button data-acao="dir-sair">Sair</button></div>
       <div class="dir-estado">
-        <span class="rotulo" id="dir-prog">${DIR.seg.length ? `${Math.min(DIR.i + 1, DIR.seg.length)} / ${DIR.seg.length}` : ''}</span>
+        <div class="orbe${DIR.rodando ? ' ativa' : ''}" aria-hidden="true">${img3d('esfera-escura', '', 'width="220" height="220"')}</div>
+        <span class="olho num" id="dir-prog">${DIR.seg.length ? `${Math.min(DIR.i + 1, DIR.seg.length)} / ${DIR.seg.length}` : ''}</span>
         <h2 id="dir-tit">${esc(DIR.titulo)}</h2>
         <p id="dir-sub">${esc(DIR.sub)}</p>
-        <div class="onda${DIR.rodando ? ' ativa' : ''}" id="dir-onda" aria-hidden="true">${'<i></i>'.repeat(14)}</div>
-        ${DIR.ouvindo ? '<p class="rotulo" style="color:#C9EA6E">Ouvindo: diga a letra</p>' : ''}
+        ${DIR.ouvindo ? '<p class="ouvindo">Ouvindo: diga a letra</p>' : ''}
       </div>
       ${resp}
-      ${!temFala ? '<p>Este navegador não tem leitura em voz alta. No iPhone use o Safari; no Android, o Chrome.</p>' : ''}
+      ${!temFala ? '<p class="aviso">Este navegador não tem leitura em voz alta. No iPhone use o Safari; no Android, o Chrome.</p>' : ''}
       <div class="dir-controles">
         <button data-acao="dir-repetir" aria-label="Repetir trecho">${IC.repetir}<span>Repetir</span></button>
         <button class="play" data-acao="dir-play" aria-label="${DIR.rodando ? 'Pausar' : 'Ouvir'}">${DIR.rodando ? IC.pausa : IC.play}<span>${DIR.rodando ? 'Pausar' : DIR.i ? 'Continuar' : 'Ouvir'}</span></button>
@@ -871,7 +970,9 @@
       </div>`}
     </div>`;
     animarIndicadores();
+    corBarra();
   }
+
   function atualizarDirecao(titulo, sub) {
     if (titulo != null) DIR.titulo = titulo;
     if (sub != null) DIR.sub = sub;
@@ -885,7 +986,7 @@
   async function tocar() {
     DIR.rodando = true;
     if (!DIR.inicio) { DIR.inicio = Date.now(); DIR.xp0 = E.xp; }
-    renderDirecao();
+    if (ui.tela === 'direcao') renderDirecao();
     const g = geracao;
     while (DIR.rodando && g === geracao && DIR.i < DIR.seg.length) {
       const s = DIR.seg[DIR.i];
@@ -925,11 +1026,12 @@
       if (DIR.modo === 'interativo') {
         DIR.opcoes = q.opcoes;
         const resp = new Promise((r) => { DIR.esperando = r; });
-        renderDirecao();
+        if (ui.tela === 'direcao') renderDirecao();
         ouvirResposta(q.opcoes.length);
         const limite = esperar(15000, g).then(() => -1);
         escolha = await Promise.race([resp, limite]);
-        DIR.esperando = null; pararEscuta(); renderDirecao();
+        DIR.esperando = null; pararEscuta();
+        if (ui.tela === 'direcao') renderDirecao(); // quem saiu no meio da pergunta não pode ser puxado de volta
         if (g !== geracao || escolha === -2) return resolve();
       } else {
         await esperar(3000, g);
@@ -979,7 +1081,7 @@
       };
       rec.onend = () => { DIR.ouvindo = false; if (DIR.esperando && ui.tela === 'direcao') renderDirecao(); };
       rec.onerror = () => { DIR.ouvindo = false; };
-      rec.start(); DIR.ouvindo = true; renderDirecao();
+      rec.start(); DIR.ouvindo = true; if (ui.tela === 'direcao') renderDirecao();
     } catch (_) { DIR.ouvindo = false; }
   }
   function pararEscuta() { try { rec?.abort(); } catch (_) { /* ignora */ } rec = null; DIR.ouvindo = false; }
@@ -1139,6 +1241,7 @@
     const el = ev.target;
     if (el.dataset.ponto != null && S) { const b = S.blocos[S.i]; b.st.pts = b.st.pts || {}; b.st.pts[el.dataset.ponto] = el.checked; }
     if (el.dataset.campo === 'voz') { E.prefs.voz = el.value; salvar(); if (temFala) falar('Esta é a voz escolhida.', ++geracao); }
+    if (el.dataset.campo === 'nome') { E.prefs.nome = el.value.trim().slice(0, 40); salvar(); toast('Nome salvo'); }
   });
   app.addEventListener('input', (ev) => {
     const el = ev.target;
